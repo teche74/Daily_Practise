@@ -1,30 +1,48 @@
 class Solution {
 public:
-    int check(const string  & s, int low,  int high){
-        while(low>= 0 && high < s.size() && s[low] == s[high] ){
-            low--;
-            high++;
+    string machers(const string &s){
+        string temp = "$";
+
+        for(char ch : s){
+            temp.push_back('|');
+            temp.push_back(ch);
         }
-        return high - low-1;
-    } 
-    string longestPalindrome(string s) {
-        int size = s.size();
 
-        int ind = 0, len =0 ;
+        temp+="|@";
 
-        for(int i =0 ; i <size; i++){
+        vector<int>lps(temp.size(),0);
 
-            int len1 = check(s,i,i);
-            int len2 = check(s,i,i+1);
+        int centre = 0, right = 0 ;
 
-            int maxi = max(len1 , len2);
+        for(int i = 1; i <temp.size()-1 ;i++){
+            int mirror = 2 * centre - i;
 
-            if(maxi > len){
-                len = maxi ;
-                ind  = i - (maxi  -1)/2;
+            if(i<right){
+                lps[i] = min(lps[mirror],right - i);
+            }
+
+            while(temp[i - 1 - lps[i]] == temp[i+1 + lps[i]]){
+                lps[i]++;
+            }
+
+            if(i + lps[i] >right){
+                centre = i;
+                right = i + lps[i];
             }
         }
 
-        return s.substr(ind, len);
+        int max_len = 0 , max_centre = 0;
+
+        for(int i =1 ; i  < temp.size()-1 ; i++){
+            if(lps[i] > max_len){
+                max_len = lps[i];
+                max_centre = i;
+            }
+        }
+
+        return s.substr((max_centre - max_len)/2, max_len);       
+    }
+    string longestPalindrome(string s) {
+        return machers(s); 
     }
 };
