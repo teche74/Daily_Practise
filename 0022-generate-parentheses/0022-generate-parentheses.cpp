@@ -12,12 +12,12 @@ public:
             temp.pop_back();
         }
 
-        if(close >0 ){
-            if(close > open){
+        if(close >0  && close > open){
+        
                 temp.push_back(')');
                 solve(open, close-1, temp,res);
                 temp.pop_back();
-            }
+            
         }
     }
     vector<string> generateParenthesis(int n) {
