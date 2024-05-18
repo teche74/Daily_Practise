@@ -13,7 +13,7 @@ public:
 
         for(int x : nums){
             if(x == ind) ind++;
-            if(x > ind) break; 
+            if(x > ind) return ind; 
         }
         return ind;
     }
