@@ -11,15 +11,18 @@
  */
 class Solution {
 public:
+    void inorder(TreeNode * root, int low, int high, int & sum){
+        if(root!=nullptr){
+            inorder(root->left,low, high, sum);
+            if(root->val <= high && root->val >=low){
+                sum+=root->val;
+            }
+            inorder(root->right,low, high, sum);
+        }
+    }
     int rangeSumBST(TreeNode* root, int low, int high) {
-        if(root == nullptr) return  0;
-
-        int left = rangeSumBST(root->left, low, high);
-        int right = rangeSumBST(root->right, low, high);
-
-        if(root->val >= low && root->val <= high) return left + right+ root->val;
-        else if(left == 0 && right == 0 ) return  0;
-        else if(left != 0) return left;
-        return right;
+        int sum =0 ;
+        inorder(root, low, high, sum);
+        return sum;
     }
 };
