@@ -11,18 +11,19 @@
  */
 class Solution {
 public:
-    void inorder(TreeNode * root, int low, int high, int & sum){
-        if(root!=nullptr){
-            inorder(root->left,low, high, sum);
-            if(root->val <= high && root->val >=low){
-                sum+=root->val;
-            }
-            inorder(root->right,low, high, sum);
+    void solve(TreeNode * root, int low, int high, int &val){
+        if(root){
+            solve(root->left, low, high,val);
+            if(root->val >= low && root->val <= high ) val+=root->val;
+            solve(root->right,low, high, val);
         }
     }
     int rangeSumBST(TreeNode* root, int low, int high) {
-        int sum =0 ;
-        inorder(root, low, high, sum);
-        return sum;
+        int val = 0 ;
+
+        solve(root, low, high, val);
+
+        return val;
+
     }
 };
