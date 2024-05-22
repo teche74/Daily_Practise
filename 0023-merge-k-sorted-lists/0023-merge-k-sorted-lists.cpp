@@ -10,40 +10,42 @@
  */
 class Solution {
 public:
-    ListNode * merge( ListNode * l1 , ListNode * l2){
-        ListNode * res = new ListNode(-1);
-        ListNode *tail = res;
+    ListNode * merge(ListNode * l1 , ListNode * l2){
+        ListNode * dum =  new ListNode(-1) ;
+        ListNode * tail = dum;
 
         while(l1 && l2){
             if(l1->val <= l2->val){
                 tail->next = l1;
                 l1=l1->next;
             }
-            else{
+            else
+            {
                 tail->next = l2;
-                l2=l2->next;
+                l2 = l2->next;
             }
             tail=tail->next;
         }
 
-        tail->next = l1 ? l1:  l2;
+        tail->next = l1  ? l1 : l2 ;
 
-        return res->next;
-    }
-    ListNode * solve(vector<ListNode*> lists, int low, int high){
+        return dum->next;
+    } 
+    ListNode * helper(vector<ListNode*>& lists, int low, int high){
         if(low >= high) return lists[low];
 
         if(low +1 == high) return merge(lists[low] , lists[high]);
+
         int mid = low + (high - low)/2;
 
-        ListNode * left = solve(lists, low, mid);
-        ListNode * right = solve(lists, mid+1, high);
-
+        ListNode * left = helper(lists, low, mid);
+        ListNode * right = helper(lists, mid+1, high);
         return merge(left, right);
+
     }
     ListNode* mergeKLists(vector<ListNode*>& lists) {
         if(lists.empty()) return nullptr;
 
-        return solve(lists,0, lists.size()-1);
+        return helper(lists, 0 , lists.size()-1);
     }
 };
