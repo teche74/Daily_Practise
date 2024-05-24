@@ -1,36 +1,38 @@
 class Solution {
 public:
-    bool isPalindrome(const string &str, int low, int high) {
-        while (low < high) {
-            if (str[low] != str[high]) return false;
+    bool Palli(const string  & s, int low, int high){
+        while(low<high){
+            if(s[low] != s[high]) return false;
             low++;
             high--;
         }
         return true;
     }
+    int solve(const string  & s , int low, int high, vector<vector<int>> & map){
 
-    int solve(int low, int high, const string &s, vector<vector<int>> &map) {
-        if (map[low][high] != -1) return map[low][high];
+        if(map[low][high] != -1) return map[low][high];
 
-        if (isPalindrome(s, low, high)) {
+        if(Palli(s, low, high)) {
             map[low][high] = 0;
             return 0;
         }
 
-        int ans = INT_MAX;
-        for (int j = low; j < high; ++j) {
-            if (isPalindrome(s, low, j)) {
-                ans = min(ans, 1 + solve(j + 1, high, s, map));
-            }
+        int cuts = INT_MAX;
+
+        for(int i=low; i < high ; i++){
+            if(Palli(s,low, i))
+                cuts = min(cuts , 1 + solve(s, i+1, high,map)); 
         }
 
-        map[low][high] = ans;
-        return ans;
-    }
+        map[low][high] = cuts;
 
+        return map[low][high];
+    }
     int minCut(string s) {
         int size = s.size();
-        vector<vector<int>> map(size, vector<int>(size, -1));
-        return solve(0, size - 1, s, map);
+
+        vector<vector<int>> arr(size, vector<int>(size, -1));
+
+        return solve(s, 0, s.size()-1, arr);
     }
 };
