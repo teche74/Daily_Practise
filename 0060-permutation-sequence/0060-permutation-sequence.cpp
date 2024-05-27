@@ -1,24 +1,23 @@
 class Solution {
 public:
     string getPermutation(int n, int k) {
-        vector<int>res;
-
-        for(int i =1 ;i <= n; i++){
-            res.emplace_back( i );
+        vector<int>temp;
+        for(int i =0 ;i  <n ; i++){
+            temp.emplace_back(i+1);
         }
 
         k--;
+
         while(k--){
-            next_permutation(res.begin(),res.end());
+            next_permutation(temp.begin(),temp.end());
+        };
+
+        string res=  "";
+
+        for(int x : temp){
+            res.push_back(x + '0');
         }
 
-        string ans = "";
-
-        for(int c: res){
-            ans.push_back(c +'0');
-        }
-
-
-        return ans;
+        return res;
     }
 };
