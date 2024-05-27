@@ -1,79 +1,78 @@
-#pragma GCC optimize("O3", "unroll-loops")
 class Solution {
 public:
-void FindGreaterRight(vector<int> & arr, int aux[ ] ){
-        stack<int>st;
-
-        for(int i = arr.size()-1 ; i >= 0 ; i--){
-
-            while(!st.empty() && arr[st.top()] >= arr[i]){
-                st.pop();
-            }
-
-            if(st.empty()) aux[i] = arr.size();
-            else aux[i] = st.top();
-
-
-            st.push(i);
-        }
-    }
-
-    void FindGraterLeft(vector<int> & arr, int aux[ ] ){
-        stack<int>st;
-
-        for(int i = 0 ; i < arr.size() ; i++){
-
-            while(!st.empty() && arr[st.top()] >= arr[i]){
-                st.pop();
-            }
-
-            if(st.empty()) aux[i] = -1;
-
-            else aux[i] = st.top();
-
-            st.push(i);
-        }
-    }
-
-    int CalcMAH(vector<int>&arr){
+    void FindRight(vector<int> & arr, int temp[ ]){
         int size = arr.size();
 
-        int greater_right[size], greater_left[size];
+        stack<int>st;
 
-        FindGreaterRight(arr,greater_right);
 
-        FindGraterLeft(arr,greater_left);
+        for(int i =size-1; i >= 0 ; i--){
+            
+            while(!st.empty()  && arr[st.top()] >= arr[i]){
+                st.pop();
+            }
 
-        int res = 0;
+            if(st.empty()) temp[i] = arr.size();
+            else temp[i] = st.top();
+
+            st.push(i);
+        }
+    }
+
+
+    void FindLeft(vector<int>arr, int temp[ ]){
+        int size = arr.size();
+
+        stack<int>st;
+
 
         for(int i =0; i < size ; i++){
-            int val = (greater_right[i] - greater_left[i] -1) * arr[i];
-            res = max(res,val);
+            
+            while(!st.empty()  && arr[st.top()] >= arr[i]){
+                st.pop();
+            }
+
+            if(st.empty()) temp[i] = -1;
+            else temp[i] = st.top();
+
+            st.push(i);
+        }
+    }
+
+    int MAH(vector<int>arr){
+        int size = arr.size();
+
+        int NGL[size] , NGR[size];
+
+
+        FindRight(arr,NGR);
+        FindLeft(arr,NGL);
+
+        int res =0;
+
+        for(int i =0; i<size; i++){
+            int val = (NGR[i] - NGL[i] - 1) * arr[i];
+            res = max(res,val); 
         }
 
         return res;
     }
 
     int maximalRectangle(vector<vector<char>>& matrix) {
-        vector<int>arr(matrix[0].size(),0);
-
+        int size = matrix[0].size();
+        vector<int>arr(size,0);
         int res = 0;
 
         for(auto t : matrix){
-            int i = 0;
-            while( i < t.size()){
-                if(t[i] == '0') arr[i] = 0;
-                else arr[i]+=1;
-                i++;
+            for(int i =0; i < t.size() ;i++){
+                arr[i] += t[i] == '1' ? 1 : 0; 
+                if(t[i] == '0'){
+                    arr[i] = 0;
+                }
             }
-            res = max(res, CalcMAH(arr));
-        }   
-
+            int val = MAH(arr);
+            res = max(res,val);
+        }
         return res;
     }
 };
-auto init = []() {
-  ios::sync_with_stdio(false);
-  cin.tie(nullptr);
-  return '$';
-}();
