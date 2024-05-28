@@ -1,38 +1,36 @@
 class Solution {
 public:
-    bool Palli(const string  & s, int low, int high){
+
+    bool Palli(const string & s, int low, int high){
         while(low<high){
-            if(s[low] != s[high]) return false;
+            if(s[low]!=s[high]) return false;
             low++;
             high--;
         }
         return true;
     }
-    int solve(const string  & s , int low, int high, vector<vector<int>> & map){
 
-        if(map[low][high] != -1) return map[low][high];
-
-        if(Palli(s, low, high)) {
-            map[low][high] = 0;
+    int solve(const string  & s, int low,  int high, vector<vector<int>> & dp){
+        if(dp[low][high] != -1) return dp[low][high];
+        if(Palli(s,low,high)) {
+            dp[low][high] = 0;
             return 0;
         }
 
         int cuts = INT_MAX;
-
-        for(int i=low; i < high ; i++){
-            if(Palli(s,low, i))
-                cuts = min(cuts , 1 + solve(s, i+1, high,map)); 
+        for(int i = low ; i< high ; i++){
+            if(Palli(s,low,i)){
+                cuts  =min(1+solve(s,i+1,high,dp),cuts);
+            }
         }
 
-        map[low][high] = cuts;
-
-        return map[low][high];
+        dp[low][high] = cuts;
+        return dp[low][high];
     }
+
     int minCut(string s) {
         int size = s.size();
-
-        vector<vector<int>> arr(size, vector<int>(size, -1));
-
-        return solve(s, 0, s.size()-1, arr);
+        vector<vector<int>>dp(size,vector<int>(size,-1));
+        return solve(s,0 ,size-1,dp);
     }
 };
