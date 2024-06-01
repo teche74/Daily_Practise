@@ -1,35 +1,24 @@
 class Solution {
 public:
-    int solve(int row, int col , int rows, int cols, vector<vector<int>>arr,vector<vector<int>> & dp){
+    int solve(int i , int j , vector<vector<int>> & arr, vector<vector<int>> &dp){
+        if( i >= arr.size() || j >= arr[0].size() ) return INT_MAX;
 
-        if(row >= rows || col >= cols ) return  INT_MAX; 
+        if(i == arr.size()-1 && j == arr[0].size()-1) return max(1 , 1 - arr[i][j]);
 
-        if(row == rows-1  && col == cols-1 ){
-            return max(1,1 - arr[row][col]);
-        }
+        if(dp[i][j] != -1) return dp[i][j];
 
+        int left = solve(i+1,j , arr,dp);
+        int right = solve(i, j+1,arr,dp);
 
-        if(dp[row][col] != -1) return dp[row][col];
+        int choice = min(left,right);
 
-
-        int take_right = solve(row+1,col,rows,cols,arr,dp);
-
-        int take_down = solve(row,col+1,rows, cols, arr, dp);
-
-        int mini = min(take_right, take_down);
-
-
-        return dp[row][col] = max(mini - arr[row][col],1);
-
+        return dp[i][j] = max(1, choice - arr[i][j]);
     }
-
     int calculateMinimumHP(vector<vector<int>>& arr) {
-        int rows = arr.size() , cols = arr[0].size();
+        int rows = arr.size(), cols = arr[0].size();
 
-        if(rows-1 == 0 && cols -1 == 0 ) return arr[rows-1][cols-1] < 0 ? abs(arr[rows-1][cols-1])+1 : 1;
+        vector<vector<int>>dp(rows, vector<int>(cols,-1));
 
-        vector<vector<int>>dp(rows +1 , vector<int>(cols+1, -1));
-
-        return solve(0,0,rows,cols,arr,dp);
+        return max(1 , solve(0,0,arr,dp));
     }
 };
