@@ -21,4 +21,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # String Matching
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/teche74/Daily_Practise/tree/master/0127-word-ladder) |
 | [1080-camelcase-matching](https://github.com/teche74/Daily_Practise/tree/master/1080-camelcase-matching) |
+# Hash Table
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/teche74/Daily_Practise/tree/master/0127-word-ladder) |
+# Breadth-First Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/teche74/Daily_Practise/tree/master/0127-word-ladder) |
