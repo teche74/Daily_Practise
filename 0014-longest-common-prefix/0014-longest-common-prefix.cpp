@@ -2,12 +2,12 @@ struct Node{
     Node * links[26];
     bool end = false;
 
-    void CreateRef(char ch, Node * node ){
-        links[ch - 'a'] = node;
-    }
-
     bool CheckRef(char ch){
         return links[ch - 'a'] != nullptr;
+    }
+
+    void CreateRef(char ch, Node * node){
+        links[ch - 'a'] = node;
     }
 
     Node * GetRef(char ch){
@@ -15,7 +15,7 @@ struct Node{
     }
 
     bool IsEnd(){
-        return end == true;
+        return end;
     }
 
     void SetEnd(bool val){
@@ -24,22 +24,11 @@ struct Node{
 };
 
 class Solution {
-    Node * root ;
+    Node * root = new Node();
 public:
-    bool SingleChild(Node * temp ){
-        int count  =0 ;
-        for(int i =0 ;i < 26 ; i++){
-            if(temp->links[i] != nullptr){
-                count++;
+    void Trie(vector<string> & strs){
 
-                if(count > 1) return false;
-            }
-        }
-        return true;
-    } 
-
-    void SetTrie(vector<string> & strs){
-        for(const string  & str : strs){
+        for(const string str : strs){
             Node * temp = root;
             for(char ch : str){
                 if(!temp->CheckRef(ch)){
@@ -51,23 +40,35 @@ public:
         }
     }
 
-    string longestCommonPrefix(vector<string>& strs) {
-        root = new Node();
-        SetTrie(strs);
+    bool SingleChild(Node * node){
+        int count = 0;
 
-        string pre = "";
-        Node * temp =root;
+        for(int i =0;i < 26 ; i++){
+            if(node->links[i] != nullptr){
+                count++;
+
+                if(count > 1) return false;
+            }
+        }
+        return true;
+    }
+
+    string longestCommonPrefix(vector<string>& strs) {
+        Trie(strs);
+
+        Node * temp = root;
+        string prefix = "";
 
         while(temp && !temp->IsEnd() && SingleChild(temp)){
-            for(int i =0 ;i <26 ;i++){
+            for(int i =0; i<26 ;i++){
                 if(temp->links[i] != nullptr){
-                    pre += (i + 'a');
-                    temp  =temp->links[i];
+                    prefix.push_back(i + 'a');
+                    temp = temp->links[i];
                     break;
                 }
             }
         }
 
-        return pre;
+        return prefix;
     }
 };
