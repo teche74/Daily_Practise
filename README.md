@@ -5,6 +5,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0174-dungeon-game](https://github.com/teche74/Daily_Practise/tree/master/0174-dungeon-game) |
 | [1080-camelcase-matching](https://github.com/teche74/Daily_Practise/tree/master/1080-camelcase-matching) |
 # Two Pointers
 |  |
@@ -31,3 +32,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/teche74/Daily_Practise/tree/master/0127-word-ladder) |
+# Dynamic Programming
+|  |
+| ------- |
+| [0174-dungeon-game](https://github.com/teche74/Daily_Practise/tree/master/0174-dungeon-game) |
+# Matrix
+|  |
+| ------- |
+| [0174-dungeon-game](https://github.com/teche74/Daily_Practise/tree/master/0174-dungeon-game) |
