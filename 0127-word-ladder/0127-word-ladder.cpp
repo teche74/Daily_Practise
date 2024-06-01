@@ -1,41 +1,40 @@
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-        int size = wordList.size();
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+        unordered_set<string>st(wordList.begin() , wordList.end());
 
+        queue<string>q;
+
+        q.push(beginWord);
         int len = 1;
 
-        unordered_set<string> dict(wordList.begin(),wordList.end());
+        while(q.size()){
+            int size = q.size();
 
-        queue<string>pq;
+            for(int i =0; i <size; i++){
+                string front = q.front();
+                q.pop();
 
-        pq.push(beginWord);
-
-        while(pq.size()){
-            int s = pq.size();
-
-            for(int k =0 ;k < s ; k++){
-                string frnt = pq.front();
-                pq.pop();
-
-                if(frnt == endWord){
+                if(front == endWord){
                     return len;
                 }
-                dict.erase(frnt);
+                st.erase(front);
 
-                for(int i =0;i < frnt.size() ;i++){
-                    char ch = frnt[i];
-                    for(int j =0;j < 26 ;j++){
-                        frnt[i] = 'a'+ j;
+                for(int i =0; i < front.size() ;i++){
+                    char ch = front[i];
+                    for(int k =0; k < 26 ;k ++){
+                        front[i] = 'a' + k;
 
-                        if(dict.find(frnt) != dict.end()){
-                            pq.push(frnt);
+                        if(st.find(front) != st.end()){
+                            q.push(front);
                         }
                     }
-                    frnt[i] = ch;
+                    front[i] = ch;
                 }
             }
-            len++;
+                len++;
         }
         return 0;
     }
