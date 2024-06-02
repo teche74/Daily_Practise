@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2048-build-array-from-permutation](https://github.com/teche74/Daily_Practise/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/teche74/Daily_Practise/tree/master/2058-concatenation-of-array) |
 | [2454-largest-local-values-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/2454-largest-local-values-in-a-matrix) |
+| [2876-number-of-employees-who-met-the-target](https://github.com/teche74/Daily_Practise/tree/master/2876-number-of-employees-who-met-the-target) |
 # Two Pointers
 |  |
 | ------- |
