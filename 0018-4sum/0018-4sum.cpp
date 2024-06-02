@@ -1,45 +1,40 @@
 class Solution {
 public:
-    vector<vector<int>> fourSum(vector<int>& nums, int target) {
-        int size = nums.size();
+    vector<vector<int>> fourSum(vector<int>& arr, int target) {
+        int size = arr.size();
 
-        sort(nums.begin(), nums.end());
+        sort(arr.begin(), arr.end());
+
         vector<vector<int>>res;
 
-        for(int i =0 ;i < size ; i++){
-            if(i> 0 && nums[i] == nums[i-1]) continue;
-            for(int j = i+1;j<size; j++){
-                if(j> i+1 && nums[j] == nums[j-1]) continue;
+        for(int i =0 ;i <size; i++){
+            if(i > 0 && arr[i] == arr[i-1]) continue;
 
+            for(int l = i+1 ; l < size ; l++){
+                if(l  > i+1 && arr[l] == arr[l-1]) continue;
+                int j = l+1, k =size-1;
 
-                int k = j+1;
-                int l = size-1;
-
-                while(k<l){
-                    long long sum = nums[i];
-                    sum+=nums[j];
-                    sum+=nums[k];
-                    sum+=nums[l];
+                while(j< k){
+                    long long sum = arr[i];
+                    sum+=arr[j];
+                    sum+=arr[k];
+                    sum+=arr[l];
 
                     if(sum == target){
-                        vector<int>temp = {nums[i], nums[j], nums[k], nums[l]};
-                        res.emplace_back(temp);
-
-                        k++;
-                        l--;
-
-                        while(k <l && nums[k] == nums[k-1]) k++;
-                        while(k <l && nums[l]== nums[l+1]) l--;
+                        res.push_back({arr[i],arr[j],arr[k], arr[l]});
+                        j++;
+                        k--;
+                        while(j < k && arr[j] == arr[j-1]) j++;
+                        while(j <k && arr[k] == arr[k+1]) k--;
                     }
                     else if(sum > target){
-                        l--;
+                        k--;
                     }
                     else{
-                        k++;
+                        j++;
                     }
                 }
             }
-
         }
         return res;
     }
