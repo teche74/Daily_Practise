@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/teche74/Daily_Practise/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/teche74/Daily_Practise/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/teche74/Daily_Practise/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/teche74/Daily_Practise/tree/master/0016-3sum-closest) |
 | [0174-dungeon-game](https://github.com/teche74/Daily_Practise/tree/master/0174-dungeon-game) |
 | [0839-short-encoding-of-words](https://github.com/teche74/Daily_Practise/tree/master/0839-short-encoding-of-words) |
 | [1080-camelcase-matching](https://github.com/teche74/Daily_Practise/tree/master/1080-camelcase-matching) |
@@ -17,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0011-container-with-most-water](https://github.com/teche74/Daily_Practise/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/teche74/Daily_Practise/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/teche74/Daily_Practise/tree/master/0016-3sum-closest) |
 | [0344-reverse-string](https://github.com/teche74/Daily_Practise/tree/master/0344-reverse-string) |
 | [1080-camelcase-matching](https://github.com/teche74/Daily_Practise/tree/master/1080-camelcase-matching) |
 # String
@@ -69,3 +71,4 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0015-3sum](https://github.com/teche74/Daily_Practise/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/teche74/Daily_Practise/tree/master/0016-3sum-closest) |
