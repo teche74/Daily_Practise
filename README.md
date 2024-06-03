@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/teche74/Daily_Practise/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/teche74/Daily_Practise/tree/master/0344-reverse-string) |
 | [1080-camelcase-matching](https://github.com/teche74/Daily_Practise/tree/master/1080-camelcase-matching) |
+| [2572-append-characters-to-string-to-make-subsequence](https://github.com/teche74/Daily_Practise/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # String
 |  |
 | ------- |
@@ -53,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0474-ones-and-zeroes](https://github.com/teche74/Daily_Practise/tree/master/0474-ones-and-zeroes) |
 | [0839-short-encoding-of-words](https://github.com/teche74/Daily_Practise/tree/master/0839-short-encoding-of-words) |
 | [1080-camelcase-matching](https://github.com/teche74/Daily_Practise/tree/master/1080-camelcase-matching) |
+| [2572-append-characters-to-string-to-make-subsequence](https://github.com/teche74/Daily_Practise/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Hash Table
 |  |
 | ------- |
@@ -89,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/teche74/Daily_Practise/tree/master/0011-container-with-most-water) |
+| [2572-append-characters-to-string-to-make-subsequence](https://github.com/teche74/Daily_Practise/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Sorting
 |  |
 | ------- |
