@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0093-restore-ip-addresses](https://github.com/teche74/Daily_Practise/tree/master/0093-restore-ip-addresses) |
 | [0127-word-ladder](https://github.com/teche74/Daily_Practise/tree/master/0127-word-ladder) |
 | [0212-word-search-ii](https://github.com/teche74/Daily_Practise/tree/master/0212-word-search-ii) |
+| [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0344-reverse-string](https://github.com/teche74/Daily_Practise/tree/master/0344-reverse-string) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
 | [0474-ones-and-zeroes](https://github.com/teche74/Daily_Practise/tree/master/0474-ones-and-zeroes) |
@@ -76,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0174-dungeon-game](https://github.com/teche74/Daily_Practise/tree/master/0174-dungeon-game) |
+| [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0300-longest-increasing-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0300-longest-increasing-subsequence) |
 | [0474-ones-and-zeroes](https://github.com/teche74/Daily_Practise/tree/master/0474-ones-and-zeroes) |
 # Matrix
@@ -115,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Math
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [1635-number-of-good-pairs](https://github.com/teche74/Daily_Practise/tree/master/1635-number-of-good-pairs) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/teche74/Daily_Practise/tree/master/1993-sum-of-all-subset-xor-totals) |
 # Counting
@@ -162,3 +165,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
+# Recursion
+|  |
+| ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
+# Memoization
+|  |
+| ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
