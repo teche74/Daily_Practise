@@ -1,13 +1,9 @@
 class Solution {
 public:
     int timer = 1;
-
     vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
-        // merko vo path dhundhne he jinke hatne se kuch nodes unvisit rh jaengi,
-        // in connections ko bridge bolte.
-
-        // Lets see How Tarjan's algo Work :
-        
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
         vector<int>adj[n];
 
         for(auto t : connections){
@@ -15,34 +11,34 @@ public:
             adj[t[1]].push_back(t[0]);
         }
 
-
-        vector<int>vis(n ,false);
-        vector<int>time(n, 0);
-        vector<int>low(n, 0);
-
+        vector<bool>vis(n,false);
+        vector<int>low(n,0);
+        vector<int>time(n,0);
         vector<vector<int>>res;
 
-        function<void(int, int)> dfs = [&](int node, int parent) {
+        function<void(int,int)> dfs = [&](int node, int parent){
             vis[node] = true;
-            time[node] = low[node] = timer++;
+            low[node]= time[node] = timer++;
 
-            for (int it : adj[node]) {
-                if (it == parent) continue;
-                if (!vis[it]) {
-                    dfs(it, node);
-                    low[node] = min(low[node], low[it]);
+            for(auto t : adj[node]){
+                if(t == parent) continue;
+                if(!vis[t]){
+                    dfs(t,node);
 
-                    if (low[it] > time[node]) {
-                        res.push_back({node, it});
+                    low[node] = min(low[node], low[t]);
+
+                    if (low[t] > time[node]) {
+                        res.push_back({node, t});
                     }
-                } else {
-                    low[node] = min(low[node], time[it]);
+                }
+                else{
+                    low[node] = min(time[t], low[node]);
                 }
             }
         };
 
         dfs(0,-1);
 
-        return res;       
+        return res;
     }
 };
