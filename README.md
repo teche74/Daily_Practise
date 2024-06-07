@@ -182,3 +182,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
+# Depth-First Search
+|  |
+| ------- |
+| [1300-critical-connections-in-a-network](https://github.com/teche74/Daily_Practise/tree/master/1300-critical-connections-in-a-network) |
+# Graph
+|  |
+| ------- |
+| [1300-critical-connections-in-a-network](https://github.com/teche74/Daily_Practise/tree/master/1300-critical-connections-in-a-network) |
+# Biconnected Component
+|  |
+| ------- |
+| [1300-critical-connections-in-a-network](https://github.com/teche74/Daily_Practise/tree/master/1300-critical-connections-in-a-network) |
