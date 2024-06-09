@@ -2,43 +2,40 @@ class Solution {
 public:
     int timer = 1;
     vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
-        ios_base::sync_with_stdio(false);
-        cin.tie(NULL);
         vector<int>adj[n];
 
-        for(auto t : connections){
-            adj[t[0]].push_back(t[1]);
-            adj[t[1]].push_back(t[0]);
+        for(auto it :  connections){
+            adj[it[0]].push_back(it[1]);
+            adj[it[1]].push_back(it[0]);
         }
 
-        vector<bool>vis(n,false);
-        vector<int>low(n,0);
-        vector<int>time(n,0);
         vector<vector<int>>res;
+        vector<int>low(n,0), time(n,0);
 
-        function<void(int,int)> dfs = [&](int node, int parent){
+        vector<int>vis(n,false);
+
+        function<void(int,int)> solve = [&](int node, int parent){
             vis[node] = true;
-            low[node]= time[node] = timer++;
+            low[node] = time[node] = timer++;
 
-            for(auto t : adj[node]){
-                if(t == parent) continue;
-                if(!vis[t]){
-                    dfs(t,node);
+            for(auto it : adj[node]){
+                if(it == parent)continue;
 
-                    low[node] = min(low[node], low[t]);
+                if(!vis[it]){
+                    solve(it, node);
+                    low[node] = min(low[node],low[it]);
 
-                    if (low[t] > time[node]) {
-                        res.push_back({node, t});
+                    if(low[it]  > time[node]){
+                        res.push_back({node, it});
                     }
                 }
                 else{
-                    low[node] = min(time[t], low[node]);
+                    low[node] = min(low[node],time[it]);
                 }
             }
         };
 
-        dfs(0,-1);
-
+        solve(0,-1);
         return res;
     }
 };
