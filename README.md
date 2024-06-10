@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0174-dungeon-game](https://github.com/teche74/Daily_Practise/tree/master/0174-dungeon-game) |
 | [0212-word-search-ii](https://github.com/teche74/Daily_Practise/tree/master/0212-word-search-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0300-longest-increasing-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/teche74/Daily_Practise/tree/master/0416-partition-equal-subset-sum) |
 | [0419-battleships-in-a-board](https://github.com/teche74/Daily_Practise/tree/master/0419-battleships-in-a-board) |
 | [0474-ones-and-zeroes](https://github.com/teche74/Daily_Practise/tree/master/0474-ones-and-zeroes) |
 | [0523-continuous-subarray-sum](https://github.com/teche74/Daily_Practise/tree/master/0523-continuous-subarray-sum) |
@@ -91,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0174-dungeon-game](https://github.com/teche74/Daily_Practise/tree/master/0174-dungeon-game) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0300-longest-increasing-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0300-longest-increasing-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/teche74/Daily_Practise/tree/master/0416-partition-equal-subset-sum) |
 | [0474-ones-and-zeroes](https://github.com/teche74/Daily_Practise/tree/master/0474-ones-and-zeroes) |
 # Matrix
 |  |
