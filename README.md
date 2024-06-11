@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/teche74/Daily_Practise/tree/master/0127-word-ladder) |
 | [0212-word-search-ii](https://github.com/teche74/Daily_Practise/tree/master/0212-word-search-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
+| [0282-expression-add-operators](https://github.com/teche74/Daily_Practise/tree/master/0282-expression-add-operators) |
 | [0344-reverse-string](https://github.com/teche74/Daily_Practise/tree/master/0344-reverse-string) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
 | [0474-ones-and-zeroes](https://github.com/teche74/Daily_Practise/tree/master/0474-ones-and-zeroes) |
@@ -144,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
+| [0282-expression-add-operators](https://github.com/teche74/Daily_Practise/tree/master/0282-expression-add-operators) |
 | [0486-predict-the-winner](https://github.com/teche74/Daily_Practise/tree/master/0486-predict-the-winner) |
 | [0504-base-7](https://github.com/teche74/Daily_Practise/tree/master/0504-base-7) |
 | [0523-continuous-subarray-sum](https://github.com/teche74/Daily_Practise/tree/master/0523-continuous-subarray-sum) |
@@ -160,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0093-restore-ip-addresses](https://github.com/teche74/Daily_Practise/tree/master/0093-restore-ip-addresses) |
 | [0212-word-search-ii](https://github.com/teche74/Daily_Practise/tree/master/0212-word-search-ii) |
+| [0282-expression-add-operators](https://github.com/teche74/Daily_Practise/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/teche74/Daily_Practise/tree/master/0494-target-sum) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/teche74/Daily_Practise/tree/master/1993-sum-of-all-subset-xor-totals) |
 # Bit Manipulation
