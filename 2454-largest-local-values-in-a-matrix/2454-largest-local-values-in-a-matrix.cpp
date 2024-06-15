@@ -1,28 +1,34 @@
 class Solution {
 public:
     vector<vector<int>> largestLocal(vector<vector<int>>& grid) {
+        int rows = grid.size() ,cols = grid[0].size();
 
-        vector<vector<int>> dirs = {{0,1}, {1,0}, {-1,0}, {0,-1}, {1,1}, {1,-1}, {-1,1}, {-1,-1}};
-        
-        auto find_max = [&](int row, int col)->int{
-            int maxi = grid[row][col];
+        vector<vector<int>>res;
 
-            for(auto dir : dirs){
-                int new_r = row + dir[0];
-                int new_c = col + dir[1];
+        vector<vector<int>> dirs = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}, {1, 1}, {-1, -1}, {1, -1}, {-1, 1}};
 
-                maxi = max(maxi, grid[new_r][new_c]);
+
+        function<int(int,int)> dfs = [&](int row, int col){
+            int val = grid[row][col];
+
+            for(auto t : dirs){
+                int new_r = t[0] + row;
+                int new_c = t[1] + col;
+
+                if(new_r >= 0 && new_r < rows && new_c >= 0 && new_c < cols ){
+                    val = max(val, grid[new_r][new_c]);
+                }
             }
-            return maxi;
+            return val;
         };
 
-        int rows = grid.size(), cols = grid[0].size();
-        vector<vector<int>> res(rows - 2, vector<int>(cols - 2));
-        
-        for(int i = 1; i < rows - 1; i++){
-            for(int j = 1; j < cols - 1; j++){
-                res[i-1][j-1] = find_max(i, j);
+        for(int i = 1 ;i <rows-1 ;i++){
+            vector<int>temp;
+            for(int j =1; j< cols-1 ;j++){
+                int val = dfs(i,j);
+                temp.emplace_back(val);
             }
+            res.emplace_back(temp);
         }
 
         return res;
