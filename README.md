@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1016-subarray-sums-divisible-by-k](https://github.com/teche74/Daily_Practise/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1044-find-common-characters](https://github.com/teche74/Daily_Practise/tree/master/1044-find-common-characters) |
 | [1080-camelcase-matching](https://github.com/teche74/Daily_Practise/tree/master/1080-camelcase-matching) |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/teche74/Daily_Practise/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1505-create-target-array-in-the-given-order](https://github.com/teche74/Daily_Practise/tree/master/1505-create-target-array-in-the-given-order) |
 | [1580-shuffle-the-array](https://github.com/teche74/Daily_Practise/tree/master/1580-shuffle-the-array) |
 | [1635-number-of-good-pairs](https://github.com/teche74/Daily_Practise/tree/master/1635-number-of-good-pairs) |
@@ -166,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0876-hand-of-straights](https://github.com/teche74/Daily_Practise/tree/master/0876-hand-of-straights) |
 | [0948-sort-an-array](https://github.com/teche74/Daily_Practise/tree/master/0948-sort-an-array) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/teche74/Daily_Practise/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/teche74/Daily_Practise/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/teche74/Daily_Practise/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Simulation
 |  |
@@ -200,6 +202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Bit Manipulation
 |  |
 | ------- |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/teche74/Daily_Practise/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/teche74/Daily_Practise/tree/master/1993-sum-of-all-subset-xor-totals) |
 # Combinatorics
 |  |
@@ -286,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0948-sort-an-array](https://github.com/teche74/Daily_Practise/tree/master/0948-sort-an-array) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/teche74/Daily_Practise/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [1458-sort-integers-by-the-number-of-1-bits](https://github.com/teche74/Daily_Practise/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1635-number-of-good-pairs](https://github.com/teche74/Daily_Practise/tree/master/1635-number-of-good-pairs) |
 # Prefix Sum
 |  |
