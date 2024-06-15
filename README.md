@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0474-ones-and-zeroes](https://github.com/teche74/Daily_Practise/tree/master/0474-ones-and-zeroes) |
 | [0486-predict-the-winner](https://github.com/teche74/Daily_Practise/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/teche74/Daily_Practise/tree/master/0494-target-sum) |
+| [0502-ipo](https://github.com/teche74/Daily_Practise/tree/master/0502-ipo) |
 | [0523-continuous-subarray-sum](https://github.com/teche74/Daily_Practise/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/teche74/Daily_Practise/tree/master/0648-replace-words) |
 | [0839-short-encoding-of-words](https://github.com/teche74/Daily_Practise/tree/master/0839-short-encoding-of-words) |
@@ -127,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/teche74/Daily_Practise/tree/master/0011-container-with-most-water) |
+| [0502-ipo](https://github.com/teche74/Daily_Practise/tree/master/0502-ipo) |
 | [0876-hand-of-straights](https://github.com/teche74/Daily_Practise/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/teche74/Daily_Practise/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/teche74/Daily_Practise/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
@@ -141,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0147-insertion-sort-list](https://github.com/teche74/Daily_Practise/tree/master/0147-insertion-sort-list) |
 | [0295-find-median-from-data-stream](https://github.com/teche74/Daily_Practise/tree/master/0295-find-median-from-data-stream) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
+| [0502-ipo](https://github.com/teche74/Daily_Practise/tree/master/0502-ipo) |
 | [0876-hand-of-straights](https://github.com/teche74/Daily_Practise/tree/master/0876-hand-of-straights) |
 | [0948-sort-an-array](https://github.com/teche74/Daily_Practise/tree/master/0948-sort-an-array) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/teche74/Daily_Practise/tree/master/0982-minimum-increment-to-make-array-unique) |
@@ -195,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/teche74/Daily_Practise/tree/master/0295-find-median-from-data-stream) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
+| [0502-ipo](https://github.com/teche74/Daily_Practise/tree/master/0502-ipo) |
 | [0948-sort-an-array](https://github.com/teche74/Daily_Practise/tree/master/0948-sort-an-array) |
 # Data Stream
 |  |
