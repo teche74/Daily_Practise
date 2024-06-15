@@ -1,12 +1,15 @@
 class Solution {
 public:
-    vector<int> shuffle(vector<int>& arr, int mid) {
-        int size = arr.size();
-        vector<int> res(size,0);
+    vector<int> shuffle(vector<int>& nums, int n) {
+        int j = n;
 
-        for (int i = 0; i < mid; ++i) {
-            res[2 * i] = arr[i];
-            res[2 * i + 1] = arr[mid + i];
+        vector<int>res;
+
+        int size= nums.size();
+
+        for(int i =0; i< n; i++){
+            res.emplace_back(nums[i]);
+            if(j < size) res.emplace_back(nums[j++]);
         }
 
         return res;
