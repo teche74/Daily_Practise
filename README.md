@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/teche74/Daily_Practise/tree/master/0212-word-search-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/teche74/Daily_Practise/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0330-patching-array](https://github.com/teche74/Daily_Practise/tree/master/0330-patching-array) |
 | [0416-partition-equal-subset-sum](https://github.com/teche74/Daily_Practise/tree/master/0416-partition-equal-subset-sum) |
 | [0419-battleships-in-a-board](https://github.com/teche74/Daily_Practise/tree/master/0419-battleships-in-a-board) |
 | [0474-ones-and-zeroes](https://github.com/teche74/Daily_Practise/tree/master/0474-ones-and-zeroes) |
@@ -166,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/teche74/Daily_Practise/tree/master/0011-container-with-most-water) |
+| [0330-patching-array](https://github.com/teche74/Daily_Practise/tree/master/0330-patching-array) |
 | [0502-ipo](https://github.com/teche74/Daily_Practise/tree/master/0502-ipo) |
 | [0876-hand-of-straights](https://github.com/teche74/Daily_Practise/tree/master/0876-hand-of-straights) |
 | [0979-di-string-match](https://github.com/teche74/Daily_Practise/tree/master/0979-di-string-match) |
