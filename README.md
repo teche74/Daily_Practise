@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2551-apply-operations-to-an-array](https://github.com/teche74/Daily_Practise/tree/master/2551-apply-operations-to-an-array) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/teche74/Daily_Practise/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2594-count-pairs-of-similar-strings](https://github.com/teche74/Daily_Practise/tree/master/2594-count-pairs-of-similar-strings) |
+| [2684-determine-the-winner-of-a-bowling-game](https://github.com/teche74/Daily_Practise/tree/master/2684-determine-the-winner-of-a-bowling-game) |
 | [2698-find-the-array-concatenation-value](https://github.com/teche74/Daily_Practise/tree/master/2698-find-the-array-concatenation-value) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/teche74/Daily_Practise/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/teche74/Daily_Practise/tree/master/2876-number-of-employees-who-met-the-target) |
@@ -240,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2058-concatenation-of-array](https://github.com/teche74/Daily_Practise/tree/master/2058-concatenation-of-array) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2551-apply-operations-to-an-array](https://github.com/teche74/Daily_Practise/tree/master/2551-apply-operations-to-an-array) |
+| [2684-determine-the-winner-of-a-bowling-game](https://github.com/teche74/Daily_Practise/tree/master/2684-determine-the-winner-of-a-bowling-game) |
 | [2698-find-the-array-concatenation-value](https://github.com/teche74/Daily_Practise/tree/master/2698-find-the-array-concatenation-value) |
 # Math
 |  |
