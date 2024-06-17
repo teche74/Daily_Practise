@@ -55,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2163-kth-distinct-string-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2219-maximum-number-of-words-found-in-sentences](https://github.com/teche74/Daily_Practise/tree/master/2219-maximum-number-of-words-found-in-sentences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/teche74/Daily_Practise/tree/master/2308-divide-array-into-equal-pairs) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2442-number-of-arithmetic-triplets](https://github.com/teche74/Daily_Practise/tree/master/2442-number-of-arithmetic-triplets) |
 | [2447-merge-similar-items](https://github.com/teche74/Daily_Practise/tree/master/2447-merge-similar-items) |
 | [2454-largest-local-values-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/2454-largest-local-values-in-a-matrix) |
@@ -126,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2159-two-out-of-three](https://github.com/teche74/Daily_Practise/tree/master/2159-two-out-of-three) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/teche74/Daily_Practise/tree/master/2308-divide-array-into-equal-pairs) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2442-number-of-arithmetic-triplets](https://github.com/teche74/Daily_Practise/tree/master/2442-number-of-arithmetic-triplets) |
 | [2447-merge-similar-items](https://github.com/teche74/Daily_Practise/tree/master/2447-merge-similar-items) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/teche74/Daily_Practise/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -177,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0982-minimum-increment-to-make-array-unique](https://github.com/teche74/Daily_Practise/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1519-minimum-subsequence-in-non-increasing-order](https://github.com/teche74/Daily_Practise/tree/master/1519-minimum-subsequence-in-non-increasing-order) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/teche74/Daily_Practise/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/teche74/Daily_Practise/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Sorting
 |  |
@@ -195,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/teche74/Daily_Practise/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1519-minimum-subsequence-in-non-increasing-order](https://github.com/teche74/Daily_Practise/tree/master/1519-minimum-subsequence-in-non-increasing-order) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/teche74/Daily_Practise/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2447-merge-similar-items](https://github.com/teche74/Daily_Practise/tree/master/2447-merge-similar-items) |
 # Simulation
 |  |
@@ -202,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1505-create-target-array-in-the-given-order](https://github.com/teche74/Daily_Practise/tree/master/1505-create-target-array-in-the-given-order) |
 | [2048-build-array-from-permutation](https://github.com/teche74/Daily_Practise/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/teche74/Daily_Practise/tree/master/2058-concatenation-of-array) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 # Math
 |  |
 | ------- |
@@ -259,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
 | [0502-ipo](https://github.com/teche74/Daily_Practise/tree/master/0502-ipo) |
 | [0948-sort-an-array](https://github.com/teche74/Daily_Practise/tree/master/0948-sort-an-array) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 # Data Stream
 |  |
 | ------- |
