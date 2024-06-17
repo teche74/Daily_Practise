@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0523-continuous-subarray-sum](https://github.com/teche74/Daily_Practise/tree/master/0523-continuous-subarray-sum) |
 | [0575-distribute-candies](https://github.com/teche74/Daily_Practise/tree/master/0575-distribute-candies) |
 | [0648-replace-words](https://github.com/teche74/Daily_Practise/tree/master/0648-replace-words) |
+| [0816-design-hashset](https://github.com/teche74/Daily_Practise/tree/master/0816-design-hashset) |
 | [0839-short-encoding-of-words](https://github.com/teche74/Daily_Practise/tree/master/0839-short-encoding-of-words) |
 | [0876-hand-of-straights](https://github.com/teche74/Daily_Practise/tree/master/0876-hand-of-straights) |
 | [0919-projection-area-of-3d-shapes](https://github.com/teche74/Daily_Practise/tree/master/0919-projection-area-of-3d-shapes) |
@@ -135,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0523-continuous-subarray-sum](https://github.com/teche74/Daily_Practise/tree/master/0523-continuous-subarray-sum) |
 | [0575-distribute-candies](https://github.com/teche74/Daily_Practise/tree/master/0575-distribute-candies) |
 | [0648-replace-words](https://github.com/teche74/Daily_Practise/tree/master/0648-replace-words) |
+| [0816-design-hashset](https://github.com/teche74/Daily_Practise/tree/master/0816-design-hashset) |
 | [0839-short-encoding-of-words](https://github.com/teche74/Daily_Practise/tree/master/0839-short-encoding-of-words) |
 | [0876-hand-of-straights](https://github.com/teche74/Daily_Practise/tree/master/0876-hand-of-straights) |
 | [0965-unique-email-addresses](https://github.com/teche74/Daily_Practise/tree/master/0965-unique-email-addresses) |
@@ -287,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/teche74/Daily_Practise/tree/master/0295-find-median-from-data-stream) |
+| [0816-design-hashset](https://github.com/teche74/Daily_Practise/tree/master/0816-design-hashset) |
 | [1775-design-an-ordered-stream](https://github.com/teche74/Daily_Practise/tree/master/1775-design-an-ordered-stream) |
 # Heap (Priority Queue)
 |  |
@@ -306,6 +309,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0138-copy-list-with-random-pointer](https://github.com/teche74/Daily_Practise/tree/master/0138-copy-list-with-random-pointer) |
 | [0147-insertion-sort-list](https://github.com/teche74/Daily_Practise/tree/master/0147-insertion-sort-list) |
+| [0816-design-hashset](https://github.com/teche74/Daily_Practise/tree/master/0816-design-hashset) |
 # Bucket Sort
 |  |
 | ------- |
@@ -405,3 +409,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/teche74/Daily_Practise/tree/master/2106-find-greatest-common-divisor-of-array) |
+# Hash Function
+|  |
+| ------- |
+| [0816-design-hashset](https://github.com/teche74/Daily_Practise/tree/master/0816-design-hashset) |
