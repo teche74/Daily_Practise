@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2442-number-of-arithmetic-triplets](https://github.com/teche74/Daily_Practise/tree/master/2442-number-of-arithmetic-triplets) |
 | [2447-merge-similar-items](https://github.com/teche74/Daily_Practise/tree/master/2447-merge-similar-items) |
 | [2454-largest-local-values-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/2454-largest-local-values-in-a-matrix) |
+| [2566-number-of-unequal-triplets-in-array](https://github.com/teche74/Daily_Practise/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/teche74/Daily_Practise/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/teche74/Daily_Practise/tree/master/2876-number-of-employees-who-met-the-target) |
 | [3034-points-that-intersect-with-cars](https://github.com/teche74/Daily_Practise/tree/master/3034-points-that-intersect-with-cars) |
@@ -133,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2442-number-of-arithmetic-triplets](https://github.com/teche74/Daily_Practise/tree/master/2442-number-of-arithmetic-triplets) |
 | [2447-merge-similar-items](https://github.com/teche74/Daily_Practise/tree/master/2447-merge-similar-items) |
+| [2566-number-of-unequal-triplets-in-array](https://github.com/teche74/Daily_Practise/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/teche74/Daily_Practise/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3034-points-that-intersect-with-cars](https://github.com/teche74/Daily_Practise/tree/master/3034-points-that-intersect-with-cars) |
 # Breadth-First Search
@@ -204,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/teche74/Daily_Practise/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2447-merge-similar-items](https://github.com/teche74/Daily_Practise/tree/master/2447-merge-similar-items) |
+| [2566-number-of-unequal-triplets-in-array](https://github.com/teche74/Daily_Practise/tree/master/2566-number-of-unequal-triplets-in-array) |
 # Simulation
 |  |
 | ------- |
