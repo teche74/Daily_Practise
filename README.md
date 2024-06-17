@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2163-kth-distinct-string-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2219-maximum-number-of-words-found-in-sentences](https://github.com/teche74/Daily_Practise/tree/master/2219-maximum-number-of-words-found-in-sentences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/teche74/Daily_Practise/tree/master/2308-divide-array-into-equal-pairs) |
+| [2331-intersection-of-multiple-arrays](https://github.com/teche74/Daily_Practise/tree/master/2331-intersection-of-multiple-arrays) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2442-number-of-arithmetic-triplets](https://github.com/teche74/Daily_Practise/tree/master/2442-number-of-arithmetic-triplets) |
 | [2447-merge-similar-items](https://github.com/teche74/Daily_Practise/tree/master/2447-merge-similar-items) |
@@ -137,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2159-two-out-of-three](https://github.com/teche74/Daily_Practise/tree/master/2159-two-out-of-three) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/teche74/Daily_Practise/tree/master/2308-divide-array-into-equal-pairs) |
+| [2331-intersection-of-multiple-arrays](https://github.com/teche74/Daily_Practise/tree/master/2331-intersection-of-multiple-arrays) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2442-number-of-arithmetic-triplets](https://github.com/teche74/Daily_Practise/tree/master/2442-number-of-arithmetic-triplets) |
 | [2447-merge-similar-items](https://github.com/teche74/Daily_Practise/tree/master/2447-merge-similar-items) |
@@ -213,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1519-minimum-subsequence-in-non-increasing-order](https://github.com/teche74/Daily_Practise/tree/master/1519-minimum-subsequence-in-non-increasing-order) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/teche74/Daily_Practise/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/teche74/Daily_Practise/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
+| [2331-intersection-of-multiple-arrays](https://github.com/teche74/Daily_Practise/tree/master/2331-intersection-of-multiple-arrays) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2447-merge-similar-items](https://github.com/teche74/Daily_Practise/tree/master/2447-merge-similar-items) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/teche74/Daily_Practise/tree/master/2566-number-of-unequal-triplets-in-array) |
@@ -352,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1635-number-of-good-pairs](https://github.com/teche74/Daily_Practise/tree/master/1635-number-of-good-pairs) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/teche74/Daily_Practise/tree/master/2308-divide-array-into-equal-pairs) |
+| [2331-intersection-of-multiple-arrays](https://github.com/teche74/Daily_Practise/tree/master/2331-intersection-of-multiple-arrays) |
 # Prefix Sum
 |  |
 | ------- |
