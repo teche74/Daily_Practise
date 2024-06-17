@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/teche74/Daily_Practise/tree/master/0075-sort-colors) |
 | [0295-find-median-from-data-stream](https://github.com/teche74/Daily_Practise/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/teche74/Daily_Practise/tree/master/0344-reverse-string) |
+| [0633-sum-of-square-numbers](https://github.com/teche74/Daily_Practise/tree/master/0633-sum-of-square-numbers) |
 | [0979-di-string-match](https://github.com/teche74/Daily_Practise/tree/master/0979-di-string-match) |
 | [1080-camelcase-matching](https://github.com/teche74/Daily_Practise/tree/master/1080-camelcase-matching) |
 | [2442-number-of-arithmetic-triplets](https://github.com/teche74/Daily_Practise/tree/master/2442-number-of-arithmetic-triplets) |
@@ -157,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/teche74/Daily_Practise/tree/master/0004-median-of-two-sorted-arrays) |
 | [0300-longest-increasing-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/teche74/Daily_Practise/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0633-sum-of-square-numbers](https://github.com/teche74/Daily_Practise/tree/master/0633-sum-of-square-numbers) |
 # Divide and Conquer
 |  |
 | ------- |
@@ -205,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0486-predict-the-winner](https://github.com/teche74/Daily_Practise/tree/master/0486-predict-the-winner) |
 | [0504-base-7](https://github.com/teche74/Daily_Practise/tree/master/0504-base-7) |
 | [0523-continuous-subarray-sum](https://github.com/teche74/Daily_Practise/tree/master/0523-continuous-subarray-sum) |
+| [0633-sum-of-square-numbers](https://github.com/teche74/Daily_Practise/tree/master/0633-sum-of-square-numbers) |
 | [0915-generate-random-point-in-a-circle](https://github.com/teche74/Daily_Practise/tree/master/0915-generate-random-point-in-a-circle) |
 | [0919-projection-area-of-3d-shapes](https://github.com/teche74/Daily_Practise/tree/master/0919-projection-area-of-3d-shapes) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/teche74/Daily_Practise/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
