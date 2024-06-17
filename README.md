@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0979-di-string-match](https://github.com/teche74/Daily_Practise/tree/master/0979-di-string-match) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/teche74/Daily_Practise/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/teche74/Daily_Practise/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1041-available-captures-for-rook](https://github.com/teche74/Daily_Practise/tree/master/1041-available-captures-for-rook) |
 | [1044-find-common-characters](https://github.com/teche74/Daily_Practise/tree/master/1044-find-common-characters) |
 | [1080-camelcase-matching](https://github.com/teche74/Daily_Practise/tree/master/1080-camelcase-matching) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/teche74/Daily_Practise/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
@@ -164,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/teche74/Daily_Practise/tree/master/0212-word-search-ii) |
 | [0419-battleships-in-a-board](https://github.com/teche74/Daily_Practise/tree/master/0419-battleships-in-a-board) |
 | [0919-projection-area-of-3d-shapes](https://github.com/teche74/Daily_Practise/tree/master/0919-projection-area-of-3d-shapes) |
+| [1041-available-captures-for-rook](https://github.com/teche74/Daily_Practise/tree/master/1041-available-captures-for-rook) |
 | [2454-largest-local-values-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/2454-largest-local-values-in-a-matrix) |
 # Binary Search
 |  |
@@ -215,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Simulation
 |  |
 | ------- |
+| [1041-available-captures-for-rook](https://github.com/teche74/Daily_Practise/tree/master/1041-available-captures-for-rook) |
 | [1505-create-target-array-in-the-given-order](https://github.com/teche74/Daily_Practise/tree/master/1505-create-target-array-in-the-given-order) |
 | [2048-build-array-from-permutation](https://github.com/teche74/Daily_Practise/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/teche74/Daily_Practise/tree/master/2058-concatenation-of-array) |
