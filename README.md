@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2442-number-of-arithmetic-triplets](https://github.com/teche74/Daily_Practise/tree/master/2442-number-of-arithmetic-triplets) |
 | [2447-merge-similar-items](https://github.com/teche74/Daily_Practise/tree/master/2447-merge-similar-items) |
 | [2454-largest-local-values-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/2454-largest-local-values-in-a-matrix) |
+| [2551-apply-operations-to-an-array](https://github.com/teche74/Daily_Practise/tree/master/2551-apply-operations-to-an-array) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/teche74/Daily_Practise/tree/master/2566-number-of-unequal-triplets-in-array) |
 | [2594-count-pairs-of-similar-strings](https://github.com/teche74/Daily_Practise/tree/master/2594-count-pairs-of-similar-strings) |
 | [2698-find-the-array-concatenation-value](https://github.com/teche74/Daily_Practise/tree/master/2698-find-the-array-concatenation-value) |
@@ -86,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0979-di-string-match](https://github.com/teche74/Daily_Practise/tree/master/0979-di-string-match) |
 | [1080-camelcase-matching](https://github.com/teche74/Daily_Practise/tree/master/1080-camelcase-matching) |
 | [2442-number-of-arithmetic-triplets](https://github.com/teche74/Daily_Practise/tree/master/2442-number-of-arithmetic-triplets) |
+| [2551-apply-operations-to-an-array](https://github.com/teche74/Daily_Practise/tree/master/2551-apply-operations-to-an-array) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/teche74/Daily_Practise/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [2698-find-the-array-concatenation-value](https://github.com/teche74/Daily_Practise/tree/master/2698-find-the-array-concatenation-value) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/teche74/Daily_Practise/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -230,6 +232,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2048-build-array-from-permutation](https://github.com/teche74/Daily_Practise/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/teche74/Daily_Practise/tree/master/2058-concatenation-of-array) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
+| [2551-apply-operations-to-an-array](https://github.com/teche74/Daily_Practise/tree/master/2551-apply-operations-to-an-array) |
 | [2698-find-the-array-concatenation-value](https://github.com/teche74/Daily_Practise/tree/master/2698-find-the-array-concatenation-value) |
 # Math
 |  |
