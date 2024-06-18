@@ -2,16 +2,32 @@ class Solution {
 public:
     #define ll long long
     unordered_map<int, int> mp;
-    // vector<ll> dp; // Commented out dynamic vector
-    ll dp[100000]; // Static array with a large fixed size
+    ll dp[100000]; 
+
+    int BinSrch(vector<int>& nums, int target){
+        int low = 0, high = nums.size(); // high should be nums.size() not nums.size()-1
+
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+
+            if (nums[mid] <= target) {
+                low = mid + 1;
+            }
+            else {
+                high = mid;
+            }
+        } 
+        return high; // Return high, not mid
+    }
 
     ll solve(int i, vector<int>& nums) {
         if (i >= nums.size()) return 0;
         if (dp[i] != -1) return dp[i];
         ll pick = 0, notPick = 0;
-        int j = i+1;
+        
+        int t = BinSrch(nums, nums[i] + 2);
 
-        while( j < nums.size() && nums[j] <= nums[i]+2) j++;
+        int j = t; // No need to subtract nums.begin()
 
         pick = nums[i] * 1LL * mp[nums[i]] + solve(j, nums);
         notPick = solve(i + 1, nums);
@@ -23,7 +39,6 @@ public:
         sort(nums.begin(), nums.end());
         for (auto i : nums) mp[i]++;
         nums.erase(unique(nums.begin(), nums.end()), nums.end());
-        // dp.resize(nums.size(), -1); // Commented out resizing
         memset(dp, -1, sizeof(dp)); // Initialize static array
         return solve(0, nums);
     }
