@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0928-surface-area-of-3d-shapes](https://github.com/teche74/Daily_Practise/tree/master/0928-surface-area-of-3d-shapes) |
 | [0948-sort-an-array](https://github.com/teche74/Daily_Practise/tree/master/0948-sort-an-array) |
 | [0965-unique-email-addresses](https://github.com/teche74/Daily_Practise/tree/master/0965-unique-email-addresses) |
+| [0978-valid-mountain-array](https://github.com/teche74/Daily_Practise/tree/master/0978-valid-mountain-array) |
 | [0979-di-string-match](https://github.com/teche74/Daily_Practise/tree/master/0979-di-string-match) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/teche74/Daily_Practise/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/teche74/Daily_Practise/tree/master/1016-subarray-sums-divisible-by-k) |
