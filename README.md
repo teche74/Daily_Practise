@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/teche74/Daily_Practise/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1505-create-target-array-in-the-given-order](https://github.com/teche74/Daily_Practise/tree/master/1505-create-target-array-in-the-given-order) |
 | [1519-minimum-subsequence-in-non-increasing-order](https://github.com/teche74/Daily_Practise/tree/master/1519-minimum-subsequence-in-non-increasing-order) |
+| [1524-string-matching-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/1524-string-matching-in-an-array) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/teche74/Daily_Practise/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1580-shuffle-the-array](https://github.com/teche74/Daily_Practise/tree/master/1580-shuffle-the-array) |
 | [1635-number-of-good-pairs](https://github.com/teche74/Daily_Practise/tree/master/1635-number-of-good-pairs) |
@@ -123,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0979-di-string-match](https://github.com/teche74/Daily_Practise/tree/master/0979-di-string-match) |
 | [1044-find-common-characters](https://github.com/teche74/Daily_Practise/tree/master/1044-find-common-characters) |
 | [1080-camelcase-matching](https://github.com/teche74/Daily_Practise/tree/master/1080-camelcase-matching) |
+| [1524-string-matching-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/1524-string-matching-in-an-array) |
 | [1899-count-items-matching-a-rule](https://github.com/teche74/Daily_Practise/tree/master/1899-count-items-matching-a-rule) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2219-maximum-number-of-words-found-in-sentences](https://github.com/teche74/Daily_Practise/tree/master/2219-maximum-number-of-words-found-in-sentences) |
