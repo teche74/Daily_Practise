@@ -5,7 +5,7 @@ public:
     ll dp[100000]; 
 
     int BinSrch(vector<int>& nums, int target){
-        int low = 0, high = nums.size(); // high should be nums.size() not nums.size()-1
+        int low = 0, high = nums.size();
 
         while (low < high) {
             int mid = low + (high - low) / 2;
@@ -17,7 +17,7 @@ public:
                 high = mid;
             }
         } 
-        return high; // Return high, not mid
+        return high; 
     }
 
     ll solve(int i, vector<int>& nums) {
@@ -25,11 +25,9 @@ public:
         if (dp[i] != -1) return dp[i];
         ll pick = 0, notPick = 0;
         
-        int t = BinSrch(nums, nums[i] + 2);
+        
 
-        int j = t; // No need to subtract nums.begin()
-
-        pick = nums[i] * 1LL * mp[nums[i]] + solve(j, nums);
+        pick = nums[i] * 1LL * mp[nums[i]] + solve(BinSrch(nums, nums[i] + 2), nums);
         notPick = solve(i + 1, nums);
         return dp[i] = max(pick, notPick);
     }
@@ -39,7 +37,7 @@ public:
         sort(nums.begin(), nums.end());
         for (auto i : nums) mp[i]++;
         nums.erase(unique(nums.begin(), nums.end()), nums.end());
-        memset(dp, -1, sizeof(dp)); // Initialize static array
+        memset(dp, -1, sizeof(dp));
         return solve(0, nums);
     }
 };
