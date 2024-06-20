@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1580-shuffle-the-array](https://github.com/teche74/Daily_Practise/tree/master/1580-shuffle-the-array) |
 | [1635-number-of-good-pairs](https://github.com/teche74/Daily_Practise/tree/master/1635-number-of-good-pairs) |
 | [1656-count-good-triplets](https://github.com/teche74/Daily_Practise/tree/master/1656-count-good-triplets) |
+| [1675-magnetic-force-between-two-balls](https://github.com/teche74/Daily_Practise/tree/master/1675-magnetic-force-between-two-balls) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/teche74/Daily_Practise/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1755-defuse-the-bomb](https://github.com/teche74/Daily_Practise/tree/master/1755-defuse-the-bomb) |
 | [1775-design-an-ordered-stream](https://github.com/teche74/Daily_Practise/tree/master/1775-design-an-ordered-stream) |
@@ -198,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0315-count-of-smaller-numbers-after-self](https://github.com/teche74/Daily_Practise/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0633-sum-of-square-numbers](https://github.com/teche74/Daily_Practise/tree/master/0633-sum-of-square-numbers) |
 | [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/teche74/Daily_Practise/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
+| [1675-magnetic-force-between-two-balls](https://github.com/teche74/Daily_Practise/tree/master/1675-magnetic-force-between-two-balls) |
 # Divide and Conquer
 |  |
 | ------- |
@@ -234,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1210-mean-of-array-after-removing-some-elements](https://github.com/teche74/Daily_Practise/tree/master/1210-mean-of-array-after-removing-some-elements) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/teche74/Daily_Practise/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1519-minimum-subsequence-in-non-increasing-order](https://github.com/teche74/Daily_Practise/tree/master/1519-minimum-subsequence-in-non-increasing-order) |
+| [1675-magnetic-force-between-two-balls](https://github.com/teche74/Daily_Practise/tree/master/1675-magnetic-force-between-two-balls) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/teche74/Daily_Practise/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/teche74/Daily_Practise/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2331-intersection-of-multiple-arrays](https://github.com/teche74/Daily_Practise/tree/master/2331-intersection-of-multiple-arrays) |
