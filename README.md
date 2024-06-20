@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2684-determine-the-winner-of-a-bowling-game](https://github.com/teche74/Daily_Practise/tree/master/2684-determine-the-winner-of-a-bowling-game) |
 | [2698-find-the-array-concatenation-value](https://github.com/teche74/Daily_Practise/tree/master/2698-find-the-array-concatenation-value) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/teche74/Daily_Practise/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [2785-semi-ordered-permutation](https://github.com/teche74/Daily_Practise/tree/master/2785-semi-ordered-permutation) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/teche74/Daily_Practise/tree/master/2876-number-of-employees-who-met-the-target) |
 | [3034-points-that-intersect-with-cars](https://github.com/teche74/Daily_Practise/tree/master/3034-points-that-intersect-with-cars) |
 # Two Pointers
@@ -254,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2551-apply-operations-to-an-array](https://github.com/teche74/Daily_Practise/tree/master/2551-apply-operations-to-an-array) |
 | [2684-determine-the-winner-of-a-bowling-game](https://github.com/teche74/Daily_Practise/tree/master/2684-determine-the-winner-of-a-bowling-game) |
 | [2698-find-the-array-concatenation-value](https://github.com/teche74/Daily_Practise/tree/master/2698-find-the-array-concatenation-value) |
+| [2785-semi-ordered-permutation](https://github.com/teche74/Daily_Practise/tree/master/2785-semi-ordered-permutation) |
 # Math
 |  |
 | ------- |
