@@ -4,30 +4,31 @@ public:
         int size = s.size();
 
         if(numRows == 1) return s;
-        if(size < numRows) return s;
 
-        int row = 0 , dir = -1;
+        if(size  < numRows) return s;
 
         vector<char>store[numRows];
+
+        int  row = 0 , dir = -1;
 
         for(char ch : s){
             store[row].push_back(ch);
 
+
             if(row == 0 || row == numRows-1){
-                dir *=-1;
+                dir*=-1;
             }
 
-            row +=dir;
+            row+=dir;
         }
 
-        string str = "";
+        string res = "";
 
-        for(auto t : store){
-            for(auto p : t){
-                str.push_back(p);
+        for(auto s : store){
+            for(auto ch  : s){
+                res.push_back(ch);
             }
         }
-
-        return str;
+        return res;
     }
 };
