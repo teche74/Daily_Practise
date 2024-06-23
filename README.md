@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0016-3sum-closest](https://github.com/teche74/Daily_Practise/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/teche74/Daily_Practise/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/teche74/Daily_Practise/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/teche74/Daily_Practise/tree/master/0033-search-in-rotated-sorted-array) |
 | [0075-sort-colors](https://github.com/teche74/Daily_Practise/tree/master/0075-sort-colors) |
 | [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 | [0174-dungeon-game](https://github.com/teche74/Daily_Practise/tree/master/0174-dungeon-game) |
@@ -216,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/teche74/Daily_Practise/tree/master/0004-median-of-two-sorted-arrays) |
+| [0033-search-in-rotated-sorted-array](https://github.com/teche74/Daily_Practise/tree/master/0033-search-in-rotated-sorted-array) |
 | [0300-longest-increasing-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/teche74/Daily_Practise/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0633-sum-of-square-numbers](https://github.com/teche74/Daily_Practise/tree/master/0633-sum-of-square-numbers) |
