@@ -351,6 +351,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/teche74/Daily_Practise/tree/master/0002-add-two-numbers) |
+| [0024-swap-nodes-in-pairs](https://github.com/teche74/Daily_Practise/tree/master/0024-swap-nodes-in-pairs) |
 | [0138-copy-list-with-random-pointer](https://github.com/teche74/Daily_Practise/tree/master/0138-copy-list-with-random-pointer) |
 | [0147-insertion-sort-list](https://github.com/teche74/Daily_Practise/tree/master/0147-insertion-sort-list) |
 | [0816-design-hashset](https://github.com/teche74/Daily_Practise/tree/master/0816-design-hashset) |
@@ -363,6 +364,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/teche74/Daily_Practise/tree/master/0002-add-two-numbers) |
+| [0024-swap-nodes-in-pairs](https://github.com/teche74/Daily_Practise/tree/master/0024-swap-nodes-in-pairs) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0486-predict-the-winner](https://github.com/teche74/Daily_Practise/tree/master/0486-predict-the-winner) |
 # Memoization
