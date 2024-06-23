@@ -15,20 +15,20 @@ public:
 
         temp.next = head;
 
-        ListNode * slow = &temp, *fast = &temp;
-        
-        for(int i =0 ; i <= n;i++){
-            fast = fast->next;
+        ListNode * slow = &temp, * fast = &temp ;
+
+        for(int  i =0; i <= n; i++){
+            fast=fast->next;
         }
 
         while(fast!=nullptr){
-            slow =slow->next;
-            fast = fast->next;
+            slow=slow->next;
+            fast=fast->next;
         }
 
-        ListNode * tp = slow->next;
-        slow->next = slow->next->next;
-        delete tp;
+        ListNode * t = slow->next;
+        slow->next = t->next;
+        delete t;
         return temp.next;
     }
 };
