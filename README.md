@@ -302,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/teche74/Daily_Practise/tree/master/0002-add-two-numbers) |
 | [0029-divide-two-integers](https://github.com/teche74/Daily_Practise/tree/master/0029-divide-two-integers) |
 | [0043-multiply-strings](https://github.com/teche74/Daily_Practise/tree/master/0043-multiply-strings) |
+| [0050-powx-n](https://github.com/teche74/Daily_Practise/tree/master/0050-powx-n) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0282-expression-add-operators](https://github.com/teche74/Daily_Practise/tree/master/0282-expression-add-operators) |
 | [0486-predict-the-winner](https://github.com/teche74/Daily_Practise/tree/master/0486-predict-the-winner) |
@@ -394,6 +395,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/teche74/Daily_Practise/tree/master/0002-add-two-numbers) |
 | [0024-swap-nodes-in-pairs](https://github.com/teche74/Daily_Practise/tree/master/0024-swap-nodes-in-pairs) |
+| [0050-powx-n](https://github.com/teche74/Daily_Practise/tree/master/0050-powx-n) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0486-predict-the-winner](https://github.com/teche74/Daily_Practise/tree/master/0486-predict-the-winner) |
 # Memoization
