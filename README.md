@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/teche74/Daily_Practise/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/teche74/Daily_Practise/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/teche74/Daily_Practise/tree/master/0045-jump-game-ii) |
+| [0046-permutations](https://github.com/teche74/Daily_Practise/tree/master/0046-permutations) |
 | [0075-sort-colors](https://github.com/teche74/Daily_Practise/tree/master/0075-sort-colors) |
 | [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 | [0174-dungeon-game](https://github.com/teche74/Daily_Practise/tree/master/0174-dungeon-game) |
@@ -323,6 +324,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/teche74/Daily_Practise/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/teche74/Daily_Practise/tree/master/0040-combination-sum-ii) |
+| [0046-permutations](https://github.com/teche74/Daily_Practise/tree/master/0046-permutations) |
 | [0093-restore-ip-addresses](https://github.com/teche74/Daily_Practise/tree/master/0093-restore-ip-addresses) |
 | [0212-word-search-ii](https://github.com/teche74/Daily_Practise/tree/master/0212-word-search-ii) |
 | [0282-expression-add-operators](https://github.com/teche74/Daily_Practise/tree/master/0282-expression-add-operators) |
