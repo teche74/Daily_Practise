@@ -212,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0022-generate-parentheses) |
 | [0045-jump-game-ii](https://github.com/teche74/Daily_Practise/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/teche74/Daily_Practise/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/teche74/Daily_Practise/tree/master/0062-unique-paths) |
 | [0174-dungeon-game](https://github.com/teche74/Daily_Practise/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/teche74/Daily_Practise/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
@@ -313,6 +314,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0029-divide-two-integers](https://github.com/teche74/Daily_Practise/tree/master/0029-divide-two-integers) |
 | [0043-multiply-strings](https://github.com/teche74/Daily_Practise/tree/master/0043-multiply-strings) |
 | [0050-powx-n](https://github.com/teche74/Daily_Practise/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/teche74/Daily_Practise/tree/master/0062-unique-paths) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0282-expression-add-operators](https://github.com/teche74/Daily_Practise/tree/master/0282-expression-add-operators) |
 | [0486-predict-the-winner](https://github.com/teche74/Daily_Practise/tree/master/0486-predict-the-winner) |
@@ -360,6 +362,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Combinatorics
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/teche74/Daily_Practise/tree/master/0062-unique-paths) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/teche74/Daily_Practise/tree/master/1993-sum-of-all-subset-xor-totals) |
 # Enumeration
 |  |
