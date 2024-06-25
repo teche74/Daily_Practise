@@ -413,6 +413,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 | [0419-battleships-in-a-board](https://github.com/teche74/Daily_Practise/tree/master/0419-battleships-in-a-board) |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/teche74/Daily_Practise/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1300-critical-connections-in-a-network](https://github.com/teche74/Daily_Practise/tree/master/1300-critical-connections-in-a-network) |
 # Graph
 |  |
@@ -523,3 +524,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+# Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/teche74/Daily_Practise/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Binary Search Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/teche74/Daily_Practise/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Binary Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/teche74/Daily_Practise/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
