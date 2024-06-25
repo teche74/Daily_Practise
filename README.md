@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/teche74/Daily_Practise/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/teche74/Daily_Practise/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/teche74/Daily_Practise/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 | [0174-dungeon-game](https://github.com/teche74/Daily_Practise/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/teche74/Daily_Practise/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -150,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0043-multiply-strings](https://github.com/teche74/Daily_Practise/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/teche74/Daily_Practise/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/teche74/Daily_Practise/tree/master/0072-edit-distance) |
+| [0079-word-search](https://github.com/teche74/Daily_Practise/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/teche74/Daily_Practise/tree/master/0093-restore-ip-addresses) |
 | [0127-word-ladder](https://github.com/teche74/Daily_Practise/tree/master/0127-word-ladder) |
 | [0212-word-search-ii](https://github.com/teche74/Daily_Practise/tree/master/0212-word-search-ii) |
@@ -235,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0059-spiral-matrix-ii](https://github.com/teche74/Daily_Practise/tree/master/0059-spiral-matrix-ii) |
 | [0063-unique-paths-ii](https://github.com/teche74/Daily_Practise/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0064-minimum-path-sum) |
+| [0079-word-search](https://github.com/teche74/Daily_Practise/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 | [0174-dungeon-game](https://github.com/teche74/Daily_Practise/tree/master/0174-dungeon-game) |
 | [0212-word-search-ii](https://github.com/teche74/Daily_Practise/tree/master/0212-word-search-ii) |
@@ -355,6 +358,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0047-permutations-ii](https://github.com/teche74/Daily_Practise/tree/master/0047-permutations-ii) |
 | [0077-combinations](https://github.com/teche74/Daily_Practise/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/teche74/Daily_Practise/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/teche74/Daily_Practise/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/teche74/Daily_Practise/tree/master/0093-restore-ip-addresses) |
 | [0212-word-search-ii](https://github.com/teche74/Daily_Practise/tree/master/0212-word-search-ii) |
 | [0282-expression-add-operators](https://github.com/teche74/Daily_Practise/tree/master/0282-expression-add-operators) |
