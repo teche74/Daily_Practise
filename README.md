@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/teche74/Daily_Practise/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/teche74/Daily_Practise/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/teche74/Daily_Practise/tree/master/0078-subsets) |
 | [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 | [0174-dungeon-game](https://github.com/teche74/Daily_Practise/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/teche74/Daily_Practise/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -353,6 +354,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/teche74/Daily_Practise/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/teche74/Daily_Practise/tree/master/0047-permutations-ii) |
 | [0077-combinations](https://github.com/teche74/Daily_Practise/tree/master/0077-combinations) |
+| [0078-subsets](https://github.com/teche74/Daily_Practise/tree/master/0078-subsets) |
 | [0093-restore-ip-addresses](https://github.com/teche74/Daily_Practise/tree/master/0093-restore-ip-addresses) |
 | [0212-word-search-ii](https://github.com/teche74/Daily_Practise/tree/master/0212-word-search-ii) |
 | [0282-expression-add-operators](https://github.com/teche74/Daily_Practise/tree/master/0282-expression-add-operators) |
@@ -362,6 +364,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/teche74/Daily_Practise/tree/master/0029-divide-two-integers) |
+| [0078-subsets](https://github.com/teche74/Daily_Practise/tree/master/0078-subsets) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/teche74/Daily_Practise/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/teche74/Daily_Practise/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/teche74/Daily_Practise/tree/master/1993-sum-of-all-subset-xor-totals) |
