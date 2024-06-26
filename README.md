@@ -445,6 +445,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Depth-First Search
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0099-recover-binary-search-tree) |
 | [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 | [0419-battleships-in-a-board](https://github.com/teche74/Daily_Practise/tree/master/0419-battleships-in-a-board) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/teche74/Daily_Practise/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
@@ -562,15 +563,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0099-recover-binary-search-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/teche74/Daily_Practise/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Search Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0099-recover-binary-search-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/teche74/Daily_Practise/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0099-recover-binary-search-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/teche74/Daily_Practise/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/1285-balance-a-binary-search-tree) |
