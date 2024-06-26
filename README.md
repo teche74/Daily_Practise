@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/teche74/Daily_Practise/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/teche74/Daily_Practise/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0090-subsets-ii](https://github.com/teche74/Daily_Practise/tree/master/0090-subsets-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/teche74/Daily_Practise/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 | [0174-dungeon-game](https://github.com/teche74/Daily_Practise/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/teche74/Daily_Practise/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -184,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/teche74/Daily_Practise/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/teche74/Daily_Practise/tree/master/0049-group-anagrams) |
 | [0127-word-ladder](https://github.com/teche74/Daily_Practise/tree/master/0127-word-ladder) |
+| [0128-longest-consecutive-sequence](https://github.com/teche74/Daily_Practise/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/teche74/Daily_Practise/tree/master/0138-copy-list-with-random-pointer) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
 | [0523-continuous-subarray-sum](https://github.com/teche74/Daily_Practise/tree/master/0523-continuous-subarray-sum) |
@@ -550,6 +552,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/teche74/Daily_Practise/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 # Queue
 |  |
