@@ -95,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2308-divide-array-into-equal-pairs](https://github.com/teche74/Daily_Practise/tree/master/2308-divide-array-into-equal-pairs) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2331-intersection-of-multiple-arrays](https://github.com/teche74/Daily_Practise/tree/master/2331-intersection-of-multiple-arrays) |
+| [2352-design-an-atm-machine](https://github.com/teche74/Daily_Practise/tree/master/2352-design-an-atm-machine) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2442-number-of-arithmetic-triplets](https://github.com/teche74/Daily_Practise/tree/master/2442-number-of-arithmetic-triplets) |
 | [2447-merge-similar-items](https://github.com/teche74/Daily_Practise/tree/master/2447-merge-similar-items) |
@@ -288,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1285-balance-a-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/1285-balance-a-binary-search-tree) |
 | [1519-minimum-subsequence-in-non-increasing-order](https://github.com/teche74/Daily_Practise/tree/master/1519-minimum-subsequence-in-non-increasing-order) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/teche74/Daily_Practise/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
+| [2352-design-an-atm-machine](https://github.com/teche74/Daily_Practise/tree/master/2352-design-an-atm-machine) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/teche74/Daily_Practise/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/teche74/Daily_Practise/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Sorting
@@ -407,6 +409,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/teche74/Daily_Practise/tree/master/0295-find-median-from-data-stream) |
 | [0816-design-hashset](https://github.com/teche74/Daily_Practise/tree/master/0816-design-hashset) |
 | [1775-design-an-ordered-stream](https://github.com/teche74/Daily_Practise/tree/master/1775-design-an-ordered-stream) |
+| [2352-design-an-atm-machine](https://github.com/teche74/Daily_Practise/tree/master/2352-design-an-atm-machine) |
 # Heap (Priority Queue)
 |  |
 | ------- |
