@@ -1,19 +1,14 @@
 class Solution {
 public:
     int divisorSubstrings(int num, int k) {
-        string temp  = to_string(num);
+        string s  = to_string(num);
+        int size = s.size(), res = 0;
 
-        int size = temp.size(), ct=  0;
-
-        for(int i  = 0 ; i  <= size-k ; i++){
-            int val =  stoi(temp.substr(i,k));
-
-            if(val != 0 && num % val == 0){
-                ct++;
-            }
+        for(int i = 0; i <= size- k ; i++){
+            int val = stoi(s.substr(i,k));
+            if(val!= 0 && num % val == 0) res++; 
         }
-        
-        return ct;
 
+        return res;
     }
 };
