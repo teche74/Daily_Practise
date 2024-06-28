@@ -601,6 +601,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/teche74/Daily_Practise/tree/master/0096-unique-binary-search-trees) |
+| [1430-find-the-k-beauty-of-a-number](https://github.com/teche74/Daily_Practise/tree/master/1430-find-the-k-beauty-of-a-number) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -655,6 +656,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [1430-find-the-k-beauty-of-a-number](https://github.com/teche74/Daily_Practise/tree/master/1430-find-the-k-beauty-of-a-number) |
 | [1755-defuse-the-bomb](https://github.com/teche74/Daily_Practise/tree/master/1755-defuse-the-bomb) |
 | [1873-longest-nice-substring](https://github.com/teche74/Daily_Practise/tree/master/1873-longest-nice-substring) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/teche74/Daily_Practise/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
@@ -662,6 +664,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [1430-find-the-k-beauty-of-a-number](https://github.com/teche74/Daily_Practise/tree/master/1430-find-the-k-beauty-of-a-number) |
 | [1873-longest-nice-substring](https://github.com/teche74/Daily_Practise/tree/master/1873-longest-nice-substring) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/teche74/Daily_Practise/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
 ## Counting
