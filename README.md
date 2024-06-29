@@ -643,6 +643,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1370-count-number-of-nice-subarrays) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/teche74/Daily_Practise/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1755-defuse-the-bomb](https://github.com/teche74/Daily_Practise/tree/master/1755-defuse-the-bomb) |
 | [1813-maximum-erasure-value](https://github.com/teche74/Daily_Practise/tree/master/1813-maximum-erasure-value) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/teche74/Daily_Practise/tree/master/3193-maximum-strong-pair-xor-i) |
@@ -676,6 +677,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1430-find-the-k-beauty-of-a-number](https://github.com/teche74/Daily_Practise/tree/master/1430-find-the-k-beauty-of-a-number) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/teche74/Daily_Practise/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/teche74/Daily_Practise/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1755-defuse-the-bomb](https://github.com/teche74/Daily_Practise/tree/master/1755-defuse-the-bomb) |
 | [1813-maximum-erasure-value](https://github.com/teche74/Daily_Practise/tree/master/1813-maximum-erasure-value) |
 | [1873-longest-nice-substring](https://github.com/teche74/Daily_Practise/tree/master/1873-longest-nice-substring) |
@@ -705,6 +707,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/teche74/Daily_Practise/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Prefix Sum
 |  |
@@ -725,4 +728,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/teche74/Daily_Practise/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+## Ordered Set
+|  |
+| ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+## Monotonic Queue
+|  |
+| ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 <!---LeetCode Topics End-->
