@@ -639,6 +639,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1370-count-number-of-nice-subarrays) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/teche74/Daily_Practise/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1755-defuse-the-bomb](https://github.com/teche74/Daily_Practise/tree/master/1755-defuse-the-bomb) |
@@ -647,6 +648,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/teche74/Daily_Practise/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1873-longest-nice-substring](https://github.com/teche74/Daily_Practise/tree/master/1873-longest-nice-substring) |
@@ -665,6 +667,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1370-count-number-of-nice-subarrays) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/teche74/Daily_Practise/tree/master/1430-find-the-k-beauty-of-a-number) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/teche74/Daily_Practise/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
@@ -700,6 +703,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/teche74/Daily_Practise/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/teche74/Daily_Practise/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Breadth-First Search
