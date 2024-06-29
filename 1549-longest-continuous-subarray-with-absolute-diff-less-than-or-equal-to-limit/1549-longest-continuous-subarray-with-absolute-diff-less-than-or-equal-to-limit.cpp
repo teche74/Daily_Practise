@@ -23,6 +23,7 @@ public:
                 if (nums[low] == mini.front()) {
                     mini.pop_front();
                 }
+                
                 if (nums[low] == maxi.front()) {
                     maxi.pop_front();
                 }
