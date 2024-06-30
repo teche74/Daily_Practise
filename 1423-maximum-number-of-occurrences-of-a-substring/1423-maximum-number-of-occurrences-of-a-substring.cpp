@@ -21,7 +21,6 @@ public:
             int len  = high - low +1;
             if(len == maxSize){
                 string str = s.substr(low, len);
-                cout<<str<<" ";
                 counter[str]++;
                 res = max(res,counter[str]);
             }
