@@ -620,6 +620,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0095-unique-binary-search-trees-ii](https://github.com/teche74/Daily_Practise/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/teche74/Daily_Practise/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0098-validate-binary-search-tree) |
+| [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [1321-get-equal-substrings-within-budget](https://github.com/teche74/Daily_Practise/tree/master/1321-get-equal-substrings-within-budget) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/teche74/Daily_Practise/tree/master/2134-maximize-the-confusion-of-an-exam) |
 ## Binary Tree
@@ -640,6 +641,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1370-count-number-of-nice-subarrays) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/teche74/Daily_Practise/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
@@ -671,6 +673,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
 | [1321-get-equal-substrings-within-budget](https://github.com/teche74/Daily_Practise/tree/master/1321-get-equal-substrings-within-budget) |
 | [1370-count-number-of-nice-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1370-count-number-of-nice-subarrays) |
@@ -733,6 +736,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Ordered Set
 |  |
@@ -742,4 +746,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+## Two Pointers
+|  |
+| ------- |
+| [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
+## Sorting
+|  |
+| ------- |
+| [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 <!---LeetCode Topics End-->
