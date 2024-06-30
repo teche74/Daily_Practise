@@ -1,47 +1,39 @@
 class Solution {
 public:
-    int solve(const string & s , int len){
-        int low =0 , high = 0 , size = s.size();
-        unordered_map<char,int>map;
-        unordered_map<string,int>counter;
-        int freq=0 ;
-
-        while(high < size){
-            map[s[high]]++;
-
-
-            while(high - low + 1 > len || map.size() > 1){
-                map[s[low]]--;
-                if(map[s[low]] == 0) map.erase(s[low]);
-                low++;
-            }
-
-            if(high - low + 1 == len && map.size() == 1){
-                string t = s.substr(low, len);
-                counter[t]++;
-                freq = max(freq,counter[t]);
-            }
-            high++;
-        }
-
-        return freq >= 3  ? len : -1;
-    }
     int maximumLength(string s) {
-        int size =  s.size();
-        int uni = 0;
-        // unordered_map<char,int>map;
-
-        // for(char ch  :s){
-        //     map[ch]++;
-        // }
-
-        // if(map.size() == size) return -1;
-
+        int size = s.size();
         int res = -1;
-        for(int i = 1; i < size; i++){
-            res = max(res,solve(s,i));
-        }
+        
 
+        for (int len = 1; len <= size; ++len) {
+            int low = 0, high = 0;
+            unordered_map<char, int> map;
+            unordered_map<string, int> counter;
+            int maxFreq = 0;
+            
+            while (high < size) {
+                map[s[high]]++;
+                
+                while (map.size() > 1 || (high - low + 1) > len) {
+                    map[s[low]]--;
+                    if (map[s[low]] == 0) map.erase(s[low]);
+                    low++;
+                }
+                
+                if (high - low + 1 == len && map.size() == 1) {
+                    string t = s.substr(low,len);
+                    counter[t]++;
+                    maxFreq = max(maxFreq, counter[t]);
+                }
+                
+                high++;
+            }
+            
+            if (maxFreq >= 3) {
+                res = max(res,len);
+            }
+        }
+        
         return res;
     }
 };
