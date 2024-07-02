@@ -645,6 +645,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0098-validate-binary-search-tree) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/teche74/Daily_Practise/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2121-find-if-path-exists-in-graph](https://github.com/teche74/Daily_Practise/tree/master/2121-find-if-path-exists-in-graph) |
 ## Array
 |  |
 | ------- |
@@ -768,11 +769,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/teche74/Daily_Practise/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2121-find-if-path-exists-in-graph](https://github.com/teche74/Daily_Practise/tree/master/2121-find-if-path-exists-in-graph) |
 ## Graph
 |  |
 | ------- |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/teche74/Daily_Practise/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1916-find-center-of-star-graph](https://github.com/teche74/Daily_Practise/tree/master/1916-find-center-of-star-graph) |
+| [2121-find-if-path-exists-in-graph](https://github.com/teche74/Daily_Practise/tree/master/2121-find-if-path-exists-in-graph) |
 ## Topological Sort
 |  |
 | ------- |
@@ -810,4 +813,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/teche74/Daily_Practise/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/teche74/Daily_Practise/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
+## Union Find
+|  |
+| ------- |
+| [2121-find-if-path-exists-in-graph](https://github.com/teche74/Daily_Practise/tree/master/2121-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
