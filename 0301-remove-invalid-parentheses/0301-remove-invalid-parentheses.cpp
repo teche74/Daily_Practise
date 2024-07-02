@@ -1,3 +1,8 @@
+    auto _ = [](){
+        ios_base::sync_with_stdio(false);
+        cin.tie(nullptr);
+        cout.tie(nullptr);
+    };
 class Solution {
 public:
     void helper(string &s, int start, int last_remove, char open, char close, vector<string> &res) {
@@ -22,6 +27,7 @@ public:
     }
 
     vector<string> removeInvalidParentheses(string s) {
+        _;
         vector<string> res;
         helper(s, 0, 0, '(', ')', res);
         return res;
