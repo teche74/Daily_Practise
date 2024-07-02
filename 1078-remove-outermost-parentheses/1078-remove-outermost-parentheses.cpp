@@ -1,24 +1,26 @@
 class Solution {
 public:
     string removeOuterParentheses(string s) {
+        int size = s.size();
+        int balanced = 0, depth = 0;
         string res = "";
 
-        int size = s.size();
+        for(char ch : s){
+            if(ch == '('){
 
-        for(int i =0 ; i < size; i++){
-            if(s[i] == '('){
-                int j = i+1;
-                int count  =1;
-
-                while(j < size && count != 0){
-                    count += (s[j] == '(') ? 1 :-1;
-                    if(count) res.push_back(s[j]);
-                    j++; 
+                if(depth > 0){
+                    res.push_back(ch);
                 }
-                i = j-1;
+                depth++;
+            }
+            else{
+                depth--;
+
+                if(depth > 0 ){
+                    res.push_back(ch);
+                }
             }
         }
-
         return res;
     }
 };
