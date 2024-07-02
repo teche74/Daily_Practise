@@ -1,37 +1,40 @@
 class Solution {
 public:
-    int calci(int x, int y , char oper){
-        switch (oper){
-            case '+':
-                return x+y;
-            case '-':
-                return x-y;
-            case '*':
-                return x*y;
-        }
+    vector<int> diffWaysToCompute(string s) {
 
-        return 0;
-    }
-    vector<int> diffWaysToCompute(string exp) {
-        vector<int>res;
-        bool flag  =true;
+       function<int(int,int,char)> calc = [](int num1, int num2 , char oper){
+            if(oper == '+'){
+                return num1 + num2;
+            }
+            else if(oper == '-'){
+                return num1 - num2;
+            }
+            else if(oper == '*'){
+                return num1 * num2;
+            }
+            return 0;
+       };
 
-        for(int i =0;i < exp.length() ;i++){
-            if(!isdigit(exp[i])){
-                flag = false;
-                vector<int> l = diffWaysToCompute(exp.substr(0,i));
-                vector<int> r = diffWaysToCompute(exp.substr(i+1));
+       vector<int>res;
+       bool flag = true;
+       int size = s.size();
 
-                for(int x : l){
-                    for(int y : r){
-                        res.push_back(calci(x,y,exp[i]));
+       for(int i =0; i <size; i++){
+            if(!isdigit(s[i])){
+                flag  =false;
+                vector<int>left = diffWaysToCompute(s.substr(0,i));
+                vector<int>right = diffWaysToCompute(s.substr(i+1));
+
+                for(int c : left){
+                    for(int t : right){
+                        res.emplace_back(calc(c,t,s[i]));
                     }
                 }
             }
-        } 
+        }
 
-        if(flag) res.push_back(stoi(exp));
-
+        if(flag) res.push_back(stoi(s));
+        
         return res;
     }
 };
