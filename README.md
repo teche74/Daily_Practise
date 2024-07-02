@@ -608,6 +608,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0032-longest-valid-parentheses) |
 | [0095-unique-binary-search-trees-ii](https://github.com/teche74/Daily_Practise/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/teche74/Daily_Practise/tree/master/0096-unique-binary-search-trees) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
@@ -737,6 +738,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0032-longest-valid-parentheses) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0886-score-of-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0886-score-of-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1078-remove-outermost-parentheses) |
@@ -837,6 +839,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0032-longest-valid-parentheses) |
 | [0886-score-of-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0886-score-of-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1078-remove-outermost-parentheses) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
