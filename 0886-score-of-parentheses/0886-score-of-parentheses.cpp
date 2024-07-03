@@ -1,20 +1,20 @@
 class Solution {
 public:
     int scoreOfParentheses(string s) {
-        int size = s.size();
+        int size  = s.size();
 
-        int paran = 0 , res = 0;
+        int open  = 0 , res = 0;
 
-        for(int i =1; i < size ; i++){
+        for(int i = 1; i < size ; i++){
             if(s[i] == '('){
-                paran++;
+                open++;
             }
             else if(s[i-1] == '('){
-                res += 1 << paran;
-                paran--;
+                res += 1 << open;
+                open--;
             }
             else{
-                paran--;
+                open--;
             }
         }
         return res;
