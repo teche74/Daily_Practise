@@ -700,6 +700,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1777-determine-if-two-strings-are-close](https://github.com/teche74/Daily_Practise/tree/master/1777-determine-if-two-strings-are-close) |
 | [1813-maximum-erasure-value](https://github.com/teche74/Daily_Practise/tree/master/1813-maximum-erasure-value) |
 | [1873-longest-nice-substring](https://github.com/teche74/Daily_Practise/tree/master/1873-longest-nice-substring) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/teche74/Daily_Practise/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/teche74/Daily_Practise/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
 | [2832-find-the-longest-equal-subarray](https://github.com/teche74/Daily_Practise/tree/master/2832-find-the-longest-equal-subarray) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/teche74/Daily_Practise/tree/master/3193-maximum-strong-pair-xor-i) |
@@ -772,6 +773,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1777-determine-if-two-strings-are-close](https://github.com/teche74/Daily_Practise/tree/master/1777-determine-if-two-strings-are-close) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/teche74/Daily_Practise/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1873-longest-nice-substring](https://github.com/teche74/Daily_Practise/tree/master/1873-longest-nice-substring) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/teche74/Daily_Practise/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/teche74/Daily_Practise/tree/master/1967-longest-substring-of-all-vowels-in-order) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/teche74/Daily_Practise/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
 | [2010-check-if-word-equals-summation-of-two-words](https://github.com/teche74/Daily_Practise/tree/master/2010-check-if-word-equals-summation-of-two-words) |
@@ -786,6 +788,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1034-subarrays-with-k-different-integers](https://github.com/teche74/Daily_Practise/tree/master/1034-subarrays-with-k-different-integers) |
 | [1472-increasing-decreasing-string](https://github.com/teche74/Daily_Practise/tree/master/1472-increasing-decreasing-string) |
 | [1777-determine-if-two-strings-are-close](https://github.com/teche74/Daily_Practise/tree/master/1777-determine-if-two-strings-are-close) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/teche74/Daily_Practise/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/teche74/Daily_Practise/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/teche74/Daily_Practise/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Divide and Conquer
