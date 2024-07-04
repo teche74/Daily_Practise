@@ -602,6 +602,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/teche74/Daily_Practise/tree/master/0096-unique-binary-search-trees) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
+| [0292-nim-game](https://github.com/teche74/Daily_Practise/tree/master/0292-nim-game) |
 | [1370-count-number-of-nice-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1370-count-number-of-nice-subarrays) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/teche74/Daily_Practise/tree/master/1430-find-the-k-beauty-of-a-number) |
 ## Dynamic Programming
@@ -910,4 +911,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2299-merge-nodes-in-between-zeros](https://github.com/teche74/Daily_Practise/tree/master/2299-merge-nodes-in-between-zeros) |
+## Brainteaser
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/teche74/Daily_Practise/tree/master/0292-nim-game) |
+## Game Theory
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/teche74/Daily_Practise/tree/master/0292-nim-game) |
 <!---LeetCode Topics End-->
