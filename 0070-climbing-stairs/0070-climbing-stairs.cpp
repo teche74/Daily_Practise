@@ -31,18 +31,37 @@
 
 // using tabulation
 
+// class Solution {
+// public:
+//     int climbStairs(int n) {
+//         int dp[n+1];
+//         memset(dp, 0 ,sizeof(dp));
+
+//         dp[0] = 1;
+//         dp[1] = 1;
+
+//         for(int i =2;i <= n; i++){
+//             dp[i] = dp[i-1] + dp[i-2];
+//         } 
+//         return dp[n];
+//     }
+// };
+
+
+// tabulation -> improved  = spoce optimization
+
 class Solution {
 public:
     int climbStairs(int n) {
-        int dp[n+1];
-        memset(dp, 0 ,sizeof(dp));
+        int prev = 1, curr =1;
 
-        dp[0] = 1;
-        dp[1] = 1;
-
-        for(int i =2;i <= n; i++){
-            dp[i] = dp[i-1] + dp[i-2];
+        for(int i=2;i<=n;i++){
+            int val = prev+curr;
+            prev =curr;
+            curr = val;
         } 
-        return dp[n];
+
+        return curr;
+
     }
 };
