@@ -19,7 +19,7 @@ public:
     int maxProfit(vector<int>& prices) {
         int size = prices.size();
         int opers = size;
-        while (opers % 2 != 0) opers--;
+        while (opers & 1) opers--;
 
         vector<vector<int>> dp(size, vector<int>(opers + 1, -1));
         return solve(0, prices, opers, dp);
