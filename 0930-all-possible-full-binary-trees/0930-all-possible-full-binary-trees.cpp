@@ -11,6 +11,7 @@
  */
 class Solution {
 public:
+    unordered_map<int,vector<TreeNode* >>dp;
     vector<TreeNode*> allPossibleFBT(int n) {
         vector<TreeNode *>res;
 
@@ -19,6 +20,8 @@ public:
         if(n == 1){
             return {new TreeNode(0)};
         }
+
+        if(dp.count(n)) return dp[n];
 
         for(int i = 1; i < n ;i+=2){
             vector<TreeNode *> left = allPossibleFBT(i);
@@ -33,6 +36,6 @@ public:
                 }
             }
         }
-        return res;
+        return dp[n] = res;
     }
 };
