@@ -688,6 +688,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/teche74/Daily_Practise/tree/master/0004-median-of-two-sorted-arrays) |
 | [0037-sudoku-solver](https://github.com/teche74/Daily_Practise/tree/master/0037-sudoku-solver) |
+| [0041-first-missing-positive](https://github.com/teche74/Daily_Practise/tree/master/0041-first-missing-positive) |
 | [0045-jump-game-ii](https://github.com/teche74/Daily_Practise/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/teche74/Daily_Practise/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/teche74/Daily_Practise/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -723,6 +724,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/teche74/Daily_Practise/tree/master/0037-sudoku-solver) |
+| [0041-first-missing-positive](https://github.com/teche74/Daily_Practise/tree/master/0041-first-missing-positive) |
 | [0146-lru-cache](https://github.com/teche74/Daily_Practise/tree/master/0146-lru-cache) |
 | [0205-isomorphic-strings](https://github.com/teche74/Daily_Practise/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/teche74/Daily_Practise/tree/master/0242-valid-anagram) |
