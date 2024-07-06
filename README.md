@@ -844,6 +844,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/teche74/Daily_Practise/tree/master/0004-median-of-two-sorted-arrays) |
+| [0023-merge-k-sorted-lists](https://github.com/teche74/Daily_Practise/tree/master/0023-merge-k-sorted-lists) |
 | [1873-longest-nice-substring](https://github.com/teche74/Daily_Practise/tree/master/1873-longest-nice-substring) |
 ## Queue
 |  |
@@ -886,6 +887,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/teche74/Daily_Practise/tree/master/0023-merge-k-sorted-lists) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -965,6 +967,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/teche74/Daily_Practise/tree/master/0023-merge-k-sorted-lists) |
 | [0146-lru-cache](https://github.com/teche74/Daily_Practise/tree/master/0146-lru-cache) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/teche74/Daily_Practise/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/teche74/Daily_Practise/tree/master/2299-merge-nodes-in-between-zeros) |
@@ -1014,4 +1017,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/teche74/Daily_Practise/tree/master/0146-lru-cache) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/teche74/Daily_Practise/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
