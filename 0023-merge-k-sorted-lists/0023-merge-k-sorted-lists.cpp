@@ -10,44 +10,38 @@
  */
 class Solution {
 public:
-    
-    ListNode * merge(ListNode * l1 , ListNode * l2)
-    {
-        ListNode * res = new ListNode(-1);
-        ListNode * tail = res;
+    ListNode * merge(ListNode * l1 , ListNode * l2){
+        ListNode * temp  =new ListNode(-1);
+        ListNode *tail = temp;
 
         while(l1 && l2){
             if(l1->val <= l2->val){
                 tail->next = l1;
-                l1=l1->next;
+                l1 = l1->next;
             }
             else{
-                tail ->next = l2;
+                tail-> next = l2;
                 l2=l2->next;
             }
-            tail=tail->next;
+            tail = tail->next;
         }
-
         tail->next = l1 ? l1 : l2;
 
-        return res->next;
+        return temp->next;
     }
+    ListNode * util(vector<ListNode *> list, int low, int high){
+        if(low > high) return nullptr;
+        if(low == high) return list[low];
+        int mid =   low + (high -low)/2;
 
-    ListNode * mergeutil(vector<ListNode*>& lists, int low, int high){
-        if(low >= high) return lists[low];
+        ListNode * left = util(list, low, mid);
+        ListNode  * right  = util(list,mid+1, high);
 
-        if(low +1 == high) return merge(lists[low], lists[high]);
+        return merge(left, right);
 
-        int mid = low + ( high - low)/2;
-
-        ListNode *  left = mergeutil(lists,  low ,  mid);
-        ListNode * right = mergeutil(lists, mid + 1 , high);
-
-        return merge(left , right);
     }
-
     ListNode* mergeKLists(vector<ListNode*>& lists) {
         if(lists.empty()) return nullptr;
-        return mergeutil(lists,  0 ,  lists.size() -1);
+        return util(lists, 0 , lists.size()-1);   
     }
 };
