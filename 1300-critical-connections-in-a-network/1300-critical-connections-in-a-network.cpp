@@ -1,41 +1,44 @@
 class Solution {
 public:
-    int timer = 1;
-    vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
-        vector<int>adj[n];
 
-        for(auto it :  connections){
-            adj[it[0]].push_back(it[1]);
-            adj[it[1]].push_back(it[0]);
+    vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
+        unordered_map<int, vector<int>> adj;
+
+        for (auto con : connections) {
+            adj[con[0]].emplace_back(con[1]);
+            adj[con[1]].emplace_back(con[0]);
         }
 
-        vector<vector<int>>res;
-        vector<int>low(n,0), time(n,0);
+        int time = 1;
 
-        vector<int>vis(n,false);
+        vector<bool> vis(n, false);
+        vector<int> time_when_node_first_visited(n, 0);
+        vector<int> min_time_to_visit_node(n, 0);
+        vector<vector<int>> res;
 
-        function<void(int,int)> solve = [&](int node, int parent){
+        function<void(int, int)> dfs = [&](int node, int parent) {
             vis[node] = true;
-            low[node] = time[node] = timer++;
+            time_when_node_first_visited[node] = min_time_to_visit_node[node] = time++;
 
-            for(auto it : adj[node]){
-                if(it == parent)continue;
+            for (auto t : adj[node]) {
+                if (t == parent) continue;
 
-                if(!vis[it]){
-                    solve(it, node);
-                    low[node] = min(low[node],low[it]);
+                if (!vis[t]) {
+                    dfs(t, node);
 
-                    if(low[it]  > time[node]){
-                        res.push_back({node, it});
+                    min_time_to_visit_node[node] = min(min_time_to_visit_node[node], min_time_to_visit_node[t]);
+
+                    if (min_time_to_visit_node[t] > time_when_node_first_visited[node]) {
+                        res.push_back({t, node});
                     }
-                }
-                else{
-                    low[node] = min(low[node],time[it]);
+                } else {
+                    min_time_to_visit_node[node] = min(min_time_to_visit_node[node], time_when_node_first_visited[t]);
                 }
             }
         };
 
-        solve(0,-1);
+        dfs(0, -1);
+
         return res;
     }
 };
