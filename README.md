@@ -669,6 +669,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0022-generate-parentheses) |
+| [0037-sudoku-solver](https://github.com/teche74/Daily_Practise/tree/master/0037-sudoku-solver) |
 | [0095-unique-binary-search-trees-ii](https://github.com/teche74/Daily_Practise/tree/master/0095-unique-binary-search-trees-ii) |
 | [0301-remove-invalid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0301-remove-invalid-parentheses) |
 | [0306-additive-number](https://github.com/teche74/Daily_Practise/tree/master/0306-additive-number) |
@@ -686,6 +687,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/teche74/Daily_Practise/tree/master/0004-median-of-two-sorted-arrays) |
+| [0037-sudoku-solver](https://github.com/teche74/Daily_Practise/tree/master/0037-sudoku-solver) |
 | [0045-jump-game-ii](https://github.com/teche74/Daily_Practise/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/teche74/Daily_Practise/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/teche74/Daily_Practise/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -720,6 +722,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/teche74/Daily_Practise/tree/master/0037-sudoku-solver) |
 | [0146-lru-cache](https://github.com/teche74/Daily_Practise/tree/master/0146-lru-cache) |
 | [0205-isomorphic-strings](https://github.com/teche74/Daily_Practise/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/teche74/Daily_Practise/tree/master/0242-valid-anagram) |
@@ -1023,4 +1026,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/teche74/Daily_Practise/tree/master/0023-merge-k-sorted-lists) |
+## Matrix
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/teche74/Daily_Practise/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
