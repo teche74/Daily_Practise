@@ -600,6 +600,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/teche74/Daily_Practise/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/teche74/Daily_Practise/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/teche74/Daily_Practise/tree/master/0096-unique-binary-search-trees) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
@@ -618,6 +619,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0044-wildcard-matching](https://github.com/teche74/Daily_Practise/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/teche74/Daily_Practise/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/teche74/Daily_Practise/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/teche74/Daily_Practise/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/teche74/Daily_Practise/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/teche74/Daily_Practise/tree/master/0091-decode-ways) |
 | [0095-unique-binary-search-trees-ii](https://github.com/teche74/Daily_Practise/tree/master/0095-unique-binary-search-trees-ii) |
@@ -972,5 +974,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Combinatorics
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/teche74/Daily_Practise/tree/master/0062-unique-paths) |
 | [1761-count-sorted-vowel-strings](https://github.com/teche74/Daily_Practise/tree/master/1761-count-sorted-vowel-strings) |
 <!---LeetCode Topics End-->
