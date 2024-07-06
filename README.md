@@ -611,6 +611,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/teche74/Daily_Practise/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0032-longest-valid-parentheses) |
 | [0070-climbing-stairs](https://github.com/teche74/Daily_Practise/tree/master/0070-climbing-stairs) |
@@ -775,6 +776,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/teche74/Daily_Practise/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0032-longest-valid-parentheses) |
@@ -882,6 +884,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/teche74/Daily_Practise/tree/master/0005-longest-palindromic-substring) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 ## Sorting
