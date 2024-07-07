@@ -1,21 +1,23 @@
 class Solution {
 public:
     bool isMatch(string s, string p) {
-        int sind = 0 , pind = 0 , pstar = -1, sstar =-1 ;
-        
-        while(sind < s.size()){
-            if(pind < p.size() && (s[sind] == p[pind] || p[pind] == '?')){
+        int m = s.size() ,  n = p.size();
+
+        int sind = 0 , pind = 0 , sstar = -1,pstar = -1;
+
+        while(sind < m){
+            if(pind < n && s[sind] == p[pind] || p[pind] == '?'){
                 sind++;
                 pind++;
             }
-            else if(pind < p.size( ) && p[pind] == '*'){
-                pstar =  pind;
-                sstar = sind;
+            else if(pind<n && p[pind] == '*'){
+                sstar  = sind;
+                pstar = pind;
                 pind++;
             }
             else if(pstar != -1){
-                pind = pstar+1;
                 sind = sstar+1;
+                pind = pstar+1;
                 sstar++;
             }
             else{
