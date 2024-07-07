@@ -937,6 +937,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/teche74/Daily_Practise/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/teche74/Daily_Practise/tree/master/0042-trapping-rain-water) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0528-swapping-nodes-in-a-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 ## Sorting
 |  |
@@ -1005,6 +1006,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/teche74/Daily_Practise/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/teche74/Daily_Practise/tree/master/0025-reverse-nodes-in-k-group) |
 | [0146-lru-cache](https://github.com/teche74/Daily_Practise/tree/master/0146-lru-cache) |
+| [0528-swapping-nodes-in-a-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [1582-design-browser-history](https://github.com/teche74/Daily_Practise/tree/master/1582-design-browser-history) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/teche74/Daily_Practise/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/teche74/Daily_Practise/tree/master/2299-merge-nodes-in-between-zeros) |
