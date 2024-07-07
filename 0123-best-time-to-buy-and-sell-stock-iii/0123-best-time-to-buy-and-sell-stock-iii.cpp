@@ -1,33 +1,27 @@
 class Solution {
 public:
-    int solve(int index, vector<int> & arr, int moves, vector<vector<int>> & dp){
-        if(index == arr.size()){
+    unordered_map<int,unordered_map<int,int>>dp;
+    int solve(int index, vector<int>&prices, int action){
+        if(index >= prices.size() || action == 0)
+        {
             return 0;
         }
 
+        if(dp[index].count(action)) return dp[index][action];
 
-        if(!moves) {
-            return 0;
-        }
+        int take =  0, not_take = 0;
 
-        if(dp[index][moves] != -1) return dp[index][moves];
-
-        int take,nottake;
-        if( !(moves &1 ) ){
-            take = -arr[index] + solve(index+1,arr,moves-1,dp); // khreda 
+        if(!(action & 1)){
+            take = -prices[index] + solve(index+1,prices, action-1);
         }
         else{
-            take = arr[index] + solve(index+1,arr,moves-1,dp); // becha
+            take =  prices[index] + solve(index+1,prices,action-1);
         }
+        not_take = solve(index+1,prices, action);
 
-        nottake=  solve(index+1,arr,moves,dp);
-
-        return dp[index][moves] = max(take,nottake);
-
+        return dp[index][action] = max(take, not_take);
     }
     int maxProfit(vector<int>& prices) {
-        int size = prices.size();
-        vector<vector<int>>dp(size, vector<int>(5, -1));
-        return solve(0 , prices, 4, dp);
+        return solve(0,prices,4);
     }
 };
