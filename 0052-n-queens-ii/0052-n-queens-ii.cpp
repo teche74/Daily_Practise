@@ -1,41 +1,41 @@
 class Solution {
-public:
-    bool valid(vector<string>temp , int row, int col, int size){
-        for (int i = 0; i < row; i++) {
+    bool check(vector<string>temp,int row, int col){
+        for (int i = 0; i < row; ++i) {
             if (temp[i][col] == 'Q') return false;
         }
 
-        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
+        for (int i = row, j = col; i >= 0 && j >= 0; --i, --j) {
             if (temp[i][j] == 'Q') return false;
         }
 
-        for (int i = row - 1, j = col + 1; i >= 0 && j < size; i--, j++) {
+
+        for (int i = row, j = col; i >= 0 && j < temp.size(); --i, ++j) {
             if (temp[i][j] == 'Q') return false;
         }
 
         return true;
     }
-
-    void solve(int row, int len,  int &count, vector<string>temp){
-        if(row == len){
-            count++;
+    void solve(int row, int size, vector<string>temp, int & res){
+        if(row == size){
+            res ++;
             return;
         }
 
-        for(int col = 0 ; col < len ; col++){
-            if(valid(temp,row,col,len)){
+        for(int col = 0; col < size; col++){
+            if(check(temp,row,col)){
                 temp[row][col] = 'Q';
-                solve(row+1,len,count,temp);
+                solve(row+1,size,temp,res);
                 temp[row][col] = '.';
             }
         }
     }
+public:
     int totalNQueens(int n) {
-        vector<string>temp(n,string(n,'.'));
-        int count  = 0;
+        int res = 0;
+        vector<string>temp(n, string(n,'.'));
 
-        solve(0,n,count,temp);
+        solve(0,n,temp,res);
 
-        return count;
+        return res;
     }
 };
