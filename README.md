@@ -698,6 +698,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/teche74/Daily_Practise/tree/master/0045-jump-game-ii) |
 | [0051-n-queens](https://github.com/teche74/Daily_Practise/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/teche74/Daily_Practise/tree/master/0055-jump-game) |
+| [0084-largest-rectangle-in-histogram](https://github.com/teche74/Daily_Practise/tree/master/0084-largest-rectangle-in-histogram) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/teche74/Daily_Practise/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0164-maximum-gap](https://github.com/teche74/Daily_Practise/tree/master/0164-maximum-gap) |
 | [0198-house-robber](https://github.com/teche74/Daily_Practise/tree/master/0198-house-robber) |
@@ -960,6 +961,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0020-valid-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/teche74/Daily_Practise/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/teche74/Daily_Practise/tree/master/0084-largest-rectangle-in-histogram) |
 | [0886-score-of-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0886-score-of-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1078-remove-outermost-parentheses) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -1051,4 +1053,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/teche74/Daily_Practise/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/teche74/Daily_Practise/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
