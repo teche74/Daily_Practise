@@ -732,6 +732,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0037-sudoku-solver](https://github.com/teche74/Daily_Practise/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/teche74/Daily_Practise/tree/master/0041-first-missing-positive) |
+| [0076-minimum-window-substring](https://github.com/teche74/Daily_Practise/tree/master/0076-minimum-window-substring) |
 | [0146-lru-cache](https://github.com/teche74/Daily_Practise/tree/master/0146-lru-cache) |
 | [0205-isomorphic-strings](https://github.com/teche74/Daily_Practise/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/teche74/Daily_Practise/tree/master/0242-valid-anagram) |
@@ -770,6 +771,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/teche74/Daily_Practise/tree/master/0076-minimum-window-substring) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
 | [1020-longest-turbulent-subarray](https://github.com/teche74/Daily_Practise/tree/master/1020-longest-turbulent-subarray) |
@@ -809,6 +811,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0032-longest-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/teche74/Daily_Practise/tree/master/0044-wildcard-matching) |
+| [0076-minimum-window-substring](https://github.com/teche74/Daily_Practise/tree/master/0076-minimum-window-substring) |
 | [0091-decode-ways](https://github.com/teche74/Daily_Practise/tree/master/0091-decode-ways) |
 | [0205-isomorphic-strings](https://github.com/teche74/Daily_Practise/tree/master/0205-isomorphic-strings) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
