@@ -1,43 +1,34 @@
 class Solution {
 public:
+    int Check(vector<int> & arr, int weight){
+        int days =1;
+        int sum  =0;
 
-    int Check(vector<int>&arr, int wt){
-        int wht =  0, days = 1;
-
-        for(int x : arr){
-            if(wht + x <= wt){
-                wht +=x;
+        for(int i = 0 ;i  <arr.size() ; i++){
+            if(sum + arr[i] > weight){
+                sum = arr[i];
+                days++;
             }
             else{
-                days++;
-                wht = x;
+                sum+=arr[i];
             }
         }
         return days;
     }
-    
-    int shipWithinDays(vector<int>& arr, int days) {
-        long long low  = *max_element(arr.begin(),arr.end());
+    int shipWithinDays(vector<int>& arr, int d) {
+        int low =  * max_element(arr.begin(), arr.end());
+        int high = accumulate(arr.begin(), arr.end() , 0 );
 
-        long long high = accumulate(arr.begin(),arr.end(),0);
-        int ans =-1;
+        while(low <= high){
+            int mid = low + (high - low) /2;
 
-
-        while( low <= high ){
-            long long mid  = low + (high - low)/2;
-
-            if(Check(arr, mid) <=days){
-                ans = mid;
-                high = mid-1;
-            }
-            else{
+            if(Check(arr, mid) > d){
                 low = mid+1;
             }
+            else{
+                high = mid-1;
+            }
         }
-
-        return ans;
-
-
-
+        return low;
     }
 };
