@@ -1,33 +1,32 @@
 class Solution {
 public:
-    int Check(vector<int>&arr, int val){
-        int t = arr[0];
-        int count = 1;
-        for(int i =1;i < arr.size() ;i++){
-            if(arr[i] - t >= val){
-                t = arr[i];
+    int check(vector<int>pos , int dist){
+        int count = 1 ;
+
+        int prev = pos[0];
+
+        for(int i =1; i <pos.size() ; i++){
+            if( pos[i] - prev >= dist){
+                prev =pos[i];
                 count++;
             }
         }
         return count;
     }
+    int maxDistance(vector<int>& pos, int m) {
+        sort(pos.begin(), pos.end());
 
-    int maxDistance(vector<int>& position, int m) {
-        int size = position.size();
-        sort(position.begin(),position.end());
-
-        int low = 0 ,  high = position[size-1] - position[0];
+        int low = 0 ,  high =  pos[pos.size()-1] - pos[0] ;
 
         while(low <= high){
             int mid = low + (high - low)/2;
-
-            if(Check(position,mid) >= m){
+            if(check(pos, mid) >= m){
                 low = mid+1;
             }
             else{
                 high = mid-1;
             }
-        }
+        } 
         return high;
     }
 };
