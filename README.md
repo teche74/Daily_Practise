@@ -662,6 +662,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0098-validate-binary-search-tree) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/teche74/Daily_Practise/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/teche74/Daily_Practise/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1321-get-equal-substrings-within-budget](https://github.com/teche74/Daily_Practise/tree/master/1321-get-equal-substrings-within-budget) |
 | [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/teche74/Daily_Practise/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
@@ -722,6 +723,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [0747-min-cost-climbing-stairs](https://github.com/teche74/Daily_Practise/tree/master/0747-min-cost-climbing-stairs) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/teche74/Daily_Practise/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
 | [1020-longest-turbulent-subarray](https://github.com/teche74/Daily_Practise/tree/master/1020-longest-turbulent-subarray) |
 | [1034-subarrays-with-k-different-integers](https://github.com/teche74/Daily_Practise/tree/master/1034-subarrays-with-k-different-integers) |
