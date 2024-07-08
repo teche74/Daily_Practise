@@ -26,20 +26,16 @@ public:
     }
 
     int maximumGroups(vector<int>& grades) {
-        long long low = 1, high = grades.size();
+        ios_base::sync_with_stdio(false);
+        cin.tie(nullptr);
+        long long low = 1, high = grades.size() < 3 ? grades.size() : grades.size()/2;
 
         sort(grades.rbegin(), grades.rend());
-
-        for(auto t : grades){
-            cout<<t<<" ";
-        }
-        cout<<endl;
 
         while (low <= high) {
             int mid = low + (high - low) / 2;
 
             if (Check(grades, mid)) {
-                // res = mid;  
                 low = mid + 1;
             } else {
                 high = mid - 1;
