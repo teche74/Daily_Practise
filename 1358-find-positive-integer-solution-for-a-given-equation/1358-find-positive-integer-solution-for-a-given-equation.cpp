@@ -15,16 +15,16 @@ public:
     vector<vector<int>> findSolution(CustomFunction& customfunction, int z) {
         vector<vector<int>>res;
 
-        for(int i = 1 ; i<=1000 ;i++){
+        for(int x = 1 ; x <= 1000; x++){
             int low = 1 , high = 1000;
 
-            while(low<=high){
-                int mid = low + (high - low)/2;
+            while(low <= high){
+                int mid = low +  (high - low)/2;
 
-                int val = customfunction.f(i, mid);
+                int val = customfunction.f(x, mid);
 
                 if(val == z){
-                    res.push_back({i,mid});
+                    res.push_back({x,mid});
                     break;
                 }
                 else if(val > z){
