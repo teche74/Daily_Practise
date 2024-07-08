@@ -661,6 +661,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0098-validate-binary-search-tree) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/teche74/Daily_Practise/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1321-get-equal-substrings-within-budget](https://github.com/teche74/Daily_Practise/tree/master/1321-get-equal-substrings-within-budget) |
 | [1675-magnetic-force-between-two-balls](https://github.com/teche74/Daily_Practise/tree/master/1675-magnetic-force-between-two-balls) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/teche74/Daily_Practise/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
@@ -723,6 +724,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1020-longest-turbulent-subarray](https://github.com/teche74/Daily_Practise/tree/master/1020-longest-turbulent-subarray) |
 | [1034-subarrays-with-k-different-integers](https://github.com/teche74/Daily_Practise/tree/master/1034-subarrays-with-k-different-integers) |
 | [1039-find-the-town-judge](https://github.com/teche74/Daily_Practise/tree/master/1039-find-the-town-judge) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/teche74/Daily_Practise/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1293-three-consecutive-odds](https://github.com/teche74/Daily_Practise/tree/master/1293-three-consecutive-odds) |
 | [1370-count-number-of-nice-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1370-count-number-of-nice-subarrays) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/teche74/Daily_Practise/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
