@@ -1,73 +1,67 @@
-struct Node{
-    Node * links[26];
+struct node{
+    node * links[26];
     bool end = false;
 
-    void CreateRef(char ch , Node * node){
-        links[ch - 'a']= node;
+    void CreateRef(char ch, node * n){
+        links[ch - 'a'] = n;
+    }
+
+    node * GetRef(char ch){
+        return links[ch - 'a'];
     }
 
     bool CheckRef(char ch){
         return links[ch - 'a'] != nullptr;
     }
 
-    Node * GetRef(char ch){
-        return links[ch - 'a'];
-    }
-
-    bool IsEnd(){
-        return end == true;
-    }
-
     void SetEnd(bool val){
         end = val;
     }
+
+    bool IsEnd(){
+        return end;
+    }
+    
 };
 
 class Solution {
 public:
-    unordered_map<int, bool> map;
-    Node * root = new Node();
-
-    void Init(vector<string> & strs){
-        for(const string & str : strs){
-            Node * temp = root;
-
-            for(char ch : str){
-                if(!temp->CheckRef(ch)){
-                    temp->CreateRef(ch , new Node());
-                }
-                temp = temp->GetRef(ch);
-            }
-            temp->SetEnd(true);
-        }
-    }
-
-    bool solve(int index, const string & str , Node * node){
-        if(index == str.size()) return true;
-
-        if(map.count(index)) return map[index];
-
-        for(int i = index; i < str.size() ; i++){
-            if(!node->CheckRef(str[i])) {
-                map[index] = false;
-                return false;
-            }
-            node=node->GetRef(str[i]);
-
-            if(node->IsEnd() && solve(i+1,str,root)){
-                map[index] = true;
-                return true;
-            }
-        }
-
-        map[index] = false;
-        return map[index];
-    }
-
+    node * root = new node();
+    unordered_map<int,bool> dp;
     bool wordBreak(string s, vector<string>& wordDict) {
-        Init(wordDict);
+        auto Init = [&](){
+            for(const string str : wordDict){
+                node * temp = root;
+                for(char ch : str){
+                    if(!temp->CheckRef(ch)){
+                        temp->CreateRef(ch , new node());
+                    }
+                    temp = temp->GetRef(ch);
+                }
+                temp->SetEnd(true);
+            }
+        };
+        
+        Init();
 
-        Node * temp = root;
-        return solve(0,s,temp);
+
+        function<bool(int , node *)> solve = [&](int index, node  *temp){
+            if(index >= s.size()) return true;
+
+            if(dp.count(index)) return dp[index];
+
+            for(int i = index ; i < s.size(); i++){
+                if(!temp->CheckRef(s[i])) break;
+                temp = temp->GetRef(s[i]);
+                if(temp->IsEnd() && solve(i+1,root) == true){
+                    return dp[index] = true;
+                }
+            }
+            return dp[index] = false;
+        };
+
+        node * temp = root;
+        return solve(0,temp);
     }
+
 };
