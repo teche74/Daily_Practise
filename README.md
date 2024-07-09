@@ -709,6 +709,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/teche74/Daily_Practise/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/teche74/Daily_Practise/tree/master/0004-median-of-two-sorted-arrays) |
+| [0015-3sum](https://github.com/teche74/Daily_Practise/tree/master/0015-3sum) |
 | [0037-sudoku-solver](https://github.com/teche74/Daily_Practise/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/teche74/Daily_Practise/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/teche74/Daily_Practise/tree/master/0042-trapping-rain-water) |
@@ -955,6 +956,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/teche74/Daily_Practise/tree/master/0005-longest-palindromic-substring) |
+| [0015-3sum](https://github.com/teche74/Daily_Practise/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/teche74/Daily_Practise/tree/master/0042-trapping-rain-water) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0528-swapping-nodes-in-a-linked-list) |
@@ -965,6 +967,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/teche74/Daily_Practise/tree/master/0015-3sum) |
 | [0164-maximum-gap](https://github.com/teche74/Daily_Practise/tree/master/0164-maximum-gap) |
 | [0242-valid-anagram](https://github.com/teche74/Daily_Practise/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/teche74/Daily_Practise/tree/master/0274-h-index) |
