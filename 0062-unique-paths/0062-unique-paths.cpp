@@ -1,18 +1,19 @@
 class Solution {
 public:
-    int dp[101][101];
-    int solve(int sx, int sy, int ex, int ey){
-        if(sx == ex-1  && sy == ey-1) return 1;
-
-        if(dp[sx][sy] != -1) return dp[sx][sy];
-
-        if(sx < 0  ||  sx >= ex || sy < 0 || sy >= ey) return 0;
-
-        return dp[sx][sy] = solve(sx+1,sy,ex,ey) + solve(sx , sy+1,ex,ey);
-
-    }
     int uniquePaths(int m, int n) {
-        memset(dp,-1,sizeof(dp));
-        return solve(0,0,m,n);
+        int dp[m][n];
+
+        for(int i =0 ;i <  m; i++){
+            for(int j = 0 ; j < n ;j++){
+                if(i== 0 || j == 0){
+                    dp[i][j] = 1;
+                }
+                else{
+                    dp[i][j]  = dp[i-1][j] + dp[i][j-1];
+                }
+            }
+        }
+
+        return dp[m-1][n-1];
     }
 };
