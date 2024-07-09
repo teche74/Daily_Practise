@@ -743,6 +743,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1755-defuse-the-bomb](https://github.com/teche74/Daily_Practise/tree/master/1755-defuse-the-bomb) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/teche74/Daily_Practise/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/teche74/Daily_Practise/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
+| [1803-average-waiting-time](https://github.com/teche74/Daily_Practise/tree/master/1803-average-waiting-time) |
 | [1813-maximum-erasure-value](https://github.com/teche74/Daily_Practise/tree/master/1813-maximum-erasure-value) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/teche74/Daily_Practise/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/teche74/Daily_Practise/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -1040,6 +1041,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1642-water-bottles](https://github.com/teche74/Daily_Practise/tree/master/1642-water-bottles) |
+| [1803-average-waiting-time](https://github.com/teche74/Daily_Practise/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/teche74/Daily_Practise/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/teche74/Daily_Practise/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/teche74/Daily_Practise/tree/master/2645-pass-the-pillow) |
