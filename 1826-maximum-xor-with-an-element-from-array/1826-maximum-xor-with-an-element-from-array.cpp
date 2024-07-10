@@ -30,7 +30,7 @@ public:
             }
         };
 
-        auto Query = [&](int num, int limit) {
+        auto Query = [&](int num) {
             node *temp = root;
             int max_xr = 0;
             for (int i = 31; i >= 0; i--) {
@@ -65,7 +65,7 @@ public:
                 idx++;
             }
             if (idx > 0) {
-                result[qid] = Query(xi, mi);
+                result[qid] = Query(xi);
             }
         }
         return result;
