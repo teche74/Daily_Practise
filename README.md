@@ -901,6 +901,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1078-remove-outermost-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1078-remove-outermost-parentheses) |
 | [1250-longest-common-subsequence](https://github.com/teche74/Daily_Practise/tree/master/1250-longest-common-subsequence) |
 | [1261-swap-for-longest-repeated-character-substring](https://github.com/teche74/Daily_Practise/tree/master/1261-swap-for-longest-repeated-character-substring) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1321-get-equal-substrings-within-budget](https://github.com/teche74/Daily_Practise/tree/master/1321-get-equal-substrings-within-budget) |
 | [1351-replace-the-substring-for-balanced-string](https://github.com/teche74/Daily_Practise/tree/master/1351-replace-the-substring-for-balanced-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -1067,6 +1068,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0085-maximal-rectangle](https://github.com/teche74/Daily_Practise/tree/master/0085-maximal-rectangle) |
 | [0886-score-of-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0886-score-of-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1078-remove-outermost-parentheses) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1582-design-browser-history](https://github.com/teche74/Daily_Practise/tree/master/1582-design-browser-history) |
 | [1720-crawler-log-folder](https://github.com/teche74/Daily_Practise/tree/master/1720-crawler-log-folder) |
