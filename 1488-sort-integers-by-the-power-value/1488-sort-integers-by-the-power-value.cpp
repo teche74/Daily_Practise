@@ -15,7 +15,7 @@ public:
                 return 0;
             }
 
-            if (num < 10000004 && dp[num] != -1) return dp[num];
+            if (num < 1000 && dp[num] != -1) return dp[num];
 
             int steps;
             if (num % 2 == 0) {
@@ -24,7 +24,7 @@ public:
                 steps = 1 + compute(3 * num + 1);
             }
 
-            if (num < 10000004) dp[num] = steps;
+            if (num < 1000) dp[num] = steps;
             return steps;
         };
 
