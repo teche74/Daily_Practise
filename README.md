@@ -919,6 +919,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1764-maximum-repeating-substring](https://github.com/teche74/Daily_Practise/tree/master/1764-maximum-repeating-substring) |
 | [1777-determine-if-two-strings-are-close](https://github.com/teche74/Daily_Practise/tree/master/1777-determine-if-two-strings-are-close) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/teche74/Daily_Practise/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/teche74/Daily_Practise/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1873-longest-nice-substring](https://github.com/teche74/Daily_Practise/tree/master/1873-longest-nice-substring) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/teche74/Daily_Practise/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1967-longest-substring-of-all-vowels-in-order](https://github.com/teche74/Daily_Practise/tree/master/1967-longest-substring-of-all-vowels-in-order) |
@@ -1054,6 +1055,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/teche74/Daily_Practise/tree/master/0055-jump-game) |
 | [1530-check-if-a-string-can-break-another-string](https://github.com/teche74/Daily_Practise/tree/master/1530-check-if-a-string-can-break-another-string) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/teche74/Daily_Practise/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/teche74/Daily_Practise/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/teche74/Daily_Practise/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/teche74/Daily_Practise/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/teche74/Daily_Practise/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
@@ -1078,6 +1080,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1582-design-browser-history](https://github.com/teche74/Daily_Practise/tree/master/1582-design-browser-history) |
 | [1720-crawler-log-folder](https://github.com/teche74/Daily_Practise/tree/master/1720-crawler-log-folder) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/teche74/Daily_Practise/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/teche74/Daily_Practise/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Recursion
 |  |
