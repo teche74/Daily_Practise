@@ -28,10 +28,8 @@ public:
             return steps;
         };
 
-        for (int i = lo; i <= hi; ++i) {
-            compute(i);
-        }
 
+        
         sort(res.begin(), res.end(), [&](int x, int y) {
             int val1 = compute(x);
             int val2 = compute(y);
