@@ -648,6 +648,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
 | [1020-longest-turbulent-subarray](https://github.com/teche74/Daily_Practise/tree/master/1020-longest-turbulent-subarray) |
 | [1250-longest-common-subsequence](https://github.com/teche74/Daily_Practise/tree/master/1250-longest-common-subsequence) |
+| [1488-sort-integers-by-the-power-value](https://github.com/teche74/Daily_Practise/tree/master/1488-sort-integers-by-the-power-value) |
 | [1761-count-sorted-vowel-strings](https://github.com/teche74/Daily_Practise/tree/master/1761-count-sorted-vowel-strings) |
 | [1764-maximum-repeating-substring](https://github.com/teche74/Daily_Practise/tree/master/1764-maximum-repeating-substring) |
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/teche74/Daily_Practise/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
@@ -1041,6 +1042,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/teche74/Daily_Practise/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0807-custom-sort-string](https://github.com/teche74/Daily_Practise/tree/master/0807-custom-sort-string) |
+| [1488-sort-integers-by-the-power-value](https://github.com/teche74/Daily_Practise/tree/master/1488-sort-integers-by-the-power-value) |
 | [1530-check-if-a-string-can-break-another-string](https://github.com/teche74/Daily_Practise/tree/master/1530-check-if-a-string-can-break-another-string) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/teche74/Daily_Practise/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1675-magnetic-force-between-two-balls](https://github.com/teche74/Daily_Practise/tree/master/1675-magnetic-force-between-two-balls) |
@@ -1099,6 +1101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/teche74/Daily_Practise/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
+| [1488-sort-integers-by-the-power-value](https://github.com/teche74/Daily_Practise/tree/master/1488-sort-integers-by-the-power-value) |
 ## Bucket Sort
 |  |
 | ------- |
