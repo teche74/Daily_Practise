@@ -793,6 +793,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2179-most-beautiful-item-for-each-query](https://github.com/teche74/Daily_Practise/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/teche74/Daily_Practise/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2211-k-radius-subarray-averages](https://github.com/teche74/Daily_Practise/tree/master/2211-k-radius-subarray-averages) |
+| [2428-equal-row-and-column-pairs](https://github.com/teche74/Daily_Practise/tree/master/2428-equal-row-and-column-pairs) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/teche74/Daily_Practise/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/teche74/Daily_Practise/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2832-find-the-longest-equal-subarray](https://github.com/teche74/Daily_Practise/tree/master/2832-find-the-longest-equal-subarray) |
@@ -835,6 +836,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1873-longest-nice-substring](https://github.com/teche74/Daily_Practise/tree/master/1873-longest-nice-substring) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/teche74/Daily_Practise/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/teche74/Daily_Practise/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
+| [2428-equal-row-and-column-pairs](https://github.com/teche74/Daily_Practise/tree/master/2428-equal-row-and-column-pairs) |
 | [2832-find-the-longest-equal-subarray](https://github.com/teche74/Daily_Practise/tree/master/2832-find-the-longest-equal-subarray) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/teche74/Daily_Practise/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/teche74/Daily_Practise/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -1144,6 +1146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1803-average-waiting-time](https://github.com/teche74/Daily_Practise/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/teche74/Daily_Practise/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/teche74/Daily_Practise/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2428-equal-row-and-column-pairs](https://github.com/teche74/Daily_Practise/tree/master/2428-equal-row-and-column-pairs) |
 | [2645-pass-the-pillow](https://github.com/teche74/Daily_Practise/tree/master/2645-pass-the-pillow) |
 | [2846-robot-collisions](https://github.com/teche74/Daily_Practise/tree/master/2846-robot-collisions) |
 ## Brainteaser
@@ -1199,6 +1202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0037-sudoku-solver](https://github.com/teche74/Daily_Practise/tree/master/0037-sudoku-solver) |
 | [0085-maximal-rectangle](https://github.com/teche74/Daily_Practise/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/teche74/Daily_Practise/tree/master/0200-number-of-islands) |
+| [2428-equal-row-and-column-pairs](https://github.com/teche74/Daily_Practise/tree/master/2428-equal-row-and-column-pairs) |
 ## Monotonic Stack
 |  |
 | ------- |
