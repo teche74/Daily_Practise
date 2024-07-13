@@ -1,16 +1,5 @@
 class Solution {
 public:
-    bool ispalli(string s) {
-        int low = 0, high = s.size() - 1;
-        
-        while (low <= high) {
-            if (s[low] != s[high]) return false;
-            low++;
-            high--;
-        }
-        
-        return true;
-    }
     
     vector<vector<int>> memo;
     
