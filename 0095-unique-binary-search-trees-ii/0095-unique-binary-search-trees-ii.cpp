@@ -11,53 +11,32 @@
  */
 class Solution {
 public:
-    map<pair<int,int>,vector<TreeNode*>>map;
-    vector<TreeNode*> solve(int low, int high){
-        // vector<TreeNode*>res;
+    unordered_map<int,unordered_map<int, vector<TreeNode *>>>dp;
+    vector<TreeNode*>solve(int low, int high){
+        vector<TreeNode *>res;
 
-        // if(low > high) {
-        //     res.emplace_back(nullptr);
-        //     return res;
-        // } 
-
-        // for(int i= low ; i <= high ; i++){
-        //    vector<TreeNode *>left = solve(low,i-1);
-        //    vector<TreeNode*> right = solve(i+1,high);
-
-        //    for(auto t : left){
-        //         for(auto r : right){
-        //              TreeNode * root = new TreeNode(i,t,r);
-        //              res.push_back(root);
-        //         }
-        //    }
-        // }
-        // return res;
-
-        vector<TreeNode*>res;
-
-        if(low > high) {
+        if(low > high){
             res.emplace_back(nullptr);
             return res;
-        } 
-
-        if(map.find({low,high}) != map.end()) return map[{low,high}]; 
-
-        for(int i= low ; i <= high ; i++){
-           vector<TreeNode *>left = solve(low,i-1);
-           vector<TreeNode*> right = solve(i+1,high);
-
-           for(auto t : left){
-                for(auto r : right){
-                     TreeNode * root = new TreeNode(i,t,r);
-                     res.push_back(root);
-                }
-           }
         }
-        return map[{low, high}] = res;
+
+        if(dp[low].count(high)) return dp[low][high];
+
+        for(int i= low ; i<= high; i++){
+            vector<TreeNode *>left = solve(low, i-1);
+            vector<TreeNode *>right = solve(i+1 , high);
+
+            for(auto  l  :left){
+                for(auto r :  right){
+                    TreeNode * root = new TreeNode(i,l,r);
+                    res.emplace_back(root);
+                }
+            }
+        }
+
+        return dp[low][high] = res;
     }
     vector<TreeNode*> generateTrees(int n) {
-        int low{1}, high{n};
-
-        return solve(low, high);
+        return solve(1, n );
     }
 };
