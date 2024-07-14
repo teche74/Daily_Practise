@@ -1,21 +1,28 @@
 class Solution {
 public:
     int numTrees(int n) {
-        vector<int>dp(n+1,0);
+        // if(n == 1 || n == 0) return 1;
 
-        dp[0] =1; // 0 nodes me 1 bst posisible he;
+        // int res = 0;
 
-        for(int nodes = 1 ; nodes <= n; nodes++){
-            
-            for(int left = 0; left < nodes ;left++){ // bst me left nodes ki possiblities
+        // for(int i =1 ; i<= n; i++){
+        //     res += numTrees(i-1) * numTrees(n-i);
+        // } 
 
-                int right = nodes - left - 1; // total me se left ghtaya right milega 
+        // return res;
 
-                dp[nodes] += (dp[left] * dp[right]) ; // left right milakr sare combinations.
+        int dp[n+1];
+        memset(dp, 0 ,sizeof(dp));
 
+        dp[0] = 1 ;
+
+        for(int i =1 ; i<= n; i++){
+            for(int left = 0 ; left < i ; left++){
+                int right = i - left - 1 ;
+
+                dp[i] += dp[left] * dp[right];
             }
         }
-
         return dp[n];
     }
 };
