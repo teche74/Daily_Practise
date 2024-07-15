@@ -668,6 +668,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/teche74/Daily_Practise/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -706,6 +707,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/teche74/Daily_Practise/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Backtracking
 |  |
 | ------- |
@@ -793,6 +795,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2179-most-beautiful-item-for-each-query](https://github.com/teche74/Daily_Practise/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/teche74/Daily_Practise/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2211-k-radius-subarray-averages](https://github.com/teche74/Daily_Practise/tree/master/2211-k-radius-subarray-averages) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/teche74/Daily_Practise/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2428-equal-row-and-column-pairs](https://github.com/teche74/Daily_Practise/tree/master/2428-equal-row-and-column-pairs) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/teche74/Daily_Practise/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/teche74/Daily_Practise/tree/master/2527-count-subarrays-with-fixed-bounds) |
@@ -837,6 +840,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1873-longest-nice-substring](https://github.com/teche74/Daily_Practise/tree/master/1873-longest-nice-substring) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/teche74/Daily_Practise/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/teche74/Daily_Practise/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/teche74/Daily_Practise/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2428-equal-row-and-column-pairs](https://github.com/teche74/Daily_Practise/tree/master/2428-equal-row-and-column-pairs) |
 | [2832-find-the-longest-equal-subarray](https://github.com/teche74/Daily_Practise/tree/master/2832-find-the-longest-equal-subarray) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/teche74/Daily_Practise/tree/master/3193-maximum-strong-pair-xor-i) |
