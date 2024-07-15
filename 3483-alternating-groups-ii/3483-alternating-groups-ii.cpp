@@ -1,27 +1,26 @@
 class Solution {
 public:
     int numberOfAlternatingGroups(vector<int>& colors, int k) {
-       int n=colors.size();
-       int length=1,ans=0;
-       for(int i=0;i<k;i++)
-       {
-         colors.push_back(colors[i]);
-       }
-       for(int i=0;i<n+k-2;i++)
-       {
-           if(colors[i]!=colors[i+1])
-           {
-               length++;
-               if(length>=k)
-               {
-                  ans++;
-               }
-           }
-           if(colors[i]==colors[i+1])
-           {
-               length=1;
-           }
-       }
-       return ans;
+        int low = 0 , high = 1 , size = colors.size() , res = 0;
+
+        while(low < size){
+            if(colors[high % size] == colors[(high-1) % size]){
+                // cout<<"Error : "<<high<<endl;
+                low = high;
+            }
+
+            while(high - low + 1 >= k){
+                if(high - low + 1  == k){
+                    // cout<<"Complete range : "<<low <<" "<<high<<endl;
+                    res++;
+                }
+                low++;
+            }
+            // cout<<"high : "<<high<<endl;
+            high++;
+        }
+
+        return res;
+        
     }
 };
