@@ -638,6 +638,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/teche74/Daily_Practise/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/teche74/Daily_Practise/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/teche74/Daily_Practise/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/teche74/Daily_Practise/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/teche74/Daily_Practise/tree/master/0198-house-robber) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
@@ -717,6 +718,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0051-n-queens](https://github.com/teche74/Daily_Practise/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/teche74/Daily_Practise/tree/master/0052-n-queens-ii) |
 | [0095-unique-binary-search-trees-ii](https://github.com/teche74/Daily_Practise/tree/master/0095-unique-binary-search-trees-ii) |
+| [0131-palindrome-partitioning](https://github.com/teche74/Daily_Practise/tree/master/0131-palindrome-partitioning) |
 | [0301-remove-invalid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0301-remove-invalid-parentheses) |
 | [0306-additive-number](https://github.com/teche74/Daily_Practise/tree/master/0306-additive-number) |
 | [0357-count-numbers-with-unique-digits](https://github.com/teche74/Daily_Practise/tree/master/0357-count-numbers-with-unique-digits) |
@@ -912,6 +914,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0091-decode-ways](https://github.com/teche74/Daily_Practise/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/teche74/Daily_Practise/tree/master/0097-interleaving-string) |
 | [0115-distinct-subsequences](https://github.com/teche74/Daily_Practise/tree/master/0115-distinct-subsequences) |
+| [0131-palindrome-partitioning](https://github.com/teche74/Daily_Practise/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/teche74/Daily_Practise/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/teche74/Daily_Practise/tree/master/0205-isomorphic-strings) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
