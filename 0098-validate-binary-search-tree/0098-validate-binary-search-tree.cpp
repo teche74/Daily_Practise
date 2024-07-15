@@ -1,5 +1,5 @@
 /**
- * Definition for a binary tree node.
+ * Definition for a binary tree root.
  * struct TreeNode {
  *     int val;
  *     TreeNode *left;
@@ -11,17 +11,17 @@
  */
 class Solution {
 public:
-    bool isValidBST(TreeNode* root) {
-        return check(root , LONG_MIN, LONG_MAX); 
-    }
-
-    bool check(TreeNode* root, long min, long max){
+    bool helper(TreeNode * root , long long mini , long long maxi){
         if(!root) return true;
+        
+        if(root->val <= mini) return false;
+        if(root->val >= maxi) return false;
 
-        if(root->val <= min || root -> val >= max){
-            return false;
-        }
 
-        return check(root->left, min, root->val)  && check(root->right, root->val , max);
+        return helper(root->left,mini,root->val) && helper(root->right,root->val,maxi);
+
+    }
+    bool isValidBST(TreeNode* root) {
+        return helper(root, LONG_MIN, LONG_MAX); 
     }
 };
