@@ -1,6 +1,7 @@
 class Solution {
 public:
     int longestSubarray(vector<int>& nums, int limit) {
+        //  question ka description galat he re 
         deque<int>maxi , mini;
         int low = 0, high = 0 , size = nums.size() , res = 0;
 
