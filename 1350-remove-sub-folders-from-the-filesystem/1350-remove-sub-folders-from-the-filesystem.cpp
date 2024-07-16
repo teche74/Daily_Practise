@@ -48,7 +48,6 @@ public:
                 if(temp->IsEnd()&& str[i+1] == '/') return true;
             }
 
-            cout<<"found :"<<res<<endl;
 
             return false;
         };
