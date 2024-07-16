@@ -776,6 +776,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0518-coin-change-ii](https://github.com/teche74/Daily_Practise/tree/master/0518-coin-change-ii) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/teche74/Daily_Practise/tree/master/0524-longest-word-in-dictionary-through-deleting) |
+| [0648-replace-words](https://github.com/teche74/Daily_Practise/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [0747-min-cost-climbing-stairs](https://github.com/teche74/Daily_Practise/tree/master/0747-min-cost-climbing-stairs) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/teche74/Daily_Practise/tree/master/0802-k-th-smallest-prime-fraction) |
@@ -835,6 +836,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/teche74/Daily_Practise/tree/master/0433-minimum-genetic-mutation) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
+| [0648-replace-words](https://github.com/teche74/Daily_Practise/tree/master/0648-replace-words) |
 | [0807-custom-sort-string](https://github.com/teche74/Daily_Practise/tree/master/0807-custom-sort-string) |
 | [0889-buddy-strings](https://github.com/teche74/Daily_Practise/tree/master/0889-buddy-strings) |
 | [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
@@ -870,6 +872,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0139-word-break](https://github.com/teche74/Daily_Practise/tree/master/0139-word-break) |
+| [0648-replace-words](https://github.com/teche74/Daily_Practise/tree/master/0648-replace-words) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/teche74/Daily_Practise/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/teche74/Daily_Practise/tree/master/3193-maximum-strong-pair-xor-i) |
 ## Sliding Window
@@ -935,6 +938,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0516-longest-palindromic-subsequence) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/teche74/Daily_Practise/tree/master/0524-longest-word-in-dictionary-through-deleting) |
+| [0648-replace-words](https://github.com/teche74/Daily_Practise/tree/master/0648-replace-words) |
 | [0807-custom-sort-string](https://github.com/teche74/Daily_Practise/tree/master/0807-custom-sort-string) |
 | [0886-score-of-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0886-score-of-parentheses) |
 | [0889-buddy-strings](https://github.com/teche74/Daily_Practise/tree/master/0889-buddy-strings) |
