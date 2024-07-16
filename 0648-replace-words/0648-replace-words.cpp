@@ -1,17 +1,17 @@
-struct Node{
-    Node * links[26];
-    bool end = false;
+struct node{
+    node * links[26];
+    bool end  = false;
 
     bool CheckRef(char ch){
         return links[ch - 'a'] != nullptr;
     }
 
-    Node * GetRef(char ch){
-        return links[ch - 'a'];
+    void CreateRef(char ch , node * t){
+        links[ch - 'a'] = t;
     }
 
-    void CreateRef(char ch, Node * node){
-        links[ch - 'a'] = node;
+    node * GetRef(char ch){
+        return links[ch - 'a'];
     }
 
     bool IsEnd(){
@@ -19,57 +19,60 @@ struct Node{
     }
 
     void SetEnd(bool val){
-        end = val;
+        end= val;
     }
 };
+
 class Solution {
-    Node * root= new Node();
+    node * root = new node();
 public:
-    void Init(vector<string> & strs){
-        for(const string  &  str : strs){
-            Node * temp = root;
-
-            for(char ch : str){
-                if(!temp->CheckRef(ch)){
-                    temp->CreateRef(ch, new Node());
+    string replaceWords(vector<string>& dict, string sent) {
+        auto Init = [&](){
+            for(const string  & str : dict){
+                node * temp = root;
+                for(char ch : str){
+                    if(!temp->CheckRef(ch)){
+                        temp->CreateRef(ch, new node());
+                    }
+                    temp = temp->GetRef(ch);
                 }
-                temp = temp->GetRef(ch);
+                temp->SetEnd(true);
             }
-            temp->SetEnd(true);
-        }
-    }
+        };
 
-    string solve(const string &str, Node * node){
+        auto Get = [&](string str, node * temp){
+            string res = "";
+
+            for(int i = 0 ;i <str.size() ; i++){
+                if(temp->CheckRef(str[i])){
+                    res.push_back(str[i]);
+                    temp = temp->GetRef(str[i]);
+                    if(temp->IsEnd()) return res;
+                }
+                else{
+                    break;
+                }
+            }
+
+            return str;
+        };
+
+        Init();
+
         string res = "";
 
-        for(char ch : str){
-            if(!node->CheckRef(ch)){
-                return "";
-            }
-            node = node->GetRef(ch);
-            res.push_back(ch);
-            if(node->IsEnd()) return res;
-        }
-        return "";
-    }
-    string replaceWords(vector<string>& dictionary, string sentence) {
-        Init(dictionary);
+        int low = 0;
 
-        string res = "";
-
-        int low = 0 , high = 0 ,size = sentence.size();
-
-        while(high+1 <= size){
-            if(sentence[high+1] == ' '|| high+1 == size){
-                string temp = sentence.substr(low, high - low+1);
-                low = high+2;
-                string get  = solve(temp,root);
-                res += (get == "" ? temp : get);
+        for(int i =0; i < sent.size() ; i++){
+            if(sent[i+1] == ' ' || i+1 == sent.size()){
+                string temp = sent.substr(low,i - low + 1);
+                string ptr = Get(temp,root);
+                res += ptr;
+                if(i == sent.size()-1) break;
                 res.push_back(' ');
+                low = i + 2;
             }
-            high++;
         }
-        res.pop_back();
         return res;
     }
 };
