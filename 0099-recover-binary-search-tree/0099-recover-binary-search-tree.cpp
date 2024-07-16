@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    void inorder(TreeNode * root, TreeNode * prev, TreeNode * & first, TreeNode * & second ){
+    void inorder(TreeNode * root, TreeNode * & prev, TreeNode * & first, TreeNode * & second ){
         if(!root) return;
 
         inorder(root->left,prev,first,second);
