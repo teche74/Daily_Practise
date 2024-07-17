@@ -608,6 +608,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0292-nim-game](https://github.com/teche74/Daily_Practise/tree/master/0292-nim-game) |
 | [0343-integer-break](https://github.com/teche74/Daily_Practise/tree/master/0343-integer-break) |
 | [0357-count-numbers-with-unique-digits](https://github.com/teche74/Daily_Practise/tree/master/0357-count-numbers-with-unique-digits) |
+| [1086-divisor-game](https://github.com/teche74/Daily_Practise/tree/master/1086-divisor-game) |
 | [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/teche74/Daily_Practise/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
 | [1370-count-number-of-nice-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1370-count-number-of-nice-subarrays) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/teche74/Daily_Practise/tree/master/1430-find-the-k-beauty-of-a-number) |
@@ -653,6 +654,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0747-min-cost-climbing-stairs](https://github.com/teche74/Daily_Practise/tree/master/0747-min-cost-climbing-stairs) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
 | [1020-longest-turbulent-subarray](https://github.com/teche74/Daily_Practise/tree/master/1020-longest-turbulent-subarray) |
+| [1086-divisor-game](https://github.com/teche74/Daily_Practise/tree/master/1086-divisor-game) |
 | [1250-longest-common-subsequence](https://github.com/teche74/Daily_Practise/tree/master/1250-longest-common-subsequence) |
 | [1488-sort-integers-by-the-power-value](https://github.com/teche74/Daily_Practise/tree/master/1488-sort-integers-by-the-power-value) |
 | [1573-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/teche74/Daily_Practise/tree/master/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
@@ -1210,10 +1212,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/teche74/Daily_Practise/tree/master/0292-nim-game) |
+| [1086-divisor-game](https://github.com/teche74/Daily_Practise/tree/master/1086-divisor-game) |
 ## Game Theory
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/teche74/Daily_Practise/tree/master/0292-nim-game) |
+| [1086-divisor-game](https://github.com/teche74/Daily_Practise/tree/master/1086-divisor-game) |
 ## String Matching
 |  |
 | ------- |
