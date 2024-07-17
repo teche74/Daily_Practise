@@ -1,21 +1,24 @@
 class Solution {
 public:
     int countNumbersWithUniqueDigits(int n) {
-        if (n == 0) {
-            return 1;
+        if(n == 1 || n== 0) return pow(10,n); 
+        int dp[n+1] ;
+        memset(dp , 0, sizeof(dp));
+
+        dp[0] = 1;
+        dp[1] = 9;
+
+        int digits =9;
+
+        for(int i = 2; i <=n ;i++){
+            dp[i] = dp[i-1] * digits--;
         }
-        
-        int count = 10; 
-        
-        int uni = 9;
-        int avail = 9;
-        
-        for (int i = 2; i <= n; i++) {
-            uni *= avail;
-            count += uni;
-            avail--;
+
+        int sum = 0;
+
+        for(int i = 0 ;i <= n ;i++){
+            sum+=dp[i];
         }
-        
-        return count;
+        return sum;
     }
 };
