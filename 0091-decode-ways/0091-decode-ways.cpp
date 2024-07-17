@@ -24,7 +24,29 @@ public:
         return dp[index] = one_dig + two_dig;
     }
     int numDecodings(string s) {
-        memset(dp,-1,sizeof(dp));
-        return solve(0,s);
+        // memset(dp,-1,sizeof(dp));
+        // return solve(0,s);
+
+        int size = s.size();
+
+        int dp[size+1];
+
+        dp[size] = 1;
+
+        for(int i = size-1; i>= 0 ; i--){
+
+            if(s[i] == '0'){
+                dp[i] = 0;
+            }
+            else
+            {
+                dp[i] = dp[i+1];
+
+                if(i+1 < size && (s[i] == '1' || s[i] == '2' && s[i+1] >= '0' && s[i+1] <= '6') ){
+                    dp[i] += dp[i+2];
+                }
+            }
+        }
+        return dp[0];
     }
 };
