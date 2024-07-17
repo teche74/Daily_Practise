@@ -1,27 +1,35 @@
 class Solution {
 public:
-    int solve(int index, vector<int>& prices, int opers, vector<vector<int>>& dp) {
-        if (index >= prices.size()) return 0;
-        if (dp[index][opers] != -1) return dp[index][opers];
-
-        int take = 0, not_take = 0;
-
-        if (!(opers & 1)) {
-            take = -prices[index] + solve(index + 1, prices, opers - 1, dp);
-        } else {
-            take = prices[index] + solve(index + 2, prices, opers - 1, dp);
+    int dp[5002][4500];
+    int solve(int index, vector<int> & prices, int actions){
+        if(index >= prices.size() ){
+            return 0;
         }
-        not_take = solve(index + 1, prices, opers, dp);
 
-        return dp[index][opers] = max(take, not_take);
+        if(dp[index][actions] != -1) return dp[index][actions];
+
+        int take = 0 , not_take = 0;
+
+
+        if(actions){
+            take = -prices[index] + solve(index+1,prices,!actions);
+        }
+        
+        if(!actions){
+            take = prices[index] + solve(index+2,prices,!actions);
+        }
+
+        not_take = solve(index+1,prices,actions);
+
+        return dp[index][actions] = max(take,not_take);
     }
-
     int maxProfit(vector<int>& prices) {
         int size = prices.size();
-        int opers = size;
-        while (opers & 1) opers--;
 
-        vector<vector<int>> dp(size, vector<int>(opers + 1, -1));
-        return solve(0, prices, opers, dp);
+        int actions  = size;
+
+        memset(dp, -1, sizeof(dp));
+
+        return solve(0,prices, true);
     }
 };
