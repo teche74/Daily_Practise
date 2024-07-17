@@ -2,6 +2,8 @@ class Solution {
 public:
     int countNumbersWithUniqueDigits(int n) {
         if(n == 1 || n== 0) return pow(10,n); 
+
+        // abe permuation ke swal ni hore , had ho gyi  
         int dp[n+1] ;
         memset(dp , 0, sizeof(dp));
 
