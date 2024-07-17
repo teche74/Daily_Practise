@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int dp[5002][4500];
+    int dp[5002][2];
     int solve(int index, vector<int> & prices, int actions){
         if(index >= prices.size() ){
             return 0;
