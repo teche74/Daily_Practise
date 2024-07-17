@@ -1,33 +1,26 @@
-// class Solution {
-// public:
-//     int solve(int index, vector<int>& paisa){
-//         if(index >= paisa.size()){
-//             return 0;
-//         }
-
-//         int take = paisa[index] + solve(index+2,paisa);
-        
-//         int not_take = solve(index + 1 , paisa);
-
-//         return max(take , not_take);
-//     }
-//     int rob(vector<int>& nums) {
-//         return solve(0, nums);
-//     }
-// };
-
 class Solution {
 public:
-    int rob(vector<int>& nums) {
-        int size = nums.size();
-        vector<int>dp(2, 0);
-
-        for(int i = 0; i < nums.size() ; i++){
-            int val = max(dp[1] ,dp[0]);
-            dp[0] = dp[1] + nums[i];
-            dp[1]  = val;
+    int dp[101];
+    int solve(int index, vector<int> & nums){
+        if(index >= nums.size() ){
+            return 0;
         }
 
-        return max(dp[0], dp[1]);
+        if(dp[index] != -1) return dp[index];
+
+        int take = 0 , not_take = 0;
+
+        take = nums[index] + solve(index+2, nums);
+
+        not_take = solve(index+1,nums);
+
+        return dp[index] = max(take, not_take);
+    }
+    int rob(vector<int>& nums) {
+        int size = nums.size();
+
+        memset(dp, -1, sizeof(dp));
+
+        return solve(0, nums);
     }
 };
