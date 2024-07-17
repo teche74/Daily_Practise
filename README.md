@@ -676,6 +676,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
+| [1207-delete-nodes-and-return-forest](https://github.com/teche74/Daily_Practise/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/teche74/Daily_Practise/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/teche74/Daily_Practise/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Binary Search Tree
@@ -722,6 +723,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
+| [1207-delete-nodes-and-return-forest](https://github.com/teche74/Daily_Practise/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/teche74/Daily_Practise/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/teche74/Daily_Practise/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Backtracking
@@ -751,6 +753,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0332-reconstruct-itinerary](https://github.com/teche74/Daily_Practise/tree/master/0332-reconstruct-itinerary) |
 | [0813-all-paths-from-source-to-target](https://github.com/teche74/Daily_Practise/tree/master/0813-all-paths-from-source-to-target) |
+| [1207-delete-nodes-and-return-forest](https://github.com/teche74/Daily_Practise/tree/master/1207-delete-nodes-and-return-forest) |
 | [1300-critical-connections-in-a-network](https://github.com/teche74/Daily_Practise/tree/master/1300-critical-connections-in-a-network) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/teche74/Daily_Practise/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/teche74/Daily_Practise/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
@@ -799,6 +802,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1034-subarrays-with-k-different-integers](https://github.com/teche74/Daily_Practise/tree/master/1034-subarrays-with-k-different-integers) |
 | [1039-find-the-town-judge](https://github.com/teche74/Daily_Practise/tree/master/1039-find-the-town-judge) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/teche74/Daily_Practise/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1207-delete-nodes-and-return-forest](https://github.com/teche74/Daily_Practise/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/teche74/Daily_Practise/tree/master/1293-three-consecutive-odds) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/teche74/Daily_Practise/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1370-count-number-of-nice-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1370-count-number-of-nice-subarrays) |
@@ -858,6 +862,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/teche74/Daily_Practise/tree/master/1034-subarrays-with-k-different-integers) |
 | [1039-find-the-town-judge](https://github.com/teche74/Daily_Practise/tree/master/1039-find-the-town-judge) |
+| [1207-delete-nodes-and-return-forest](https://github.com/teche74/Daily_Practise/tree/master/1207-delete-nodes-and-return-forest) |
 | [1261-swap-for-longest-repeated-character-substring](https://github.com/teche74/Daily_Practise/tree/master/1261-swap-for-longest-repeated-character-substring) |
 | [1370-count-number-of-nice-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1370-count-number-of-nice-subarrays) |
 | [1423-maximum-number-of-occurrences-of-a-substring](https://github.com/teche74/Daily_Practise/tree/master/1423-maximum-number-of-occurrences-of-a-substring) |
