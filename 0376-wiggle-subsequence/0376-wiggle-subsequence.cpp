@@ -8,7 +8,7 @@ public:
         for(int i = 0; i < size-1 ; i++){
             curr_diff = nums[i] - nums[i+1];
 
-            if(curr_diff >= 0 && prev_diff < 0 ){
+            if(curr_diff > 0 && prev_diff <= 0 ){
                 prev_diff = curr_diff;
                 count++;
             } 
