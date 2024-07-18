@@ -1,27 +1,31 @@
 class Solution {
 public:
-    int solve(int index, vector<int>&prices, int action, vector<vector<int>> &dp){
-        if(index >= prices.size() || action == 0)
-        {
+    int dp[100005][5];
+    int solve(int index, vector<int> & prices, int actions){
+        if(index >= prices.size() || actions == 0){
             return 0;
         }
 
-        if(dp[index][action] != -1) return dp[index][action];
+        if(dp[index][actions]!= -1) return dp[index][actions];
 
-        int take =  0, not_take = 0;
+        int take = 0 , leave = 0; 
 
-        if(!(action & 1)){
-            take = -prices[index] + solve(index+1,prices, action-1,dp);
+        if(!(actions  & 1) ){
+            take = -prices[index] + solve(index+1,prices,actions-1);
         }
-        else{
-            take =  prices[index] + solve(index+1,prices,action-1,dp);
+        if(actions & 1){
+            take = prices[index] + solve(index+1,prices,actions-1);
         }
-        not_take = solve(index+1,prices, action,dp);
 
-        return dp[index][action] = max(take, not_take);
+        leave = solve(index+1,prices,actions);
+
+        return dp[index][actions] = max(take, leave);
     }
     int maxProfit(vector<int>& prices) {
-        vector<vector<int>>dp(prices.size()+1,vector<int>(5,-1));
-        return solve(0,prices,4,dp);
+        int size =prices.size();
+
+        memset(dp, -1, sizeof(dp));
+
+        return solve(0,prices,4);
     }
 };
