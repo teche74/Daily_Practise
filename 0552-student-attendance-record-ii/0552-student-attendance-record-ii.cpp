@@ -1,40 +1,31 @@
-#include <vector>
 class Solution {
-private:
-    static const int MOD = 1000000007;
-    vector<vector<vector<int>>> memo;
-
-    int solve(int n, int absent_remain, int late_remain) {
-        if (n == 0) {
-            return 1;
-        }
-
-        if (memo[n][absent_remain][late_remain] != -1) {
-            return memo[n][absent_remain][late_remain];
-        }
-
-        int total = 0;
-
-        total += solve(n - 1, absent_remain, 2);
-        total %= MOD;
-
-        if (absent_remain > 0) {
-            total += solve(n - 1, absent_remain - 1, 2);
-            total %= MOD;
-        }
-
-        if (late_remain > 0) {
-            total += solve(n - 1, absent_remain, late_remain - 1);
-            total %= MOD;
-        }
-
-        memo[n][absent_remain][late_remain] = total;
-        return total;
-    }
-
 public:
+const int MOD = 1e9 + 7;
+    int dp[100001][2][3];
+    int solve(int curr, int size , int abs, int late){
+        if(curr == size){
+            return 1; 
+        }
+
+        if(dp[curr][abs][late] != -1) return dp[curr][abs][late] % MOD;
+
+        int absent = 0 , lt = 0 , present = 0; 
+
+        if(abs > 0){
+            absent  = solve(curr+1,size,abs-1,2) % MOD;
+        }
+        if(late > 0){
+            lt = solve(curr+1,size,abs,late-1) % MOD;
+        }
+        present = solve(curr+1,size,abs,2) % MOD;
+
+        return dp[curr][abs][late] = ((absent + lt) % MOD + present) % MOD;
+    }
     int checkRecord(int n) {
-        memo = vector<vector<vector<int>>>(n + 1, vector<vector<int>>(2,vector<int>(3, -1)));
-        return solve(n, 1, 2);
+        int abs = 1;
+        int late = 2;
+        memset(dp,-1,sizeof(dp));
+
+        return solve(0,n,abs,late);
     }
 };
