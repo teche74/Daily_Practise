@@ -659,6 +659,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0639-decode-ways-ii](https://github.com/teche74/Daily_Practise/tree/master/0639-decode-ways-ii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/teche74/Daily_Practise/tree/master/0646-maximum-length-of-pair-chain) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/teche74/Daily_Practise/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0740-delete-and-earn](https://github.com/teche74/Daily_Practise/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/teche74/Daily_Practise/tree/master/0747-min-cost-climbing-stairs) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
 | [1020-longest-turbulent-subarray](https://github.com/teche74/Daily_Practise/tree/master/1020-longest-turbulent-subarray) |
@@ -820,6 +821,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0648-replace-words](https://github.com/teche74/Daily_Practise/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/teche74/Daily_Practise/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0740-delete-and-earn](https://github.com/teche74/Daily_Practise/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/teche74/Daily_Practise/tree/master/0747-min-cost-climbing-stairs) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/teche74/Daily_Practise/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/teche74/Daily_Practise/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -884,6 +886,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0433-minimum-genetic-mutation](https://github.com/teche74/Daily_Practise/tree/master/0433-minimum-genetic-mutation) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
 | [0648-replace-words](https://github.com/teche74/Daily_Practise/tree/master/0648-replace-words) |
+| [0740-delete-and-earn](https://github.com/teche74/Daily_Practise/tree/master/0740-delete-and-earn) |
 | [0807-custom-sort-string](https://github.com/teche74/Daily_Practise/tree/master/0807-custom-sort-string) |
 | [0889-buddy-strings](https://github.com/teche74/Daily_Practise/tree/master/0889-buddy-strings) |
 | [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
