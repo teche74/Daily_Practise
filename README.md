@@ -683,6 +683,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/teche74/Daily_Practise/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0113-path-sum-ii](https://github.com/teche74/Daily_Practise/tree/master/0113-path-sum-ii) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
@@ -732,6 +733,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/teche74/Daily_Practise/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0113-path-sum-ii](https://github.com/teche74/Daily_Practise/tree/master/0113-path-sum-ii) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
@@ -761,6 +763,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0100-same-tree](https://github.com/teche74/Daily_Practise/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0113-path-sum-ii](https://github.com/teche74/Daily_Practise/tree/master/0113-path-sum-ii) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0133-clone-graph](https://github.com/teche74/Daily_Practise/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/teche74/Daily_Practise/tree/master/0200-number-of-islands) |
@@ -1177,6 +1180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/teche74/Daily_Practise/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/teche74/Daily_Practise/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/teche74/Daily_Practise/tree/master/0085-maximal-rectangle) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0886-score-of-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0886-score-of-parentheses) |
 | [1078-remove-outermost-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1078-remove-outermost-parentheses) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -1216,6 +1220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/teche74/Daily_Practise/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/teche74/Daily_Practise/tree/master/0025-reverse-nodes-in-k-group) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/teche74/Daily_Practise/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/teche74/Daily_Practise/tree/master/0146-lru-cache) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0528-swapping-nodes-in-a-linked-list) |
