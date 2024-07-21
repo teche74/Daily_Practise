@@ -1,27 +1,22 @@
 class Solution {
 public:
-    
-    vector<vector<int>> memo;
-    
-    int solve(int left, int right, string& s) {
-        if (left > right) return 0;
-        
-        if (left == right) return 1; 
-        
-        if (memo[left][right] != -1) return memo[left][right];
-        
-        if (s[left] == s[right]) {
-            return memo[left][right] = 2 + solve(left + 1, right - 1, s);
-        } else {
-            return memo[left][right] = max(solve(left + 1, right, s), solve(left, right - 1, s));
+    int dp[1001][1001];
+    int solve(const string  & s, int low, int high){
+        if(low > high) return 0;
+        if(low == high ) return 1;
+
+        if(dp[low][high] != -1) return dp[low][high];
+
+        if(s[low] == s[high]){
+            return dp[low][high] = 2 + solve(s, low+1, high -1);
+        }
+        else{
+            return dp[low][high] = max(solve(s, low+1, high) , solve(s, low, high-1));
         }
     }
-    
     int longestPalindromeSubseq(string s) {
-        int n = s.size();
-        if (n == 0) return 0;
-        memo.assign(n, vector<int>(n, -1));
-        
-        return solve(0, n - 1, s);
+        int size = s.size();
+        memset(dp, -1, sizeof(dp));
+        return solve(s, 0, size-1);
     }
 };
