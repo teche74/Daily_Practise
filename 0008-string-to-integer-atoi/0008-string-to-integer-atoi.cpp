@@ -2,33 +2,35 @@ class Solution {
 public:
     int myAtoi(string s) {
         int size = s.size();
-        int ind = 0 ;
+
+        int index = 0 ;
+
+        while(index < size && isspace(s[index])) index++;
+
         bool sign  = false;
-        long long res= 0 ;
 
-        while(ind < size && s[ind] == ' ') ind++;
-
-        if(s[ind] == '-'){
-            sign  = true;
-            ind++;
+        if(s[index] == '-'){
+            sign  =true;
+            index++;
         }
-        else if(s[ind] == '+'){
-            ind++;
+        else if(s[index] == '+'){
+            index++;
         }
 
-        while(ind < size && isdigit(s[ind])){
-            res*=10;
-            res+=(s[ind] - '0');
-            ind++;
+        long long val = 0;
 
-            if(res >= INT_MAX || res <= INT_MIN) break;
+        while(index < size && isdigit(s[index])){
+            val*=10;
+            val+=(s[index] - '0');
+            if(val >= INT_MAX || val <= INT_MIN) break;
+            index++;
         }
 
-        if(sign) res*=-1;
+        if(sign) val*=-1;
 
-        if(res >= INT_MAX) return INT_MAX;
-        if(res <= INT_MIN) return INT_MIN;
+        if(val >=INT_MAX) return INT_MAX;
+        if(val <= INT_MIN) return INT_MIN;
 
-        return res;
+        return val;
     }
 };
