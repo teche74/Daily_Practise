@@ -5,9 +5,10 @@ public:
 
         for(char ch : s){
             if(ch == 'a' || ch == 'e' || ch =='o' || ch == 'i' || ch =='u'){
-                return true;
+                vowels++;
             }
         }
-        return false;
+        
+        return vowels >=1; 
     }
 };
