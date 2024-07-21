@@ -815,6 +815,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0376-wiggle-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0376-wiggle-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/teche74/Daily_Practise/tree/master/0416-partition-equal-subset-sum) |
+| [0517-super-washing-machines](https://github.com/teche74/Daily_Practise/tree/master/0517-super-washing-machines) |
 | [0518-coin-change-ii](https://github.com/teche74/Daily_Practise/tree/master/0518-coin-change-ii) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/teche74/Daily_Practise/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0646-maximum-length-of-pair-chain](https://github.com/teche74/Daily_Practise/tree/master/0646-maximum-length-of-pair-chain) |
@@ -1173,6 +1174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/teche74/Daily_Practise/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/teche74/Daily_Practise/tree/master/0055-jump-game) |
 | [0376-wiggle-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0376-wiggle-subsequence) |
+| [0517-super-washing-machines](https://github.com/teche74/Daily_Practise/tree/master/0517-super-washing-machines) |
 | [0646-maximum-length-of-pair-chain](https://github.com/teche74/Daily_Practise/tree/master/0646-maximum-length-of-pair-chain) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/teche74/Daily_Practise/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1530-check-if-a-string-can-break-another-string](https://github.com/teche74/Daily_Practise/tree/master/1530-check-if-a-string-can-break-another-string) |
