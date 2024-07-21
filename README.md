@@ -705,6 +705,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/teche74/Daily_Practise/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0300-longest-increasing-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/teche74/Daily_Practise/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/teche74/Daily_Practise/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -819,6 +820,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0517-super-washing-machines](https://github.com/teche74/Daily_Practise/tree/master/0517-super-washing-machines) |
 | [0518-coin-change-ii](https://github.com/teche74/Daily_Practise/tree/master/0518-coin-change-ii) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/teche74/Daily_Practise/tree/master/0524-longest-word-in-dictionary-through-deleting) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0646-maximum-length-of-pair-chain](https://github.com/teche74/Daily_Practise/tree/master/0646-maximum-length-of-pair-chain) |
 | [0648-replace-words](https://github.com/teche74/Daily_Practise/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
@@ -891,6 +893,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/teche74/Daily_Practise/tree/master/0433-minimum-genetic-mutation) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0648-replace-words](https://github.com/teche74/Daily_Practise/tree/master/0648-replace-words) |
 | [0740-delete-and-earn](https://github.com/teche74/Daily_Practise/tree/master/0740-delete-and-earn) |
 | [0807-custom-sort-string](https://github.com/teche74/Daily_Practise/tree/master/0807-custom-sort-string) |
@@ -1144,6 +1147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/teche74/Daily_Practise/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0528-swapping-nodes-in-a-linked-list) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/teche74/Daily_Practise/tree/master/0802-k-th-smallest-prime-fraction) |
 | [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/teche74/Daily_Practise/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
@@ -1160,6 +1164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/teche74/Daily_Practise/tree/master/0524-longest-word-in-dictionary-through-deleting) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0646-maximum-length-of-pair-chain](https://github.com/teche74/Daily_Practise/tree/master/0646-maximum-length-of-pair-chain) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/teche74/Daily_Practise/tree/master/0802-k-th-smallest-prime-fraction) |
