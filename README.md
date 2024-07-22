@@ -612,6 +612,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/teche74/Daily_Practise/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
 | [1370-count-number-of-nice-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1370-count-number-of-nice-subarrays) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/teche74/Daily_Practise/tree/master/1430-find-the-k-beauty-of-a-number) |
+| [1617-stone-game-iv](https://github.com/teche74/Daily_Practise/tree/master/1617-stone-game-iv) |
 | [1642-water-bottles](https://github.com/teche74/Daily_Practise/tree/master/1642-water-bottles) |
 | [1761-count-sorted-vowel-strings](https://github.com/teche74/Daily_Practise/tree/master/1761-count-sorted-vowel-strings) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/teche74/Daily_Practise/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -667,6 +668,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1250-longest-common-subsequence](https://github.com/teche74/Daily_Practise/tree/master/1250-longest-common-subsequence) |
 | [1488-sort-integers-by-the-power-value](https://github.com/teche74/Daily_Practise/tree/master/1488-sort-integers-by-the-power-value) |
 | [1573-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/teche74/Daily_Practise/tree/master/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
+| [1617-stone-game-iv](https://github.com/teche74/Daily_Practise/tree/master/1617-stone-game-iv) |
 | [1761-count-sorted-vowel-strings](https://github.com/teche74/Daily_Practise/tree/master/1761-count-sorted-vowel-strings) |
 | [1764-maximum-repeating-substring](https://github.com/teche74/Daily_Practise/tree/master/1764-maximum-repeating-substring) |
 | [1814-jump-game-vi](https://github.com/teche74/Daily_Practise/tree/master/1814-jump-game-vi) |
@@ -1288,6 +1290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0292-nim-game](https://github.com/teche74/Daily_Practise/tree/master/0292-nim-game) |
 | [1086-divisor-game](https://github.com/teche74/Daily_Practise/tree/master/1086-divisor-game) |
+| [1617-stone-game-iv](https://github.com/teche74/Daily_Practise/tree/master/1617-stone-game-iv) |
 ## String Matching
 |  |
 | ------- |
