@@ -1,7 +1,7 @@
 class Solution {
     unordered_map<string, string> url_map;
     string dict = "123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTEUVWXYZ";
-    int len = 6;
+    int len = 8;
 public:
 
     // Encodes a URL to a shortened URL.
