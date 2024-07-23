@@ -1133,6 +1133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1039-find-the-town-judge](https://github.com/teche74/Daily_Practise/tree/master/1039-find-the-town-judge) |
 | [1300-critical-connections-in-a-network](https://github.com/teche74/Daily_Practise/tree/master/1300-critical-connections-in-a-network) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/teche74/Daily_Practise/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/teche74/Daily_Practise/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
 | [1916-find-center-of-star-graph](https://github.com/teche74/Daily_Practise/tree/master/1916-find-center-of-star-graph) |
 | [2121-find-if-path-exists-in-graph](https://github.com/teche74/Daily_Practise/tree/master/2121-find-if-path-exists-in-graph) |
 | [2472-build-a-matrix-with-conditions](https://github.com/teche74/Daily_Practise/tree/master/2472-build-a-matrix-with-conditions) |
