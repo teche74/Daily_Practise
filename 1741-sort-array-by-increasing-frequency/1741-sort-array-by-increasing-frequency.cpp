@@ -1,35 +1,29 @@
 class Solution {
 public:
     vector<int> frequencySort(vector<int>& nums) {
-        int arr[201];
+        unordered_map<int,int>map;
 
-        memset(arr,0,sizeof(arr));
-
-        for(int i : nums){
-            arr[i  + 100]++;
+        for(auto t : nums){
+            map[t]++;
         }
 
-        vector<pair<int,int>>pairs;
+        vector<pair<int,int>> pairs;
 
-        for(int i =0; i <= 200 ; i++){
-            if(arr[i] >= 1){
-                pairs.push_back({arr[i], i - 100});
-            }
+        for(auto t : map){
+            pairs.push_back({t.second,t.first});
         }
 
-        sort(pairs.begin(), pairs.end(), [](const pair<int, int>& a, const pair<int, int>& b) {
-            if (a.first == b.first) {
-                return a.second > b.second;
-            }
-            return a.first < b.first;
+        sort(pairs.begin(),pairs.end() , [&](const pair<int,int> & a, const pair<int,int> & b){
+            return a.first == b.first ? a.second > b.second : a.first < b.first;
         });
 
-        vector<int> res;
+        vector<int>res;
 
-        for (const auto& p : pairs) {
-            res.insert(res.end(), p.first, p.second);
+        for(auto t : pairs){
+            while(t.first--){
+                res.emplace_back(t.second);
+            }
         }
-
         return res;
     }
 };
