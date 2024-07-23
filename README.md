@@ -1139,6 +1139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/teche74/Daily_Practise/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
 | [1916-find-center-of-star-graph](https://github.com/teche74/Daily_Practise/tree/master/1916-find-center-of-star-graph) |
 | [2121-find-if-path-exists-in-graph](https://github.com/teche74/Daily_Practise/tree/master/2121-find-if-path-exists-in-graph) |
+| [2379-maximum-total-importance-of-roads](https://github.com/teche74/Daily_Practise/tree/master/2379-maximum-total-importance-of-roads) |
 | [2472-build-a-matrix-with-conditions](https://github.com/teche74/Daily_Practise/tree/master/2472-build-a-matrix-with-conditions) |
 ## Topological Sort
 |  |
@@ -1157,6 +1158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0802-k-th-smallest-prime-fraction](https://github.com/teche74/Daily_Practise/tree/master/0802-k-th-smallest-prime-fraction) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1814-jump-game-vi](https://github.com/teche74/Daily_Practise/tree/master/1814-jump-game-vi) |
+| [2379-maximum-total-importance-of-roads](https://github.com/teche74/Daily_Practise/tree/master/2379-maximum-total-importance-of-roads) |
 | [2868-continuous-subarrays](https://github.com/teche74/Daily_Practise/tree/master/2868-continuous-subarrays) |
 ## Ordered Set
 |  |
@@ -1214,6 +1216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1777-determine-if-two-strings-are-close](https://github.com/teche74/Daily_Practise/tree/master/1777-determine-if-two-strings-are-close) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/teche74/Daily_Practise/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/teche74/Daily_Practise/tree/master/2179-most-beautiful-item-for-each-query) |
+| [2379-maximum-total-importance-of-roads](https://github.com/teche74/Daily_Practise/tree/master/2379-maximum-total-importance-of-roads) |
 | [2502-sort-the-people](https://github.com/teche74/Daily_Practise/tree/master/2502-sort-the-people) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/teche74/Daily_Practise/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [2846-robot-collisions](https://github.com/teche74/Daily_Practise/tree/master/2846-robot-collisions) |
@@ -1234,6 +1237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1818-maximum-score-from-removing-substrings](https://github.com/teche74/Daily_Practise/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/teche74/Daily_Practise/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/teche74/Daily_Practise/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
+| [2379-maximum-total-importance-of-roads](https://github.com/teche74/Daily_Practise/tree/master/2379-maximum-total-importance-of-roads) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/teche74/Daily_Practise/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
 ## Union Find
 |  |
