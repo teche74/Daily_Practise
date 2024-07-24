@@ -815,6 +815,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/teche74/Daily_Practise/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/teche74/Daily_Practise/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/teche74/Daily_Practise/tree/master/0213-house-robber-ii) |
+| [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
 | [0274-h-index](https://github.com/teche74/Daily_Practise/tree/master/0274-h-index) |
 | [0287-find-the-duplicate-number](https://github.com/teche74/Daily_Practise/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0300-longest-increasing-subsequence) |
@@ -1088,6 +1089,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/teche74/Daily_Practise/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
 | [0347-top-k-frequent-elements](https://github.com/teche74/Daily_Practise/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/teche74/Daily_Practise/tree/master/0948-sort-an-array) |
 | [1873-longest-nice-substring](https://github.com/teche74/Daily_Practise/tree/master/1873-longest-nice-substring) |
@@ -1156,6 +1158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/teche74/Daily_Practise/tree/master/0023-merge-k-sorted-lists) |
+| [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
 | [0347-top-k-frequent-elements](https://github.com/teche74/Daily_Practise/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
@@ -1168,6 +1171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Ordered Set
 |  |
 | ------- |
+| [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2868-continuous-subarrays](https://github.com/teche74/Daily_Practise/tree/master/2868-continuous-subarrays) |
 ## Monotonic Queue
@@ -1419,9 +1423,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
 | [0406-queue-reconstruction-by-height](https://github.com/teche74/Daily_Practise/tree/master/0406-queue-reconstruction-by-height) |
 ## Segment Tree
 |  |
 | ------- |
+| [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
 | [0406-queue-reconstruction-by-height](https://github.com/teche74/Daily_Practise/tree/master/0406-queue-reconstruction-by-height) |
+## Line Sweep
+|  |
+| ------- |
+| [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
 <!---LeetCode Topics End-->
