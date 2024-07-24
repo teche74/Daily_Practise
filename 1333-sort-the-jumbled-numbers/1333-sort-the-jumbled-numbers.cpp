@@ -16,7 +16,6 @@ public:
                     place *= 10;
                 }
             }
-            cout<<mapped_val<<endl;
             pairs.push_back({mapped_val , num});
         }
 
