@@ -725,6 +725,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2179-most-beautiful-item-for-each-query](https://github.com/teche74/Daily_Practise/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/teche74/Daily_Practise/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/teche74/Daily_Practise/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
+| [2673-maximize-win-from-two-segments](https://github.com/teche74/Daily_Practise/tree/master/2673-maximize-win-from-two-segments) |
 | [2832-find-the-longest-equal-subarray](https://github.com/teche74/Daily_Practise/tree/master/2832-find-the-longest-equal-subarray) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/teche74/Daily_Practise/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Binary Tree
@@ -882,6 +883,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2502-sort-the-people](https://github.com/teche74/Daily_Practise/tree/master/2502-sort-the-people) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/teche74/Daily_Practise/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/teche74/Daily_Practise/tree/master/2631-sort-the-students-by-their-kth-score) |
+| [2673-maximize-win-from-two-segments](https://github.com/teche74/Daily_Practise/tree/master/2673-maximize-win-from-two-segments) |
 | [2832-find-the-longest-equal-subarray](https://github.com/teche74/Daily_Practise/tree/master/2832-find-the-longest-equal-subarray) |
 | [2846-robot-collisions](https://github.com/teche74/Daily_Practise/tree/master/2846-robot-collisions) |
 | [2868-continuous-subarrays](https://github.com/teche74/Daily_Practise/tree/master/2868-continuous-subarrays) |
@@ -992,6 +994,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2211-k-radius-subarray-averages](https://github.com/teche74/Daily_Practise/tree/master/2211-k-radius-subarray-averages) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/teche74/Daily_Practise/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/teche74/Daily_Practise/tree/master/2527-count-subarrays-with-fixed-bounds) |
+| [2673-maximize-win-from-two-segments](https://github.com/teche74/Daily_Practise/tree/master/2673-maximize-win-from-two-segments) |
 | [2786-find-the-longest-semi-repetitive-substring](https://github.com/teche74/Daily_Practise/tree/master/2786-find-the-longest-semi-repetitive-substring) |
 | [2832-find-the-longest-equal-subarray](https://github.com/teche74/Daily_Practise/tree/master/2832-find-the-longest-equal-subarray) |
 | [2868-continuous-subarrays](https://github.com/teche74/Daily_Practise/tree/master/2868-continuous-subarrays) |
