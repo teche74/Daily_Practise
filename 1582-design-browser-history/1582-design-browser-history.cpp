@@ -1,50 +1,50 @@
-struct lnk {
-    string url;
-    lnk *prev;
-    lnk *next;
+struct history{
+    string url = "";
+    history * next = nullptr;
+    history * prev = nullptr; 
 
-    lnk(std::string s = "") : url(s), prev(nullptr), next(nullptr) {}
-} typedef node;
+    history(string str = ""){
+        url = str;
+    }
+};
 
 class BrowserHistory {
 public:
-    node *head;
-    node *tail;
-    node *current;
+    history * head, *tail, * curr;
 
-    BrowserHistory(std::string homepage) {
-        head = new node();
-        tail = new node();
-        head->next = tail;
-        tail->prev = head;
-        current = new node(homepage);
-        head->next = current;
-        current->prev = head;
-        current->next = tail;
-        tail->prev = current;
+    BrowserHistory(string homepage) {
+        head = new history();
+        tail = new history();
+
+        curr = new history(homepage);
+
+        head->next = curr;
+        curr->prev = head;
+        curr->next = tail;
+        tail->prev = curr;
     }
-
-    void visit(std::string url) {
-        node *new_node = new node(url);
-        new_node->prev = current;
+    
+    void visit(string url) {
+        history * new_node = new history(url);
+        new_node->prev = curr;
         new_node->next = tail;
-        current->next = new_node;
+        curr->next = new_node;
         tail->prev = new_node;
-        current = new_node;
+        curr = new_node;
     }
-
-    std::string back(int steps) {
-        while (steps-- > 0 && current->prev != head) {
-            current = current->prev;
+    
+    string back(int steps) {
+        while(steps-- > 0 && curr->prev != head){
+            curr=curr->prev;
         }
-        return current->url;
+        return curr->url;
     }
-
-    std::string forward(int steps) {
-        while (steps-- > 0 && current->next != tail) {
-            current = current->next;
+    
+    string forward(int steps) {
+        while(steps-- > 0 && curr->next != tail){
+            curr=curr->next;
         }
-        return current->url;
+        return curr->url;
     }
 };
 
@@ -52,6 +52,6 @@ public:
  * Your BrowserHistory object will be instantiated and called as such:
  * BrowserHistory* obj = new BrowserHistory(homepage);
  * obj->visit(url);
- * std::string param_2 = obj->back(steps);
- * std::string param_3 = obj->forward(steps);
+ * string param_2 = obj->back(steps);
+ * string param_3 = obj->forward(steps);
  */
