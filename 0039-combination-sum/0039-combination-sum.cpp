@@ -1,41 +1,28 @@
 class Solution {
 public:
-    unordered_map<string, vector<vector<int>>> memo;
+    vector<vector<int>> combinationSum(vector<int>& cand, int target) {
+        vector<vector<int>>res;
+        vector<int>temp;
 
-    vector<vector<int>> solve(int index, vector<int>& arr, int val) {
-        string key = to_string(index) + "-" + to_string(val);
-        
-        if (memo.find(key) != memo.end()) {
-            return memo[key];
-        }
-
-        if (val == 0) {
-            return {{}};
-        }
-
-        if (index >= arr.size() || val < 0) {
-            return {};
-        }
-
-        vector<vector<int>> res;
-
-        if (val - arr[index] >= 0) {
-            vector<vector<int>> include = solve(index, arr, val - arr[index]);
-            for (auto& combination : include) {
-                combination.emplace_back(arr[index]);
-                res.emplace_back(combination);
+        function<void(int,int)> solve = [&](int index, int val){
+            if(index >= cand.size()){
+                if(val == 0){
+                    res.emplace_back(temp);
+                }
+                return;
             }
-        }
 
-        vector<vector<int>> exclude = solve(index + 1, arr, val);
-        res.insert(res.end(), exclude.begin(), exclude.end());
+            if(cand[index] <= val){
+                temp.emplace_back(cand[index]);
+                solve(index,val-cand[index]);
+                temp.pop_back();
+            }
 
-        memo[key] = res;
+            solve(index+1,val);
+        };
+
+        solve(0,target);
+
         return res;
-    }
-
-    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        memo.clear();
-        return solve(0, candidates, target);
     }
 };
