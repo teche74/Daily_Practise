@@ -803,6 +803,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/teche74/Daily_Practise/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/teche74/Daily_Practise/tree/master/0004-median-of-two-sorted-arrays) |
 | [0015-3sum](https://github.com/teche74/Daily_Practise/tree/master/0015-3sum) |
+| [0031-next-permutation](https://github.com/teche74/Daily_Practise/tree/master/0031-next-permutation) |
 | [0037-sudoku-solver](https://github.com/teche74/Daily_Practise/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/teche74/Daily_Practise/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/teche74/Daily_Practise/tree/master/0042-trapping-rain-water) |
@@ -1211,6 +1212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/teche74/Daily_Practise/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/teche74/Daily_Practise/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/teche74/Daily_Practise/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0031-next-permutation](https://github.com/teche74/Daily_Practise/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/teche74/Daily_Practise/tree/master/0042-trapping-rain-water) |
 | [0142-linked-list-cycle-ii](https://github.com/teche74/Daily_Practise/tree/master/0142-linked-list-cycle-ii) |
 | [0287-find-the-duplicate-number](https://github.com/teche74/Daily_Practise/tree/master/0287-find-the-duplicate-number) |
