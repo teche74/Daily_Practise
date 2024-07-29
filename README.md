@@ -704,6 +704,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0257-binary-tree-paths](https://github.com/teche74/Daily_Practise/tree/master/0257-binary-tree-paths) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/teche74/Daily_Practise/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0774-maximum-depth-of-n-ary-tree](https://github.com/teche74/Daily_Practise/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
 | [1035-cousins-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1035-cousins-in-binary-tree) |
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/teche74/Daily_Practise/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
@@ -810,6 +811,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0332-reconstruct-itinerary](https://github.com/teche74/Daily_Practise/tree/master/0332-reconstruct-itinerary) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/teche74/Daily_Practise/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+| [0774-maximum-depth-of-n-ary-tree](https://github.com/teche74/Daily_Practise/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0813-all-paths-from-source-to-target](https://github.com/teche74/Daily_Practise/tree/master/0813-all-paths-from-source-to-target) |
 | [0871-keys-and-rooms](https://github.com/teche74/Daily_Practise/tree/master/0871-keys-and-rooms) |
 | [1035-cousins-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1035-cousins-in-binary-tree) |
@@ -1184,6 +1186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0433-minimum-genetic-mutation](https://github.com/teche74/Daily_Practise/tree/master/0433-minimum-genetic-mutation) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/teche74/Daily_Practise/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0774-maximum-depth-of-n-ary-tree](https://github.com/teche74/Daily_Practise/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0813-all-paths-from-source-to-target](https://github.com/teche74/Daily_Practise/tree/master/0813-all-paths-from-source-to-target) |
 | [0871-keys-and-rooms](https://github.com/teche74/Daily_Practise/tree/master/0871-keys-and-rooms) |
 | [1035-cousins-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1035-cousins-in-binary-tree) |
