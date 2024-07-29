@@ -1,27 +1,30 @@
 class Solution {
 public:
-    void solve(int index, string str , string helper[10] , string temp , vector<string> & res ){
-        if(index >= str.size()){
-            res.emplace_back(temp);
-            return;
-        }
+    string keypad[10] = {"","","abc", "def" , "ghi" ,"jkl" , "mno", "pqrs", "tuv", "wxyz"};
 
-        string tp = helper[str[index] - '0'];
-
-        for(char ch : tp){
-            temp.push_back(ch);
-            solve(index+1,str,helper,temp,res);
-            temp.pop_back();
-        }
-    }
     vector<string> letterCombinations(string digits) {
         if(digits.empty()) return {};
-        string helper[10] = {"","", "abc" , "def", "ghi" , "jkl" ,"mno", "pqrs" , "tuv" , "wxyz"};
-
         vector<string>res;
         string temp = "";
 
-        solve(0, digits, helper, temp,res);
+        function<void(int)> solve = [&](int index){
+            if(index >= digits.size()){
+                res.emplace_back(temp);
+                return;
+            }
+
+            string ptr = keypad[digits[index] - '0'];
+
+            for(char ch : ptr){
+                temp.push_back(ch);
+                solve(index+1);
+                temp.pop_back();
+            }
+        };
+
+        solve(0);
+
         return res;
+
     }
 };
