@@ -7,7 +7,36 @@ public:
         if(numRows == 1) return s;
 
         //  brute 
-        vector<char>st[numRows];
+        // vector<char>st[numRows];
+        // int row = 0 , dir = -1; 
+
+        // for(char ch : s){
+        //     st[row].push_back(ch);
+
+        //     if(row == 0 || row == numRows-1){
+        //         dir*=-1;
+        //     }
+
+        //     row+=dir;
+        // }
+
+        // string res = "";
+
+        // for(auto t : st){
+        //     for(char ch : t){
+        //         res.push_back(ch);
+        //     }
+        // }
+
+        // return res;
+
+
+
+
+
+        // optimize
+
+        vector<string>st(numRows,"");
         int row = 0 , dir = -1; 
 
         for(char ch : s){
@@ -23,9 +52,7 @@ public:
         string res = "";
 
         for(auto t : st){
-            for(char ch : t){
-                res.push_back(ch);
-            }
+            res+=t;
         }
 
         return res;
