@@ -10,65 +10,43 @@
  */
 class Solution {
 public:
-    ListNode * reverse(ListNode * head, int k = 0)
-    {
-        ListNode * prev = nullptr , * curr = head, * temp = nullptr;
+    int getlen(ListNode * root){
+        int cnt = 0;
+        
 
-        if(k == 0){
-            while(curr!=nullptr){
-                temp = curr->next;
-                curr->next  =prev;
-                prev = curr;
-                curr=temp;
-            }
-            return prev;
-        }
-        else{
-            int t = k;
-            while(curr!=nullptr && t){
-                temp = curr->next;
-                curr->next  =prev;
-                prev = curr;
-                curr=temp;
-                t--;
-            }
-            return prev;
-        }
-    }
-
-    int len(ListNode * head){
-        int cnt{0};
-        while(head){
+        while(root != nullptr){
             cnt++;
-            head=head->next;
+            root= root->next;
         }
+
         return cnt;
     }
-    
     ListNode* rotateRight(ListNode* head, int k) {
-        if (!head || k == 0) return head;
-        
-        int size = len(head);
-        if (size == 0) return head;
+        if(!head) return nullptr;
+        int len  = getlen(head);
 
-        k %= size;
-        if (k == 0) return head;
-        
-        ListNode* oldTail = head;
-        for (int i = 1; i < size; i++) {
-            oldTail = oldTail->next;
+        k %= len;
+
+        if(k == 0 ) return head;
+
+        ListNode * ptr = head;
+
+        for(int i = 0; i < len- k -1 ; i++){
+            ptr = ptr->next;
+        } 
+
+        ListNode * res = ptr->next;
+        ptr->next = nullptr;
+
+        ListNode * tail = res;
+
+        while(tail->next){
+            tail=tail->next;
         }
-        
-        oldTail->next = head;
 
-        ListNode* newTail = head;
-        for (int i = 0; i < size - k - 1; i++) {
-            newTail = newTail->next;
-        }
-        ListNode* newHead = newTail->next;
+        tail->next =head;
+        return res;
 
-        newTail->next = nullptr;
 
-        return newHead;
     }
 };
