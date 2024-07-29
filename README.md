@@ -703,6 +703,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0257-binary-tree-paths](https://github.com/teche74/Daily_Practise/tree/master/0257-binary-tree-paths) |
+| [0404-sum-of-left-leaves](https://github.com/teche74/Daily_Practise/tree/master/0404-sum-of-left-leaves) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/teche74/Daily_Practise/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/teche74/Daily_Practise/tree/master/0774-maximum-depth-of-n-ary-tree) |
@@ -773,6 +774,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0257-binary-tree-paths](https://github.com/teche74/Daily_Practise/tree/master/0257-binary-tree-paths) |
+| [0404-sum-of-left-leaves](https://github.com/teche74/Daily_Practise/tree/master/0404-sum-of-left-leaves) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/teche74/Daily_Practise/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0783-search-in-a-binary-search-tree) |
@@ -822,6 +824,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0257-binary-tree-paths](https://github.com/teche74/Daily_Practise/tree/master/0257-binary-tree-paths) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0332-reconstruct-itinerary](https://github.com/teche74/Daily_Practise/tree/master/0332-reconstruct-itinerary) |
+| [0404-sum-of-left-leaves](https://github.com/teche74/Daily_Practise/tree/master/0404-sum-of-left-leaves) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/teche74/Daily_Practise/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
@@ -1200,6 +1203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0301-remove-invalid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0301-remove-invalid-parentheses) |
 | [0322-coin-change](https://github.com/teche74/Daily_Practise/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0404-sum-of-left-leaves](https://github.com/teche74/Daily_Practise/tree/master/0404-sum-of-left-leaves) |
 | [0433-minimum-genetic-mutation](https://github.com/teche74/Daily_Practise/tree/master/0433-minimum-genetic-mutation) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/teche74/Daily_Practise/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0637-average-of-levels-in-binary-tree) |
