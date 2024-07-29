@@ -7,13 +7,13 @@ public:
             return INT_MAX;
         }
 
-        long long  divd = labs(dividend) , divs = labs(divisor);
+        long  divd = labs(dividend) , divs = labs(divisor);
 
-        int res = 0;
+        long res = 0;
 
         while(divd >= divs){
-            int temp = divs;
-            int count  = 1;
+            long temp = divs;
+            long count  = 1;
 
             while(divd >= temp << 1){
                 temp <<= 1;
