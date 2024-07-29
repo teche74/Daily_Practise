@@ -1,25 +1,21 @@
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& arr) {
-        int size = arr.size();
+        int size = 9;
 
-        int rgrid[size][size];
-        int cgrid[size][size];
-        int ggrid[size][size];
+        int row[size][size], col[size][size], grid[size][size];
+        memset(row,0, sizeof(row));
+        memset(row,0, sizeof(col));
+        memset(row,0, sizeof(grid));
 
-        memset(rgrid,0, sizeof(rgrid));
-        memset(cgrid,0, sizeof(rgrid));
-        memset(ggrid,0, sizeof(rgrid));
-
-        for(int i =0 ; i <size; i++){
-            for(int j  =0 ; j <size; j++){
+        for(int i = 0 ; i < size; i ++){
+            for(int j = 0 ;j <size; j++){
                 if(arr[i][j] != '.'){
                     int val = arr[i][j] - '0';
 
-                    int k = (i/3)*3 + j/3;
+                    int k = (i/3) * 3 + (j/3);
 
-
-                    if(rgrid[i][val-1]++ || cgrid[val-1][j]++ || ggrid[k][val-1]++){
+                    if(row[val-1][j]++ || col[i][val-1]++ || grid[val-1][k]++){
                         return false;
                     }
                 }
