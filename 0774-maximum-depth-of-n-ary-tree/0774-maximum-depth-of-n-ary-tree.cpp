@@ -21,27 +21,37 @@ public:
 class Solution {
 public:
     int maxDepth(Node* root) {
-        int max_level = 0;
+        // int max_level = 0;
 
-        if(!root) return max_level;
+        // if(!root) return max_level;
 
-        queue<pair<Node*,int>> q;
+        // queue<pair<Node*,int>> q;
 
-        q.push(make_pair(root,1));
+        // q.push(make_pair(root,1));
 
-        while(!q.empty()){
-            int size = q.size();
+        // while(!q.empty()){
+        //     int size = q.size();
 
-            Node* node = q.front().first;
-            int level = q.front().second;
-            q.pop();
+        //     Node* node = q.front().first;
+        //     int level = q.front().second;
+        //     q.pop();
 
-            max_level = max(max_level, level);
+        //     max_level = max(max_level, level);
 
-            for (auto child : node->children) {
-                q.push(make_pair(child, level + 1));
-            }
+        //     for (auto child : node->children) {
+        //         q.push(make_pair(child, level + 1));
+        //     }
+        // }
+        // return max_level;
+
+        if(!root) return 0;
+
+        int maxi = 0;
+
+        for(auto t  : root->children){
+            maxi = max(maxi ,maxDepth(t));
         }
-        return max_level;
+
+        return maxi +1;
     }
 };
