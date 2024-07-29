@@ -602,6 +602,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/teche74/Daily_Practise/tree/master/0002-add-two-numbers) |
 | [0012-integer-to-roman](https://github.com/teche74/Daily_Practise/tree/master/0012-integer-to-roman) |
+| [0029-divide-two-integers](https://github.com/teche74/Daily_Practise/tree/master/0029-divide-two-integers) |
 | [0060-permutation-sequence](https://github.com/teche74/Daily_Practise/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/teche74/Daily_Practise/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/teche74/Daily_Practise/tree/master/0070-climbing-stairs) |
@@ -960,6 +961,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/teche74/Daily_Practise/tree/master/0029-divide-two-integers) |
 | [0287-find-the-duplicate-number](https://github.com/teche74/Daily_Practise/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/teche74/Daily_Practise/tree/master/0338-counting-bits) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/teche74/Daily_Practise/tree/master/1826-maximum-xor-with-an-element-from-array) |
