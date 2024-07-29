@@ -702,6 +702,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0257-binary-tree-paths](https://github.com/teche74/Daily_Practise/tree/master/0257-binary-tree-paths) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/teche74/Daily_Practise/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
 | [1035-cousins-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1035-cousins-in-binary-tree) |
@@ -762,6 +763,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0257-binary-tree-paths](https://github.com/teche74/Daily_Practise/tree/master/0257-binary-tree-paths) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/teche74/Daily_Practise/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
 | [1035-cousins-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1035-cousins-in-binary-tree) |
@@ -782,6 +784,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0095-unique-binary-search-trees-ii](https://github.com/teche74/Daily_Practise/tree/master/0095-unique-binary-search-trees-ii) |
 | [0113-path-sum-ii](https://github.com/teche74/Daily_Practise/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/teche74/Daily_Practise/tree/master/0131-palindrome-partitioning) |
+| [0257-binary-tree-paths](https://github.com/teche74/Daily_Practise/tree/master/0257-binary-tree-paths) |
 | [0301-remove-invalid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0301-remove-invalid-parentheses) |
 | [0306-additive-number](https://github.com/teche74/Daily_Practise/tree/master/0306-additive-number) |
 | [0357-count-numbers-with-unique-digits](https://github.com/teche74/Daily_Practise/tree/master/0357-count-numbers-with-unique-digits) |
@@ -802,6 +805,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/teche74/Daily_Practise/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/teche74/Daily_Practise/tree/master/0207-course-schedule) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0257-binary-tree-paths](https://github.com/teche74/Daily_Practise/tree/master/0257-binary-tree-paths) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0332-reconstruct-itinerary](https://github.com/teche74/Daily_Practise/tree/master/0332-reconstruct-itinerary) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/teche74/Daily_Practise/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -1072,6 +1076,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0205-isomorphic-strings](https://github.com/teche74/Daily_Practise/tree/master/0205-isomorphic-strings) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0242-valid-anagram](https://github.com/teche74/Daily_Practise/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/teche74/Daily_Practise/tree/master/0257-binary-tree-paths) |
 | [0301-remove-invalid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0301-remove-invalid-parentheses) |
 | [0306-additive-number](https://github.com/teche74/Daily_Practise/tree/master/0306-additive-number) |
 | [0336-palindrome-pairs](https://github.com/teche74/Daily_Practise/tree/master/0336-palindrome-pairs) |
