@@ -814,6 +814,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/teche74/Daily_Practise/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/teche74/Daily_Practise/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/teche74/Daily_Practise/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/teche74/Daily_Practise/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/teche74/Daily_Practise/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/teche74/Daily_Practise/tree/master/0056-merge-intervals) |
 | [0084-largest-rectangle-in-histogram](https://github.com/teche74/Daily_Practise/tree/master/0084-largest-rectangle-in-histogram) |
@@ -1365,6 +1366,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/teche74/Daily_Practise/tree/master/0054-spiral-matrix) |
 | [0537-complex-number-multiplication](https://github.com/teche74/Daily_Practise/tree/master/0537-complex-number-multiplication) |
 | [1642-water-bottles](https://github.com/teche74/Daily_Practise/tree/master/1642-water-bottles) |
 | [1803-average-waiting-time](https://github.com/teche74/Daily_Practise/tree/master/1803-average-waiting-time) |
@@ -1435,6 +1437,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0036-valid-sudoku](https://github.com/teche74/Daily_Practise/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/teche74/Daily_Practise/tree/master/0037-sudoku-solver) |
+| [0054-spiral-matrix](https://github.com/teche74/Daily_Practise/tree/master/0054-spiral-matrix) |
 | [0085-maximal-rectangle](https://github.com/teche74/Daily_Practise/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/teche74/Daily_Practise/tree/master/0200-number-of-islands) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
