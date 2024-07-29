@@ -1,47 +1,37 @@
 class Solution {
 public:
     string longestPalindrome(string s) {
-        string temp = "$";
+        // apprach 1 : centre expand theorum
 
-        for(char ch : s){
-            temp.push_back('|');
-            temp.push_back(ch);
-        }
-        temp.push_back('|');
-        temp.push_back('@');
+        function<string(void)> centreExpand = [&](){
+            int size =s.size();
 
-        int size= temp.size();
+            function<int(int ,int)> find_len = [&](int low,  int high){
+                while(low >= 0 && high < size && s[low] == s[high]){
+                    low--;
+                    high++;
+                }
 
-        int lps[size];
-        memset(lps, 0 ,sizeof(lps));
-        int right = 0 , centre = 0 ; 
+                return high - low-1;
+            };
 
-        for(int i = 1; i < size-1 ; i++){
-            int mirror = 2 * centre - i;
+            int ind = 0 , len=0;
 
-            if(i < right){
-                lps[i] = min(right - i , lps[mirror]);
+            for(int i = 0 ; i <size; i++){
+                int l1 = find_len(i,i);
+                int l2 = find_len(i,i+1);
+
+                int max_len = max(l1,l2);
+
+                if(max_len > len){
+                    len = max_len;
+                    ind = i - (max_len - 1)/2;
+                }
             }
 
-            while( temp[ i + lps[i] +1]  == temp[i - lps[i] -1] ){
-                lps[i]++;
-            }
+            return s.substr(ind,len);
+        }; 
 
-            if( i + lps[i] > right){
-                centre = i;
-                right = i + lps[i];
-            }
-        }
-
-        int max_centre = 0 , max_len = 0;
-
-        for(int i = 1 ;i < size-1 ; i++){
-            if(max_len < lps[i]){
-                max_len = lps[i];
-                max_centre = i;
-            }
-        }
-
-        return s.substr((max_centre-max_len)/2, max_len);
+        return centreExpand();
     }
 };
