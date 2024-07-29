@@ -11,25 +11,48 @@
  */
 class Solution {
 public:
-    void solve(TreeNode * root , vector<int> & ele)
-    {
+    void solve(TreeNode * root , int & prev , int  & res){
         if(root){
-            solve(root->left,ele);
-            ele.emplace_back(root->val);
-            solve(root->right,ele);
+            solve(root->left , prev,res);
+            if(prev != -1 ) res = min(res, root->val - prev );
+            prev = root->val;
+            solve(root->right,prev,res);
         }
     }
     int getMinimumDifference(TreeNode* root) {
-        vector<int>ele;
+        int prev = -1 , res = INT_MAX;
+        solve(root,prev,res);
 
-        solve(root, ele);
-
-        int diff = INT_MAX;
-
-        for(int i =1; i < ele.size() ; i++){
-            diff = min(diff, ele[i] - ele[i-1]);
-        }
+        return res;
         
-        return diff;
     }
 };
+
+
+// sara array chahiye hi ni tha bas previous to chahiye tha /.
+
+
+// class Solution {
+// public:
+//     void solve(TreeNode * root , vector<int> & ele)
+//     {
+//         if(root){
+//             solve(root->left,ele);
+//             ele.emplace_back(root->val);
+//             solve(root->right,ele);
+//         }
+//     }
+//     int getMinimumDifference(TreeNode* root) {
+//         vector<int>ele;
+
+//         solve(root, ele);
+
+//         int diff = INT_MAX;
+
+//         for(int i =1; i < ele.size() ; i++){
+//             diff = min(diff, ele[i] - ele[i-1]);
+//         }
+        
+//         return diff;
+//     }
+// };
