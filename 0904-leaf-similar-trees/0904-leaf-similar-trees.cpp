@@ -16,6 +16,7 @@ public:
             if(!root->left && !root->right)
             {
                 vec.emplace_back(root->val);
+                return;
             }
             preorder(root->left,vec);
             preorder(root->right,vec);
