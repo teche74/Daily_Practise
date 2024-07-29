@@ -1,19 +1,31 @@
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        int  low =  0 , high = 0, size = nums.size();
+        function<int(int)> solve = [&](int val){
+            int low = 0 , high = nums.size()-1;
 
-        for(int i = size ;i >=1 ; i/=2){
-            while(low + i < size  && nums[low+i] <target) low+=i;
-            while(high + i < size && nums[high+i] <= target) high+=i;
-        }
+            int res = -1;
+            while(low <= high){
+                int mid = low + ((high - low)/2);
 
-        if(low < size && nums[low] == target) return {low, high};
-
-        if(low + 1 >= size ||  nums[low + 1] != target) return {-1,-1};
-        if(nums[low+1] == target && (low +2 < size && nums[low+2] != target) || low+2 >=size) return {low+1, low+1};
-
-        return {low+1, high};
-
+                if(nums[mid] == target){
+                    res = mid;
+                    if(val > 0){
+                        low = mid+1;
+                    }
+                    else{
+                        high = mid-1;
+                    }
+                }
+                else if(nums[mid] >= target){
+                    high = mid-1;
+                }
+                else{
+                    low = mid+1;
+                }
+            }
+            return res;
+        };
+        return{solve(-1),solve(1)};
     }
 };
