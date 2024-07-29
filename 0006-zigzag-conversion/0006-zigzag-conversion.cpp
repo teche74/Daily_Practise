@@ -3,17 +3,18 @@ public:
     string convert(string s, int numRows) {
         int size = s.size();
 
-        if( numRows == 1 || s.size() < numRows ) return s;
+        if(size < numRows ) return s;
+        if(numRows == 1) return s;
 
-        vector<string>st(size);
-
-        int row = 0 , dir = -1;
+        //  brute 
+        vector<char>st[numRows];
+        int row = 0 , dir = -1; 
 
         for(char ch : s){
             st[row].push_back(ch);
 
             if(row == 0 || row == numRows-1){
-                dir *= -1;
+                dir*=-1;
             }
 
             row+=dir;
@@ -22,7 +23,9 @@ public:
         string res = "";
 
         for(auto t : st){
-            res+=t;
+            for(char ch : t){
+                res.push_back(ch);
+            }
         }
 
         return res;
