@@ -2,32 +2,33 @@ class Solution {
 public:
     vector<string> generateParenthesis(int n) {
         vector<string>res;
+        string temp = "";
 
-        function<void(int,int,string)> generate = [&](int open,int close, string temp){
-            if(open == 0 and close == 0){
+        function<void(int,int)> solve = [&](int open, int close)
+        {
+            if(open == 0 && close == 0){
                 res.emplace_back(temp);
-                return ;
+                return;
             }
 
             if(open > 0){
                 temp.push_back('(');
-                generate(open-1,close,temp);
+                solve(open-1,close);
                 temp.pop_back();
             }
-
+            
             if(close > 0){
                 if(close > open){
                     temp.push_back(')');
-                    generate(open, close-1,temp);
+                    solve(open,close-1);
                     temp.pop_back();
                 }
             }
+
         };
 
-        generate(n,n,"");
-
+        solve(n,n);
 
         return res;
-
     }
 };
