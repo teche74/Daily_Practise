@@ -721,6 +721,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/teche74/Daily_Practise/tree/master/0975-range-sum-of-bst) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/teche74/Daily_Practise/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1035-cousins-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1035-cousins-in-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/teche74/Daily_Practise/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1207-delete-nodes-and-return-forest](https://github.com/teche74/Daily_Practise/tree/master/1207-delete-nodes-and-return-forest) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -750,6 +751,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0802-k-th-smallest-prime-fraction](https://github.com/teche74/Daily_Practise/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/teche74/Daily_Practise/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0975-range-sum-of-bst](https://github.com/teche74/Daily_Practise/tree/master/0975-range-sum-of-bst) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/teche74/Daily_Practise/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1321-get-equal-substrings-within-budget](https://github.com/teche74/Daily_Practise/tree/master/1321-get-equal-substrings-within-budget) |
 | [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/teche74/Daily_Practise/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
@@ -798,6 +800,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/teche74/Daily_Practise/tree/master/0975-range-sum-of-bst) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/teche74/Daily_Practise/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1035-cousins-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1035-cousins-in-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/teche74/Daily_Practise/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1207-delete-nodes-and-return-forest](https://github.com/teche74/Daily_Practise/tree/master/1207-delete-nodes-and-return-forest) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -935,6 +938,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1034-subarrays-with-k-different-integers](https://github.com/teche74/Daily_Practise/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/teche74/Daily_Practise/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/teche74/Daily_Practise/tree/master/1039-find-the-town-judge) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/teche74/Daily_Practise/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1207-delete-nodes-and-return-forest](https://github.com/teche74/Daily_Practise/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/teche74/Daily_Practise/tree/master/1293-three-consecutive-odds) |
@@ -1400,6 +1404,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0394-decode-string](https://github.com/teche74/Daily_Practise/tree/master/0394-decode-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/teche74/Daily_Practise/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0886-score-of-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0886-score-of-parentheses) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1078-remove-outermost-parentheses) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -1555,6 +1560,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0084-largest-rectangle-in-histogram](https://github.com/teche74/Daily_Practise/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/teche74/Daily_Practise/tree/master/0085-maximal-rectangle) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/teche74/Daily_Practise/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Data Stream
 |  |
 | ------- |
