@@ -1,22 +1,30 @@
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-        int low = 0 , mid =0  , high = nums.size()-1;
+        
+        function<void(void)> approach1 = [&](){
+            int count_z = 0 , count_one = 0 ,size = nums.size();
 
-        while(mid <= high){
+            for(int i = 0; i < size; i++){
+                count_z +=(nums[i] == 0);
+                count_one  += (nums[i] == 1);
+            }
 
-            if(nums[mid] == 0){
-                swap(nums[low],nums[mid]);
-                low++;
-                mid++;
+            for(int i =0; i < nums.size(); i++){
+                if(count_z > 0){
+                    nums[i] = 0;
+                    count_z--;
+                }
+                else if(count_one > 0){
+                    nums[i] = 1;
+                    count_one--;
+                }
+                else{
+                    nums[i] = 2;
+                }
             }
-            else if(nums[mid] == 1){
-                mid++;
-            }
-            else if(nums[mid]  == 2){
-                swap(nums[mid],nums[high]);
-                high--;
-            }
-        } 
+        };
+
+        approach1();
     }
 };
