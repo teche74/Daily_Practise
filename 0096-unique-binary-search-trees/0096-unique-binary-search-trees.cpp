@@ -1,15 +1,21 @@
 class Solution {
 public:
     int numTrees(int n) {
-        if(n == 0 || n ==1) return 1;
+        int dp[n+1];
 
-        int sum = 0;
+        memset(dp, 0 ,sizeof(dp));
 
-        for(int i =1; i <= n ;i++){
-            sum += numTrees(i-1) * numTrees(n-i);
+        dp[0] =1, dp[1] =1;
+
+        for(int nodes =2 ; nodes <= n; nodes++){
+            for(int left = 0 ; left < nodes ; left++){
+                int right = nodes -left-1;
+                dp[nodes] += dp[left] * dp[right];
+            }
         }
 
-        return sum;
+        return dp[n];
+
 
     }
 };
