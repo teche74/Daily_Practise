@@ -873,6 +873,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/teche74/Daily_Practise/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/teche74/Daily_Practise/tree/master/0073-set-matrix-zeroes) |
+| [0075-sort-colors](https://github.com/teche74/Daily_Practise/tree/master/0075-sort-colors) |
 | [0084-largest-rectangle-in-histogram](https://github.com/teche74/Daily_Practise/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/teche74/Daily_Practise/tree/master/0085-maximal-rectangle) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -1295,6 +1296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0031-next-permutation](https://github.com/teche74/Daily_Practise/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/teche74/Daily_Practise/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/teche74/Daily_Practise/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/teche74/Daily_Practise/tree/master/0075-sort-colors) |
 | [0142-linked-list-cycle-ii](https://github.com/teche74/Daily_Practise/tree/master/0142-linked-list-cycle-ii) |
 | [0287-find-the-duplicate-number](https://github.com/teche74/Daily_Practise/tree/master/0287-find-the-duplicate-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -1312,6 +1314,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/teche74/Daily_Practise/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/teche74/Daily_Practise/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/teche74/Daily_Practise/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/teche74/Daily_Practise/tree/master/0075-sort-colors) |
 | [0164-maximum-gap](https://github.com/teche74/Daily_Practise/tree/master/0164-maximum-gap) |
 | [0242-valid-anagram](https://github.com/teche74/Daily_Practise/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/teche74/Daily_Practise/tree/master/0274-h-index) |
