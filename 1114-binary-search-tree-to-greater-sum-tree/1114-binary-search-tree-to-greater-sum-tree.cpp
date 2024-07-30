@@ -11,20 +11,17 @@
  */
 class Solution {
 public:
-    TreeNode* bstToGst(TreeNode* root) {
-        int sum = 0;
-        solve(root,sum);
-        return root;
-    }
-
-    void solve(TreeNode  *root, int& sum){
-        if(!root){
-            return ;
+    void reverse_trav(TreeNode * &root , int  & sum){
+        if(root){
+            reverse_trav(root->right,sum);
+            sum+=root->val;
+            root->val = sum;
+            reverse_trav(root->left,sum);
         }
-
-        solve(root->right,sum);
-        sum+=root->val;
-        root->val =sum;
-        solve(root->left,sum);
+    }
+    TreeNode* bstToGst(TreeNode* &  root) {
+        int sum = 0;
+        reverse_trav(root,sum);
+        return root;
     }
 };
