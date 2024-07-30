@@ -681,6 +681,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1573-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/teche74/Daily_Practise/tree/master/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1617-stone-game-iv](https://github.com/teche74/Daily_Practise/tree/master/1617-stone-game-iv) |
 | [1676-minimum-number-of-days-to-eat-n-oranges](https://github.com/teche74/Daily_Practise/tree/master/1676-minimum-number-of-days-to-eat-n-oranges) |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/teche74/Daily_Practise/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1761-count-sorted-vowel-strings](https://github.com/teche74/Daily_Practise/tree/master/1761-count-sorted-vowel-strings) |
 | [1764-maximum-repeating-substring](https://github.com/teche74/Daily_Practise/tree/master/1764-maximum-repeating-substring) |
 | [1814-jump-game-vi](https://github.com/teche74/Daily_Practise/tree/master/1814-jump-game-vi) |
@@ -1139,6 +1140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1530-check-if-a-string-can-break-another-string](https://github.com/teche74/Daily_Practise/tree/master/1530-check-if-a-string-can-break-another-string) |
 | [1720-crawler-log-folder](https://github.com/teche74/Daily_Practise/tree/master/1720-crawler-log-folder) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/teche74/Daily_Practise/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1764-maximum-repeating-substring](https://github.com/teche74/Daily_Practise/tree/master/1764-maximum-repeating-substring) |
 | [1777-determine-if-two-strings-are-close](https://github.com/teche74/Daily_Practise/tree/master/1777-determine-if-two-strings-are-close) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/teche74/Daily_Practise/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
@@ -1381,6 +1383,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1582-design-browser-history](https://github.com/teche74/Daily_Practise/tree/master/1582-design-browser-history) |
 | [1720-crawler-log-folder](https://github.com/teche74/Daily_Practise/tree/master/1720-crawler-log-folder) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/teche74/Daily_Practise/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/teche74/Daily_Practise/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/teche74/Daily_Practise/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2846-robot-collisions](https://github.com/teche74/Daily_Practise/tree/master/2846-robot-collisions) |
