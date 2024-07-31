@@ -721,6 +721,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0904-leaf-similar-trees](https://github.com/teche74/Daily_Practise/tree/master/0904-leaf-similar-trees) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
 | [0975-range-sum-of-bst](https://github.com/teche74/Daily_Practise/tree/master/0975-range-sum-of-bst) |
+| [0998-check-completeness-of-a-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1011-flip-binary-tree-to-match-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1011-flip-binary-tree-to-match-preorder-traversal) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/teche74/Daily_Practise/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1035-cousins-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1035-cousins-in-binary-tree) |
@@ -807,6 +808,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0904-leaf-similar-trees](https://github.com/teche74/Daily_Practise/tree/master/0904-leaf-similar-trees) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
 | [0975-range-sum-of-bst](https://github.com/teche74/Daily_Practise/tree/master/0975-range-sum-of-bst) |
+| [0998-check-completeness-of-a-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1011-flip-binary-tree-to-match-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1011-flip-binary-tree-to-match-preorder-traversal) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/teche74/Daily_Practise/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1035-cousins-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1035-cousins-in-binary-tree) |
@@ -1274,6 +1276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0799-minimum-distance-between-bst-nodes](https://github.com/teche74/Daily_Practise/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0813-all-paths-from-source-to-target](https://github.com/teche74/Daily_Practise/tree/master/0813-all-paths-from-source-to-target) |
 | [0871-keys-and-rooms](https://github.com/teche74/Daily_Practise/tree/master/0871-keys-and-rooms) |
+| [0998-check-completeness-of-a-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1035-cousins-in-binary-tree) |
 | [1036-rotting-oranges](https://github.com/teche74/Daily_Practise/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
