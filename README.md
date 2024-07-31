@@ -721,6 +721,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0904-leaf-similar-trees](https://github.com/teche74/Daily_Practise/tree/master/0904-leaf-similar-trees) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
 | [0975-range-sum-of-bst](https://github.com/teche74/Daily_Practise/tree/master/0975-range-sum-of-bst) |
+| [1011-flip-binary-tree-to-match-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1011-flip-binary-tree-to-match-preorder-traversal) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/teche74/Daily_Practise/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1035-cousins-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1035-cousins-in-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -806,6 +807,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0904-leaf-similar-trees](https://github.com/teche74/Daily_Practise/tree/master/0904-leaf-similar-trees) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
 | [0975-range-sum-of-bst](https://github.com/teche74/Daily_Practise/tree/master/0975-range-sum-of-bst) |
+| [1011-flip-binary-tree-to-match-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1011-flip-binary-tree-to-match-preorder-traversal) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/teche74/Daily_Practise/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1035-cousins-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1035-cousins-in-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -871,6 +873,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0871-keys-and-rooms](https://github.com/teche74/Daily_Practise/tree/master/0871-keys-and-rooms) |
 | [0904-leaf-similar-trees](https://github.com/teche74/Daily_Practise/tree/master/0904-leaf-similar-trees) |
 | [0975-range-sum-of-bst](https://github.com/teche74/Daily_Practise/tree/master/0975-range-sum-of-bst) |
+| [1011-flip-binary-tree-to-match-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1011-flip-binary-tree-to-match-preorder-traversal) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/teche74/Daily_Practise/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1035-cousins-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/1035-cousins-in-binary-tree) |
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/teche74/Daily_Practise/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
