@@ -22,7 +22,17 @@ public:
         return dp[index][action]  = max(act,leave);
     }
     int maxProfit(vector<int>& prices) {
-        vector<vector<int>>dp(prices.size()+1,vector<int>(3,-1));
-        return solve(0,prices,2,dp);
+        // vector<vector<int>>dp(prices.size()+1,vector<int>(3,-1));
+        // return solve(0,prices,2,dp);
+
+        int size = prices.size();
+        int min_price = INT_MAX,res = 0;
+
+        for(int i =0; i  <size; i++){
+            min_price = min(prices[i] , min_price);
+            res = max(res, prices[i] - min_price);
+        }
+
+        return res;
     }
 };
