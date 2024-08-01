@@ -1,30 +1,29 @@
 class Solution {
 public:
     unordered_map<string,bool>dp;
-    int solve(int curr, int turn){
-        if(curr == 1){
+    bool solve(int val , int turn){
+        if(val == 1 ){
             return false;
         }
 
-        string key = to_string(curr) + "-" + to_string(turn);
-        if(dp.count(key)){
-            return dp[key]; 
-        }
+        string key = to_string(val) + to_string(turn);
 
-        bool val1 = false;
+        if(dp.count(key)) return dp[key];
 
-        for(int i = 1 ; i <curr; i++){
-            if(curr % i == 0){
-                if(!solve(curr -i , abs(turn - 1) )) {
-                    val1 = true;
+        int pos = false;
+        for(int i = 1; i < val ;i++){
+            if(val % i == 0 ){
+                if(!solve(val-i,abs(turn-1))){
+                    pos = true;
                     break;
                 }
             }
         }
 
-        return dp[key] = val1;
+        return dp[key] = pos;
     }
     bool divisorGame(int n) {
-        return solve(n, 1);
+        int turn =1;
+        return solve(n, turn);
     }
 };
