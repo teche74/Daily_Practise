@@ -11,31 +11,32 @@
  */
 class Solution {
 public:
-    unordered_map<int,vector<TreeNode* >>dp;
+
     vector<TreeNode*> allPossibleFBT(int n) {
         vector<TreeNode *>res;
+        if(n == 1 ){
+            res.emplace_back(new TreeNode(0));
+            return res;
+        };
 
-        if(n % 2 == 0) return res;
+        if(!(n &1)) {};
 
-        if(n == 1){
-            return {new TreeNode(0)};
-        }
 
-        if(dp.count(n)) return dp[n];
-
-        for(int i = 1; i < n ;i+=2){
+        for(int i =1; i < n; i+=2){
             vector<TreeNode *> left = allPossibleFBT(i);
             vector<TreeNode *> right = allPossibleFBT(n-i-1);
 
-            for(auto t : left){
-                for(auto l : right){
-                    TreeNode * root = new TreeNode(0);
-                    root->left = t;
-                    root->right = l;
-                    res.emplace_back(root); 
+            for(auto l : left){
+                for(auto r : right){
+                    TreeNode * root = new TreeNode{0};
+
+                    root->left = l;
+                    root->right = r;
+                    res.push_back(root);
                 }
             }
+
         }
-        return dp[n] = res;
+        return res;
     }
 };
