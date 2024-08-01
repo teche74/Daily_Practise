@@ -43,9 +43,9 @@ public:
                     q.push(front->right);
                 }
             }
-            if(prev){
-                prev->next = nullptr;
-            }
+            // if(prev){
+            //     prev->next = nullptr;
+            // }
         }
 
         return root;
