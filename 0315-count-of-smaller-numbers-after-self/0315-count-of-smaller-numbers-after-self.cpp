@@ -1,57 +1,57 @@
 class Solution {
 public:
-    void merge(int low, int mid, int high , vector<pair<int, int>>&nums, vector<int> & res){
+    void merge(vector<pair<int,int>> & arr , int low, int mid , int high, vector<int> & res){
+        int i = low , j = mid+1;
 
-        vector<pair<int,int>>temp(high - low+1);
+        vector<pair<int,int>>temp(high - low + 1);
 
-        int i = low  , j = mid+1;
-        int k =0 ;
+        i= low , j = mid+1;
+        int k = 0;
 
-        while(i <= mid && j <= high){
-            if(nums[i].first <= nums[j].first){
-                temp[k++] = nums[j++];
+        while(i<=mid && j <=high){
+            if(arr[i].first  <= arr[j].first){
+                temp[k++] = arr[j++];
             }
             else{
-                res[nums[i].second] += high - j + 1; 
-                temp[k++] = nums[i++];
+                res[arr[i].second] +=(high - j+1);
+                temp[k++] = arr[i++];
             }
         }
 
-        while(i<=mid){
-            temp[k++] = nums[i++];
+        while(i <= mid){
+            temp[k++] = arr[i++];
         }
 
-        while(j<=high){
-            temp[k++] = nums[j++];
+        while(j <= high){
+            temp[k++] = arr[j++];
         }
+         
 
-        for(int i =0 ;i < k ; i++){
-            nums[low+ i]  = temp[i];
+        for(int i =0; i < k ; i++){
+            arr[low + i] = temp[i];
         }
     }
-    void helper(int low, int high,vector<pair<int, int>>& nums, vector<int> & temp){
-        
+    void solve(vector<pair<int,int>>  & arr, int low, int high , vector<int> & res){
         if(low < high){
             int mid = low + (high - low)/2;
 
-            helper(low, mid, nums,temp);
-            helper(mid+1,high , nums,temp);
-
-            merge(low, mid, high , nums,temp);
+            solve(arr, low, mid, res);
+            solve(arr, mid+1, high ,res);
+            merge(arr, low, mid, high, res);
         }
     }
-
     vector<int> countSmaller(vector<int>& nums) {
-        int size = nums.size();
-        vector<int>temp(size,0);
-        vector<pair<int, int>> arr;
-        
-	    for(int i = 0; i < size; i++)
-	    {
-	        arr.push_back({nums[i], i});
-	    }
 
-        helper(0 , size-1, arr,temp);
-        return temp;
+        vector<pair<int,int>>mod;
+        int size = nums.size();
+        vector<int>res(size,0);
+
+        for(int i =0; i <size; i++){
+            mod.push_back({nums[i],i});
+        }
+
+        solve(mod, 0, size-1, res);
+
+        return res;
     }
 };
