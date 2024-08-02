@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minSwaps(vector<int>& nums) {
+
         int total_one = 0 ;
 
         for(int x :  nums){
