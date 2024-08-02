@@ -11,33 +11,55 @@
  */
 class Solution {
 public:
-    bool isCousins(TreeNode* root, int x, int y) {
-        unordered_map<int,pair<TreeNode * , int>>map; // current_value  : < uska parent , uska level>;
-
-        queue<TreeNode * > q;
-        
+    bool DifferentParent(TreeNode * root, int x, int y){
+        queue<TreeNode* > q;
         q.push(root);
-        map[root->val] = {nullptr , 0};
-        int level = 0;
 
         while(!q.empty()){
             int size = q.size();
-            for(int i = 0;i  < size ; i++){
-                TreeNode * front = q.front();
+
+            bool first = false, second = false , same_parent = false;
+
+            for(int i = 0; i < size; i++){
+                TreeNode *front = q.front();
                 q.pop();
+
+                if(front->val == x){
+                    first = true;
+                }
+
+                if(front->val == y){
+                    second = true;
+                }
+
+                if(front->left && front->right){
+                    if(front->left->val == x && front->right->val == y || front->left->val == y && front->right->val == x){
+                        same_parent = true;
+                    }
+                }
 
                 if(front->left){
                     q.push(front->left);
-                    map[front->left->val] = {front , level+1}; 
                 }
+
                 if(front->right){
                     q.push(front->right);
-                    map[front->right->val] = {front, level+1};
                 }
             }
-            level++;
-        }
 
-        return !(map[x].first == map[y].first || map[x].second != map[y].second);
+            if(first && !second || second && !first){
+                return false;
+            }
+
+            if(same_parent){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    bool isCousins(TreeNode* root, int x, int y) {
+        if(!root) return false;
+        return DifferentParent(root,x,y);
     }
 };
