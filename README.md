@@ -784,6 +784,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2179-most-beautiful-item-for-each-query](https://github.com/teche74/Daily_Practise/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/teche74/Daily_Practise/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/teche74/Daily_Practise/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
+| [2513-number-of-pairs-satisfying-inequality](https://github.com/teche74/Daily_Practise/tree/master/2513-number-of-pairs-satisfying-inequality) |
 | [2673-maximize-win-from-two-segments](https://github.com/teche74/Daily_Practise/tree/master/2673-maximize-win-from-two-segments) |
 | [2832-find-the-longest-equal-subarray](https://github.com/teche74/Daily_Practise/tree/master/2832-find-the-longest-equal-subarray) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/teche74/Daily_Practise/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -1028,6 +1029,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/teche74/Daily_Practise/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
 | [2472-build-a-matrix-with-conditions](https://github.com/teche74/Daily_Practise/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/teche74/Daily_Practise/tree/master/2502-sort-the-people) |
+| [2513-number-of-pairs-satisfying-inequality](https://github.com/teche74/Daily_Practise/tree/master/2513-number-of-pairs-satisfying-inequality) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/teche74/Daily_Practise/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/teche74/Daily_Practise/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [2673-maximize-win-from-two-segments](https://github.com/teche74/Daily_Practise/tree/master/2673-maximize-win-from-two-segments) |
@@ -1270,6 +1272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/teche74/Daily_Practise/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/teche74/Daily_Practise/tree/master/0948-sort-an-array) |
 | [1873-longest-nice-substring](https://github.com/teche74/Daily_Practise/tree/master/1873-longest-nice-substring) |
+| [2513-number-of-pairs-satisfying-inequality](https://github.com/teche74/Daily_Practise/tree/master/2513-number-of-pairs-satisfying-inequality) |
 ## Queue
 |  |
 | ------- |
@@ -1374,6 +1377,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2513-number-of-pairs-satisfying-inequality](https://github.com/teche74/Daily_Practise/tree/master/2513-number-of-pairs-satisfying-inequality) |
 | [2868-continuous-subarrays](https://github.com/teche74/Daily_Practise/tree/master/2868-continuous-subarrays) |
 ## Monotonic Queue
 |  |
@@ -1613,6 +1617,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/teche74/Daily_Practise/tree/master/0023-merge-k-sorted-lists) |
 | [0948-sort-an-array](https://github.com/teche74/Daily_Practise/tree/master/0948-sort-an-array) |
+| [2513-number-of-pairs-satisfying-inequality](https://github.com/teche74/Daily_Practise/tree/master/2513-number-of-pairs-satisfying-inequality) |
 ## Matrix
 |  |
 | ------- |
@@ -1662,11 +1667,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
 | [0406-queue-reconstruction-by-height](https://github.com/teche74/Daily_Practise/tree/master/0406-queue-reconstruction-by-height) |
 | [1511-count-number-of-teams](https://github.com/teche74/Daily_Practise/tree/master/1511-count-number-of-teams) |
+| [2513-number-of-pairs-satisfying-inequality](https://github.com/teche74/Daily_Practise/tree/master/2513-number-of-pairs-satisfying-inequality) |
 ## Segment Tree
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
 | [0406-queue-reconstruction-by-height](https://github.com/teche74/Daily_Practise/tree/master/0406-queue-reconstruction-by-height) |
+| [2513-number-of-pairs-satisfying-inequality](https://github.com/teche74/Daily_Practise/tree/master/2513-number-of-pairs-satisfying-inequality) |
 ## Line Sweep
 |  |
 | ------- |
