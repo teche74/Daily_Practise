@@ -1,24 +1,27 @@
 class Solution {
 public:
-    bool palli(const string & ptr, int low, int high){
+    bool palli(string str){
+        int i = 0 , j = str.size()-1;
 
-        while(low <= high){
-            if(ptr[low] != ptr[high]) return false;
-            low++;
-            high--;
+        while(i < j ){
+            if(str[i] != str[j]) return false;
+            i++;
+            j--;
         }
+
         return true;
     }
-    void solve(int index,const string s, vector<vector<string>> &res , vector<string> & temp){
+    void solve(int index , string & s, vector<string> & temp, vector<vector<string>> &res){
         if(index >= s.size()){
             res.emplace_back(temp);
             return;
         }
 
-        for(int i = index; i < s.size() ;i++){
-            if(palli(s, index, i)){
-                temp.emplace_back(s.substr(index,i-index+1));
-                solve(i+1,s,res,temp);
+        for(int i = index ;i < s.size() ; i++){
+            string ptr = s.substr(index,i- index +1);
+            if(palli(ptr)){
+                temp.emplace_back(ptr);
+                solve(i+1,s,temp,res);
                 temp.pop_back();
             }
         }
@@ -27,7 +30,7 @@ public:
         vector<vector<string>>res;
         vector<string>temp;
 
-        solve(0, s, res, temp);
+        solve(0 ,s, temp,res);
 
         return res;
     }
