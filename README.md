@@ -759,6 +759,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0287-find-the-duplicate-number](https://github.com/teche74/Daily_Practise/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0300-longest-increasing-subsequence) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/teche74/Daily_Practise/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/teche74/Daily_Practise/tree/master/0449-serialize-and-deserialize-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/teche74/Daily_Practise/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -963,6 +964,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/teche74/Daily_Practise/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/teche74/Daily_Practise/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/teche74/Daily_Practise/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0322-coin-change](https://github.com/teche74/Daily_Practise/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0336-palindrome-pairs](https://github.com/teche74/Daily_Practise/tree/master/0336-palindrome-pairs) |
@@ -1269,6 +1271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/teche74/Daily_Practise/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0347-top-k-frequent-elements](https://github.com/teche74/Daily_Practise/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/teche74/Daily_Practise/tree/master/0948-sort-an-array) |
 | [1873-longest-nice-substring](https://github.com/teche74/Daily_Practise/tree/master/1873-longest-nice-substring) |
@@ -1376,6 +1379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/teche74/Daily_Practise/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2513-number-of-pairs-satisfying-inequality](https://github.com/teche74/Daily_Practise/tree/master/2513-number-of-pairs-satisfying-inequality) |
 | [2868-continuous-subarrays](https://github.com/teche74/Daily_Practise/tree/master/2868-continuous-subarrays) |
@@ -1616,6 +1620,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/teche74/Daily_Practise/tree/master/0023-merge-k-sorted-lists) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/teche74/Daily_Practise/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0948-sort-an-array](https://github.com/teche74/Daily_Practise/tree/master/0948-sort-an-array) |
 | [2513-number-of-pairs-satisfying-inequality](https://github.com/teche74/Daily_Practise/tree/master/2513-number-of-pairs-satisfying-inequality) |
 ## Matrix
@@ -1665,6 +1670,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/teche74/Daily_Practise/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0406-queue-reconstruction-by-height](https://github.com/teche74/Daily_Practise/tree/master/0406-queue-reconstruction-by-height) |
 | [1511-count-number-of-teams](https://github.com/teche74/Daily_Practise/tree/master/1511-count-number-of-teams) |
 | [2513-number-of-pairs-satisfying-inequality](https://github.com/teche74/Daily_Practise/tree/master/2513-number-of-pairs-satisfying-inequality) |
@@ -1672,6 +1678,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/teche74/Daily_Practise/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0406-queue-reconstruction-by-height](https://github.com/teche74/Daily_Practise/tree/master/0406-queue-reconstruction-by-height) |
 | [2513-number-of-pairs-satisfying-inequality](https://github.com/teche74/Daily_Practise/tree/master/2513-number-of-pairs-satisfying-inequality) |
 ## Line Sweep
