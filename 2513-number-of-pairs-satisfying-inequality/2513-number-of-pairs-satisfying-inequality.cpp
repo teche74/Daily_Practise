@@ -1,68 +1,68 @@
 class Solution {
 public:
-    long long merge(int low, int mid, int high , vector<int> & diff, int d){
-        int j  = mid+1, i =low;
+    long long helper(vector<int> & diffi , int low, int mid , int high , int diff){
+        vector<int>temp(high-low+1,0);
+
+        int i = low, j = mid+1,k = 0;
         long long count = 0;
-        while(i<=mid && j<=high){
-            if(diff[i]<=(diff[j]+d)) 
-            {
-                count += (high - j + 1);
+        
+
+        while(i <= mid && j <= high){
+            if(diffi[i] <= diffi[j]  + diff){
                 i++;
+                count+= (high - j + 1);
             }
-            else     
-            {
+            else{
                 j++;
             }
         }
 
-        vector<int>temp(high - low+1,0);
+        i = low , j = mid+1;
 
-        i = low  , j = mid+1;
-        int k =0 ;
-
-        while(i <= mid && j <= high){
-            if(diff[i] <= diff[j]){
-                temp[k++] = diff[i++];
+        while(i <=mid && j <= high){
+            if(diffi[i] <= diffi[j]){
+                temp[k++] = diffi[i++];
             }
             else{
-                temp[k++] = diff[j++];
+                temp[k++] = diffi[j++];
             }
         }
 
-        while(i<=mid){
-            temp[k++] = diff[i++];
+        while(i <= mid){
+            temp[k++] = diffi[i++];
         }
 
-        while(j<=high){
-            temp[k++] = diff[j++];
+        while(j <= high){
+            temp[k++] = diffi[j++];
         }
 
-        for(int i =0 ;i < k ; i++){
-            diff[low+ i]  = temp[i];
+        for(int l = 0; l< k; l++){
+            diffi[low + l] = temp[l];
         }
 
         return count;
     }
-    long long helper(int low, int high,vector<int>& diff_arr, int diff){
-        long long count = 0; 
+
+    long long solve(vector<int> & diffi , int low, int high , int diff){
+        long long count  = 0;
         if(low < high){
             int mid = low + (high - low)/2;
-
-            count += helper(low, mid, diff_arr, diff);
-            count += helper(mid+1,high , diff_arr, diff);
-
-            count+= merge(low, mid, high , diff_arr, diff);
+            count+=solve(diffi,low,mid,diff);
+            count+=solve(diffi,mid+1,high,diff);
+            count+=helper(diffi,low, mid, high,diff);
         }
         return count;
     }
     long long numberOfPairs(vector<int>& nums1, vector<int>& nums2, int diff) {
         int size = nums1.size();
-        vector<int>diff_arr(size,0);
 
-        for(int i = 0 ;i <size; i++){
-            diff_arr[i] = nums1[i] - nums2[i];
+        vector<int>diffi;
+
+        for(int i = 0; i <size; i++){
+            diffi.emplace_back(nums1[i] - nums2[i]);
+            
         }
 
-        return helper(0 , size-1, diff_arr, diff);   
+        return solve(diffi, 0 , size-1,diff);
     }
 };
