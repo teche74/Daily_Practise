@@ -879,6 +879,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/teche74/Daily_Practise/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/teche74/Daily_Practise/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/teche74/Daily_Practise/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/teche74/Daily_Practise/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/teche74/Daily_Practise/tree/master/0200-number-of-islands) |
@@ -953,6 +954,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/teche74/Daily_Practise/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/teche74/Daily_Practise/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0128-longest-consecutive-sequence](https://github.com/teche74/Daily_Practise/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 | [0139-word-break](https://github.com/teche74/Daily_Practise/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/teche74/Daily_Practise/tree/master/0152-maximum-product-subarray) |
 | [0164-maximum-gap](https://github.com/teche74/Daily_Practise/tree/master/0164-maximum-gap) |
@@ -1305,6 +1307,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0111-minimum-depth-of-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/teche74/Daily_Practise/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/teche74/Daily_Practise/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/teche74/Daily_Practise/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/teche74/Daily_Practise/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/teche74/Daily_Practise/tree/master/0200-number-of-islands) |
@@ -1469,6 +1472,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/teche74/Daily_Practise/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/teche74/Daily_Practise/tree/master/0200-number-of-islands) |
 | [0989-largest-component-size-by-common-factor](https://github.com/teche74/Daily_Practise/tree/master/0989-largest-component-size-by-common-factor) |
 | [2121-find-if-path-exists-in-graph](https://github.com/teche74/Daily_Practise/tree/master/2121-find-if-path-exists-in-graph) |
@@ -1633,6 +1637,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/teche74/Daily_Practise/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/teche74/Daily_Practise/tree/master/0085-maximal-rectangle) |
+| [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/teche74/Daily_Practise/tree/master/0200-number-of-islands) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1036-rotting-oranges](https://github.com/teche74/Daily_Practise/tree/master/1036-rotting-oranges) |
