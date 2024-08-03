@@ -1013,6 +1013,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1511-count-number-of-teams](https://github.com/teche74/Daily_Practise/tree/master/1511-count-number-of-teams) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1552-build-an-array-with-stack-operations](https://github.com/teche74/Daily_Practise/tree/master/1552-build-an-array-with-stack-operations) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1573-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/teche74/Daily_Practise/tree/master/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1582-design-browser-history](https://github.com/teche74/Daily_Practise/tree/master/1582-design-browser-history) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/teche74/Daily_Practise/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -1096,6 +1097,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1423-maximum-number-of-occurrences-of-a-substring](https://github.com/teche74/Daily_Practise/tree/master/1423-maximum-number-of-occurrences-of-a-substring) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/teche74/Daily_Practise/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1472-increasing-decreasing-string](https://github.com/teche74/Daily_Practise/tree/master/1472-increasing-decreasing-string) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1573-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/teche74/Daily_Practise/tree/master/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/teche74/Daily_Practise/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/teche74/Daily_Practise/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
@@ -1446,6 +1448,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1333-sort-the-jumbled-numbers](https://github.com/teche74/Daily_Practise/tree/master/1333-sort-the-jumbled-numbers) |
 | [1488-sort-integers-by-the-power-value](https://github.com/teche74/Daily_Practise/tree/master/1488-sort-integers-by-the-power-value) |
 | [1530-check-if-a-string-can-break-another-string](https://github.com/teche74/Daily_Practise/tree/master/1530-check-if-a-string-can-break-another-string) |
+| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/teche74/Daily_Practise/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1675-magnetic-force-between-two-balls](https://github.com/teche74/Daily_Practise/tree/master/1675-magnetic-force-between-two-balls) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/teche74/Daily_Practise/tree/master/1741-sort-array-by-increasing-frequency) |
