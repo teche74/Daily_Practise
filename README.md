@@ -1266,6 +1266,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/teche74/Daily_Practise/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/teche74/Daily_Practise/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/teche74/Daily_Practise/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2470-removing-stars-from-a-string](https://github.com/teche74/Daily_Practise/tree/master/2470-removing-stars-from-a-string) |
 | [2502-sort-the-people](https://github.com/teche74/Daily_Practise/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/teche74/Daily_Practise/tree/master/2727-number-of-senior-citizens) |
 | [2786-find-the-longest-semi-repetitive-substring](https://github.com/teche74/Daily_Practise/tree/master/2786-find-the-longest-semi-repetitive-substring) |
@@ -1530,6 +1531,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/teche74/Daily_Practise/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/teche74/Daily_Practise/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/teche74/Daily_Practise/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2470-removing-stars-from-a-string](https://github.com/teche74/Daily_Practise/tree/master/2470-removing-stars-from-a-string) |
 | [2846-robot-collisions](https://github.com/teche74/Daily_Practise/tree/master/2846-robot-collisions) |
 ## Recursion
 |  |
@@ -1596,6 +1598,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1951-find-the-winner-of-the-circular-game](https://github.com/teche74/Daily_Practise/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/teche74/Daily_Practise/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2428-equal-row-and-column-pairs](https://github.com/teche74/Daily_Practise/tree/master/2428-equal-row-and-column-pairs) |
+| [2470-removing-stars-from-a-string](https://github.com/teche74/Daily_Practise/tree/master/2470-removing-stars-from-a-string) |
 | [2645-pass-the-pillow](https://github.com/teche74/Daily_Practise/tree/master/2645-pass-the-pillow) |
 | [2846-robot-collisions](https://github.com/teche74/Daily_Practise/tree/master/2846-robot-collisions) |
 ## Brainteaser
