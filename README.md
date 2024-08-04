@@ -904,6 +904,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0515-find-largest-value-in-each-tree-row](https://github.com/teche74/Daily_Practise/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/teche74/Daily_Practise/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/teche74/Daily_Practise/tree/master/0538-convert-bst-to-greater-tree) |
+| [0547-number-of-provinces](https://github.com/teche74/Daily_Practise/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/teche74/Daily_Practise/tree/master/0774-maximum-depth-of-n-ary-tree) |
@@ -1339,6 +1340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0449-serialize-and-deserialize-bst](https://github.com/teche74/Daily_Practise/tree/master/0449-serialize-and-deserialize-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/teche74/Daily_Practise/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/teche74/Daily_Practise/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0547-number-of-provinces](https://github.com/teche74/Daily_Practise/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/teche74/Daily_Practise/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/teche74/Daily_Practise/tree/master/0799-minimum-distance-between-bst-nodes) |
@@ -1362,6 +1364,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/teche74/Daily_Practise/tree/master/0207-course-schedule) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0332-reconstruct-itinerary](https://github.com/teche74/Daily_Practise/tree/master/0332-reconstruct-itinerary) |
+| [0547-number-of-provinces](https://github.com/teche74/Daily_Practise/tree/master/0547-number-of-provinces) |
 | [0813-all-paths-from-source-to-target](https://github.com/teche74/Daily_Practise/tree/master/0813-all-paths-from-source-to-target) |
 | [0871-keys-and-rooms](https://github.com/teche74/Daily_Practise/tree/master/0871-keys-and-rooms) |
 | [1039-find-the-town-judge](https://github.com/teche74/Daily_Practise/tree/master/1039-find-the-town-judge) |
@@ -1496,6 +1499,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/teche74/Daily_Practise/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/teche74/Daily_Practise/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/teche74/Daily_Practise/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/teche74/Daily_Practise/tree/master/0547-number-of-provinces) |
 | [0989-largest-component-size-by-common-factor](https://github.com/teche74/Daily_Practise/tree/master/0989-largest-component-size-by-common-factor) |
 | [2121-find-if-path-exists-in-graph](https://github.com/teche74/Daily_Practise/tree/master/2121-find-if-path-exists-in-graph) |
 ## Stack
