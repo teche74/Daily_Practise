@@ -780,6 +780,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1321-get-equal-substrings-within-budget](https://github.com/teche74/Daily_Practise/tree/master/1321-get-equal-substrings-within-budget) |
 | [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/teche74/Daily_Practise/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
 | [1573-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/teche74/Daily_Practise/tree/master/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/teche74/Daily_Practise/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1675-magnetic-force-between-two-balls](https://github.com/teche74/Daily_Practise/tree/master/1675-magnetic-force-between-two-balls) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/teche74/Daily_Practise/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/teche74/Daily_Practise/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -1017,6 +1018,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1573-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/teche74/Daily_Practise/tree/master/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1582-design-browser-history](https://github.com/teche74/Daily_Practise/tree/master/1582-design-browser-history) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/teche74/Daily_Practise/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/teche74/Daily_Practise/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1675-magnetic-force-between-two-balls](https://github.com/teche74/Daily_Practise/tree/master/1675-magnetic-force-between-two-balls) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/teche74/Daily_Practise/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -1424,6 +1426,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/teche74/Daily_Practise/tree/master/0802-k-th-smallest-prime-fraction) |
 | [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/teche74/Daily_Practise/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/teche74/Daily_Practise/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/teche74/Daily_Practise/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Sorting
 |  |
@@ -1451,6 +1454,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1488-sort-integers-by-the-power-value](https://github.com/teche74/Daily_Practise/tree/master/1488-sort-integers-by-the-power-value) |
 | [1530-check-if-a-string-can-break-another-string](https://github.com/teche74/Daily_Practise/tree/master/1530-check-if-a-string-can-break-another-string) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1615-range-sum-of-sorted-subarray-sums](https://github.com/teche74/Daily_Practise/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/teche74/Daily_Practise/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1675-magnetic-force-between-two-balls](https://github.com/teche74/Daily_Practise/tree/master/1675-magnetic-force-between-two-balls) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/teche74/Daily_Practise/tree/master/1741-sort-array-by-increasing-frequency) |
