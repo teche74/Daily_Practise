@@ -1,7 +1,6 @@
 class Solution {
 public:
     string kthDistinct(vector<string>& arr, int k) {
-        vector<string>uni;
 
         unordered_map<string,int>map;
 
@@ -10,15 +9,11 @@ public:
         }
 
         for(auto t : arr){
-            if(map[t] == 1){
+            if(map[t]== 1){
                 k--;
-
-                if(k ==0){
-                    return t;
-                }
+                if(k == 0) return t; 
             }
         }
-        return "";
-
+        return  "";
     }
 };
