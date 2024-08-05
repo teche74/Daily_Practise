@@ -1042,6 +1042,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/teche74/Daily_Practise/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/teche74/Daily_Practise/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/teche74/Daily_Practise/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/teche74/Daily_Practise/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/teche74/Daily_Practise/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2211-k-radius-subarray-averages](https://github.com/teche74/Daily_Practise/tree/master/2211-k-radius-subarray-averages) |
@@ -1119,6 +1120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/teche74/Daily_Practise/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1905-design-authentication-manager](https://github.com/teche74/Daily_Practise/tree/master/1905-design-authentication-manager) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/teche74/Daily_Practise/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/teche74/Daily_Practise/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2428-equal-row-and-column-pairs](https://github.com/teche74/Daily_Practise/tree/master/2428-equal-row-and-column-pairs) |
 | [2502-sort-the-people](https://github.com/teche74/Daily_Practise/tree/master/2502-sort-the-people) |
@@ -1264,6 +1266,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2010-check-if-word-equals-summation-of-two-words](https://github.com/teche74/Daily_Practise/tree/master/2010-check-if-word-equals-summation-of-two-words) |
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/teche74/Daily_Practise/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/teche74/Daily_Practise/tree/master/2134-maximize-the-confusion-of-an-exam) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/teche74/Daily_Practise/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/teche74/Daily_Practise/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2470-removing-stars-from-a-string](https://github.com/teche74/Daily_Practise/tree/master/2470-removing-stars-from-a-string) |
@@ -1283,6 +1286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1777-determine-if-two-strings-are-close](https://github.com/teche74/Daily_Practise/tree/master/1777-determine-if-two-strings-are-close) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/teche74/Daily_Practise/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/teche74/Daily_Practise/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/teche74/Daily_Practise/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Divide and Conquer
 |  |
