@@ -21,26 +21,24 @@
  */
 class Solution {
 public:
-    TreeNode * solve(ListNode* low , ListNode * high){
-        if(low == high) return nullptr;
+    TreeNode * solve(ListNode* low, ListNode * high){
+        if(low  == high) return nullptr;
 
-        ListNode * slow = low , *fast = low;
+        ListNode * slow = low ,  * fast = low;
 
-        while(fast!=high && fast->next!=high){
-            slow= slow->next;
-            fast =fast->next->next;
+        while(fast != high && fast->next != high){
+            slow = slow->next;
+            fast = fast->next->next;
         }
 
-        TreeNode * root = new TreeNode(slow->val);
-
-        root->left =solve(low, slow);
-        root->right=solve(slow->next, high);
+        TreeNode  * root = new TreeNode(slow->val);
+        root->left = solve(low,slow);
+        root->right = solve(slow->next,high);
 
         return root;
     }
     TreeNode* sortedListToBST(ListNode* head) {
-        if(!head) return nullptr;
-
+         if(!head) return nullptr;
         return solve(head, nullptr);
     }
 };
