@@ -14,30 +14,26 @@ public:
     vector<double> averageOfLevels(TreeNode* root) {
         if(!root) return {};
 
-        queue<TreeNode *> q;
-
-        q.push(root);
         vector<double>res;
 
-        while(!q.empty()){
-            int size = q.size();
 
-            double sum = 0;
-            for(int i = 0;i  <size ; i++){
-                TreeNode * front = q.front();
-                sum += front->val;
+        queue<TreeNode *>q;
+
+        q.push(root);
+
+        while(q.size()){
+            int size = q.size();
+            double val = 0;
+            for(int i = 0; i<size; i++){
+                TreeNode* front = q.front() ;
+                val += front->val;
                 q.pop();
 
-                if(front->left){
-                    q.push(front->left);
-                }
-                if(front->right){
-                    q.push(front->right);
-                }
+                if(front->left)   q.push(front->left);
+                if(front->right) q.push(front->right);
             }
-            res.emplace_back(sum/size);
+            res.emplace_back(val/size);
         }
-
         return res;
     }
 };
