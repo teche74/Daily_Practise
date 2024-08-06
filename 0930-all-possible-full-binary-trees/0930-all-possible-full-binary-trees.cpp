@@ -11,31 +11,26 @@
  */
 class Solution {
 public:
-
     vector<TreeNode*> allPossibleFBT(int n) {
-        vector<TreeNode *>res;
-        if(n == 1 ){
+        vector<TreeNode*> res;
+        
+        if(n == 1){
             res.emplace_back(new TreeNode(0));
             return res;
-        };
+        }
 
-        if(!(n &1)) {};
+        if(!(n & 1)) return {};
 
-
-        for(int i =1; i < n; i+=2){
-            vector<TreeNode *> left = allPossibleFBT(i);
-            vector<TreeNode *> right = allPossibleFBT(n-i-1);
+        for(int i = 1; i < n; i+=2){
+            vector<TreeNode*> left = allPossibleFBT(i);
+            vector<TreeNode*> right = allPossibleFBT(n-i-1);
 
             for(auto l : left){
                 for(auto r : right){
-                    TreeNode * root = new TreeNode{0};
-
-                    root->left = l;
-                    root->right = r;
-                    res.push_back(root);
+                    TreeNode * root = new TreeNode(0,l,r);
+                    res.emplace_back(root);
                 }
             }
-
         }
         return res;
     }
