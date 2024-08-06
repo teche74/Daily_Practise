@@ -11,21 +11,20 @@
  */
 class Solution {
 public:
-    void solve(TreeNode * root , TreeNode *  & tail ){
+    void post(TreeNode * root, TreeNode *  &tail){
         if(root){
-            solve(root->left,tail);
-            tail->right = new TreeNode(root->val);
-            tail->left = nullptr;
+            post(root->left,tail);
+            tail->right  = new  TreeNode(root->val);
             tail=tail->right;
-            solve(root->right,tail);
+            post(root->right,tail);
         }
     }
     TreeNode* increasingBST(TreeNode* root) {
-        TreeNode * new_root = new TreeNode(-1);
-        TreeNode * tail = new_root;
+        TreeNode * res = new TreeNode(-1);
+        TreeNode * tail = res;
 
-        solve(root, tail);
+        post(root,tail);
 
-        return new_root->right;
+        return res->right;
     }
 };
