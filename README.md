@@ -1132,6 +1132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2954-maximum-sum-of-almost-unique-subarray](https://github.com/teche74/Daily_Practise/tree/master/2954-maximum-sum-of-almost-unique-subarray) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/teche74/Daily_Practise/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/teche74/Daily_Practise/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/teche74/Daily_Practise/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -1280,6 +1281,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/teche74/Daily_Practise/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/teche74/Daily_Practise/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/teche74/Daily_Practise/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/teche74/Daily_Practise/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Counting
 |  |
 | ------- |
@@ -1292,6 +1294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/teche74/Daily_Practise/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/teche74/Daily_Practise/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/teche74/Daily_Practise/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -1486,6 +1489,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2502-sort-the-people](https://github.com/teche74/Daily_Practise/tree/master/2502-sort-the-people) |
 | [2631-sort-the-students-by-their-kth-score](https://github.com/teche74/Daily_Practise/tree/master/2631-sort-the-students-by-their-kth-score) |
 | [2846-robot-collisions](https://github.com/teche74/Daily_Practise/tree/master/2846-robot-collisions) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/teche74/Daily_Practise/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -1505,6 +1509,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/teche74/Daily_Practise/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2379-maximum-total-importance-of-roads](https://github.com/teche74/Daily_Practise/tree/master/2379-maximum-total-importance-of-roads) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/teche74/Daily_Practise/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/teche74/Daily_Practise/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Union Find
 |  |
 | ------- |
