@@ -11,26 +11,11 @@
  */
 class Solution {
 public:
-    void inorder(TreeNode * p , TreeNode * q , bool & val){
-        if(!p && q || p && !q){
-            val = false;
-            return ;
-        }
-
-        if(p && q){
-            inorder(p->left , q->left , val);
-            if(p->val != q->val){
-                val = false;
-                return;
-            }
-            inorder(p->right , q->right,val);
-        }
-    }
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        // parallel traversal
-        bool val = true;
-        inorder(p ,q,val);
+        if(!p && !q) return true;
+        if(!p || !q) return false;
+        if(p->val  != q->val) return false;
 
-        return val;
+        return isSameTree(p->left,q->left) && isSameTree(p->right ,q->right);
     }
 };
