@@ -11,18 +11,17 @@
  */
 class Solution {
 public:
-    void reverse_inorder(TreeNode * & root, int & sum){
+    void rev_inorder(TreeNode * root, int  & sum){
         if(root){
-            reverse_inorder(root->right,sum);
-            sum+=root->val;
+            rev_inorder(root->right , sum);
+            sum +=root->val;
             root->val = sum;
-            reverse_inorder(root->left,sum);
+            rev_inorder(root->left,sum);
         }
     }
-    TreeNode* convertBST(TreeNode* & root) {
-        int sum = 0;
-        reverse_inorder(root,sum);
-
+    TreeNode* convertBST(TreeNode* root) {
+        int sum = 0 ;
+        rev_inorder(root,sum);
         return root;
     }
 };
