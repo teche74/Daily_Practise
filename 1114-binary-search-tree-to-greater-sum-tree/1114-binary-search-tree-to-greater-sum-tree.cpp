@@ -11,17 +11,17 @@
  */
 class Solution {
 public:
-    void reverse_trav(TreeNode * &root , int  & sum){
+    void rev_inorder(TreeNode * root, int  & sum){
         if(root){
-            reverse_trav(root->right,sum);
-            sum+=root->val;
+            rev_inorder(root->right,sum);
+            sum += root->val;
             root->val = sum;
-            reverse_trav(root->left,sum);
+            rev_inorder(root->left,sum);
         }
     }
-    TreeNode* bstToGst(TreeNode* &  root) {
-        int sum = 0;
-        reverse_trav(root,sum);
+    TreeNode* bstToGst(TreeNode* root) {
+        int sum = 0 ;
+        rev_inorder(root,sum);
         return root;
     }
 };
