@@ -12,20 +12,18 @@
 class Solution {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
+        stack<vector<int>>st;
         if(!root) return {};
 
-        stack<vector<int>> store;
-
-        queue<TreeNode *>q;
+        queue<TreeNode*> q;
 
         q.push(root);
 
         while(!q.empty()){
             int size = q.size();
             vector<int>temp;
-
-            for(int i = 0; i < size; i++){
-                TreeNode * front = q.front() ;
+            for(int i =0 ;i < size ; i++){
+                TreeNode * front = q.front();
                 q.pop();
                 temp.emplace_back(front->val);
 
@@ -36,14 +34,14 @@ public:
                     q.push(front->right);
                 }
             }
-            store.push(temp);
+            st.push(temp);
         }
 
         vector<vector<int>>res;
 
-        while(!store.empty()){
-            res.emplace_back(store.top());
-            store.pop();
+        while(st.size()){
+            res.emplace_back(st.top());
+            st.pop();
         }
 
         return res;
