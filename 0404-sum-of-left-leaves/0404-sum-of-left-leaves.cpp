@@ -11,49 +11,21 @@
  */
 class Solution {
 public:
-    void solve(TreeNode *root, int  & sum , TreeNode * prev){
+    void pre(TreeNode *root , TreeNode * & prev , int  & sum){
         if(root){
-            if(prev && prev-> left == root && root->left == nullptr  && root->right == nullptr){
+            if(prev && prev->left == root && !root->left && !root->right){
                 sum+=root->val;
             }
             prev =root;
-            solve(root->left,sum,prev);
-            solve(root->right,sum,prev);
+            pre(root->left,prev,sum);
+            pre(root->right,prev,sum);
         }
-    }
+    } 
     int sumOfLeftLeaves(TreeNode* root) {
-        // int sum = 0;
+        TreeNode * prev = nullptr;
+        int sum = 0;
 
-        // if(!root) return sum;
-
-        // queue<TreeNode*>q;
-
-        // q.push(root);
-
-        // while(!q.empty()){
-        //     int size = q.size();
-
-        //     for(int i = 0 ; i <size ; i++){
-        //         TreeNode * front = q.front();
-        //         q.pop();
-
-        //         if(front->left){
-        //             if(!front->left->right && !front->left->left)
-        //                 sum+=front->left->val;
-
-        //             q.push(front->left);
-        //         }
-        //         if(front->right){
-        //             q.push(front->right);
-        //         }
-        //     }
-        // }
-
-        // return sum;
-
-        int sum = 0 ;
-        solve(root, sum , nullptr);
-
+        pre(root,prev,sum);
         return sum;
     }
 };
