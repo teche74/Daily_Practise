@@ -11,31 +11,26 @@
  */
 class Solution {
 public:
-    void preorder(TreeNode * root, vector<int> & vec){
+    void pre(TreeNode * root, vector<int> & v){
         if(root){
-            if(!root->left && !root->right)
-            {
-                vec.emplace_back(root->val);
-                return;
+            if(!root->left && !root->right){
+                v.emplace_back(root->val);
             }
-            preorder(root->left,vec);
-            preorder(root->right,vec);
+            pre(root->left,v);
+            pre(root->right,v);
         }
     }
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
-        vector<int>vec1, vec2;
+        vector<int>v1, v2;
 
-        preorder(root1, vec1);
-        preorder(root2, vec2);
+        pre(root1,v1);
+        pre(root2,v2);
 
-        if(vec1.size() != vec2.size()) return false;
-
-        for(int i =0 ;i < vec1.size() ; i++){
-            if(vec1[i] != vec2[i]){
-                return false;
-            }
+        if(v1.size() != v2.size()) return false;
+        
+        for(int i = 0; i <v1.size() ; i++ ){
+            if(v1[i] != v2[i]) return false;
         }
-
         return true;
     }
 };
