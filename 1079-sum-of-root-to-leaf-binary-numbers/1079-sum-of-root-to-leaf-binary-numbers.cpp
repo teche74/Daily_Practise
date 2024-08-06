@@ -11,23 +11,27 @@
  */
 class Solution {
 public:
-    void solve(TreeNode * root, unsigned int &res, unsigned int val){
-        if(!root) return ;
-
-        val = val*2 + root->val;
-
-        if(root->left == nullptr && root->right == nullptr){
-            res+=val;
+    void preorder(TreeNode *root, int &  res , string curr){
+        if(root){
+            curr.push_back(root->val + '0');
+            if(!root->left && !root->right){
+                int ind = 0;
+                // cout<<curr<<endl;
+                for(int i = curr.size()-1 ; i >= 0 ; i--){
+                    if(curr[i] == '1'){
+                        res +=  1 << ind;
+                    }
+                    ind++;
+                }
+            }
+            preorder(root->left,res,curr);
+            preorder(root->right,res,curr);
+            curr.pop_back();
         }
-
-        solve(root->left, res, val);
-        solve(root->right, res, val);
     }
     int sumRootToLeaf(TreeNode* root) {
-        unsigned int res = 0 ,val =0;
-
-        solve(root, res,val);
-
+        int res = 0;
+        preorder(root,res,"");
         return res;
     }
 };
