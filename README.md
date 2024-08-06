@@ -733,6 +733,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0904-leaf-similar-trees](https://github.com/teche74/Daily_Practise/tree/master/0904-leaf-similar-trees) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
+| [0933-increasing-order-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0933-increasing-order-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/teche74/Daily_Practise/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0988-flip-equivalent-binary-trees) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -776,6 +777,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0799-minimum-distance-between-bst-nodes](https://github.com/teche74/Daily_Practise/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/teche74/Daily_Practise/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/teche74/Daily_Practise/tree/master/0882-peak-index-in-a-mountain-array) |
+| [0933-increasing-order-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0933-increasing-order-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/teche74/Daily_Practise/tree/master/0975-range-sum-of-bst) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/teche74/Daily_Practise/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -835,6 +837,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0904-leaf-similar-trees](https://github.com/teche74/Daily_Practise/tree/master/0904-leaf-similar-trees) |
 | [0930-all-possible-full-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0930-all-possible-full-binary-trees) |
+| [0933-increasing-order-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0933-increasing-order-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/teche74/Daily_Practise/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0988-flip-equivalent-binary-trees) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -914,6 +917,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0871-keys-and-rooms](https://github.com/teche74/Daily_Practise/tree/master/0871-keys-and-rooms) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0904-leaf-similar-trees](https://github.com/teche74/Daily_Practise/tree/master/0904-leaf-similar-trees) |
+| [0933-increasing-order-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0933-increasing-order-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/teche74/Daily_Practise/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/teche74/Daily_Practise/tree/master/0988-flip-equivalent-binary-trees) |
 | [1011-flip-binary-tree-to-match-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1011-flip-binary-tree-to-match-preorder-traversal) |
@@ -1524,6 +1528,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0445-add-two-numbers-ii](https://github.com/teche74/Daily_Practise/tree/master/0445-add-two-numbers-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/teche74/Daily_Practise/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0886-score-of-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0886-score-of-parentheses) |
+| [0933-increasing-order-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0933-increasing-order-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1078-remove-outermost-parentheses) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
