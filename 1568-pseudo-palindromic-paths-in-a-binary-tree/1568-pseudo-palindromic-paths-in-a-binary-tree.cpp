@@ -11,18 +11,17 @@
  */
 class Solution {
 public:
-    void solve(TreeNode * root, unordered_map<int,int> & map, int & res){
+    void solve(TreeNode  *root, unordered_map<int,int> & map, int  & res){
         if(root){
             map[root->val]++;
-            if(!root->left && !root->right){
-                int uni = 0;
+            if( !root->left && !root->right){
+                int count = 0;
+
                 for(auto t : map){
-                    if(t.second & 1){
-                        uni++;
-                    }
+                    count +=(t.second % 2);
                 }
 
-                if(uni <= 1){
+                if(count <=1){
                     res++;
                 }
             }
@@ -32,10 +31,8 @@ public:
         }
     }
     int pseudoPalindromicPaths (TreeNode* root) {
-        // preorder krunga or dekhunga jab univalue milegi or baki pair me honge /.
-
+        int res = 0 ;
         unordered_map<int,int>map;
-        int res = 0;
         solve(root,map,res);
 
         return res;
