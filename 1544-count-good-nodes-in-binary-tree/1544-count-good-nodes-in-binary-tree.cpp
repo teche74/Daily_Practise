@@ -10,26 +10,27 @@
  * };
  */
 class Solution {
-public: 
-    TreeNode * checkpoint ;
-    void solve(TreeNode * root, int  & count, int prev ){
+public:
+    TreeNode * reset = nullptr;
+
+    void inorder(TreeNode * root, int & res , int  prev){
         if(root){
-            if(root->val >= prev ){
-                count++;
+            if( prev <= root->val){
+                res++;
             }
-            prev = max(prev ,root->val);
-            solve(root->left, count,prev);
-            if(root == checkpoint){
-                prev = checkpoint->val;
+            prev =root->val;
+            inorder(root->left,res,prev);
+            if(root == reset){
+                prev = reset->val;
             }
-            solve(root->right, count, prev);
+            inorder(root->right,res,prev);
         }
     }
     int goodNodes(TreeNode* root) {
-        int count = 0 ,prev =INT_MIN;
-        checkpoint = root;
-        solve(root, count, prev);
+        reset  = root;
+        int res = 0, prev = root->val;
+        inorder(root,res,prev);
 
-        return count;
+        return res;
     }
 };
