@@ -18,7 +18,7 @@ public:
             if( prev <= root->val){
                 res++;
             }
-            prev =root->val;
+            prev = max(prev ,root->val);
             inorder(root->left,res,prev);
             if(root == reset){
                 prev = reset->val;
