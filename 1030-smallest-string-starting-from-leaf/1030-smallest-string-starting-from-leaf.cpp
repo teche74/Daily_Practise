@@ -11,25 +11,27 @@
  */
 class Solution {
 public:
-    void solve(TreeNode * root , string curr , string  & res){
+    void inorder(TreeNode * root, string curr ,string  &res){
         if(root){
             curr.push_back(root->val + 'a');
-            if(!root->left && !root->right){
-                string t =curr;
-                reverse(t.begin(),t.end());
-                if(res.empty() || res > t){
-                    res = t;
+            if(!root->left && !root->right)
+            {
+                reverse(curr.begin(),curr.end());
+                if(res.empty() || res > curr){
+                    res = curr;
                 }
             }
-            solve(root->left, curr, res);
-            solve(root->right , curr,res);
+            inorder(root->left ,curr,res);
+            inorder(root->right,curr,res);
+            curr.pop_back();
         }
     }
     string smallestFromLeaf(TreeNode* root) {
         string res = "";
+        string curr = "";
 
-        solve(root,"",res);
-
+        inorder(root,curr,res);
+        
         return res;
     }
 };
