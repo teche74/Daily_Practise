@@ -1151,6 +1151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0090-subsets-ii](https://github.com/teche74/Daily_Practise/tree/master/0090-subsets-ii) |
 | [0137-single-number-ii](https://github.com/teche74/Daily_Practise/tree/master/0137-single-number-ii) |
 | [0187-repeated-dna-sequences](https://github.com/teche74/Daily_Practise/tree/master/0187-repeated-dna-sequences) |
+| [0201-bitwise-and-of-numbers-range](https://github.com/teche74/Daily_Practise/tree/master/0201-bitwise-and-of-numbers-range) |
 | [0287-find-the-duplicate-number](https://github.com/teche74/Daily_Practise/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/teche74/Daily_Practise/tree/master/0338-counting-bits) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/teche74/Daily_Practise/tree/master/0934-bitwise-ors-of-subarrays) |
