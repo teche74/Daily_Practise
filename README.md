@@ -763,6 +763,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0099-recover-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0099-recover-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/teche74/Daily_Practise/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/teche74/Daily_Practise/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0287-find-the-duplicate-number](https://github.com/teche74/Daily_Practise/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0300-longest-increasing-subsequence) |
@@ -976,6 +977,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0137-single-number-ii](https://github.com/teche74/Daily_Practise/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/teche74/Daily_Practise/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/teche74/Daily_Practise/tree/master/0152-maximum-product-subarray) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/teche74/Daily_Practise/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0164-maximum-gap](https://github.com/teche74/Daily_Practise/tree/master/0164-maximum-gap) |
 | [0198-house-robber](https://github.com/teche74/Daily_Practise/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/teche74/Daily_Practise/tree/master/0200-number-of-islands) |
