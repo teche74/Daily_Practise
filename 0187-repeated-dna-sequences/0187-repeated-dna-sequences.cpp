@@ -15,11 +15,9 @@ public:
                 string str = s.substr(low, high - low+1);
                 map[str].first++;
 
-                if(map[str].first > 1){
-                    if(map[str].first > 1 && map[str].second == false){
-                        map[str].second = true;
-                        res.emplace_back(str);
-                    }
+                if(map[str].first > 1 && map[str].second == false){
+                    map[str].second = true;
+                    res.emplace_back(str);
                 }
             }
             high++;
