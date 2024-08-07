@@ -608,6 +608,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/teche74/Daily_Practise/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/teche74/Daily_Practise/tree/master/0096-unique-binary-search-trees) |
 | [0166-fraction-to-recurring-decimal](https://github.com/teche74/Daily_Practise/tree/master/0166-fraction-to-recurring-decimal) |
+| [0204-count-primes](https://github.com/teche74/Daily_Practise/tree/master/0204-count-primes) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/teche74/Daily_Practise/tree/master/0273-integer-to-english-words) |
 | [0292-nim-game](https://github.com/teche74/Daily_Practise/tree/master/0292-nim-game) |
@@ -987,6 +988,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/teche74/Daily_Practise/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/teche74/Daily_Practise/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/teche74/Daily_Practise/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/teche74/Daily_Practise/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/teche74/Daily_Practise/tree/master/0213-house-robber-ii) |
 | [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
 | [0274-h-index](https://github.com/teche74/Daily_Practise/tree/master/0274-h-index) |
@@ -1775,9 +1777,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/teche74/Daily_Practise/tree/master/0204-count-primes) |
 | [0989-largest-component-size-by-common-factor](https://github.com/teche74/Daily_Practise/tree/master/0989-largest-component-size-by-common-factor) |
 ## Rolling Hash
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/teche74/Daily_Practise/tree/master/0187-repeated-dna-sequences) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/teche74/Daily_Practise/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
