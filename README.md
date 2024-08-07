@@ -607,6 +607,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/teche74/Daily_Practise/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/teche74/Daily_Practise/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/teche74/Daily_Practise/tree/master/0096-unique-binary-search-trees) |
+| [0166-fraction-to-recurring-decimal](https://github.com/teche74/Daily_Practise/tree/master/0166-fraction-to-recurring-decimal) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/teche74/Daily_Practise/tree/master/0273-integer-to-english-words) |
 | [0292-nim-game](https://github.com/teche74/Daily_Practise/tree/master/0292-nim-game) |
@@ -1095,6 +1096,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/teche74/Daily_Practise/tree/master/0139-word-break) |
 | [0142-linked-list-cycle-ii](https://github.com/teche74/Daily_Practise/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/teche74/Daily_Practise/tree/master/0146-lru-cache) |
+| [0166-fraction-to-recurring-decimal](https://github.com/teche74/Daily_Practise/tree/master/0166-fraction-to-recurring-decimal) |
 | [0205-isomorphic-strings](https://github.com/teche74/Daily_Practise/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/teche74/Daily_Practise/tree/master/0242-valid-anagram) |
 | [0336-palindrome-pairs](https://github.com/teche74/Daily_Practise/tree/master/0336-palindrome-pairs) |
@@ -1228,6 +1230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0131-palindrome-partitioning](https://github.com/teche74/Daily_Practise/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/teche74/Daily_Practise/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/teche74/Daily_Practise/tree/master/0151-reverse-words-in-a-string) |
+| [0166-fraction-to-recurring-decimal](https://github.com/teche74/Daily_Practise/tree/master/0166-fraction-to-recurring-decimal) |
 | [0205-isomorphic-strings](https://github.com/teche74/Daily_Practise/tree/master/0205-isomorphic-strings) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0242-valid-anagram](https://github.com/teche74/Daily_Practise/tree/master/0242-valid-anagram) |
