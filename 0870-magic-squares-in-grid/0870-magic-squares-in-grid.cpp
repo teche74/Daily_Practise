@@ -4,7 +4,7 @@ public:
         int rows = grid.size(), cols = grid[0].size();
         int count = 0;
         
-        auto isMagicSquare = [&](int row, int col) -> bool {
+        auto check = [&](int row, int col) -> bool {
             if (grid[row][col] != 5) return false;  
             
             vector<int> vals = {
@@ -13,10 +13,10 @@ public:
                 grid[row+1][col-1], grid[row+1][col], grid[row+1][col+1]
             };
 
-            vector<int> check(10, 0);
+            vector<int> temp(10, 0);
             for (int val : vals) {
-                if (val < 1 || val > 9 || check[val]) return false;
-                check[val] = 1;
+                if (val < 1 || val > 9 || temp[val]) return false;
+                temp[val] = 1;
             }
             
             return (vals[0] + vals[1] + vals[2] == 15) && 
@@ -31,7 +31,7 @@ public:
         
         for (int i = 1; i < rows - 1; i++) {
             for (int j = 1; j < cols - 1; j++) {
-                if (isMagicSquare(i, j)) {
+                if (check(i, j)) {
                     count++;
                 }
             }
