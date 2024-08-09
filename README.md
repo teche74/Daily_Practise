@@ -616,6 +616,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0357-count-numbers-with-unique-digits](https://github.com/teche74/Daily_Practise/tree/master/0357-count-numbers-with-unique-digits) |
 | [0445-add-two-numbers-ii](https://github.com/teche74/Daily_Practise/tree/master/0445-add-two-numbers-ii) |
 | [0537-complex-number-multiplication](https://github.com/teche74/Daily_Practise/tree/master/0537-complex-number-multiplication) |
+| [0870-magic-squares-in-grid](https://github.com/teche74/Daily_Practise/tree/master/0870-magic-squares-in-grid) |
 | [0989-largest-component-size-by-common-factor](https://github.com/teche74/Daily_Practise/tree/master/0989-largest-component-size-by-common-factor) |
 | [1086-divisor-game](https://github.com/teche74/Daily_Practise/tree/master/1086-divisor-game) |
 | [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/teche74/Daily_Practise/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
@@ -1017,6 +1018,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0740-delete-and-earn](https://github.com/teche74/Daily_Practise/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/teche74/Daily_Practise/tree/master/0747-min-cost-climbing-stairs) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/teche74/Daily_Practise/tree/master/0802-k-th-smallest-prime-fraction) |
+| [0870-magic-squares-in-grid](https://github.com/teche74/Daily_Practise/tree/master/0870-magic-squares-in-grid) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/teche74/Daily_Practise/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0921-spiral-matrix-iii](https://github.com/teche74/Daily_Practise/tree/master/0921-spiral-matrix-iii) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/teche74/Daily_Practise/tree/master/0934-bitwise-ors-of-subarrays) |
@@ -1116,6 +1118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0648-replace-words](https://github.com/teche74/Daily_Practise/tree/master/0648-replace-words) |
 | [0740-delete-and-earn](https://github.com/teche74/Daily_Practise/tree/master/0740-delete-and-earn) |
 | [0807-custom-sort-string](https://github.com/teche74/Daily_Practise/tree/master/0807-custom-sort-string) |
+| [0870-magic-squares-in-grid](https://github.com/teche74/Daily_Practise/tree/master/0870-magic-squares-in-grid) |
 | [0889-buddy-strings](https://github.com/teche74/Daily_Practise/tree/master/0889-buddy-strings) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
@@ -1719,6 +1722,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/teche74/Daily_Practise/tree/master/0200-number-of-islands) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0733-flood-fill](https://github.com/teche74/Daily_Practise/tree/master/0733-flood-fill) |
+| [0870-magic-squares-in-grid](https://github.com/teche74/Daily_Practise/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/teche74/Daily_Practise/tree/master/0921-spiral-matrix-iii) |
 | [1036-rotting-oranges](https://github.com/teche74/Daily_Practise/tree/master/1036-rotting-oranges) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/1496-lucky-numbers-in-a-matrix) |
