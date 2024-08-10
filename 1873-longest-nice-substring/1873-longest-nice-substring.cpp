@@ -1,43 +1,33 @@
 class Solution {
 public:
     string longestNiceSubstring(string s) {
-        int low =  0 , high = 0 ,size = s.size();
-        int ind = 0 , len = 0;
+        int max_len = 0;
+        string res = "";
 
-
-        for(;low <size ; low++){
-            vector<pair<int,int>>freq(26,{0,0});
-            int uni = 0;
-
-            for(high = low ; high < size ; high++){
-                
-                if(isupper(s[high])){
-                    uni += (freq[s[high] - 'A'].second == 0);
-                    freq[s[high] - 'A'].second++;
-                } 
-                else{
-                    uni += (freq[s[high] - 'a'].first == 0);
-                    freq[s[high] - 'a'].first++;
+        for (int i = 0; i < s.size(); ++i) {
+            vector<pair<bool, bool>> map(26, {false, false});
+            for (int j = i; j < s.size(); ++j) {
+                if (islower(s[j])) {
+                    map[s[j] - 'a'].first = true;
+                } else {
+                    map[tolower(s[j]) - 'a'].second = true;
                 }
 
-
                 bool nice = true;
-                for (int i = 0; i < 26; ++i) {
-                    if ((freq[i].first > 0 && freq[i].second == 0) || (freq[i].first == 0 && freq[i].second > 0)) {
+                for (int k = 0; k < 26; ++k) {
+                    if (map[k].first != map[k].second) {
                         nice = false;
                         break;
                     }
                 }
 
-                if (nice) {
-                    if (high - low + 1 > len) {
-                        len = high - low+1;
-                        ind =  low;
-                    }
+                if (nice && (j - i + 1) > max_len) {
+                    max_len = j - i + 1;
+                    res = s.substr(i, max_len);
                 }
             }
-
         }
-        return len == 0 ? "" : s.substr(ind,len);
+
+        return res;
     }
 };
