@@ -14,7 +14,6 @@ public:
             }
             
             if(high - low + 1 == 3)
-                cout<<low <<" "<<high<<endl;
             res += (high - low + 1 == 3);
             high++;
         }
