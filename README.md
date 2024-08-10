@@ -1081,6 +1081,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2954-maximum-sum-of-almost-unique-subarray](https://github.com/teche74/Daily_Practise/tree/master/2954-maximum-sum-of-almost-unique-subarray) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/teche74/Daily_Practise/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/teche74/Daily_Practise/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3463-alternating-groups-i](https://github.com/teche74/Daily_Practise/tree/master/3463-alternating-groups-i) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/teche74/Daily_Practise/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/teche74/Daily_Practise/tree/master/3483-alternating-groups-ii) |
 ## Hash Table
@@ -1216,6 +1217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/teche74/Daily_Practise/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/teche74/Daily_Practise/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/teche74/Daily_Practise/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3463-alternating-groups-i](https://github.com/teche74/Daily_Practise/tree/master/3463-alternating-groups-i) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/teche74/Daily_Practise/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/teche74/Daily_Practise/tree/master/3483-alternating-groups-ii) |
 ## String
