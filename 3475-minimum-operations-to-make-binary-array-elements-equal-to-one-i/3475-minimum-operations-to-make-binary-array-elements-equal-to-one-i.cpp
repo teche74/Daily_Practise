@@ -1,23 +1,24 @@
 class Solution {
 public:
     int minOperations(vector<int>& nums) {
-        int size = nums.size();
-        int moves = 0 ;
+        int size = nums.size(), count = 0 , opers = 0;
 
-        for(int i = 0; i <= size - 3; i++){
+        for(int i = 0 ; i <= size-3 ; i++){
             if(nums[i] == 0){
-                moves++;
-                if(i+3 > size) return -1;
-                for(int j =0 ; j <= 2 ; j++)
-                {
-                    nums[i+j] = !nums[i+j];
+                opers++;
+                int j = i;
+
+                while( j < size && j < i+3){
+                    nums[j] = abs(nums[j] - 1);
+                    j++;
                 }
-            } 
+            }
         }
 
-        int sum = accumulate(nums.begin(), nums.end(),0);
-
-        return sum == nums.size() ? moves : -1;
-
+        for(int  x : nums){
+            // cout<<x<<" ";
+            if(x == 0) return -1;
+        }
+        return opers;
     }
 };
