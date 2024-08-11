@@ -1,20 +1,28 @@
 class Solution {
 public:
     int numberOfSubstrings(string s) {
-        int low = 0 , high = 0 ,size = s.size() , res= 0 ;
-        int count[3], all_3 = 0;
-        memset(count,0, sizeof(count));
+        int ca = 0 , cb = 0 , cc = 0 ;
+        int low = 0 , high = 0 , size = s.size() , res = 0;
+        bool all = false;
 
-        while(high < size){
-            count[s[high] - 'a']++;
-            all_3 +=(count[s[high] - 'a'] == 1);
+        while(high  < size){
+            ca += (s[high] == 'a');
+            cb += (s[high] == 'b');
+            cc += (s[high] == 'c');
 
-            while(all_3 >= 3){
-                res +=size - high;
-                count[s[low] - 'a']--;
-                all_3 -= (count[s[low] - 'a'] == 0);
+            all = (ca > 0) & (cb > 0) & (cc > 0);
+
+
+            while(all){
+                res += size - high;
+                ca -= (s[low] == 'a');
+                cb -= (s[low] == 'b');
+                cc -= (s[low] == 'c');
+
+                all = (ca > 0) & (cb > 0) & (cc > 0);
                 low++;
-            }
+            } 
+
             high++;
         }
 
