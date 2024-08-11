@@ -1081,6 +1081,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2727-number-of-senior-citizens](https://github.com/teche74/Daily_Practise/tree/master/2727-number-of-senior-citizens) |
 | [2832-find-the-longest-equal-subarray](https://github.com/teche74/Daily_Practise/tree/master/2832-find-the-longest-equal-subarray) |
 | [2846-robot-collisions](https://github.com/teche74/Daily_Practise/tree/master/2846-robot-collisions) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2868-continuous-subarrays](https://github.com/teche74/Daily_Practise/tree/master/2868-continuous-subarrays) |
 | [2954-maximum-sum-of-almost-unique-subarray](https://github.com/teche74/Daily_Practise/tree/master/2954-maximum-sum-of-almost-unique-subarray) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/teche74/Daily_Practise/tree/master/3193-maximum-strong-pair-xor-i) |
@@ -1154,6 +1155,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2428-equal-row-and-column-pairs](https://github.com/teche74/Daily_Practise/tree/master/2428-equal-row-and-column-pairs) |
 | [2502-sort-the-people](https://github.com/teche74/Daily_Practise/tree/master/2502-sort-the-people) |
 | [2832-find-the-longest-equal-subarray](https://github.com/teche74/Daily_Practise/tree/master/2832-find-the-longest-equal-subarray) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2954-maximum-sum-of-almost-unique-subarray](https://github.com/teche74/Daily_Practise/tree/master/2954-maximum-sum-of-almost-unique-subarray) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/teche74/Daily_Practise/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/teche74/Daily_Practise/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -1221,6 +1223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2673-maximize-win-from-two-segments](https://github.com/teche74/Daily_Practise/tree/master/2673-maximize-win-from-two-segments) |
 | [2786-find-the-longest-semi-repetitive-substring](https://github.com/teche74/Daily_Practise/tree/master/2786-find-the-longest-semi-repetitive-substring) |
 | [2832-find-the-longest-equal-subarray](https://github.com/teche74/Daily_Practise/tree/master/2832-find-the-longest-equal-subarray) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2868-continuous-subarrays](https://github.com/teche74/Daily_Practise/tree/master/2868-continuous-subarrays) |
 | [2954-maximum-sum-of-almost-unique-subarray](https://github.com/teche74/Daily_Practise/tree/master/2954-maximum-sum-of-almost-unique-subarray) |
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/teche74/Daily_Practise/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
