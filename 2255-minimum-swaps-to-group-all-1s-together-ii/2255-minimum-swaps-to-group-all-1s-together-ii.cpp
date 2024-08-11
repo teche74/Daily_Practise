@@ -1,41 +1,22 @@
 class Solution {
 public:
     int minSwaps(vector<int>& nums) {
+        int total = ::accumulate(nums.begin(), nums.end() ,0);
 
-        int total_one = 0 ;
+        int low = 0 , high = 0 , size = nums.size(), res = nums.size(), count  = 0;
 
-        for(int x :  nums){
-            if(x & 1) total_one++;
-        }
+        while(high < size * 2){
+            count += (nums[high % size] == 1);
 
-
-        if (total_one == 0 || total_one == nums.size())
-            return 0;
-
-        for(int i =0; i< total_one ; i++){
-            nums.emplace_back(nums[i]);
-        }
-
-        int size = nums.size();
-
-        int low = 0 ,  high = 0 , count_one = 0, res = size+1;
-
-        while(high  < size){
-            count_one+=(nums[high] == 1);
-
-            while(high - low +1 > total_one){
-                count_one-=(nums[low] == 1);
+            while(high - low +1 >= total){
+                res = min(res, (high - low +1) - count );
+                count -= (nums[low % size] == 1);
                 low++;
-            } 
-
-            if (high - low + 1 == total_one) {
-                res = min(res, total_one - count_one);
             }
-
+            
+            
             high++;
         }
-
         return res;
-
     }
 };
