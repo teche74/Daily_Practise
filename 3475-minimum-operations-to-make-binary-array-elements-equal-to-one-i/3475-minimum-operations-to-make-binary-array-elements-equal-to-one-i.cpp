@@ -3,8 +3,8 @@ public:
     int minOperations(vector<int>& nums) {
         int size = nums.size(), count = 0 , opers = 0;
 
-        for(int i = 0 ; i <= size-3 ; i++){
-            if(nums[i] == 0){
+        for(int i = 0 ; i < size ; i++){
+            if(nums[i] == 0 && i <= size-3){
                 opers++;
                 int j = i;
 
@@ -13,12 +13,10 @@ public:
                     j++;
                 }
             }
+            if(nums[i] == 0){
+                count++;
+            }
         }
-
-        for(int  x : nums){
-            // cout<<x<<" ";
-            if(x == 0) return -1;
-        }
-        return opers;
+        return count ? -1 : opers;
     }
 };
