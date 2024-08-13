@@ -6,6 +6,8 @@ public:
             return;
         }
 
+        if(index >= cand.size() || val < cand[index] ) return;
+
         for(int i = index ; i < cand.size(); i++){
             if( i> index && cand[i] == cand[i-1]) continue;
             if(cand[i] > val)break;
