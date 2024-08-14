@@ -1,19 +1,19 @@
 class Solution {
 public:
     int numTrees(int n) {
-        int dp[n+1];
-        memset(dp,0,sizeof(dp));
-        dp[0] = 1;
-        dp[1] = 1;
+        int save[n+1];
+        memset(save , 0, sizeof(save));
 
-        for(int nodes = 2 ; nodes <= n ;nodes++){
-            for(int left =0 ; left < nodes ; left++){
-                int right = nodes - left-1;
-                dp[nodes] += dp[left] * dp[right];
+        save[0] =1 , save[1] = 1;
+
+        for(int total =2 ; total <= n ; total++){
+            for(int left = 0; left < total ; left++){
+                int right = total - left  - 1;
+
+                save[total] += save[left] * save[right]; 
             }
         }
 
-        return dp[n];
-
+        return save[n];
     }
 };
