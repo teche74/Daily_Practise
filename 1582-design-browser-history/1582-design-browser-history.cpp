@@ -1,50 +1,63 @@
-struct history{
+struct web{
+    web * prev = nullptr;
+    web * next = nullptr;
     string url = "";
-    history * next = nullptr;
-    history * prev = nullptr; 
 
-    history(string str = ""){
-        url = str;
+    web(){
+        prev = nullptr;
+        next = nullptr;
+        url = "";
+    }
+
+    web(string url){
+        prev = nullptr;
+        next = nullptr;
+        this -> url = url;
     }
 };
 
 class BrowserHistory {
 public:
-    history * head, *tail, * curr;
+    web * head ;
+    web * tail ;
+    web * curr ;
 
     BrowserHistory(string homepage) {
-        head = new history();
-        tail = new history();
-
-        curr = new history(homepage);
+        head = new web();
+        tail = new web();
+        curr = new web(homepage);
 
         head->next = curr;
         curr->prev = head;
         curr->next = tail;
-        tail->prev = curr;
+        tail->prev = curr;  
     }
     
     void visit(string url) {
-        history * new_node = new history(url);
-        new_node->prev = curr;
-        new_node->next = tail;
-        curr->next = new_node;
-        tail->prev = new_node;
-        curr = new_node;
+        web * page  = new web(url);
+
+        page->prev =curr;
+        page->next = tail;
+        curr->next = page;
+        tail->prev = page;
+        curr = page;
     }
     
     string back(int steps) {
-        while(steps-- > 0 && curr->prev != head){
-            curr=curr->prev;
+        while( curr->prev != head && steps > 0){
+            steps--;
+            curr =curr->prev;
         }
         return curr->url;
     }
     
     string forward(int steps) {
-        while(steps-- > 0 && curr->next != tail){
-            curr=curr->next;
+        while( curr->next != tail && steps > 0){
+            steps--;
+            curr = curr->next;
         }
-        return curr->url;
+
+        return curr->url; 
     }
 };
 
