@@ -1,49 +1,70 @@
+struct web{
+    web * prev = nullptr;
+    web * next = nullptr;
+    string url = "";
+
+    web(){
+        prev = nullptr;
+        next = nullptr;
+        url = "";
+    }
+
+    web(string url){
+        prev = nullptr;
+        next = nullptr;
+        this -> url = url;
+    }
+};
+
 class BrowserHistory {
-private:
-    struct Web {
-        string url;
-        unique_ptr<Web> next;
-        Web* prev;
-
-        Web(string url){
-            this->url = url;
-            prev = nullptr;
-            next = nullptr;
-        }
-    };
-
-    unique_ptr<Web> head;
-    Web* tail;
-    Web* curr;
-
 public:
+    web * head ;
+    web * tail ;
+    web * curr ;
+
     BrowserHistory(string homepage) {
-        head = make_unique<Web>(homepage);
-        tail = head.get();
-        curr = head.get();
+        head = new web();
+        tail = new web();
+        curr = new web(homepage);
+
+        head->next = curr;
+        curr->prev = head;
+        curr->next = tail;
+        tail->prev = curr;  
     }
     
     void visit(string url) {
-        auto newPage = make_unique<Web>(url);
-        newPage->prev = curr;
-        curr->next = move(newPage);
-        curr = curr->next.get();
-        tail = curr;  
+        web * page  = new web(url);
+
+        page->prev =curr;
+        page->next = tail;
+        curr->next = page;
+        tail->prev = page;
+        curr = page;
     }
     
     string back(int steps) {
-        while(curr->prev != nullptr && steps > 0) {
-            curr = curr->prev;
+        while( curr->prev != head && steps > 0){
             steps--;
+            curr =curr->prev;
         }
         return curr->url;
     }
     
     string forward(int steps) {
-        while(curr->next != nullptr && steps > 0) {
-            curr = curr->next.get();
+        while( curr->next != tail && steps > 0){
             steps--;
+            curr = curr->next;
         }
-        return curr->url;
+
+        return curr->url; 
     }
 };
+
+/**
+ * Your BrowserHistory object will be instantiated and called as such:
+ * BrowserHistory* obj = new BrowserHistory(homepage);
+ * obj->visit(url);
+ * string param_2 = obj->back(steps);
+ * string param_3 = obj->forward(steps);
+ */
