@@ -11,24 +11,24 @@
  */
 class Solution {
 public:
-    void solve(TreeNode *root, TreeNode *  & prev, TreeNode *  & first , TreeNode * & second){
+    void solve(TreeNode * root, TreeNode * & first, TreeNode * & second , TreeNode * & prev){
         if(root){
-            solve(root->left,prev,first,second);
-            if(prev && prev->val > root->val){
+            solve(root->left,first , second, prev);
+            if(prev != nullptr && root->val < prev->val){
                 if(!first){
                     first = prev;
                 }
                 second = root;
             }
-            prev = root;
-            solve(root->right,prev,first,second);
+            prev =root;
+            solve(root->right, first,second, prev);
         }
     }
     void recoverTree(TreeNode* root) {
-        TreeNode * prev = nullptr , *first = nullptr  , *second = nullptr;
+        TreeNode * first = nullptr, * second = nullptr, * prev = nullptr;
 
-        solve(root,prev,first,second);
+        solve(root,first, second,prev);
 
-        swap(first->val,second->val);
+        swap(first->val, second->val);
     }
 };
