@@ -11,20 +11,19 @@
  */
 class Solution {
 public:
-    TreeNode *solve(vector<int> & nums, int low, int high){
-        if(low > high){
-            return nullptr; 
-        }
+    TreeNode *solve(vector<int> & nums, int low , int high){
+        if(low > high) return nullptr;
 
         int mid = low + (high - low)/2;
         TreeNode * root = new TreeNode(nums[mid]);
-        root->left = solve(nums, low,mid-1);
+        root->left = solve(nums,low, mid-1);
         root->right = solve(nums, mid+1, high);
 
         return root;
     }
     TreeNode* sortedArrayToBST(vector<int>& nums) {
         int size = nums.size();
-        return solve(nums,0,size-1);
+
+        return solve(nums, 0, size-1); 
     }
 };
