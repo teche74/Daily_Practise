@@ -21,33 +21,26 @@ public:
     Node* connect(Node* root) {
         if(!root) return nullptr;
 
-        queue<Node *> q;
+        
+        queue<Node *>q;
         q.push(root);
 
-        while(!q.empty()){
-            int size = q.size();
-            Node *prev = nullptr;
-            for(int i = 0 ; i < size; i++) {
-                Node *front = q.front();
-                q.pop();
-
-                if (prev) {
+        while(q.size()){
+            int size =q.size();
+            Node * prev = nullptr;
+            while(size--){
+                Node * front = q.front(); q.pop();
+                if(prev){
                     prev->next = front;
                 }
-                prev = front;
 
-                if (front->left) {
-                    q.push(front->left);
-                }
-                if (front->right) {
-                    q.push(front->right);
-                }
+                if(front->left) q.push(front->left);
+                if(front->right) q.push(front->right);
+                prev = front;
             }
-            // if(prev){
-            //     prev->next = nullptr;
-            // }
+            prev->next= nullptr;
         }
 
-        return root;
+        return root; 
     }
 };
