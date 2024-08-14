@@ -12,23 +12,21 @@
 class Solution {
 public:
     void flatten(TreeNode* root) {
-        TreeNode * curr = root; 
-        
-        while(curr != nullptr){
-            if(curr->left){
-                TreeNode * temp = curr->left;
+        TreeNode * temp = root;
 
-                while(temp->right != nullptr){
-                    temp =temp->right;
+        while(temp){
+            if(temp->left){
+                TreeNode * curr = temp->left;
+
+                while(curr->right != nullptr){
+                    curr=curr->right;
                 }
 
-                temp->right =curr->right;
-                curr->right = curr->left;
-                curr->left = nullptr;
-
-
+                curr->right = temp->right;
+                temp->right = temp->left;
+                temp->left = nullptr;
             }
-            curr =curr->right;
+            temp=temp->right;
         }
     }
 };
