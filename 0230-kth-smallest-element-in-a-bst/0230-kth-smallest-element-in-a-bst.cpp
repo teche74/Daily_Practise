@@ -11,23 +11,21 @@
  */
 class Solution {
 public:
-    int count = 0,res = 0;
-    int kthSmallest(TreeNode* root, int k) {
-
-        function<void(TreeNode *)>solve = [&](TreeNode *temp){
-            if(temp != nullptr){
-                solve(temp->left);
-                count++;
-                if(count == k){
-                    res = temp->val;
-                    return;
-                }
-                solve(temp->right);
+    void solve(TreeNode * root, int  & k , int  & res){
+        if(root){
+            solve(root->left,k,res);
+            k--;
+            if(!k){
+                res = root->val;
+                return;
             }
-        };
+            solve(root->right, k, res);
+        }
+    }
+    int kthSmallest(TreeNode* root, int k) {
+        int res = 0 ;
+        solve(root, k , res);
 
-        solve(root);
         return res;
-
     }
 };
