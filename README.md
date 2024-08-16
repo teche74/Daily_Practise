@@ -1030,6 +1030,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0532-k-diff-pairs-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/teche74/Daily_Practise/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0594-longest-harmonious-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0594-longest-harmonious-subsequence) |
+| [0624-maximum-distance-in-arrays](https://github.com/teche74/Daily_Practise/tree/master/0624-maximum-distance-in-arrays) |
 | [0646-maximum-length-of-pair-chain](https://github.com/teche74/Daily_Practise/tree/master/0646-maximum-length-of-pair-chain) |
 | [0648-replace-words](https://github.com/teche74/Daily_Practise/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
@@ -1570,6 +1571,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0376-wiggle-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0376-wiggle-subsequence) |
 | [0517-super-washing-machines](https://github.com/teche74/Daily_Practise/tree/master/0517-super-washing-machines) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/teche74/Daily_Practise/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0624-maximum-distance-in-arrays](https://github.com/teche74/Daily_Practise/tree/master/0624-maximum-distance-in-arrays) |
 | [0646-maximum-length-of-pair-chain](https://github.com/teche74/Daily_Practise/tree/master/0646-maximum-length-of-pair-chain) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/teche74/Daily_Practise/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0890-lemonade-change](https://github.com/teche74/Daily_Practise/tree/master/0890-lemonade-change) |
