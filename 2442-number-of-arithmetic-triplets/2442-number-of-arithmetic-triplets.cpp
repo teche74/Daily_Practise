@@ -3,18 +3,21 @@ public:
     int arithmeticTriplets(vector<int>& nums, int diff) {
         int size = nums.size();
 
-        int count  =0;
+        unordered_map<int,int>map;
 
-        for(int i =0; i < size ; i++){
-            for(int j = i+1 ;j < size ;j++){
-                for(int k = j+1 ;k < size ;k++){
-                    if(nums[j] - nums[i] == diff && nums[k] - nums[j] == diff){
-                        count++;
-                    }
-                }
+        for(int i = 0 ; i < size; i++){
+            map[nums[i]]++;
+        }
+
+        int res = 0;
+
+        for(int i : nums){
+            
+            if(map.find( diff + i ) != map.end() && map.find( (diff << 1) + i ) != map.end()){     
+                res++;
             }
         }
 
-        return count;
+        return res;
     }
 };
