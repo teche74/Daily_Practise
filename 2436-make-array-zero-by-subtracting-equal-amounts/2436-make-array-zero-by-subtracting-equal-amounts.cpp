@@ -1,14 +1,15 @@
 class Solution {
 public:
     int minimumOperations(vector<int>& nums) {
-        unordered_set<int> uni;
-        
-        for (int num : nums) {
-            if (num > 0) {
-                uni.insert(num);
-            }
+        unordered_map<int,int>map;
+
+        int size = nums.size();
+
+        for(int i = 0 ;i  < size ; i++){
+            if(nums[i] > 0)
+                map[nums[i]]++;
         }
-        
-        return uni.size();
+
+        return map.size();
     }
 };
