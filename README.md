@@ -1352,6 +1352,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0594-longest-harmonious-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0594-longest-harmonious-subsequence) |
 | [1034-subarrays-with-k-different-integers](https://github.com/teche74/Daily_Practise/tree/master/1034-subarrays-with-k-different-integers) |
 | [1472-increasing-decreasing-string](https://github.com/teche74/Daily_Practise/tree/master/1472-increasing-decreasing-string) |
+| [1708-design-parking-system](https://github.com/teche74/Daily_Practise/tree/master/1708-design-parking-system) |
 | [1777-determine-if-two-strings-are-close](https://github.com/teche74/Daily_Practise/tree/master/1777-determine-if-two-strings-are-close) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/teche74/Daily_Practise/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1987-substrings-of-size-three-with-distinct-characters](https://github.com/teche74/Daily_Practise/tree/master/1987-substrings-of-size-three-with-distinct-characters) |
@@ -1690,6 +1691,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0921-spiral-matrix-iii](https://github.com/teche74/Daily_Practise/tree/master/0921-spiral-matrix-iii) |
 | [1552-build-an-array-with-stack-operations](https://github.com/teche74/Daily_Practise/tree/master/1552-build-an-array-with-stack-operations) |
 | [1642-water-bottles](https://github.com/teche74/Daily_Practise/tree/master/1642-water-bottles) |
+| [1708-design-parking-system](https://github.com/teche74/Daily_Practise/tree/master/1708-design-parking-system) |
 | [1803-average-waiting-time](https://github.com/teche74/Daily_Practise/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/teche74/Daily_Practise/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/teche74/Daily_Practise/tree/master/2299-merge-nodes-in-between-zeros) |
@@ -1745,6 +1747,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0535-encode-and-decode-tinyurl](https://github.com/teche74/Daily_Practise/tree/master/0535-encode-and-decode-tinyurl) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/teche74/Daily_Practise/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1582-design-browser-history](https://github.com/teche74/Daily_Practise/tree/master/1582-design-browser-history) |
+| [1708-design-parking-system](https://github.com/teche74/Daily_Practise/tree/master/1708-design-parking-system) |
 | [1905-design-authentication-manager](https://github.com/teche74/Daily_Practise/tree/master/1905-design-authentication-manager) |
 ## Doubly-Linked List
 |  |
