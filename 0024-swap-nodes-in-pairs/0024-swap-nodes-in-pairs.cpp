@@ -11,20 +11,22 @@
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
-        ListNode * prev= nullptr, * curr = head  , * temp = nullptr;
-        int count =2;
+        int swap = 2;
 
-        while(curr != nullptr && count){
-            temp  =curr->next;
-            curr->next =prev;
-            prev=curr;
-            curr=temp;
-            count--;
+        ListNode * prev = nullptr ,  *curr = head,  *temp = nullptr;
+
+        while(curr && swap){
+            temp = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = temp;
+            swap--;
         }
 
         if(temp){
             head->next = swapPairs(temp);
         }
+
         return prev;
     }
 };
