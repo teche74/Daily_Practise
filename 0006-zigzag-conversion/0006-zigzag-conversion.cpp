@@ -7,8 +7,19 @@ public:
 
         int row = 0 , dir = -1;
 
-        vector<char>st[numRows];
+        // slow performance
+        // vector<char>st[numRows];
+        // for(char ch : s){
+        //     st[row].push_back(ch);
 
+        //     if(row == numRows -1 || row == 0){
+        //         dir *= -1;
+        //     }
+
+        //     row +=dir;
+        // } 
+
+        vector<string>st(numRows , "");
         for(char ch : s){
             st[row].push_back(ch);
 
@@ -21,9 +32,8 @@ public:
 
         string res = "";
 
-        for(auto ch  :st){
-            for(auto t : ch)
-                res.push_back(t);
+        for(auto str  :st){
+            res += str;
         } 
 
         return res;
