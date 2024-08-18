@@ -1,18 +1,16 @@
 class Solution {
 public:
-    void solve(int index , vector<int> & cand , int val , vector<vector<int>> &res , vector<int>temp){
-        if(val ==  0){
+    void solve(int index, vector<int> & cand , int target , vector<int>temp , vector<vector<int>> & res){
+        if(target == 0){
             res.emplace_back(temp);
             return;
         }
 
-        if(index >= cand.size() || val < cand[index] ) return;
-
-        for(int i = index ; i < cand.size(); i++){
-            if( i> index && cand[i] == cand[i-1]) continue;
-            if(cand[i] > val)break;
+        for(int i = index; i < cand.size() ; i++){
+            if(i > index && cand[i] == cand[i-1]) continue;
+            if(cand[i]  > target) break;
             temp.emplace_back(cand[i]);
-            solve(i+1,cand,val - cand[i] , res, temp);
+            solve(i+1,cand,target - cand[i] , temp,res);
             temp.pop_back();
         }
     }
@@ -22,7 +20,7 @@ public:
 
         sort(candidates.begin() , candidates.end());
 
-        solve( 0 , candidates , target , res, temp);
+        solve(0 ,candidates, target , temp,res);
 
         return res;
     }
