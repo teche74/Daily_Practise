@@ -1,32 +1,22 @@
 class Solution {
 public:
-    int maxArea(vector<int>& arr) {
-        // brute 
-        // int res = 0,  size = arr.size();
-        // for(int i = 0; i < size ; i++ ){
-        //     for(int j = i+1 ; j < size ; j++){
-        //         res = max(res, (j - i) * min(arr[j],arr[i]));
-        //     }
-        // }
+    int maxArea(vector<int>& cont) {
+        int size = cont.size();
+        int res = 0 ;
 
-        // return res;
-
-
-
-        // optimize
-
-        int size = arr.size() , res = 0;
-
-        int low = 0, high = size-1 ;
+        int low = 0 , high = cont.size()-1;
 
         while(low < high){
-            res  = max(res, (high - low) * min(arr[low],arr[high]));
+            int hght = min(cont[low] , cont[high]);
+            int len = high - low;
 
-            if(arr[low] > arr[high]){
-                high--;
+            res= max(res, hght * len);
+
+            if(cont[low] < cont[high]){
+                low++;
             }
             else{
-                low++;
+                high--;
             }
         }
         return res;
