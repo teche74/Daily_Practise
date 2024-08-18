@@ -50,7 +50,7 @@ public:
             int mirror  = 2 * centre - i;
 
             if(i < right){
-                lps[i] = max( right - i, lps[mirror]);
+                lps[i] = min( right - i, lps[mirror]);
             }
 
             while(s[i + lps[i] + 1] == s[i - lps[i] - 1]){
