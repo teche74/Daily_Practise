@@ -1,30 +1,26 @@
 class Solution {
 public:
+    void solve(int index , vector<int> & nums,vector<vector<int>> & res){
+        if(index >= nums.size()){
+            res.emplace_back(nums);
+            return ;
+        } 
+
+        set<int>st;
+        for(int i = index; i < nums.size() ; i++){
+            if(st.find(nums[i]) == st.end()){
+                st.insert(nums[i]);
+                swap(nums[i] , nums[index]);
+                solve(index+1 ,nums,res);
+                swap(nums[i] , nums[index]);
+            }
+        }
+    }
+
     vector<vector<int>> permuteUnique(vector<int>& nums) {
         vector<vector<int>>res;
-        int size = nums.size();
+        solve(0,nums,res);
 
-        function<void(int)> solve = [&](int index){
-            if(index >= size){
-                res.emplace_back(nums);
-                return;
-            }
-
-            set<int>used;
-
-
-            for(int i = index; i < size ; i++){
-                if(used.find(nums[i]) == used.end()){
-                    used.insert(nums[i]);
-                    swap(nums[i], nums[index]);
-                    solve(index+1);
-                    swap(nums[i], nums[index]);
-                }
-            }
-        };
-
-        solve(0);
-
-        return res;
+        return res;    
     }
 };
