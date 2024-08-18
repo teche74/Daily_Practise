@@ -993,6 +993,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/teche74/Daily_Practise/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/teche74/Daily_Practise/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/teche74/Daily_Practise/tree/master/0057-insert-interval) |
+| [0059-spiral-matrix-ii](https://github.com/teche74/Daily_Practise/tree/master/0059-spiral-matrix-ii) |
 | [0063-unique-paths-ii](https://github.com/teche74/Daily_Practise/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/teche74/Daily_Practise/tree/master/0073-set-matrix-zeroes) |
@@ -1708,6 +1709,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/teche74/Daily_Practise/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/teche74/Daily_Practise/tree/master/0059-spiral-matrix-ii) |
 | [0537-complex-number-multiplication](https://github.com/teche74/Daily_Practise/tree/master/0537-complex-number-multiplication) |
 | [0921-spiral-matrix-iii](https://github.com/teche74/Daily_Practise/tree/master/0921-spiral-matrix-iii) |
 | [1552-build-an-array-with-stack-operations](https://github.com/teche74/Daily_Practise/tree/master/1552-build-an-array-with-stack-operations) |
@@ -1790,6 +1792,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/teche74/Daily_Practise/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/teche74/Daily_Practise/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/teche74/Daily_Practise/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/teche74/Daily_Practise/tree/master/0059-spiral-matrix-ii) |
 | [0063-unique-paths-ii](https://github.com/teche74/Daily_Practise/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/teche74/Daily_Practise/tree/master/0073-set-matrix-zeroes) |
