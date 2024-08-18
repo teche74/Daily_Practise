@@ -1,25 +1,22 @@
 class Solution {
 public:
+    void solve(int index , vector<int> & nums,vector<vector<int>> & res){
+        if(index >= nums.size()){
+            res.emplace_back(nums);
+            return ;
+        } 
+
+        for(int i = index; i < nums.size() ; i++){
+            swap(nums[i] , nums[index]);
+            solve(index+1 ,nums,res);
+            swap(nums[i] , nums[index]);
+        }
+    }
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>>res;
 
-        int size = nums.size();
+        solve( 0 , nums,res );
 
-        function<void(int)> solve = [&](int index){
-            if(index >= size){
-                res.emplace_back(nums);
-                return ;
-            }
-
-            for(int i = index; i < size ; i++){
-                swap(nums[i] , nums[index]);
-                solve(index+1);
-                swap(nums[i], nums[index]);
-            }
-        };
-
-        solve(0);
-
-        return res;
+        return res;   
     }
 };
