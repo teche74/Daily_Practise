@@ -11,21 +11,22 @@
  */
 class Solution {
 public:
-    bool check = true;
-    void solve(TreeNode *root, long long mini , long long maxi){
+    void solve(TreeNode * root, long mini , long maxi, bool  & check){
         if(root){
-            solve(root->left,mini,root->val);
             if(root->val <= mini || root->val >= maxi){
-                check =false;
-                return ;
+                check  =false;
+                return;
             }
-            solve(root->right,root->val,maxi);
+            solve(root->left , mini , root->val, check);
+            solve(root->right, root->val , maxi, check);
         }
-        return ;
     }
     bool isValidBST(TreeNode* root) {
-        long long mini = LONG_MIN, maxi = LONG_MAX;
-        solve(root,mini,maxi);
+        long mini = LONG_MIN , maxi = LONG_MAX;
+
+        bool check  = true;
+
+        solve(root, mini, maxi, check);
 
         return check;
     }
