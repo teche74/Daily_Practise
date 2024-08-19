@@ -1,30 +1,27 @@
 class Solution {
 public:
+    int dp[101][101][201];
+    bool solve(int i , int j  , int k , string  & str, string & str2 , string & str3){
+        if(k == str3.size()) return true;
+        if(i >= str.size() && j >= str2.size() ) return false;
+
+        if(dp[i][j][k] != -1) return dp[i][j][k];
+
+        bool take_first = false;
+        bool take_second = false;
+
+        if(i < str.size() &&  str[i] == str3[k])
+            take_first = solve(i+1, j , k+1 , str,str2 , str3);
+
+        if(j  <str2.size() && str2[j] == str3[k])
+            take_second = solve(i , j+1, k+1, str, str2, str3);
+
+        return dp[i][j][k] = take_first || take_second;
+    }
+
     bool isInterleave(string s1, string s2, string s3) {
-
-        if (s1.size() + s2.size() != s3.size() ) return false;
-
-        int dp[201][201];
-        
-        function<bool(int,int,int)> solve = [&](int i, int j ,int k){
-            if(k == s3.size()) return true;
-
-            if(dp[i][j] != -1){
-                return (dp[i][j] == 1);
-            }
-            bool first = false,second = false;
-            
-            if(i < s1.size() && s1[i] == s3[k])
-                first = solve(i+1,j,k+1);
-            
-            if(j < s2.size() && s2[j] == s3[k]){
-                second = solve(i,j+1,k+1);
-            }
-
-            dp[i][j] = first || second;
-            return first || second;
-        };
+        if(s1.size()  + s2.size() > s3.size() ) return false;
         memset(dp,-1,sizeof(dp));
-        return solve(0,0,0);
+        return solve(0,0,0,s1,s2,s3);
     }
 };
