@@ -892,6 +892,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0051-n-queens](https://github.com/teche74/Daily_Practise/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/teche74/Daily_Practise/tree/master/0052-n-queens-ii) |
 | [0077-combinations](https://github.com/teche74/Daily_Practise/tree/master/0077-combinations) |
+| [0078-subsets](https://github.com/teche74/Daily_Practise/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/teche74/Daily_Practise/tree/master/0090-subsets-ii) |
 | [0095-unique-binary-search-trees-ii](https://github.com/teche74/Daily_Practise/tree/master/0095-unique-binary-search-trees-ii) |
 | [0113-path-sum-ii](https://github.com/teche74/Daily_Practise/tree/master/0113-path-sum-ii) |
@@ -1000,6 +1001,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/teche74/Daily_Practise/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/teche74/Daily_Practise/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/teche74/Daily_Practise/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/teche74/Daily_Practise/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/teche74/Daily_Practise/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/teche74/Daily_Practise/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/teche74/Daily_Practise/tree/master/0090-subsets-ii) |
@@ -1205,6 +1207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/teche74/Daily_Practise/tree/master/0029-divide-two-integers) |
+| [0078-subsets](https://github.com/teche74/Daily_Practise/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/teche74/Daily_Practise/tree/master/0090-subsets-ii) |
 | [0137-single-number-ii](https://github.com/teche74/Daily_Practise/tree/master/0137-single-number-ii) |
 | [0187-repeated-dna-sequences](https://github.com/teche74/Daily_Practise/tree/master/0187-repeated-dna-sequences) |
