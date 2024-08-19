@@ -10,8 +10,7 @@ public:
                 return true;
             }
 
-            if(nums[low] == nums[high] == nums[mid]){
-                low++;
+            if(nums[low] == nums[high]){
                 high--;
                 continue;
             }
