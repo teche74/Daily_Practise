@@ -11,27 +11,29 @@
  */
 class Solution {
 public:
-    TreeNode * solve(int  & index , vector<int>& post , unordered_map<int,int> & map, int low ,  int high){
+    TreeNode * solve(int  & index, vector<int>& postorder , unordered_map<int,int> & map , int low , int high){
         if(low > high) return nullptr;
 
-        TreeNode * root = new TreeNode(post[index--]);
+        int val = postorder[index--];
 
-        int mid = map[root->val];
+        TreeNode * root = new TreeNode (val);
 
-        root->right = solve(index , post , map , mid+1 , high);
-        root->left  = solve(index , post , map , low , mid-1 );
+        root->right = solve(index, postorder, map,map[val]+1, high);
+        root->left = solve(index, postorder, map, low, map[val]-1);
 
         return root;
     }
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        int size = inorder.size();
+        int size = postorder.size();
+
         unordered_map<int,int>map;
 
-        for(int i = 0 ;i  <size; i++){
+        for(int i = 0 ; i< size; i++){
             map[inorder[i]] = i;
         }
 
-        int index= size-1 ;
-        return solve(index, postorder,map, 0, size-1);
+        int index = size-1;
+
+        return solve(index,postorder,map,0 ,size-1);
     }
 };
