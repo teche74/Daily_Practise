@@ -606,6 +606,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0060-permutation-sequence](https://github.com/teche74/Daily_Practise/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/teche74/Daily_Practise/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/teche74/Daily_Practise/tree/master/0070-climbing-stairs) |
+| [0089-gray-code](https://github.com/teche74/Daily_Practise/tree/master/0089-gray-code) |
 | [0096-unique-binary-search-trees](https://github.com/teche74/Daily_Practise/tree/master/0096-unique-binary-search-trees) |
 | [0166-fraction-to-recurring-decimal](https://github.com/teche74/Daily_Practise/tree/master/0166-fraction-to-recurring-decimal) |
 | [0204-count-primes](https://github.com/teche74/Daily_Practise/tree/master/0204-count-primes) |
@@ -895,6 +896,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0077-combinations](https://github.com/teche74/Daily_Practise/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/teche74/Daily_Practise/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/teche74/Daily_Practise/tree/master/0079-word-search) |
+| [0089-gray-code](https://github.com/teche74/Daily_Practise/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/teche74/Daily_Practise/tree/master/0090-subsets-ii) |
 | [0095-unique-binary-search-trees-ii](https://github.com/teche74/Daily_Practise/tree/master/0095-unique-binary-search-trees-ii) |
 | [0113-path-sum-ii](https://github.com/teche74/Daily_Practise/tree/master/0113-path-sum-ii) |
@@ -1213,6 +1215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0029-divide-two-integers](https://github.com/teche74/Daily_Practise/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/teche74/Daily_Practise/tree/master/0078-subsets) |
+| [0089-gray-code](https://github.com/teche74/Daily_Practise/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/teche74/Daily_Practise/tree/master/0090-subsets-ii) |
 | [0137-single-number-ii](https://github.com/teche74/Daily_Practise/tree/master/0137-single-number-ii) |
 | [0187-repeated-dna-sequences](https://github.com/teche74/Daily_Practise/tree/master/0187-repeated-dna-sequences) |
