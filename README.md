@@ -622,6 +622,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0870-magic-squares-in-grid](https://github.com/teche74/Daily_Practise/tree/master/0870-magic-squares-in-grid) |
 | [0989-largest-component-size-by-common-factor](https://github.com/teche74/Daily_Practise/tree/master/0989-largest-component-size-by-common-factor) |
 | [1086-divisor-game](https://github.com/teche74/Daily_Practise/tree/master/1086-divisor-game) |
+| [1240-stone-game-ii](https://github.com/teche74/Daily_Practise/tree/master/1240-stone-game-ii) |
 | [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/teche74/Daily_Practise/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
 | [1370-count-number-of-nice-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1370-count-number-of-nice-subarrays) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/teche74/Daily_Practise/tree/master/1430-find-the-k-beauty-of-a-number) |
@@ -689,6 +690,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1020-longest-turbulent-subarray](https://github.com/teche74/Daily_Practise/tree/master/1020-longest-turbulent-subarray) |
 | [1086-divisor-game](https://github.com/teche74/Daily_Practise/tree/master/1086-divisor-game) |
 | [1196-filling-bookcase-shelves](https://github.com/teche74/Daily_Practise/tree/master/1196-filling-bookcase-shelves) |
+| [1240-stone-game-ii](https://github.com/teche74/Daily_Practise/tree/master/1240-stone-game-ii) |
 | [1250-longest-common-subsequence](https://github.com/teche74/Daily_Practise/tree/master/1250-longest-common-subsequence) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/teche74/Daily_Practise/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1488-sort-integers-by-the-power-value](https://github.com/teche74/Daily_Practise/tree/master/1488-sort-integers-by-the-power-value) |
@@ -1081,6 +1083,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/teche74/Daily_Practise/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1196-filling-bookcase-shelves](https://github.com/teche74/Daily_Practise/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/teche74/Daily_Practise/tree/master/1207-delete-nodes-and-return-forest) |
+| [1240-stone-game-ii](https://github.com/teche74/Daily_Practise/tree/master/1240-stone-game-ii) |
 | [1293-three-consecutive-odds](https://github.com/teche74/Daily_Practise/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/teche74/Daily_Practise/tree/master/1333-sort-the-jumbled-numbers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/teche74/Daily_Practise/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -1420,6 +1423,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
+| [1240-stone-game-ii](https://github.com/teche74/Daily_Practise/tree/master/1240-stone-game-ii) |
 | [1321-get-equal-substrings-within-budget](https://github.com/teche74/Daily_Practise/tree/master/1321-get-equal-substrings-within-budget) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/teche74/Daily_Practise/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/teche74/Daily_Practise/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -1753,6 +1757,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0292-nim-game](https://github.com/teche74/Daily_Practise/tree/master/0292-nim-game) |
 | [1086-divisor-game](https://github.com/teche74/Daily_Practise/tree/master/1086-divisor-game) |
+| [1240-stone-game-ii](https://github.com/teche74/Daily_Practise/tree/master/1240-stone-game-ii) |
 | [1617-stone-game-iv](https://github.com/teche74/Daily_Practise/tree/master/1617-stone-game-iv) |
 ## String Matching
 |  |
