@@ -1,33 +1,24 @@
 class Solution {
 public:
-    int dp[101][2];
-    int solve(int index , vector<int> & nums, bool take_first){
-        if(index >= nums.size()){
-            return 0;
+    int check(vector<int>& nums, int start, int end) {
+        int prev1 = 0, prev2 = 0;
+
+        for (int i = start; i <= end; ++i) {
+            int temp = max(nums[i] + prev2, prev1);
+            prev2 = prev1;
+            prev1 = temp;
         }
 
-        if(dp[index][take_first] != -1 ) return dp[index][take_first];
-
-        int take = 0 , not_take = 0;
-
-        if(index == 0 ){
-            take = nums[index] + solve(index+2 , nums, true);
-            not_take = solve(index+1,nums, false);
-        }
-        else{
-            if(index == nums.size()-1 && take_first){
-               take = 0;
-            }
-            else{
-                take = nums[index] + solve(index+2,nums,take_first);
-            }
-            not_take = solve(index+1,nums,take_first); 
-        }
-
-        return dp[index][take_first] = max(take, not_take);
+        return prev1;
     }
+
     int rob(vector<int>& nums) {
-        memset(dp,-1,sizeof(dp));
-        return solve(0, nums, false);
+        if (nums.size() == 1) return nums[0];
+
+        int case1 = check(nums, 0, nums.size() - 2);
+        
+        int case2 = check(nums, 1, nums.size() - 1);
+
+        return max(case1, case2);
     }
 };
