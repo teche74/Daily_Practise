@@ -51,6 +51,7 @@ public:
             for(int i = 0 ;i < 26 ; i++){
                 if(temp->links[i] != nullptr && solve(index+1 , word,temp->links[i])) return true;
             }
+            return false;
         }
         else{
             if(!temp->CheckRef(ch)) return false;
