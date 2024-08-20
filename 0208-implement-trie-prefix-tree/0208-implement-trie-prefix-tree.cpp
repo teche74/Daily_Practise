@@ -1,17 +1,18 @@
-struct Node{
-    Node * links[26];
+struct node{
+    node * links[26];
     bool end = false;
+
+
+    void CreateRef(char ch, node * t){
+        links[ch - 'a'] = t;
+    }
 
     bool CheckRef(char ch){
         return links[ch - 'a'] != nullptr;
     }
 
-    void CreateRef(char ch, Node * node){
-        links[ch - 'a'] = node;
-    }
-
-    Node * GetRef(char ch){
-        return links[ch - 'a'];
+    node *  GetRef(char ch){
+        return links[ch -  'a'];
     }
 
     bool IsEnd(){
@@ -24,44 +25,39 @@ struct Node{
 };
 
 class Trie {
+    node * root;
 public:
-    Node * root;
     Trie() {
-        root = new Node();
+        root = new node();
     }
     
     void insert(string word) {
-        Node * temp = root;
-        for(char ch  : word){
+        node * temp = root;
+        for(char ch : word){
             if(!temp->CheckRef(ch)){
-                temp->CreateRef(ch, new Node());
+                temp->CreateRef(ch, new node());
             }
-            temp = temp->GetRef(ch);
-        }   
-        temp->SetEnd(true);    
+            temp  =temp->GetRef(ch);
+        }
+        temp->SetEnd(true);
     }
     
-    bool search(string word){
-        Node * temp = root;
+    bool search(string word) {
+        node  * temp  =root;
 
-        for(char ch  : word){
-            if(!temp->CheckRef(ch)){
-                return false;
-            }
+        for(char ch : word){
+            if(!temp->CheckRef(ch)) return false;
             temp = temp->GetRef(ch);
-        }   
+        }
         return temp->IsEnd();
     }
     
     bool startsWith(string prefix) {
-        Node * temp = root;
-
+        node * temp = root;
         for(char ch  : prefix){
-            if(!temp->CheckRef(ch)){
-                return false;
-            }
+            if(!temp->CheckRef(ch)) return false;
             temp = temp->GetRef(ch);
-        }   
+        }
         return true;
     }
 };
