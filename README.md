@@ -608,6 +608,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/teche74/Daily_Practise/tree/master/0070-climbing-stairs) |
 | [0089-gray-code](https://github.com/teche74/Daily_Practise/tree/master/0089-gray-code) |
 | [0096-unique-binary-search-trees](https://github.com/teche74/Daily_Practise/tree/master/0096-unique-binary-search-trees) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/teche74/Daily_Practise/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0166-fraction-to-recurring-decimal](https://github.com/teche74/Daily_Practise/tree/master/0166-fraction-to-recurring-decimal) |
 | [0204-count-primes](https://github.com/teche74/Daily_Practise/tree/master/0204-count-primes) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
@@ -1026,6 +1027,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0134-gas-station](https://github.com/teche74/Daily_Practise/tree/master/0134-gas-station) |
 | [0137-single-number-ii](https://github.com/teche74/Daily_Practise/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/teche74/Daily_Practise/tree/master/0139-word-break) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/teche74/Daily_Practise/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/teche74/Daily_Practise/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/teche74/Daily_Practise/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/teche74/Daily_Practise/tree/master/0162-find-peak-element) |
@@ -1656,6 +1658,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0084-largest-rectangle-in-histogram](https://github.com/teche74/Daily_Practise/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/teche74/Daily_Practise/tree/master/0085-maximal-rectangle) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/teche74/Daily_Practise/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0394-decode-string](https://github.com/teche74/Daily_Practise/tree/master/0394-decode-string) |
 | [0445-add-two-numbers-ii](https://github.com/teche74/Daily_Practise/tree/master/0445-add-two-numbers-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/teche74/Daily_Practise/tree/master/0581-shortest-unsorted-continuous-subarray) |
