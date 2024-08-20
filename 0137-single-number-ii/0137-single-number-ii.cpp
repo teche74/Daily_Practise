@@ -1,21 +1,19 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        int size = nums.size();
+        int res = 0 ;
 
-        for(int i = 0 ; i <size ; i++){
-            bool dupl = false;
-            
-            for(int j = 0; j < size; j++){
-                if (nums[i] == nums[j] && i != j) {
-                    dupl = true;
-                    break;
-                }
+        for(int i = 0; i  < 32; i++){
+            int sum = 0 ;
+
+            for(auto t : nums){
+                sum += (t >> i & 1);
             }
 
-            if(!dupl) return nums[i];
+            sum %=3;
+            res |= (sum << i);
         }
 
-        return -1;
+        return res;
     }
 };
