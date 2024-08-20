@@ -1,20 +1,23 @@
 class Solution {
 public:
+    int dp[201][201];
+
+    int solve(int row, int col , vector<vector<int>> & triangles){
+        if(row >= triangles.size() || col >= triangles.size()){
+            return 1e9;
+        }
+
+        if(row == triangles.size() - 1){
+            return triangles[row][col];
+        }
+
+        if(dp[row][col] != -1) return dp[row][col];
+
+
+        return dp[row][col] = triangles[row][col] +  min(solve(row+1, col +1 , triangles), solve(row+1, col , triangles));
+    }
     int minimumTotal(vector<vector<int>>& triangle) {
-        int rows = triangle.size(), cols = triangle[0].size();
-        int dp[201][201];
-
-        function<int(int,int)>solve = [&](int row ,int col){
-            if(row == rows){
-                return 0;
-            }
-
-            if(dp[row][col] != -1) return dp[row][col];
-            
-
-            return dp[row][col] = triangle[row][col] + min(solve(row+1,col),solve(row+1,col+1));
-        } ;
-        memset(dp,-1,sizeof(dp));
-        return solve(0,0);
+        memset(dp, -1, sizeof(dp));
+        return  solve(0 , 0 , triangle);
     }
 };
