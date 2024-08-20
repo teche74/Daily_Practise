@@ -1,19 +1,34 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        int size = s.size(), prev = size - 1;
-        while (prev >= 0 && isspace(s[prev])) prev--;
-        string res = "";
+        string word = "";
+        string clean = "";
 
-        while (prev >= 0) {
-            int end = prev;
-            while (prev >= 0 && !isspace(s[prev])) prev--; 
-            if (res.size() > 0) res.push_back(' '); 
-            res += s.substr(prev + 1, end - prev); 
+        int size = s.size();
+     
+        for(int i = 0 ; i <= size ;i++){
+            if(s[i] == ' ' || i == size){
+                
+                if(!word.empty()){
+                    reverse(word.begin(),word.end());
+                    clean += word;
+                    word.clear();
+                    if(i != size) clean.push_back(' '); 
+                }
 
-            while (prev >= 0 && isspace(s[prev])) prev--; 
+                while(i+1 < size && isspace(s[i+1])) i++; 
+            }
+            else{
+                word.push_back(s[i]);
+            }
         }
 
-        return res;
+        if (!clean.empty() && clean.back() == ' ') {
+            clean.pop_back();
+        }
+
+        reverse(clean.begin(),clean.end());
+
+        return clean;
     }
 };
