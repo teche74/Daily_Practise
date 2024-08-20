@@ -1,25 +1,23 @@
 class Solution {
 public:
     string largestNumber(vector<int>& nums) {
-        vector<string>vals;
+        vector<string>res;
 
         for(auto t : nums){
-            vals.emplace_back(to_string(t));
+            res.emplace_back(to_string(t));
         }
 
-        sort(vals.begin(), vals.end() , [&](string a , string b){
-            return a + b > b + a; 
+        sort(res.begin(), res.end() , [&](string a , string b){
+            return a + b > b + a;
         });
 
-        if(vals[0] == "0"){
-            return "0";
+
+        string ans = "";
+
+        for(auto t : res){
+            ans+=t;
         }
 
-        string res = "";
-
-        for(auto t : vals){
-            res  += t;
-        }
-        return res;
+        return ans[0] == '0' ? "0" : ans; 
     }
 };
