@@ -17,11 +17,10 @@ public:
 
             vis[row][col] = true;
 
-            for(auto t : dirs){
-                int new_r = row + t[0];
-                int new_c = col + t[1];
-                solve(new_r , new_c);
-            }
+            solve(row+1,col);
+            solve(row-1,col);
+            solve(row,col+1);
+            solve(row, col-1);
         };
 
         for(int i = 0 ;i < rows; i++){
