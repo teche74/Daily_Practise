@@ -1,34 +1,34 @@
 class Solution {
 public:
-    vector<int> diffWaysToCompute(string s) {
-        int size = s.size();
+    int calc(int a, int b , char oper){
+        if(oper == '+') return a+b;
+        if(oper == '-') return a-b;
+        if(oper == '*') return a*b;
 
-        function<int(int,int,char)> calc = [&](int val1, int val2, char oper){
-            if(oper == '+') return val1 + val2;
-            if(oper == '-') return val1 - val2;
-            if(oper == '*') return val1 * val2;
-            return 0;
-        };
+        return -1;
+    }
+    vector<int> diffWaysToCompute(string expression) {
+        int size = expression.size();
 
+        bool flag = true;
         vector<int>res;
-        bool flag =true;
 
-        for(int i = 0 ;i < size ; i++){
-            if(!isdigit(s[i])){
+        for(int i = 0 ; i < size;  i++){
+            if(!isdigit(expression[i])){
                 flag = false;
-                vector<int>left = diffWaysToCompute(s.substr(0,i));
-                vector<int>right = diffWaysToCompute(s.substr(i+1));
 
-                for(auto t : left){
+                vector<int> left = diffWaysToCompute(expression.substr(0,i));
+                vector<int> right = diffWaysToCompute(expression.substr(i+1));
+
+                for(auto l : left){
                     for(auto r : right){
-                        res.emplace_back(calc(t,r,s[i]));
+                        res.emplace_back(calc(l,r,expression[i]));
                     }
                 }
             }
         }
 
-        if(flag) res.emplace_back(stoi(s));
-
+        if(flag) res.emplace_back(stoi(expression));
         return res;
     }
 };
