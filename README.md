@@ -1738,6 +1738,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0138-copy-list-with-random-pointer](https://github.com/teche74/Daily_Practise/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/teche74/Daily_Practise/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/teche74/Daily_Practise/tree/master/0146-lru-cache) |
+| [0237-delete-node-in-a-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0237-delete-node-in-a-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/teche74/Daily_Practise/tree/master/0445-add-two-numbers-ii) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/teche74/Daily_Practise/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
