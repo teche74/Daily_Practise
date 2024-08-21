@@ -1205,6 +1205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/teche74/Daily_Practise/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1423-maximum-number-of-occurrences-of-a-substring](https://github.com/teche74/Daily_Practise/tree/master/1423-maximum-number-of-occurrences-of-a-substring) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/teche74/Daily_Practise/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/teche74/Daily_Practise/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1472-increasing-decreasing-string](https://github.com/teche74/Daily_Practise/tree/master/1472-increasing-decreasing-string) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/teche74/Daily_Practise/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -1374,6 +1375,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1423-maximum-number-of-occurrences-of-a-substring](https://github.com/teche74/Daily_Practise/tree/master/1423-maximum-number-of-occurrences-of-a-substring) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/teche74/Daily_Practise/tree/master/1430-find-the-k-beauty-of-a-number) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/teche74/Daily_Practise/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/teche74/Daily_Practise/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1472-increasing-decreasing-string](https://github.com/teche74/Daily_Practise/tree/master/1472-increasing-decreasing-string) |
 | [1530-check-if-a-string-can-break-another-string](https://github.com/teche74/Daily_Practise/tree/master/1530-check-if-a-string-can-break-another-string) |
 | [1720-crawler-log-folder](https://github.com/teche74/Daily_Practise/tree/master/1720-crawler-log-folder) |
@@ -1408,6 +1410,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
 | [0594-longest-harmonious-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0594-longest-harmonious-subsequence) |
 | [1034-subarrays-with-k-different-integers](https://github.com/teche74/Daily_Practise/tree/master/1034-subarrays-with-k-different-integers) |
+| [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/teche74/Daily_Practise/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1472-increasing-decreasing-string](https://github.com/teche74/Daily_Practise/tree/master/1472-increasing-decreasing-string) |
 | [1708-design-parking-system](https://github.com/teche74/Daily_Practise/tree/master/1708-design-parking-system) |
 | [1777-determine-if-two-strings-are-close](https://github.com/teche74/Daily_Practise/tree/master/1777-determine-if-two-strings-are-close) |
