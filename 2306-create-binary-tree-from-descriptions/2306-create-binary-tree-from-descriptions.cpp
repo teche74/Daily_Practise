@@ -12,21 +12,20 @@
 class Solution {
 public:
     TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
-        unordered_map<int,TreeNode *> map;
-        unordered_set<int>seen;
+        unordered_map<int, TreeNode *>map;
+        set<int>seen;
 
         for(auto t : descriptions){
-            int parent = t[0];
-            int child = t[1];
+            int parent  =t[0], child = t[1] , left = bool(t[2]);
 
             if(!map.count(parent)){
-                map[parent]= new TreeNode(parent);
+                map[parent] = new TreeNode(parent);
             }
             if(!map.count(child)){
                 map[child] = new TreeNode(child);
             }
 
-            if(t[2]){
+            if(left){
                 map[parent]->left = map[child];
             }
             else{
@@ -36,12 +35,12 @@ public:
             seen.insert(child);
         }
 
-        for(auto t  : map){
+
+        for(auto t : map){
             if(seen.find(t.first) == seen.end()){
                 return t.second;
             }
         }
-
         return nullptr;
     }
 };
