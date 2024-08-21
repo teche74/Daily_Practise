@@ -1,40 +1,34 @@
 class Solution {
-    unordered_map<string, string> url_map;
-    string dict = "123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTEUVWXYZ";
-    int len = 8;
 public:
+    unordered_map<string , string>map;
+
+    string generate_base(int len){
+        string dict = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+[]{}|;:'\",.<>?/`~";
+
+        string result = "";
+
+        srand(static_cast<unsigned int>(time(0)));
+
+        for (int i = 0; i < len; i++) {
+            result += dict[rand() % dict.length()];
+        }
+
+        return result;
+    }
+
 
     // Encodes a URL to a shortened URL.
     string encode(string longUrl) {
+        string base = generate_base(6);
 
-        function<string(void)> generate = [&](){
-            string code = "";
+        map[base] = longUrl;
 
-            for(int i = 0 ; i < len ; i++){
-                code.push_back(dict[rand() % dict.size()]);
-            }
-
-            return code;
-        };
-
-        string encoded_url = "https://tinyurl.com/";
-
-        string temp ="";
-
-        do{
-            temp = generate();
-        }while(url_map.find(encoded_url) != url_map.end());
-
-        encoded_url += temp;
-
-        url_map[encoded_url] = longUrl;
-
-        return encoded_url;
+        return base; 
     }
 
     // Decodes a shortened URL to its original URL.
     string decode(string shortUrl) {
-        return url_map[shortUrl];
+        return map[shortUrl];
     }
 };
 
