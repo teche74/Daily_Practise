@@ -621,6 +621,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0380-insert-delete-getrandom-o1](https://github.com/teche74/Daily_Practise/tree/master/0380-insert-delete-getrandom-o1) |
 | [0382-linked-list-random-node](https://github.com/teche74/Daily_Practise/tree/master/0382-linked-list-random-node) |
 | [0384-shuffle-an-array](https://github.com/teche74/Daily_Practise/tree/master/0384-shuffle-an-array) |
+| [0400-nth-digit](https://github.com/teche74/Daily_Practise/tree/master/0400-nth-digit) |
 | [0445-add-two-numbers-ii](https://github.com/teche74/Daily_Practise/tree/master/0445-add-two-numbers-ii) |
 | [0537-complex-number-multiplication](https://github.com/teche74/Daily_Practise/tree/master/0537-complex-number-multiplication) |
 | [0650-2-keys-keyboard](https://github.com/teche74/Daily_Practise/tree/master/0650-2-keys-keyboard) |
@@ -797,6 +798,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/teche74/Daily_Practise/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0400-nth-digit](https://github.com/teche74/Daily_Practise/tree/master/0400-nth-digit) |
 | [0449-serialize-and-deserialize-bst](https://github.com/teche74/Daily_Practise/tree/master/0449-serialize-and-deserialize-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/teche74/Daily_Practise/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/0532-k-diff-pairs-in-an-array) |
