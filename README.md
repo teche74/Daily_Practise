@@ -623,6 +623,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0384-shuffle-an-array](https://github.com/teche74/Daily_Practise/tree/master/0384-shuffle-an-array) |
 | [0400-nth-digit](https://github.com/teche74/Daily_Practise/tree/master/0400-nth-digit) |
 | [0445-add-two-numbers-ii](https://github.com/teche74/Daily_Practise/tree/master/0445-add-two-numbers-ii) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/teche74/Daily_Practise/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0537-complex-number-multiplication](https://github.com/teche74/Daily_Practise/tree/master/0537-complex-number-multiplication) |
 | [0650-2-keys-keyboard](https://github.com/teche74/Daily_Practise/tree/master/0650-2-keys-keyboard) |
 | [0870-magic-squares-in-grid](https://github.com/teche74/Daily_Practise/tree/master/0870-magic-squares-in-grid) |
@@ -1068,6 +1069,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0384-shuffle-an-array](https://github.com/teche74/Daily_Practise/tree/master/0384-shuffle-an-array) |
 | [0406-queue-reconstruction-by-height](https://github.com/teche74/Daily_Practise/tree/master/0406-queue-reconstruction-by-height) |
 | [0416-partition-equal-subset-sum](https://github.com/teche74/Daily_Practise/tree/master/0416-partition-equal-subset-sum) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/teche74/Daily_Practise/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0517-super-washing-machines](https://github.com/teche74/Daily_Practise/tree/master/0517-super-washing-machines) |
 | [0518-coin-change-ii](https://github.com/teche74/Daily_Practise/tree/master/0518-coin-change-ii) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/teche74/Daily_Practise/tree/master/0524-longest-word-in-dictionary-through-deleting) |
@@ -1620,6 +1622,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0406-queue-reconstruction-by-height](https://github.com/teche74/Daily_Practise/tree/master/0406-queue-reconstruction-by-height) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/teche74/Daily_Practise/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0524-longest-word-in-dictionary-through-deleting](https://github.com/teche74/Daily_Practise/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/teche74/Daily_Practise/tree/master/0581-shortest-unsorted-continuous-subarray) |
