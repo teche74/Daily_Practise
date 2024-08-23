@@ -1,10 +1,9 @@
 class Solution {
 public:
     vector<string> buildArray(vector<int>& target, int n) {
-
         vector<string>res;
 
-        int prev = -1;
+        int prev = 0;
 
         for(int i = 0; i < target.size() ; i++){
             if(prev != -1){
