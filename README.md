@@ -1130,6 +1130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1755-defuse-the-bomb](https://github.com/teche74/Daily_Practise/tree/master/1755-defuse-the-bomb) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/teche74/Daily_Practise/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/teche74/Daily_Practise/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
+| [1802-number-of-students-unable-to-eat-lunch](https://github.com/teche74/Daily_Practise/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1803-average-waiting-time](https://github.com/teche74/Daily_Practise/tree/master/1803-average-waiting-time) |
 | [1813-maximum-erasure-value](https://github.com/teche74/Daily_Practise/tree/master/1813-maximum-erasure-value) |
 | [1814-jump-game-vi](https://github.com/teche74/Daily_Practise/tree/master/1814-jump-game-vi) |
@@ -1454,6 +1455,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1802-number-of-students-unable-to-eat-lunch](https://github.com/teche74/Daily_Practise/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1814-jump-game-vi](https://github.com/teche74/Daily_Practise/tree/master/1814-jump-game-vi) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/teche74/Daily_Practise/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/teche74/Daily_Practise/tree/master/2527-count-subarrays-with-fixed-bounds) |
@@ -1718,6 +1720,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1720-crawler-log-folder](https://github.com/teche74/Daily_Practise/tree/master/1720-crawler-log-folder) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/teche74/Daily_Practise/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [1802-number-of-students-unable-to-eat-lunch](https://github.com/teche74/Daily_Practise/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/teche74/Daily_Practise/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/teche74/Daily_Practise/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/teche74/Daily_Practise/tree/master/2470-removing-stars-from-a-string) |
@@ -1792,6 +1795,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1552-build-an-array-with-stack-operations](https://github.com/teche74/Daily_Practise/tree/master/1552-build-an-array-with-stack-operations) |
 | [1642-water-bottles](https://github.com/teche74/Daily_Practise/tree/master/1642-water-bottles) |
 | [1708-design-parking-system](https://github.com/teche74/Daily_Practise/tree/master/1708-design-parking-system) |
+| [1802-number-of-students-unable-to-eat-lunch](https://github.com/teche74/Daily_Practise/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1803-average-waiting-time](https://github.com/teche74/Daily_Practise/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/teche74/Daily_Practise/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/teche74/Daily_Practise/tree/master/2299-merge-nodes-in-between-zeros) |
