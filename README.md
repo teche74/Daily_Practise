@@ -1420,6 +1420,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3235-minimum-cost-to-convert-string-i](https://github.com/teche74/Daily_Practise/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/teche74/Daily_Practise/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/teche74/Daily_Practise/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3447-clear-digits](https://github.com/teche74/Daily_Practise/tree/master/3447-clear-digits) |
 ## Counting
 |  |
 | ------- |
@@ -1728,6 +1729,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/teche74/Daily_Practise/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/teche74/Daily_Practise/tree/master/2470-removing-stars-from-a-string) |
 | [2846-robot-collisions](https://github.com/teche74/Daily_Practise/tree/master/2846-robot-collisions) |
+| [3447-clear-digits](https://github.com/teche74/Daily_Practise/tree/master/3447-clear-digits) |
 ## Recursion
 |  |
 | ------- |
@@ -1807,6 +1809,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2470-removing-stars-from-a-string](https://github.com/teche74/Daily_Practise/tree/master/2470-removing-stars-from-a-string) |
 | [2645-pass-the-pillow](https://github.com/teche74/Daily_Practise/tree/master/2645-pass-the-pillow) |
 | [2846-robot-collisions](https://github.com/teche74/Daily_Practise/tree/master/2846-robot-collisions) |
+| [3447-clear-digits](https://github.com/teche74/Daily_Practise/tree/master/3447-clear-digits) |
 ## Brainteaser
 |  |
 | ------- |
