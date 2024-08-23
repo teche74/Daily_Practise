@@ -11,20 +11,20 @@
  */
 class Solution {
 public:
-    TreeNode *solve(int & index, vector<int> & pre , int mini , int maxi ){
+    TreeNode * solve(int & index, vector<int> & pre , long mini , long maxi){
         if(index >= pre.size()) return nullptr;
 
-        if(pre[index] >=maxi || pre[index] <= mini) return nullptr;
+        if(pre[index] >= maxi || pre[index] <= mini) return nullptr;
 
-        TreeNode * root = new TreeNode(pre[index++]);
-        root->left = solve(index,pre,mini , root->val);
-        root->right = solve(index,pre,root->val,maxi);
+        TreeNode * root =new TreeNode(pre[index++]);
+
+        root->left = solve(index,pre,mini,root->val);
+        root->right = solve(index,pre,root->val ,maxi);
 
         return root;
     }
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-       int index = 0;
-
-       return solve(index,preorder,INT_MIN, INT_MAX);  
+        int index = 0;
+        return solve(index, preorder, LONG_MIN , LONG_MAX );
     }
 };
