@@ -1117,6 +1117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1552-build-an-array-with-stack-operations](https://github.com/teche74/Daily_Practise/tree/master/1552-build-an-array-with-stack-operations) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/teche74/Daily_Practise/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/teche74/Daily_Practise/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/teche74/Daily_Practise/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1573-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/teche74/Daily_Practise/tree/master/1573-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1582-design-browser-history](https://github.com/teche74/Daily_Practise/tree/master/1582-design-browser-history) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/teche74/Daily_Practise/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -1712,6 +1713,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1552-build-an-array-with-stack-operations](https://github.com/teche74/Daily_Practise/tree/master/1552-build-an-array-with-stack-operations) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/teche74/Daily_Practise/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1582-design-browser-history](https://github.com/teche74/Daily_Practise/tree/master/1582-design-browser-history) |
 | [1720-crawler-log-folder](https://github.com/teche74/Daily_Practise/tree/master/1720-crawler-log-folder) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/teche74/Daily_Practise/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
@@ -1900,6 +1902,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0316-remove-duplicate-letters](https://github.com/teche74/Daily_Practise/tree/master/0316-remove-duplicate-letters) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/teche74/Daily_Practise/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/teche74/Daily_Practise/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Data Stream
 |  |
 | ------- |
