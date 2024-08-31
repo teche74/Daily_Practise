@@ -615,6 +615,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/teche74/Daily_Practise/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/teche74/Daily_Practise/tree/master/0273-integer-to-english-words) |
+| [0279-perfect-squares](https://github.com/teche74/Daily_Practise/tree/master/0279-perfect-squares) |
 | [0292-nim-game](https://github.com/teche74/Daily_Practise/tree/master/0292-nim-game) |
 | [0343-integer-break](https://github.com/teche74/Daily_Practise/tree/master/0343-integer-break) |
 | [0357-count-numbers-with-unique-digits](https://github.com/teche74/Daily_Practise/tree/master/0357-count-numbers-with-unique-digits) |
@@ -677,6 +678,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0221-maximal-square](https://github.com/teche74/Daily_Practise/tree/master/0221-maximal-square) |
 | [0241-different-ways-to-add-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/teche74/Daily_Practise/tree/master/0264-ugly-number-ii) |
+| [0279-perfect-squares](https://github.com/teche74/Daily_Practise/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/teche74/Daily_Practise/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/teche74/Daily_Practise/tree/master/0322-coin-change) |
@@ -1499,6 +1501,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/teche74/Daily_Practise/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/teche74/Daily_Practise/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0226-invert-binary-tree) |
+| [0279-perfect-squares](https://github.com/teche74/Daily_Practise/tree/master/0279-perfect-squares) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0301-remove-invalid-parentheses) |
 | [0322-coin-change](https://github.com/teche74/Daily_Practise/tree/master/0322-coin-change) |
