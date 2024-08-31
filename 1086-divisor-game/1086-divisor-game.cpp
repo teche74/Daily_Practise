@@ -1,29 +1,27 @@
 class Solution {
 public:
-    unordered_map<string,bool>dp;
-    bool solve(int val , int turn){
-        if(val == 1 ){
+    int dp[1001];
+
+    bool solve(int val , int alice){
+        if(val <= 1 ){
             return false;
         }
 
-        string key = to_string(val) + to_string(turn);
+        if(dp[val] != -1) return dp[val];
 
-        if(dp.count(key)) return dp[key];
+        bool t = false;
 
-        int pos = false;
-        for(int i = 1; i < val ;i++){
-            if(val % i == 0 ){
-                if(!solve(val-i,abs(turn-1))){
-                    pos = true;
-                    break;
-                }
+        for(int  i = 1 ; i < val ; i++){
+            if(val % i == 0 && !solve(val - i , abs(alice -1))){
+                t =  true;
+                break;
             }
         }
-
-        return dp[key] = pos;
+        return dp[val] = t;
     }
     bool divisorGame(int n) {
-        int turn =1;
-        return solve(n, turn);
+        memset(dp, -1 , sizeof(dp));
+        int alice = 1;
+        return solve(n ,alice);
     }
 };
