@@ -3,38 +3,27 @@ public:
     string convert(string s, int numRows) {
         int size = s.size();
 
-        if(numRows  > size ||  numRows == 1) return s;
+        if(size == 1 || numRows == 1 || numRows > size) return s;
+
+        vector<string>store(numRows , "");
 
         int row = 0 , dir = -1;
 
-        // slow performance
-        // vector<char>st[numRows];
-        // for(char ch : s){
-        //     st[row].push_back(ch);
+        for( char ch : s){
+            store[row].push_back(ch);
 
-        //     if(row == numRows -1 || row == 0){
-        //         dir *= -1;
-        //     }
-
-        //     row +=dir;
-        // } 
-
-        vector<string>st(numRows , "");
-        for(char ch : s){
-            st[row].push_back(ch);
-
-            if(row == numRows -1 || row == 0){
-                dir *= -1;
+            if(row == 0 || row == numRows -1){
+                dir*=-1;
             }
 
-            row +=dir;
-        } 
+            row += dir;
+        }
 
         string res = "";
 
-        for(auto str  :st){
-            res += str;
-        } 
+        for(auto t  : store){
+            res += t;
+        }
 
         return res;
     }
