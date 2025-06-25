@@ -11,23 +11,29 @@
  */
 class Solution {
 public:
-    void inorder(TreeNode* root, string temp , vector<string> & res){
-        if(root){
-            temp+=to_string(root->val);
-            if(!root->left && !root->right){
-                res.emplace_back(temp);
-            }
-            temp+="->";
-            inorder(root->left, temp, res);
-            inorder(root->right, temp, res);
-            while(temp.back() != '>') temp.pop_back();
-        }
-    }
     vector<string> binaryTreePaths(TreeNode* root) {
         vector<string>res;
-        string temp= "";
+        string temp = "";
 
-        inorder(root,temp,res);
+
+        function<void(TreeNode *)> solve = [&](TreeNode * root){
+            if(root){
+                string t = temp;
+                temp += to_string(root->val);
+                if(!root->left && !root->right){
+                    res.push_back(temp);
+                    temp = t;
+                    return;
+                }
+                temp += "->";
+                solve(root->left);
+                solve(root->right);
+
+                temp = t;
+            }
+        };
+
+        solve(root);
 
         return res;
     }
