@@ -11,26 +11,28 @@
  */
 class Solution {
 public:
-    void pre(TreeNode * root, vector<int> & v){
+    void call(TreeNode * root, vector<int> & temp){
         if(root){
             if(!root->left && !root->right){
-                v.emplace_back(root->val);
+                temp.push_back(root->val);
             }
-            pre(root->left,v);
-            pre(root->right,v);
+            call(root->left, temp);
+            call(root->right,temp);
         }
     }
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
-        vector<int>v1, v2;
+        vector<int> x , y;
 
-        pre(root1,v1);
-        pre(root2,v2);
+        call(root1,x);
+        call(root2,y);
 
-        if(v1.size() != v2.size()) return false;
-        
-        for(int i = 0; i <v1.size() ; i++ ){
-            if(v1[i] != v2[i]) return false;
+        if(x.size() != y.size()) return false;
+
+        for(int i = 0 ; i < x.size() ; i++){
+            // cout<<x[i]<<" "<<y[i]<<endl;
+            if(x[i] != y[i]) return false;
         }
+
         return true;
     }
 };
