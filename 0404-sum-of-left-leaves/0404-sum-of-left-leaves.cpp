@@ -11,21 +11,21 @@
  */
 class Solution {
 public:
-    void pre(TreeNode *root , TreeNode * & prev , int  & sum){
-        if(root){
-            if(prev && prev->left == root && !root->left && !root->right){
-                sum+=root->val;
-            }
-            prev =root;
-            pre(root->left,prev,sum);
-            pre(root->right,prev,sum);
-        }
-    } 
     int sumOfLeftLeaves(TreeNode* root) {
-        TreeNode * prev = nullptr;
-        int sum = 0;
+        int res = 0;
+        function<void(TreeNode*,TreeNode *)>solve = [&](TreeNode * root , TreeNode  *prev){
+            if(root){
+                solve(root->left ,root);
+                if(!root->left && !root->right){
+                    if(prev && prev->left == root){
+                        res += root->val;
+                    }
+                }
+                solve(root->right,root);
+            }
+        };
 
-        pre(root,prev,sum);
-        return sum;
+        solve(root, nullptr);
+        return res;
     }
 };
