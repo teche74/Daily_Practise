@@ -11,25 +11,25 @@
  */
 class Solution {
 public:
-    void solve(TreeNode * root, TreeNode *  & prev, TreeNode * &  first, TreeNode * & second){
-        if(root){
-            solve(root->left,prev,first,second);
-            if(prev && prev->val > root->val){
-
-                if(!first){
-                    first = prev;
-                }
-                second =root;
-            }
-            prev = root;    
-            solve(root->right , prev, first, second);
-        }
-    }
     void recoverTree(TreeNode* root) {
-        TreeNode * prev = nullptr ,  * first = nullptr, * second = nullptr;
+        TreeNode * prev = nullptr , *first = nullptr, *second = nullptr;
 
-        solve(root, prev, first, second);
+        function<void(TreeNode* , TreeNode * &)> solve = [&](TreeNode * curr, TreeNode* & prev){
+            if(curr){
+                solve(curr->left , prev);
+                if(prev && prev->val > curr->val){
+                    if(!first){
+                        first = prev;
+                    }
+                    second = curr;
+                }
+                prev = curr;
+                solve(curr->right , prev);
+            }
+        };
 
-        swap(first->val, second->val);
+
+        solve(root , prev);
+        swap(first->val,second->val);
     }
 };
