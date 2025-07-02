@@ -10,22 +10,22 @@
  * };
  */
 class Solution {
+    int res = 0;
 public:
-    void solve(TreeNode * root, int  & k , int  & res){
+    void solve(TreeNode* root, int & k){
         if(root){
-            solve(root->left,k,res);
+            solve(root->left , k);
             k--;
             if(!k){
+                // cout<<root->val<<endl;
                 res = root->val;
                 return;
             }
-            solve(root->right, k, res);
+            solve(root->right, k);
         }
     }
     int kthSmallest(TreeNode* root, int k) {
-        int res = 0 ;
-        solve(root, k , res);
-
+        solve(root, k);
         return res;
     }
 };
