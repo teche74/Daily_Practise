@@ -21,25 +21,25 @@
  */
 class Solution {
 public:
-    TreeNode * solve(ListNode * l ,  ListNode * r){
-        if(l == r) return nullptr;
 
-        ListNode * slow = l , * fast = l;
-
-        while(fast != r && fast->next != r ){
-            slow = slow->next;
-            fast = fast->next->next;
-        }
-
-        TreeNode * root  = new TreeNode (slow->val);
-
-        root->left = solve(l , slow);
-        root->right = solve(slow->next ,r);
-
-        return root;
-
-    }
     TreeNode* sortedListToBST(ListNode* head) {
-        return solve(head, nullptr); 
+        function<TreeNode *(ListNode* , ListNode*)> solve = [&](ListNode * low , ListNode * high)->TreeNode*{
+            if(low == high) return nullptr;
+
+            ListNode* slow = low , *fast = low;
+
+            while(fast!=high && fast->next != high){
+                slow = slow->next;
+                fast = fast->next->next;
+            }
+
+            TreeNode * root = new TreeNode(slow->val);
+
+            root->left = solve(low , slow);
+            root->right = solve(slow->next,high);
+
+            return root;
+        };
+        return solve(head, nullptr);
     }
 };
