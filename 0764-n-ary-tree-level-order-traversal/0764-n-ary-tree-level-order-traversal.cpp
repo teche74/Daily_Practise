@@ -22,28 +22,29 @@ class Solution {
 public:
     vector<vector<int>> levelOrder(Node* root) {
         vector<vector<int>>res;
-        if(!root) return {};
-        queue<Node *>q;
 
-        q.push(root);
+        if(!root) return res;
+        queue<vector<Node *>>q;
+        q.push(vector<Node*>{root});
 
-        while(!q.empty()){
-            long long size =q.size();
-
+        while(q.size()){
+            vector<Node *> front = q.front();q.pop();
             vector<int>temp;
+            vector<Node *>next;
 
-            for(long long i = 0; i < size ; i++){
-                Node * front= q.front();
-                q.pop();
-                temp.emplace_back(front->val);
-                if(!front->children.empty()){
-                    for(auto t : front->children){
-                        q.push(t);
-                    }
+            for(auto t : front){
+                temp.push_back(t->val);
+
+                for(auto val : t->children){
+                    next.push_back(val);
                 }
             }
-            res.emplace_back(temp);
+
+            if(!next.empty())
+                q.push(next);
+            res.push_back(temp);
         }
+
         return res;
     }
 };
