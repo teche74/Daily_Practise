@@ -759,6 +759,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0538-convert-bst-to-greater-tree](https://github.com/teche74/Daily_Practise/tree/master/0538-convert-bst-to-greater-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0654-maximum-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0654-maximum-binary-tree) |
+| [0764-n-ary-tree-level-order-traversal](https://github.com/teche74/Daily_Practise/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/teche74/Daily_Practise/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/teche74/Daily_Practise/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0783-search-in-a-binary-search-tree](https://github.com/teche74/Daily_Practise/tree/master/0783-search-in-a-binary-search-tree) |
@@ -1526,6 +1527,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/teche74/Daily_Practise/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0733-flood-fill](https://github.com/teche74/Daily_Practise/tree/master/0733-flood-fill) |
+| [0764-n-ary-tree-level-order-traversal](https://github.com/teche74/Daily_Practise/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0774-maximum-depth-of-n-ary-tree](https://github.com/teche74/Daily_Practise/tree/master/0774-maximum-depth-of-n-ary-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/teche74/Daily_Practise/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0813-all-paths-from-source-to-target](https://github.com/teche74/Daily_Practise/tree/master/0813-all-paths-from-source-to-target) |
