@@ -26,7 +26,7 @@ public:
                 solve(trav->left, sum);
                 solve(trav->right , sum);
                 map[sum]--;
-                // sum -= trav->val;
+                sum -= trav->val;
             }
         };
 
