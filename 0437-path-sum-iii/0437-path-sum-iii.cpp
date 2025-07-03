@@ -11,32 +11,26 @@
  */
 class Solution {
 public:
-    void solve(TreeNode * root , unordered_map<long long,int> & map, long long sum , long long & paths , int target){
-        if(!root) return ;
-
-        sum+=root->val;
-
-        if(map.find(sum - target ) != map.end()){
-            paths += map[sum - target];
-        }
-
-        map[sum]++;
-
-        solve(root->left,map,sum , paths,target);
-        solve(root->right,map,sum,paths,target);
-
-        map[sum]--;
-    }
-    int pathSum(TreeNode* root, int targetSum) {
-        if(!root) return 0;
-
+    int pathSum(TreeNode* root, int target) {
         unordered_map<long long,int>map;
+        long long sum = 0 , res =0;
         map[0] = 1;
 
-        long long paths = 0 , sum = 0;
+        function<void(TreeNode* , long long )> solve = [&](TreeNode * trav , long long sum){
+            if(trav){
+                sum += trav->val;
+                if(map.find(sum - target) != map.end()){
+                    res += map[sum - target];
+                }
+                map[sum]++;
+                solve(trav->left, sum);
+                solve(trav->right , sum);
+                map[sum]--;
+                // sum -= trav->val;
+            }
+        };
 
-        solve(root,map,sum, paths, targetSum);
-
-        return paths; 
+        solve(root , sum);
+        return res;
     }
 };
