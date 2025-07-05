@@ -9,84 +9,88 @@
  */
 class Codec {
 public:
-
-    void inord(TreeNode* root, vector<int>& inorder) {
-        if (!root) return;
-        inord(root->left, inorder);
-        inorder.push_back(root->val);
-        inord(root->right, inorder);
+    void GetPostOrder(TreeNode * trav ,  vector<int> & res){
+        if(trav){
+            GetPostOrder(trav->left , res);
+            GetPostOrder(trav->right , res);
+            res.push_back(trav->val);
+        }
     }
 
-    void pre(TreeNode* root, vector<int>& preorder) {
-        if (!root) return;
-        preorder.push_back(root->val);
-        pre(root->left, preorder);
-        pre(root->right, preorder);
+    void GetInOrder(TreeNode * trav ,  vector<int> & res){
+        if(trav){
+            GetInOrder(trav->left , res);
+            res.push_back(trav->val);
+            GetInOrder(trav->right , res);
+        }
     }
 
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
-        vector<int> inorder, preorder;
-        inord(root, inorder);
-        pre(root, preorder);
-
+        vector<int>inorder , postorder;
+        GetInOrder(root , inorder);
+        GetPostOrder(root , postorder);
+        
         string res = "";
 
-        for (auto t : inorder) {
-            res += to_string(t) + '-';
+        for(int val : inorder){
+            res += to_string(val);
+            res.push_back('$');
         }
-        res += '|';
 
-        for (auto t : preorder) {
-            res += to_string(t) + '-';
+        res.push_back('*');
+
+        for(int val : postorder){
+            res += to_string(val);
+            res.push_back('$');
         }
 
         return res;
     }
 
-    // Decodes your encoded data to tree.
-    TreeNode* deserialize(string data) {
-        vector<int>inorder ,preorder;
-        bool in_first= true; 
-        int prev = 0;
 
-        for(int i = 0 ;i <data.size() ; i++){
-            if(data[i] == '|'){
-                in_first = false;
-                prev = i + 1;
-                continue;
-            }
-            if(data[i] == '-'){
-                int val = stoi(data.substr(prev, i - prev));
-                prev = i+1;
-                if(in_first){
-                    inorder.emplace_back(val);
-                }
-                else{
-                    preorder.emplace_back(val);
-                }
-            }
-        }
+    TreeNode* CreateTree(int  & index , vector<int> &postorder , unordered_map<int,int>& index_map , int low, int high){
+        if(low > high) return nullptr;
 
-        unordered_map<int,int>map;
-        for(int i = 0; i < inorder.size() ; i++){
-            map[inorder[i]]= i;
-        }
-        int index = 0;
-        return buildTree(preorder, inorder, 0, inorder.size() - 1, index, map);
+        int value = postorder[index--];
+        int mid = index_map[value];
+
+        TreeNode * root = new TreeNode(value);
+        root->right = CreateTree(index , postorder , index_map, mid+1, high);
+        root->left = CreateTree(index, postorder , index_map , low , mid-1);
+        
+        return root;
     }
 
-    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder, int start, int end, int& index, unordered_map<int, int>& map) {
-        if (start > end) return nullptr;
+    // Decodes your encoded data to tree.
+    TreeNode* deserialize(string data) {
+        int low = 0 , high = 0 , size = data.size() , index = 0;
+        unordered_map<int,int>map;
+        bool cond = true;
+        vector<int>postorder;
 
-        int val = preorder[index++];
-        TreeNode* node = new TreeNode(val);
-        int pos = map[val];
+        while(high < size){
+            if(data[high] == '$'){
+                int val = stoi(data.substr(low , high - low));
+                if(cond){
+                    map[val] = index++;
+                }
+                else{
+                    postorder.push_back(val);
+                }
+                low = high+1;
+            }
 
-        node->left = buildTree(preorder, inorder, start, pos - 1, index, map);
-        node->right = buildTree(preorder, inorder, pos + 1, end, index, map);
+            if(data[high] == '*'){
+                cond = false;
+                low = high+1;
+            }
+            high++;
+        }
 
-        return node;
+        index = postorder.size()-1;
+
+        return CreateTree(index , postorder , map , 0 ,  postorder.size()-1);
     }
 };
 
