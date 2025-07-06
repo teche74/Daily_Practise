@@ -11,40 +11,36 @@
  */
 class Solution {
 public:
-    TreeNode * find(TreeNode * temp){
-        while(temp->left!= nullptr){
-            temp=temp->left;
-        }
-        return temp;
-    }
     TreeNode* deleteNode(TreeNode* root, int key) {
         if(!root) return nullptr;
 
-        if(root->val < key)
-            root->right = deleteNode(root->right,key);
-        else if(root->val > key) 
-            root->left =  deleteNode(root->left,key);
+        if(root->val > key){
+            root->left = deleteNode(root->left , key);
+        }
+        else if(root->val < key){
+            root->right = deleteNode(root->right, key);
+        }
         else{
-            // if not child
-            if(!root->left && !root->right){
+            if(!root->left){
+                TreeNode * temp = root->right;
                 delete root;
-                return nullptr;
-            }
-            else if(!root->left ){
-                TreeNode * ptr = root->right;
-                delete root;
-                return ptr;
+                return temp;
             }
             else if(!root->right){
-                TreeNode * ptr = root->left;
+                TreeNode * temp = root->left;
                 delete root;
-                return ptr; 
+                return temp;
             }
-            else{
-                TreeNode  *temp = find(root->right);
-                root->val = temp->val;
-                root->right =  deleteNode(root->right,temp->val);
-            }
+
+            TreeNode * inorder_node = root->right;
+
+            while(inorder_node->left != nullptr){
+                inorder_node = inorder_node->left;
+            } 
+            
+            root->val = inorder_node->val;
+
+            root->right = deleteNode(root->right , inorder_node->val);
         }
         return root;
     }
