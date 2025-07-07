@@ -632,6 +632,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0650-2-keys-keyboard](https://github.com/teche74/Daily_Practise/tree/master/0650-2-keys-keyboard) |
 | [0870-magic-squares-in-grid](https://github.com/teche74/Daily_Practise/tree/master/0870-magic-squares-in-grid) |
 | [0989-largest-component-size-by-common-factor](https://github.com/teche74/Daily_Practise/tree/master/0989-largest-component-size-by-common-factor) |
+| [1031-add-to-array-form-of-integer](https://github.com/teche74/Daily_Practise/tree/master/1031-add-to-array-form-of-integer) |
 | [1086-divisor-game](https://github.com/teche74/Daily_Practise/tree/master/1086-divisor-game) |
 | [1240-stone-game-ii](https://github.com/teche74/Daily_Practise/tree/master/1240-stone-game-ii) |
 | [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/teche74/Daily_Practise/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
@@ -1113,6 +1114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0989-largest-component-size-by-common-factor](https://github.com/teche74/Daily_Practise/tree/master/0989-largest-component-size-by-common-factor) |
 | [0999-regions-cut-by-slashes](https://github.com/teche74/Daily_Practise/tree/master/0999-regions-cut-by-slashes) |
 | [1020-longest-turbulent-subarray](https://github.com/teche74/Daily_Practise/tree/master/1020-longest-turbulent-subarray) |
+| [1031-add-to-array-form-of-integer](https://github.com/teche74/Daily_Practise/tree/master/1031-add-to-array-form-of-integer) |
 | [1034-subarrays-with-k-different-integers](https://github.com/teche74/Daily_Practise/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/teche74/Daily_Practise/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/teche74/Daily_Practise/tree/master/1039-find-the-town-judge) |
