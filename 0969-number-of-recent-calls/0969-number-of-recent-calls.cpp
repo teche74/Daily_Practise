@@ -1,29 +1,17 @@
 class RecentCounter {
 public:
-    unordered_map<int,int>map;
+    priority_queue<int, vector<int>, greater<int>>heap;
 
-    RecentCounter() {
-        map.clear();    
+    RecentCounter() {   
     }
     
     int ping(int t) {
-        int curr_time = t;
-        int last = t - 3000;
-        
-        if(last < 0){
-            last = 0;
+        heap.push(t);
+
+        while(heap.size() && heap.top() < t - 3000){
+            heap.pop();
         }
-
-        map[curr_time]++;
-
-        int count = 0;
-
-        for(auto t : map){
-            if(t.first  >= last){
-                count++;
-            }
-        }
-        return count;
+        return heap.size();
     }
 };
 
