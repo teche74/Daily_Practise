@@ -2037,4 +2037,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/teche74/Daily_Practise/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1706-min-cost-to-connect-all-points](https://github.com/teche74/Daily_Practise/tree/master/1706-min-cost-to-connect-all-points) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/teche74/Daily_Practise/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
