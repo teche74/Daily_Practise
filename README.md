@@ -2053,4 +2053,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1161-project-employees-i](https://github.com/teche74/Daily_Practise/tree/master/1161-project-employees-i) |
 | [1174-sales-analysis-iii](https://github.com/teche74/Daily_Practise/tree/master/1174-sales-analysis-iii) |
 | [1179-game-play-analysis-i](https://github.com/teche74/Daily_Practise/tree/master/1179-game-play-analysis-i) |
+| [1245-user-activity-for-the-past-30-days-i](https://github.com/teche74/Daily_Practise/tree/master/1245-user-activity-for-the-past-30-days-i) |
 <!---LeetCode Topics End-->
