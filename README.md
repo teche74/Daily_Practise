@@ -2048,5 +2048,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0197-rising-temperature](https://github.com/teche74/Daily_Practise/tree/master/0197-rising-temperature) |
 | [0584-find-customer-referee](https://github.com/teche74/Daily_Practise/tree/master/0584-find-customer-referee) |
 | [0586-customer-placing-the-largest-number-of-orders](https://github.com/teche74/Daily_Practise/tree/master/0586-customer-placing-the-largest-number-of-orders) |
+| [0627-swap-salary](https://github.com/teche74/Daily_Practise/tree/master/0627-swap-salary) |
 | [1179-game-play-analysis-i](https://github.com/teche74/Daily_Practise/tree/master/1179-game-play-analysis-i) |
 <!---LeetCode Topics End-->
