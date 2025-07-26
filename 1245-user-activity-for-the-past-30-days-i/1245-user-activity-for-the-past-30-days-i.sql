@@ -1,0 +1,1 @@
+select min(activity_date) as day , count( distinct user_id) as active_users from Activity group by activity_date having count(session_id) >= 1 and activity_date between Date_sub('2019-07-28' , Interval 30 day) and '2019-07-28'; 
