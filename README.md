@@ -2056,4 +2056,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1245-user-activity-for-the-past-30-days-i](https://github.com/teche74/Daily_Practise/tree/master/1245-user-activity-for-the-past-30-days-i) |
 | [1301-reformat-department-table](https://github.com/teche74/Daily_Practise/tree/master/1301-reformat-department-table) |
 | [1338-queries-quality-and-percentage](https://github.com/teche74/Daily_Practise/tree/master/1338-queries-quality-and-percentage) |
+| [1415-students-and-examinations](https://github.com/teche74/Daily_Practise/tree/master/1415-students-and-examinations) |
 <!---LeetCode Topics End-->
