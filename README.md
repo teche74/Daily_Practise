@@ -2060,4 +2060,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1462-list-the-products-ordered-in-a-period](https://github.com/teche74/Daily_Practise/tree/master/1462-list-the-products-ordered-in-a-period) |
 | [1541-top-travellers](https://github.com/teche74/Daily_Practise/tree/master/1541-top-travellers) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/teche74/Daily_Practise/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
+| [1773-percentage-of-users-attended-a-contest](https://github.com/teche74/Daily_Practise/tree/master/1773-percentage-of-users-attended-a-contest) |
 <!---LeetCode Topics End-->
