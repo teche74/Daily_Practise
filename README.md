@@ -2067,4 +2067,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1892-find-total-time-spent-by-each-employee](https://github.com/teche74/Daily_Practise/tree/master/1892-find-total-time-spent-by-each-employee) |
 | [1908-recyclable-and-low-fat-products](https://github.com/teche74/Daily_Practise/tree/master/1908-recyclable-and-low-fat-products) |
 | [1942-primary-department-for-each-employee](https://github.com/teche74/Daily_Practise/tree/master/1942-primary-department-for-each-employee) |
+| [1948-rearrange-products-table](https://github.com/teche74/Daily_Practise/tree/master/1948-rearrange-products-table) |
 <!---LeetCode Topics End-->
