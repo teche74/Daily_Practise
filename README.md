@@ -2068,4 +2068,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1908-recyclable-and-low-fat-products](https://github.com/teche74/Daily_Practise/tree/master/1908-recyclable-and-low-fat-products) |
 | [1942-primary-department-for-each-employee](https://github.com/teche74/Daily_Practise/tree/master/1942-primary-department-for-each-employee) |
 | [1948-rearrange-products-table](https://github.com/teche74/Daily_Practise/tree/master/1948-rearrange-products-table) |
+| [2024-calculate-special-bonus](https://github.com/teche74/Daily_Practise/tree/master/2024-calculate-special-bonus) |
 <!---LeetCode Topics End-->
