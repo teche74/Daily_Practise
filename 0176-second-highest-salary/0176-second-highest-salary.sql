@@ -1,8 +1,6 @@
 with cte as(
-    select Employee.* , dense_rank() over (order by salary desc) as drnk from Employee
+    select 
+    * , dense_rank() over( order by salary desc) as "sal_rank" from Employee
 )
 
-select  COALESCE(
-        MAX(CASE WHEN drnk = 2 THEN salary END), 
-        NULL
-    ) AS SecondHighestSalary  from cte;
+select if(count(*) = 0 , null , salary) as SecondHighestSalary from cte where sal_rank = 2;
