@@ -17,7 +17,7 @@ public:
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
-        unordered_map<Node * , Node *>map;
+        unordered_map<Node * , Node*>map;
 
         Node * trav = head;
 
@@ -26,12 +26,12 @@ public:
             trav = trav->next;
         }
 
-        trav = head;
+        trav =head;
 
         while(trav){
-            map[trav]->next = map[trav->next];
+            map[trav]->next =  map[trav->next];
             map[trav]->random = map[trav->random];
-            trav=trav->next;
+            trav = trav->next;
         }
 
         return map[head];
