@@ -20,16 +20,18 @@ public:
 */
 
 class Solution {
+    unordered_map<Node*,Node*>link;
 public:
-    unordered_map<Node *,Node*>map;
     Node* cloneGraph(Node* node) {
-        if(!node)  return nullptr;
-        if(map.find(node) == map.end()){
-            map[node] = new Node(node->val);
-            for(auto t : node->neighbors){
-                map[node]->neighbors.emplace_back(cloneGraph(t));
-            }
+        if(node == nullptr) return nullptr;
+        if(link.find(node) != link.end()) return link[node];
+
+        Node * new_node = new Node(node->val);
+        link[node] = new_node;
+
+        for(auto neigh : node->neighbors){
+            new_node->neighbors.push_back(cloneGraph(neigh));
         }
-        return map[node];
+        return new_node;
     }
 };
