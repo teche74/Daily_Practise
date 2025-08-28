@@ -1,18 +1,23 @@
-struct node{
-    node * links[26];
+class Node{
+    private : 
+    
+    vector<Node*> links;
     bool end = false;
 
-
-    void CreateRef(char ch, node * t){
-        links[ch - 'a'] = t;
+    public:
+    
+    Node():links(26, nullptr){};
+    
+    Node * GetRef(char ch){
+        return links[ch - 'a'];
     }
 
     bool CheckRef(char ch){
         return links[ch - 'a'] != nullptr;
     }
 
-    node *  GetRef(char ch){
-        return links[ch -  'a'];
+    void CreateRef(char ch , Node * node){
+        links[ch - 'a'] = node;
     }
 
     bool IsEnd(){
@@ -20,43 +25,41 @@ struct node{
     }
 
     void SetEnd(bool val){
-        end = val;
+        this->end = val;
     }
 };
 
 class Trie {
-    node * root;
 public:
-    Trie() {
-        root = new node();
-    }
-    
+    Node * root = new Node();
+
     void insert(string word) {
-        node * temp = root;
-        for(char ch : word){
-            if(!temp->CheckRef(ch)){
-                temp->CreateRef(ch, new node());
+        Node * trav = root;
+        for(char ch  : word){
+            if(!trav->CheckRef(ch)){
+                trav->CreateRef(ch , new Node());
             }
-            temp  =temp->GetRef(ch);
+            trav  = trav->GetRef(ch);
         }
-        temp->SetEnd(true);
+        trav->SetEnd(true);
     }
     
     bool search(string word) {
-        node  * temp  =root;
+        Node * trav = root;
 
         for(char ch : word){
-            if(!temp->CheckRef(ch)) return false;
-            temp = temp->GetRef(ch);
+            if(!trav->CheckRef(ch)) return false;
+            trav = trav->GetRef(ch);
         }
-        return temp->IsEnd();
+        return trav->IsEnd();
     }
     
     bool startsWith(string prefix) {
-        node * temp = root;
-        for(char ch  : prefix){
-            if(!temp->CheckRef(ch)) return false;
-            temp = temp->GetRef(ch);
+        Node * trav = root;
+
+        for(char ch : prefix){
+            if(!trav->CheckRef(ch)) return false;
+            trav = trav->GetRef(ch);
         }
         return true;
     }
