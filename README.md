@@ -622,6 +622,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0380-insert-delete-getrandom-o1](https://github.com/teche74/Daily_Practise/tree/master/0380-insert-delete-getrandom-o1) |
 | [0382-linked-list-random-node](https://github.com/teche74/Daily_Practise/tree/master/0382-linked-list-random-node) |
 | [0384-shuffle-an-array](https://github.com/teche74/Daily_Practise/tree/master/0384-shuffle-an-array) |
+| [0398-random-pick-index](https://github.com/teche74/Daily_Practise/tree/master/0398-random-pick-index) |
 | [0400-nth-digit](https://github.com/teche74/Daily_Practise/tree/master/0400-nth-digit) |
 | [0445-add-two-numbers-ii](https://github.com/teche74/Daily_Practise/tree/master/0445-add-two-numbers-ii) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/teche74/Daily_Practise/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
@@ -1219,6 +1220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/teche74/Daily_Practise/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/teche74/Daily_Practise/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/teche74/Daily_Practise/tree/master/0380-insert-delete-getrandom-o1) |
+| [0398-random-pick-index](https://github.com/teche74/Daily_Practise/tree/master/0398-random-pick-index) |
 | [0433-minimum-genetic-mutation](https://github.com/teche74/Daily_Practise/tree/master/0433-minimum-genetic-mutation) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -2028,10 +2030,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0380-insert-delete-getrandom-o1](https://github.com/teche74/Daily_Practise/tree/master/0380-insert-delete-getrandom-o1) |
 | [0382-linked-list-random-node](https://github.com/teche74/Daily_Practise/tree/master/0382-linked-list-random-node) |
 | [0384-shuffle-an-array](https://github.com/teche74/Daily_Practise/tree/master/0384-shuffle-an-array) |
+| [0398-random-pick-index](https://github.com/teche74/Daily_Practise/tree/master/0398-random-pick-index) |
 ## Reservoir Sampling
 |  |
 | ------- |
 | [0382-linked-list-random-node](https://github.com/teche74/Daily_Practise/tree/master/0382-linked-list-random-node) |
+| [0398-random-pick-index](https://github.com/teche74/Daily_Practise/tree/master/0398-random-pick-index) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
