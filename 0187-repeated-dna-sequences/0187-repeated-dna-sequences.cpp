@@ -1,27 +1,22 @@
 class Solution {
 public:
     vector<string> findRepeatedDnaSequences(string s) {
-        ios_base::sync_with_stdio(false);
-        cin.tie(NULL);
-        map<string,pair<int,bool>>map;
-        int low = 0, high = 0, size = s.size();
-        vector<string> res;
+        unordered_map<string,pair<int,bool>>map;
+        vector<string>res;
+        int  size = s.size();
 
-        while(high < size){
-            
-            while(high - low + 1 >= 10){
-                string str = s.substr(low, high - low+1);
-                map[str].first++;
+        for(int i = 0 ; i <= size-10 ; i++){
+            string str = s.substr(i, 10);
 
-                if(map[str].first > 1 && map[str].second == false){
-                    map[str].second = true;
-                    res.emplace_back(str);
-                }
-                low++;
+            if(map[str].second == true) continue;
+            map[str].first++;
+
+            if(map[str].first > 1){
+                map[str].second = true;
+                res.push_back(str);
             }
+        }
 
-            high++;
-        } 
         return res;
     }
 };
