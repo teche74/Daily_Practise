@@ -1,82 +1,75 @@
-struct node {
-    int key,val;
-    node * prev, * next; 
+class Node{
+    public:
+    int key;
+    int val;
+    Node * prev = nullptr;
+    Node * next = nullptr; 
 
-    node(){
-        key = -1 ;
-        val = -1 ;
-        prev = nullptr;
-        next = nullptr;
-    }
 
-    node(int k,int v){
-        key = k;
-        val = v;
-        prev = nullptr;
-        next = nullptr;
+
+    Node(int key, int value){
+        this->key = key;
+        this->val = value;
     }
 };
 
 class LRUCache {
-    
-    void remove(node * n){
-        n->prev->next = n->next;
-        n->next->prev = n->prev;
-    }
-
-    void insert(node * n){
-        n->next = head->next;
-        n->next->prev = n;
-        head->next= n;
-        n->prev = head;
-    }
-
 public:
-    unordered_map<int, node*>map;
-    int cap = 0;
-    node * head = nullptr;
-    node * tail = nullptr;
+    Node * front = nullptr, *end = nullptr;
+    int size = 0;
+    unordered_map<int , Node*> map;
 
-    LRUCache(int capacity) : cap(capacity) {
-        head = new node();
-        tail = new node();
-        head->next = tail;
-        tail->prev = head;
+    void Delete(Node* temp){
+        Node * prev = temp->prev;
+        Node * next = temp->next;
+        prev->next = next;
+        next ->prev = prev;
     }
 
-    ~LRUCache() {
-        node* current = head;
-        while (current != nullptr) {
-            node* next = current->next;
-            delete current;
-            current = next;
-        }
+    void Insert(Node * node){
+        Node * prev = end ->prev;
+        prev->next = node;
+        node->prev = prev;
+        node->next = end;
+        end ->prev = node; 
+    }
+
+    LRUCache(int capacity) {
+        this->size = capacity;
+        front = new Node(-1,-1);
+        end = new Node(-1,-1);
+
+        front->next = end;
+        end->prev = front;
     }
     
     int get(int key) {
-        if (map.find(key) == map.end()) {
-            return -1;
-        }
-        node * n = map[key];
-        remove(n);
-        insert(n);
-        return n->val;
+        if(map.find(key) == map.end()) return -1;
+        Node * node = map[key];
+        int value =  node->val;
+        
+        Delete(node);
+        Insert(node);
+        return value;
     }
     
     void put(int key, int value) {
         if(map.find(key) != map.end()){
-            remove(map[key]);
-            map.erase(key);
+            Delete(map[key]);
+            Insert(map[key]);
+            map[key]->val = value;
         }
-        if(map.size() == cap){
-            node * least_recent = tail->prev;
-            remove(least_recent);
-            map.erase(least_recent->key);
-            delete least_recent;
+        else{
+            if(map.size() >= size){
+                Node  *temp = front->next;
+                Delete(temp);
+                map.erase(temp->key);
+                delete temp;
+            }
+            Node * node = new Node(key, value);
+            Insert(node);
+            map[key] = node;
         }
-        node * upd = new node(key,value);
-        insert(upd);
-        map[key] = upd;
     }
 };
 
