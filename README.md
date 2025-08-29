@@ -1090,6 +1090,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0384-shuffle-an-array](https://github.com/teche74/Daily_Practise/tree/master/0384-shuffle-an-array) |
 | [0406-queue-reconstruction-by-height](https://github.com/teche74/Daily_Practise/tree/master/0406-queue-reconstruction-by-height) |
 | [0416-partition-equal-subset-sum](https://github.com/teche74/Daily_Practise/tree/master/0416-partition-equal-subset-sum) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/teche74/Daily_Practise/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0517-super-washing-machines](https://github.com/teche74/Daily_Practise/tree/master/0517-super-washing-machines) |
 | [0518-coin-change-ii](https://github.com/teche74/Daily_Practise/tree/master/0518-coin-change-ii) |
@@ -1226,6 +1227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0380-insert-delete-getrandom-o1](https://github.com/teche74/Daily_Practise/tree/master/0380-insert-delete-getrandom-o1) |
 | [0398-random-pick-index](https://github.com/teche74/Daily_Practise/tree/master/0398-random-pick-index) |
 | [0433-minimum-genetic-mutation](https://github.com/teche74/Daily_Practise/tree/master/0433-minimum-genetic-mutation) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0535-encode-and-decode-tinyurl](https://github.com/teche74/Daily_Practise/tree/master/0535-encode-and-decode-tinyurl) |
