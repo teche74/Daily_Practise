@@ -16,29 +16,29 @@ public:
 
         if(!root) return res;
 
-        queue<TreeNode*>q;
+        queue<TreeNode*> q;
         q.push(root);
 
-        while(q.size()){
+        while(!q.empty()){
+            int size = q.size();
             double val = 0;
-            int count = 0;
-            int size =q.size();
-            while(size--){
-                val += q.front()->val;
-                count++;
-                if(q.front()->left){
-                    q.push(q.front()->left);
-                }
-                if(q.front()->right){
-                    q.push(q.front()->right);
-                }
-
+            for(int i = 0 ; i < size; i++){
+                TreeNode * front = q.front();
                 q.pop();
-            }
+                val += front->val;
 
-            res.push_back(val/(double)(count));
+                if(front->left){
+                    q.push(front->left);
+                }
+                
+                if(front->right){
+                    q.push(front->right);
+                }
+
+            }
+            res.push_back(val/(size * 1.0));
         }
-        
+
         return res;
     }
 };
