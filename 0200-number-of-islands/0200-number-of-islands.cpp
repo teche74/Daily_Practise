@@ -1,32 +1,29 @@
+#define loop(integer, start, end) for(int integer  = start ; integer < end ; integer++)
+
 class Solution {
 public:
-    int numIslands(vector<vector<char>>& grid) {
+    int numIslands(vector<vector<char>> grid) {
         int rows = grid.size() , cols = grid[0].size();
 
-        bool vis[rows][cols];
-        memset(vis,false, sizeof(vis));
+        function<void(int,int)> bfs = [&](int row , int col){
+            grid[row][col] = '2';
+
+            for(auto dir : vector<pair<int,int>>{{0,1} , {1,0} , {0,-1} , {-1,0}}){
+                int new_row = row + dir.first;
+                int new_col = col + dir.second;
+
+                if(new_row < 0 || new_row >= rows || new_col < 0|| new_col >= cols || grid[new_row][new_col] == '0' || grid[new_row][new_col] == '2') continue;
+
+                bfs(new_row, new_col);
+            }
+        };
 
         int islands = 0;
 
-        vector<vector<int>>dirs = {{0,1} , {1,0} , {-1,0} , {0,-1}};
-
-        function<void(int,int)> solve = [&](int row, int col){
-            if(row >= rows || col >= cols || row < 0 || col < 0 || grid[row][col] != '1' || vis[row][col]){
-                return;
-            }
-
-            vis[row][col] = true;
-
-            solve(row+1,col);
-            solve(row-1,col);
-            solve(row,col+1);
-            solve(row, col-1);
-        };
-
-        for(int i = 0 ;i < rows; i++){
-            for(int j = 0 ;j < cols;  j++){
-                if(grid[i][j] == '1' && !vis[i][j]){
-                    solve(i,j);
+        loop(i,0,rows){
+            loop(j,0,cols){
+                if(grid[i][j] == '1'){
+                    bfs(i,j);
                     islands++;
                 }
             }
