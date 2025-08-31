@@ -1,40 +1,39 @@
 class Solution {
 public:
-    bool canFinish(int size, vector<vector<int>>& arr) {
-        if(!arr.size()) return true;
+    bool canFinish(int nodes, vector<vector<int>>& edges) {
+        unordered_map<int,vector<int>>graph;
 
-        unordered_map<int,vector<int>>adj;
-
-        for(auto t : arr){
-            adj[t[0]].emplace_back(t[1]);
+        for(auto t: edges){
+            graph[t[0]].push_back(t[1]);
         }
 
-        vector<bool>vis(size, false);
-        vector<bool>st(size,false);
 
-        function<bool(int)> dfs = [&](int node){
-            if (st[node]) return true;  
-            if (vis[node]) return false;  
+        function<bool(void)> Cycle = [&](void){
+            vector<bool>vis(nodes,false);
+            vector<bool>rec(nodes,false);
 
-            vis[node] = true;
-            st[node] = true;
+            function<bool(int)> call = [&](int curr){
+                vis[curr] = true;
+                rec[curr] = true;
 
-            for (auto& neighbor : adj[node]) {
-                if (dfs(neighbor)) return true;
+                for(int next : graph[curr]){
+                    if(!vis[next] && call(next)) return true;
+                    else if(rec[next]) return true;
+                }
+
+                rec[curr] = false;
+                return false;
+            };
+
+            for(int i = 0 ;i < nodes; i++){
+                if(!vis[i]){
+                    if(call(i)) return true;
+                }
             }
-
-            st[node] = false;
             return false;
         };
 
-        for(int i =0; i <size; i++){
-            if(vis[i] == 0){
-                if(dfs(i)){
-                    return false;
-                }
-            }
-        }
 
-        return true;
+        return !Cycle();
     }
 };
