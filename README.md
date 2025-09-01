@@ -967,6 +967,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/teche74/Daily_Practise/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/teche74/Daily_Practise/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0332-reconstruct-itinerary](https://github.com/teche74/Daily_Practise/tree/master/0332-reconstruct-itinerary) |
 | [0337-house-robber-iii](https://github.com/teche74/Daily_Practise/tree/master/0337-house-robber-iii) |
@@ -1534,6 +1535,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/teche74/Daily_Practise/tree/master/0279-perfect-squares) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/teche74/Daily_Practise/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0301-remove-invalid-parentheses) |
+| [0310-minimum-height-trees](https://github.com/teche74/Daily_Practise/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/teche74/Daily_Practise/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0404-sum-of-left-leaves](https://github.com/teche74/Daily_Practise/tree/master/0404-sum-of-left-leaves) |
@@ -1570,6 +1572,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/teche74/Daily_Practise/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/teche74/Daily_Practise/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/teche74/Daily_Practise/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/teche74/Daily_Practise/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0332-reconstruct-itinerary](https://github.com/teche74/Daily_Practise/tree/master/0332-reconstruct-itinerary) |
 | [0547-number-of-provinces](https://github.com/teche74/Daily_Practise/tree/master/0547-number-of-provinces) |
@@ -1594,6 +1597,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/teche74/Daily_Practise/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/teche74/Daily_Practise/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/teche74/Daily_Practise/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/teche74/Daily_Practise/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/teche74/Daily_Practise/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2472-build-a-matrix-with-conditions](https://github.com/teche74/Daily_Practise/tree/master/2472-build-a-matrix-with-conditions) |
