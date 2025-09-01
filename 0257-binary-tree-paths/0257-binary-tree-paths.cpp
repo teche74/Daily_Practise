@@ -13,28 +13,25 @@ class Solution {
 public:
     vector<string> binaryTreePaths(TreeNode* root) {
         vector<string>res;
-        string temp = "";
+        string temp;
 
-
-        function<void(TreeNode *)> solve = [&](TreeNode * root){
-            if(root){
-                string t = temp;
-                temp += to_string(root->val);
-                if(!root->left && !root->right){
+        function<void(TreeNode*)>call = [&](TreeNode* curr){
+            if(curr){
+                string prev = temp;
+                temp += to_string(curr->val);
+                if(!curr->left && !curr->right){
                     res.push_back(temp);
-                    temp = t;
+                    temp = prev;
                     return;
                 }
-                temp += "->";
-                solve(root->left);
-                solve(root->right);
-
-                temp = t;
+                temp+="->";
+                call(curr->left);
+                call(curr->right);
+                temp  = prev;
             }
         };
 
-        solve(root);
-
+        call(root);
         return res;
     }
 };
