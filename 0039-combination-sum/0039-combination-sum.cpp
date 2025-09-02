@@ -1,25 +1,29 @@
 class Solution {
 public:
-    void solve(int index, vector<int> & cand , int target , vector<int> temp ,  vector<vector<int>> & res){
-        if(index >= cand.size()){
-            if(target == 0)
-                res.emplace_back(temp);
-            return;
-        }
-
-        if(cand[index] <= target){
-            temp.emplace_back(cand[index]);
-            solve(index,cand, target  - cand[index], temp,res);
-            temp.pop_back();
-        }
-        solve(index+1,cand,target,temp,res);
-    }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>>res;
         vector<int>temp;
+        int size = candidates.size();
 
-        solve( 0, candidates, target , temp, res);
+        function<void(int , int)> call = [&](int index , int target){
+            if(index >= size){
+                if(!target){
+                    res.push_back(temp);
+                }
+                return;
+            }
 
+            if(target - candidates[index] >= 0){
+                temp.push_back(candidates[index]);
+                call(index , target - candidates[index]);
+                temp.pop_back();
+            }
+
+            call(index+1 , target);
+        };
+
+
+        call(0 , target);
         return res;
     }
 };
