@@ -1,28 +1,28 @@
 class Solution {
 public:
-    string keypad[10] = {"","","abc", "def" , "ghi" ,"jkl" , "mno", "pqrs", "tuv", "wxyz"};
-
-    void solve(int index, string  & input , string temp  , vector<string> & res){
-        if(index >= input.size()){
-            res.emplace_back(temp);
-            return;
-        }
-
-        string val = keypad[input[index] - '0'];
-
-        for(char ch : val){
-            temp.push_back(ch);
-            solve(index+1, input , temp ,  res);
-            temp.pop_back();
-        }
-    }
     vector<string> letterCombinations(string digits) {
-        if(digits.empty()) return {};
         vector<string>res;
-        string temp = "";
+        string temp;
 
-        solve( 0 , digits, temp,res);
+        vector<string> keyboard = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv",  "wxyz"};
 
-        return res;    
+        function<void(int)> solve = [&](int index){
+            if(index >= digits.size()){
+                res.push_back(temp);
+                return;            
+            }
+
+
+            int curr_digit = digits[index] - '0';
+            for(char ch  : keyboard[curr_digit]){
+                temp.push_back(ch);
+                solve(index+1);
+                temp.pop_back();
+            } 
+        };
+
+        solve(0);
+
+        return digits.empty() ? vector<string>{} : res;
     }
 };
