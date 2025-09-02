@@ -1,27 +1,29 @@
 class Solution {
 public:
-    void solve(int index, vector<int> & cand , int target , vector<int>temp , vector<vector<int>> & res){
-        if(target == 0){
-            res.emplace_back(temp);
-            return;
-        }
-
-        for(int i = index; i < cand.size() ; i++){
-            if(i > index && cand[i] == cand[i-1]) continue;
-            if(cand[i]  > target) break;
-            temp.emplace_back(cand[i]);
-            solve(i+1,cand,target - cand[i] , temp,res);
-            temp.pop_back();
-        }
-    }
-    vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
+    vector<vector<int>> combinationSum2(vector<int>& values, int target) {
         vector<vector<int>>res;
         vector<int>temp;
+        int size = values.size();
+        sort(values.begin() ,  values.end());
 
-        sort(candidates.begin() , candidates.end());
+        function<void(int , int)> call = [&](int index , int target){
+            
+            if(!target){
+                res.push_back(temp);
+                return;
+            }
 
-        solve(0 ,candidates, target , temp,res);
+            for(int i = index; i < size ; i++){
+                if(i > index && values[i] == values[i-1]) continue;
+                if(target - values[i] < 0) break;
+                temp.push_back(values[i]);
+                call(i+1, target - values[i]);
+                temp.pop_back();
+            }
+        };
 
+
+        call(0 , target);
         return res;
     }
 };
