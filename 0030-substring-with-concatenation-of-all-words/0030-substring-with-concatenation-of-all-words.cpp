@@ -3,49 +3,46 @@ public:
     vector<int> findSubstring(string s, vector<string>& words) {
         int size = s.size();
 
-        int total_words = words.size(), word_len = words[0].size();
+        if(s.size() < words.size() * words[0].size()) return {};
 
-        int new_size = total_words * word_len;
-
-        if(new_size > size ) return {};
-
-        unordered_map<string,int>map;
+        unordered_map<string,int>words_map;
         vector<int>res;
 
-        for(const string & str : words){
-            map[str]++;
-        }
+        for(string str : words) words_map[str]++;
 
-        for(int i =0 ; i < word_len ;i++){
-            int left = i;
-            unordered_map<string,int>temp_count;
-            int count = 0;
+        for(int i = 0 ; i < words[0].size() ; i++){
+            int low = i ,  high = i;
+            unordered_map<string,int>temp_map;
+            int word_count = 0;
 
-            for(int j =i ; j<=size - word_len ; j+=word_len){
-                string temp = s.substr(j,word_len);
+            while(high + words[0].size() <= size){
+                string str = s.substr(high , words[0].size());
 
-                if(map.find(temp) == map.end()){
-                    count  =0;
-                    temp_count.clear();
-                    left = j+word_len;
+                if(words_map.find(str) == words_map.end()){
+                    high += words[0].size();
+                    low = high;
+                    temp_map.clear();
+                    word_count = 0;
                 }
                 else{
-                    count++;
-                    temp_count[temp]++;
+                    word_count++;
+                    temp_map[str]++;
+                    high+=words[0].size();
 
-                    while(temp_count[temp] > map[temp]){
-                        string ptr = s.substr(left, word_len);
-                        temp_count[ptr]--;
-                        count--;
-                        left+=word_len;
+                    while(temp_map[str] > words_map[str]){
+                        string ptr = s.substr(low, words[0].size());
+                        temp_map[ptr]--;
+                        word_count--;
+                        low += words[0].size();
                     }
 
-                    if(count == total_words){
-                        res.emplace_back(left);
+                    if(word_count == words.size()){
+                        res.push_back(low);
                     }
                 }
             }
         }
+
         return res;
     }
 };
