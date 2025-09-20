@@ -3,34 +3,31 @@ public:
     string minWindow(string s, string t) {
         unordered_map<char,int>map;
 
-        for(auto x : t){
-            map[x]++;
-        }
+        for(char ch  : t) map[ch]++;
 
-        int low = 0 , high =  0, size = s.size() , ind = 0 , len = INT_MAX;
-        int count = map.size(); 
+        int size = s.size();
+        int count = map.size();
+        int min_length = s.size()+1 , index = 0 , low = 0 , high = 0;
 
         while(high < size){
             if(map.find(s[high]) != map.end()){
-                map[s[high]]--;
-                count -= (map[s[high]] == 0);
+                count -= (--map[s[high]] == 0);
             }
 
-            while(count == 0){
-                if(high - low +1 < len){
-                    len = high - low +1;
-                    ind = low;
+            while(!count){
+                if(min_length > high - low + 1){
+                    index= low;
+                    min_length = high - low + 1;
                 }
-
-                if(map.find(s[low]) != map.end()){
-                    map[s[low]]++;
-                    count+=(map[s[low]] == 1);
-                }
+                if(map.find(s[low]) != map.end())
+                    count +=(++map[s[low]] == 1);
                 low++;
             }
-            high++;
-        } 
 
-        return len == INT_MAX ? "" : s.substr(ind,len);
+            high++;
+        }
+
+
+        return min_length == s.size() + 1 ? "" : s.substr(index , min_length);
     }
 };
