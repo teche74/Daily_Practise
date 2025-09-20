@@ -1084,6 +1084,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0216-combination-sum-iii](https://github.com/teche74/Daily_Practise/tree/master/0216-combination-sum-iii) |
 | [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
 | [0219-contains-duplicate-ii](https://github.com/teche74/Daily_Practise/tree/master/0219-contains-duplicate-ii) |
+| [0220-contains-duplicate-iii](https://github.com/teche74/Daily_Practise/tree/master/0220-contains-duplicate-iii) |
 | [0221-maximal-square](https://github.com/teche74/Daily_Practise/tree/master/0221-maximal-square) |
 | [0260-single-number-iii](https://github.com/teche74/Daily_Practise/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/teche74/Daily_Practise/tree/master/0268-missing-number) |
@@ -1331,6 +1332,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/teche74/Daily_Practise/tree/master/0076-minimum-window-substring) |
 | [0187-repeated-dna-sequences](https://github.com/teche74/Daily_Practise/tree/master/0187-repeated-dna-sequences) |
 | [0219-contains-duplicate-ii](https://github.com/teche74/Daily_Practise/tree/master/0219-contains-duplicate-ii) |
+| [0220-contains-duplicate-iii](https://github.com/teche74/Daily_Practise/tree/master/0220-contains-duplicate-iii) |
 | [0594-longest-harmonious-subsequence](https://github.com/teche74/Daily_Practise/tree/master/0594-longest-harmonious-subsequence) |
 | [0658-find-k-closest-elements](https://github.com/teche74/Daily_Practise/tree/master/0658-find-k-closest-elements) |
 | [0966-binary-subarrays-with-sum](https://github.com/teche74/Daily_Practise/tree/master/0966-binary-subarrays-with-sum) |
@@ -1642,6 +1644,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/teche74/Daily_Practise/tree/master/0218-the-skyline-problem) |
+| [0220-contains-duplicate-iii](https://github.com/teche74/Daily_Practise/tree/master/0220-contains-duplicate-iii) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/teche74/Daily_Practise/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/teche74/Daily_Practise/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2513-number-of-pairs-satisfying-inequality](https://github.com/teche74/Daily_Practise/tree/master/2513-number-of-pairs-satisfying-inequality) |
@@ -1695,6 +1698,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0164-maximum-gap](https://github.com/teche74/Daily_Practise/tree/master/0164-maximum-gap) |
 | [0179-largest-number](https://github.com/teche74/Daily_Practise/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/0215-kth-largest-element-in-an-array) |
+| [0220-contains-duplicate-iii](https://github.com/teche74/Daily_Practise/tree/master/0220-contains-duplicate-iii) |
 | [0242-valid-anagram](https://github.com/teche74/Daily_Practise/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/teche74/Daily_Practise/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/teche74/Daily_Practise/tree/master/0274-h-index) |
@@ -1837,6 +1841,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0164-maximum-gap](https://github.com/teche74/Daily_Practise/tree/master/0164-maximum-gap) |
+| [0220-contains-duplicate-iii](https://github.com/teche74/Daily_Practise/tree/master/0220-contains-duplicate-iii) |
 | [0347-top-k-frequent-elements](https://github.com/teche74/Daily_Practise/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/teche74/Daily_Practise/tree/master/0451-sort-characters-by-frequency) |
 | [0948-sort-an-array](https://github.com/teche74/Daily_Practise/tree/master/0948-sort-an-array) |
