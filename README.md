@@ -1291,6 +1291,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3193-maximum-strong-pair-xor-i](https://github.com/teche74/Daily_Practise/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/teche74/Daily_Practise/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/teche74/Daily_Practise/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [4055-longest-balanced-substring-i](https://github.com/teche74/Daily_Practise/tree/master/4055-longest-balanced-substring-i) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -1476,6 +1477,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/teche74/Daily_Practise/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/teche74/Daily_Practise/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3447-clear-digits](https://github.com/teche74/Daily_Practise/tree/master/3447-clear-digits) |
+| [4055-longest-balanced-substring-i](https://github.com/teche74/Daily_Practise/tree/master/4055-longest-balanced-substring-i) |
 ## Counting
 |  |
 | ------- |
@@ -1492,6 +1494,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2163-kth-distinct-string-in-an-array](https://github.com/teche74/Daily_Practise/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/teche74/Daily_Practise/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/teche74/Daily_Practise/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [4055-longest-balanced-substring-i](https://github.com/teche74/Daily_Practise/tree/master/4055-longest-balanced-substring-i) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -2063,6 +2066,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0204-count-primes](https://github.com/teche74/Daily_Practise/tree/master/0204-count-primes) |
 | [2442-number-of-arithmetic-triplets](https://github.com/teche74/Daily_Practise/tree/master/2442-number-of-arithmetic-triplets) |
+| [4055-longest-balanced-substring-i](https://github.com/teche74/Daily_Practise/tree/master/4055-longest-balanced-substring-i) |
 ## Strongly Connected Component
 |  |
 | ------- |
