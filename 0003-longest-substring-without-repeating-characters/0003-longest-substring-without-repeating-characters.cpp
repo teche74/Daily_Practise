@@ -1,16 +1,21 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        int freq[256];
-        memset(freq, -1, sizeof(freq));
+        int alpha[257];
+        memset(alpha , 0 , sizeof(alpha));
 
-        int low=  0 , high= 0 , size = s.size(), res = 0;
+        int size = s.size() , low = 0 ,high = 0 , res = 0;
 
-        for(high = 0 ; high < size ; high++){
-            low = max(low,freq[s[high]]+1);
-            res = max(res , high - low+1 );
-            freq[s[high]] = high; 
-        } 
+        while(high < size){
+            alpha[s[high]]++;
+
+            while(alpha[s[high]] > 1){
+                alpha[s[low]]--;
+                low++;
+            }
+            res = max(res , high - low + 1);
+            high++;
+        }
 
         return res;
     }
