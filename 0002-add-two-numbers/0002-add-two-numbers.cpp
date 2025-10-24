@@ -10,26 +10,26 @@
  */
 class Solution {
 public:
-    void solve(ListNode  * l1 , ListNode* l2 , ListNode * curr , int & carry){
-        if(!l1 && !l2) {
-            if(carry){
-                curr->next = new ListNode(carry);
-            }
-            return ;
-        }
-        int val = (l1 == nullptr ? 0 : l1->val) + (l2 == nullptr ? 0 : l2->val) + carry;
-
-        carry = val >= 10 ? 1 : 0;
-
-        curr->next = new ListNode(val % 10);
-
-        solve((l1 ? l1->next : l1) , (l2 ? l2->next : l2) , curr->next , carry);
-    }
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         ListNode * res = new ListNode(-1);
-        ListNode* tail  =res;
-        int carry = 0;
-        solve(l1 , l2 , tail, carry);
+        ListNode * tail = res;
+
+        int val1 = 0 , val2 = 0 , carry = 0 ;
+
+        while(l1 || l2 || carry){
+            val1 = (l1 ? l1->val : 0);
+            val2 = (l2 ? l2->val : 0);
+
+            int total = val1 + val2 + carry;
+
+            carry = total > 9 ? 1 : 0;
+
+            tail->next = new ListNode(total % 10);
+            tail = tail->next;
+
+            l1 = l1 ? l1->next : l1;
+            l2 = l2 ? l2->next : l2; 
+        }
 
         return res->next;
     }
