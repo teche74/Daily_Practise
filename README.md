@@ -1026,6 +1026,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/teche74/Daily_Practise/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/teche74/Daily_Practise/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/teche74/Daily_Practise/tree/master/0011-container-with-most-water) |
+| [0014-longest-common-prefix](https://github.com/teche74/Daily_Practise/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/teche74/Daily_Practise/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/teche74/Daily_Practise/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/teche74/Daily_Practise/tree/master/0031-next-permutation) |
@@ -1318,6 +1319,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/teche74/Daily_Practise/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/teche74/Daily_Practise/tree/master/0139-word-break) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/teche74/Daily_Practise/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0336-palindrome-pairs](https://github.com/teche74/Daily_Practise/tree/master/0336-palindrome-pairs) |
@@ -1383,6 +1385,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0008-string-to-integer-atoi](https://github.com/teche74/Daily_Practise/tree/master/0008-string-to-integer-atoi) |
 | [0010-regular-expression-matching](https://github.com/teche74/Daily_Practise/tree/master/0010-regular-expression-matching) |
 | [0012-integer-to-roman](https://github.com/teche74/Daily_Practise/tree/master/0012-integer-to-roman) |
+| [0014-longest-common-prefix](https://github.com/teche74/Daily_Practise/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/teche74/Daily_Practise/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/teche74/Daily_Practise/tree/master/0022-generate-parentheses) |
