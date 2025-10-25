@@ -1,28 +1,29 @@
 class Solution {
 public:
     string convert(string s, int numRows) {
-        int size = s.size();
+        int size = s.size() ;
 
-        if(size == 1 || numRows == 1 || numRows > size) return s;
+        if(numRows == size || numRows == 1) return s;
 
-        vector<string>store(numRows , "");
+        int row = 0 , index = -1;
 
-        int row = 0 , dir = -1;
+        vector<string>temp(numRows , "");
 
-        for( char ch : s){
-            store[row].push_back(ch);
+        for(char ch : s){
+            temp[row].push_back(ch);
 
-            if(row == 0 || row == numRows -1){
-                dir*=-1;
+
+            if(row == 0 || row == numRows-1){
+                index *= -1;
             }
-
-            row += dir;
+            row += index;
         }
+
 
         string res = "";
 
-        for(auto t  : store){
-            res += t;
+        for(string str : temp){
+            res += str;
         }
 
         return res;
