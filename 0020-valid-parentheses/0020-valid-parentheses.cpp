@@ -1,24 +1,22 @@
 class Solution {
 public:
     bool isValid(string s) {
-        
-        function<bool(char , char)> check = [](char val1 , char val2){
-            return (val1 == '('  && val2 == ')' || val1 == '[' && val2 ==']' || val1 == '{' && val2 =='}');  
-        };
-
-
         stack<char>st;
-
-        for(auto t : s){
-            if(t =='(' || t =='[' || t =='{'){
-                st.push(t);
+        
+        for(char ch : s){
+            if(ch == '(' || ch == '[' || ch == '{'){
+                st.push(ch);
             }
-            else{
-                if(st.empty() || !check(st.top(),t)) return false;
-                else st.pop();
+            else if(ch == ')' || ch == ']' || ch == '}'){
+                if(st.size() &&((st.top() == '(' && ch == ')') || (st.top() =='[' && ch == ']') || (st.top() == '{' && ch =='}'))){
+                    st.pop();
+                }
+                else{
+                    return false;
+                }
             }
         }
 
-        return st.empty();
+        return !st.size();
     }
 };
