@@ -1,14 +1,14 @@
 class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        set<vector<int>>res;
+        vector<vector<int>>res;
         vector<int>temp;
         int size = candidates.size();
 
         function<void(int , int)> solve =[&](int index , int target){
             if(index >= size){
                 if(!target){
-                    res.insert(temp);
+                    res.push_back(temp);
                 }
                 return;
             }
@@ -26,6 +26,6 @@ public:
         };
 
         solve(0 , target);
-        return {res.begin() , res.end()};
+        return res;
     }
 };
