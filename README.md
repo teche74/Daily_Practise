@@ -799,6 +799,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/teche74/Daily_Practise/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/teche74/Daily_Practise/tree/master/0033-search-in-rotated-sorted-array) |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/teche74/Daily_Practise/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/teche74/Daily_Practise/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0095-unique-binary-search-trees-ii](https://github.com/teche74/Daily_Practise/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/teche74/Daily_Practise/tree/master/0096-unique-binary-search-trees) |
@@ -1035,6 +1036,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0027-remove-element](https://github.com/teche74/Daily_Practise/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/teche74/Daily_Practise/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/teche74/Daily_Practise/tree/master/0033-search-in-rotated-sorted-array) |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/teche74/Daily_Practise/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0036-valid-sudoku](https://github.com/teche74/Daily_Practise/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/teche74/Daily_Practise/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/teche74/Daily_Practise/tree/master/0039-combination-sum) |
