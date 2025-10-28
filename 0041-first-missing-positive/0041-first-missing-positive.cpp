@@ -15,6 +15,9 @@ public:
             if(nums[index] == val){
                 val++;
             }
+            else if(nums[index] > val){
+                break;
+            }
             index++;
         }
         return val;
