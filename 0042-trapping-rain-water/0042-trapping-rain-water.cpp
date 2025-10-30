@@ -1,26 +1,22 @@
 class Solution {
 public:
-    int trap(vector<int>& arr) {
-        int size = arr.size();
+    int trap(vector<int>& height) {
+        int size = height.size();
+        vector<int>max_left(size , 0) , max_right(size, 0);
 
-        int pre[size], suff[size];
+        max_left[0] = height[0] , max_right[size - 1] = height[size-1];
 
-        pre[0] = arr[0], suff[size-1] =arr[size-1];
-
-        for(int i =1; i <size; i++){
-            pre[i] = max(pre[i-1] ,arr[i]);
+        for(int i = 1 ; i < size ; i++){
+            max_left[i] = max(max_left[i-1] , height[i]);
+            max_right[size-i-1] = max(max_right[size-i] , height[size-i-1]);
         }
 
-        for(int i = size-2 ; i>= 0 ; i--){
-            suff[i] = max(suff[i+1],arr[i]);
+        int res = 0;
+
+        for(int i = 1 ; i < size-1; i++){
+            res += min(max_left[i] , max_right[i]) - height[i];
         }
 
-        int res = 0 ;
-
-        for(int i = 0; i <size; i++){
-            int val = min(pre[i] , suff[i]) - arr[i];
-            if(val >= 0) res+=val;
-        }
         return res;
     }
 };
