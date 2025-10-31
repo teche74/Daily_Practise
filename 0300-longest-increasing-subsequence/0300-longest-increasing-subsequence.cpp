@@ -1,24 +1,37 @@
 class Solution {
 public:
-    int dp[2503][2503];
-    int solve(int index, vector<int>& nums, int prev){
-        if(index > nums.size()){
-            return 0;
-        }
-
-        if(dp[index][prev] != -1) return dp[index][prev];
-
-        int take = 0 , not_take = 0;
-
-        if(prev == 0 || nums[prev-1] < nums[index-1]){
-            take = 1 + solve(index+1,nums,index);
-        }
-        not_take = solve(index+1,nums,prev);
-
-        return dp[index][prev] = max(take,not_take);
-    }
     int lengthOfLIS(vector<int>& nums) {
-        memset(dp,-1,sizeof(dp));
-        return solve(1, nums, 0);
+        vector<int>res;
+
+        function<int(int)> found = [&](int val){
+            int low = 0 , high = res.size()-1 , index = -1;
+            
+            while(low <= high){
+                int mid = low + ((high - low) >> 1);
+
+                if(res[mid] >= val){
+                    index = mid;
+                    high = mid-1;
+                }
+                else{
+                    low = mid+1;
+                }
+            }
+
+            return index;
+        };
+        
+        for(int x : nums){
+            int index = found(x);
+
+            if(res.empty() || index >= res.size()){
+                res.push_back(x);
+            }
+            else if(index != -1){
+                res[index] = x;
+            }
+        }
+
+        return res.size();
     }
 };
