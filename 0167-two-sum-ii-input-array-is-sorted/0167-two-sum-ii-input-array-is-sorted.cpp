@@ -1,23 +1,30 @@
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        vector<int>res;
+    vector<int> twoSum(vector<int>& numbers, int target) {
+        int size = numbers.size();
 
-        int low = 0 , high = nums.size()-1;
+        function<int(int, int)>found = [&](int val , int high){
+            int low = 0 ;
+            while(low <= high){
+                int mid = low + ((high - low) >> 1);
 
-        while(low < high){
-            int val = nums[low] +  nums[high];
-            if(val == target){
-                return vector<int>{low+1, high+1};
-            }
-            else if(val > target){
-                high--;
-            }
-            else{
-                low++;
-            }
-        } 
+                if(numbers[mid] == val) return mid;
 
-        return vector<int>{-1,-1};
+                else if(numbers[mid] > val) high = mid-1;
+                else low = mid+1;
+            }
+
+            return -1;
+        };
+        for(int i = 0; i < size; i++){
+            int val = target - numbers[i];
+
+            int index = found(val , i-1);
+            if(index != -1){
+                return {index+1 , i+1};
+            }
+        }
+
+        return {-1,-1};
     }
 };
