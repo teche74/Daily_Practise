@@ -11,25 +11,23 @@
 class Solution {
 public:
     ListNode* modifiedList(vector<int>& nums, ListNode* head) {
-        ListNode * temp = new ListNode(-1);
-        ListNode * tail = temp;
-
-        int map[1000000];
-
-        memset(map, 0, sizeof(map));
+        unordered_map<int,int>seen;
 
         for(int x : nums){
-            map[x]++;
+            seen[x]++;
         }
 
-        while(head != nullptr){
-            if(map[head->val] == 0){
-                tail->next = new ListNode(head->val);
-                tail=tail->next;
+        ListNode * res = new ListNode(-1);
+        ListNode * tail = res , * trav = head;
+
+        while(trav){
+            if(seen.find(trav->val) == seen.end()){
+                tail->next = new ListNode(trav->val);
+                tail = tail->next;
             }
-            head=head->next;
+            trav = trav->next;
         }
 
-        return temp->next;
+        return res->next;
     }
 };
